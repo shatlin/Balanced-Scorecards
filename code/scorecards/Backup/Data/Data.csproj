@@ -1,0 +1,331 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{99217D17-A666-4F5A-8210-D3D2F795F379}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Data</RootNamespace>
+    <AssemblyName>Data</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CAS\Competency.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Competency.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CAS\CompetencyType.cs">
+      <DependentUpon>CompetencyType.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CAS\CompetencyType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CompetencyType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CAS\RoleComp.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RoleComp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CAS\ScoreDetail.cs">
+      <DependentUpon>ScoreDetail.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CAS\ScoreDetail.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScoreDetail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CAS\ScoreMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScoreMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\ApplicationUser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApplicationUser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\AppUser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppUser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\CreateScorecardDB.cs" />
+    <Compile Include="Setup\GlobalParameterDB.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\Location.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Location.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\LoginManagerDB.cs" />
+    <Compile Include="Setup\OrgHierarchy.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrgHierarchy.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\OrgRole.cs">
+      <DependentUpon>OrgRole.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Setup\OrgRole.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrgRole.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\Period.cs">
+      <DependentUpon>Period.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Setup\Period.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Period.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\Scorecard.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Scorecard.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\ScorecardTypes.cs">
+      <DependentUpon>ScorecardTypes.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Setup\ScorecardTypes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScorecardTypes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\SystemManagerDB.cs" />
+    <Compile Include="Setup\SystemRole.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SystemRole.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\Title.cs">
+      <DependentUpon>Title.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Setup\Title.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Title.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="CAS\Competency.xsc">
+      <DependentUpon>Competency.xsd</DependentUpon>
+    </None>
+    <None Include="CAS\Competency.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Competency.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="CAS\Competency.xss">
+      <DependentUpon>Competency.xsd</DependentUpon>
+    </None>
+    <None Include="CAS\CompetencyType.xsc">
+      <DependentUpon>CompetencyType.xsd</DependentUpon>
+    </None>
+    <None Include="CAS\CompetencyType.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CompetencyType.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="CAS\CompetencyType.xss">
+      <DependentUpon>CompetencyType.xsd</DependentUpon>
+    </None>
+    <None Include="CAS\RoleComp.xsc">
+      <DependentUpon>RoleComp.xsd</DependentUpon>
+    </None>
+    <None Include="CAS\RoleComp.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RoleComp.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="CAS\RoleComp.xss">
+      <DependentUpon>RoleComp.xsd</DependentUpon>
+    </None>
+    <None Include="CAS\ScoreDetail.xsc">
+      <DependentUpon>ScoreDetail.xsd</DependentUpon>
+    </None>
+    <None Include="CAS\ScoreDetail.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ScoreDetail.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="CAS\ScoreDetail.xss">
+      <DependentUpon>ScoreDetail.xsd</DependentUpon>
+    </None>
+    <None Include="CAS\ScoreMaster.xsc">
+      <DependentUpon>ScoreMaster.xsd</DependentUpon>
+    </None>
+    <None Include="CAS\ScoreMaster.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ScoreMaster.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="CAS\ScoreMaster.xss">
+      <DependentUpon>ScoreMaster.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\ApplicationUser.xsc">
+      <DependentUpon>ApplicationUser.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\ApplicationUser.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ApplicationUser.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Setup\ApplicationUser.xss">
+      <DependentUpon>ApplicationUser.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\AppUser.xsc">
+      <DependentUpon>AppUser.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\AppUser.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppUser.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Setup\AppUser.xss">
+      <DependentUpon>AppUser.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Setup\Location.xsc">
+      <DependentUpon>Location.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\Location.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Location.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Setup\Location.xss">
+      <DependentUpon>Location.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\OrgHierarchy.xsc">
+      <DependentUpon>OrgHierarchy.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\OrgHierarchy.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrgHierarchy.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Setup\OrgHierarchy.xss">
+      <DependentUpon>OrgHierarchy.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\OrgRole.xsc">
+      <DependentUpon>OrgRole.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\OrgRole.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrgRole.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Setup\OrgRole.xss">
+      <DependentUpon>OrgRole.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\Period.xsc">
+      <DependentUpon>Period.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\Period.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Period.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Setup\Period.xss">
+      <DependentUpon>Period.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\Scorecard.xsc">
+      <DependentUpon>Scorecard.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\Scorecard.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Scorecard.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Setup\Scorecard.xss">
+      <DependentUpon>Scorecard.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\ScorecardTypes.xsc">
+      <DependentUpon>ScorecardTypes.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\ScorecardTypes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ScorecardTypes.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Setup\ScorecardTypes.xss">
+      <DependentUpon>ScorecardTypes.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\SystemRole.xsc">
+      <DependentUpon>SystemRole.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\SystemRole.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SystemRole.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Setup\SystemRole.xss">
+      <DependentUpon>SystemRole.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\Title.xsc">
+      <DependentUpon>Title.xsd</DependentUpon>
+    </None>
+    <None Include="Setup\Title.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Title.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Setup\Title.xss">
+      <DependentUpon>Title.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BS\" />
+    <Folder Include="IS\" />
+    <Folder Include="PS\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

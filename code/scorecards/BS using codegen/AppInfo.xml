@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XMLDefinition Generator="Iron Speed Designer" Version="5.0" DocType="Application">
+  <ColumnDefinition />
+  <Name>BS</Name>
+  <Short_Name>BS</Short_Name>
+  <Namespace>BS</Namespace>
+  <Directory>C:\BS</Directory>
+  <VirtualDirectory>BS</VirtualDirectory>
+  <OriginalVersion>5.0.1</OriginalVersion>
+  <Version>5.0.1</Version>
+  <CodeLanguage>CSharp</CodeLanguage>
+  <FrameworkVersion>v2_0</FrameworkVersion>
+  <CompilerValue>Framework</CompilerValue>
+  <GenerateStoredProcedures>False</GenerateStoredProcedures>
+  <RegenerateFilesOlderThan>1/1/0001 12:00:00 AM</RegenerateFilesOlderThan>
+  <Theme>Vanilla</Theme>
+  <DefaultMenuLocation>Menu Panels\Menu.html</DefaultMenuLocation>
+  <MenuStyle>Horizontal</MenuStyle>
+  <MenuItems>50</MenuItems>
+  <RegenerateAll>False</RegenerateAll>
+  <LastTreeNode>Databases</LastTreeNode>
+</XMLDefinition>

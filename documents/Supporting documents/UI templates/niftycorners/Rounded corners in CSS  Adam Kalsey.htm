@@ -1,0 +1,443 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0049)http://kalsey.com/2003/07/rounded_corners_in_css/ -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>Rounded corners in CSS :: Adam Kalsey</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8"><LINK 
+href="Rounded corners in CSS  Adam Kalsey_files/core.css" type=text/css 
+rel=stylesheet><LINK title="RSS Feed Adam Kalsey's blog" href="/atom.xml" 
+type=application/rss+xml rel=alternate>
+<SCRIPT src="Rounded corners in CSS  Adam Kalsey_files/mint" 
+type=text/javascript></SCRIPT>
+<LINK href="http://kalsey.com/openid.php" rel=openid.server><LINK 
+href="http://kalsey.com/openid.php" rel=openid.delegate>
+<META content="MSHTML 6.00.2900.2995" name=GENERATOR></HEAD>
+<BODY>
+<DIV id=header>
+<DIV class=inside><A href="http://kalsey.com/"><IMG id=logo height=23 
+alt="Adam Kalsey" src="Rounded corners in CSS  Adam Kalsey_files/logo.png" 
+width=128 border=0></A> 
+<DIV id=about>
+<P><IMG height=46 alt="" 
+src="Rounded corners in CSS  Adam Kalsey_files/me-small.png" width=46 
+align=right>This is the blog of Adam Kalsey. Unusual depth and complexity. Rich, 
+full body with a hint of nutty earthiness.</P></DIV></DIV></DIV>
+<DIV id=wrapper>
+<DIV id=topLeaderHolder></DIV>
+<DIV class=cleaner></DIV>
+<DIV id=body>
+<DIV id=ltcol>
+<H1>Rounded corners in CSS</H1>
+<P class=entrydate>23 Jul 2003</P>
+<DIV class=blogbody>
+<P>I was talking to <A href="http://waffle.wootest.net/">Jesper</A> about the 
+dotted <SPAN class=caps>CSS </SPAN>borders trick and the subject of rounded 
+corners in <SPAN class=caps>CSS </SPAN>came up so I showed him my method. There 
+are other ways that I’ve seen it done, but the other methods always require lots 
+of complex <SPAN class=caps>HTML </SPAN>and <SPAN class=caps>CSS.</SPAN> I 
+figure that lots of nested divs aren’t much better than using a table, so my way 
+doesn’t require much in the way of <SPAN class=caps>HTML </SPAN>or <SPAN 
+class=caps>CSS.</SPAN> Here’s how I do it.</P><A name=more></A>
+<P>Create four images for your corners. Most graphics programs have a tool that 
+will create rounded-off squares. I’ll be using this square here…</P>
+<P><IMG height=84 alt="" 
+src="Rounded corners in CSS  Adam Kalsey_files/square.gif" width=88 
+align=center></P>
+<P>…and I’m going to cut off the corners to get my four images: <IMG height=15 
+alt="" hspace=4 src="Rounded corners in CSS  Adam Kalsey_files/tl.gif" width=15> 
+<IMG height=15 alt="" hspace=4 
+src="Rounded corners in CSS  Adam Kalsey_files/tr.gif" width=15><IMG height=15 
+alt="" hspace=4 src="Rounded corners in CSS  Adam Kalsey_files/bl.gif" width=15> 
+<IMG height=15 alt="" hspace=4 
+src="Rounded corners in CSS  Adam Kalsey_files/br.gif" width=15></P>
+<P>In the spot where I want the box to show up, I create a container div to hold 
+the box, a div for the top row and a div for the bottom row. Between the top and 
+bottom rows, I add my content. In the top and bottom row divs, I add the left 
+corner image and set the inline style to read <CODE>display: none;</CODE>. This 
+makes the image invisible unless I make it visible through the stylesheet. That 
+way, I can hide the effect from incompatible browsers by not showing them the 
+stylesheet.</P><PRE>&lt;div class="roundcont"&gt;
+   &lt;div class="roundtop"&gt;
+	 &lt;img src="tl.gif" alt="" 
+	 width="15" height="15" class="corner" 
+	 style="display: none" /&gt;
+   &lt;/div&gt;
+
+   &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing 
+   elit, sed do eiusmod tempor incididunt ut labore et 
+   dolore magna aliqua. Ut enim ad minim veniam, quis 
+   nostrud exercitation ullamco laboris nisi ut aliquip 
+   ex ea commodo consequat. Duis aute irure dolor in 
+   reprehenderit in voluptate velit esse cillum dolore eu 
+   fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+   non proident, sunt in culpa qui officia deserunt mollit 
+   anim id est laborum.&lt;/p&gt;
+  
+   &lt;div class="roundbottom"&gt;
+	 &lt;img src="bl.gif" alt="" 
+	 width="15" height="15" class="corner" 
+	 style="display: none" /&gt;
+   &lt;/div&gt;
+&lt;/div&gt;	
+</PRE>
+<P>The <SPAN class=caps>CSS </SPAN>sets the width and background color of the 
+container object and the color of the text inside. The margins on interior 
+paragraphs are set so that the text doesn’t sit right up against the edge of the 
+box.</P>
+<P>Then the top and bottom divs are given a background image that contains the 
+right corner images and the left corner images from the <SPAN class=caps>HTML 
+</SPAN>code are enabled.</P><PRE>.roundcont {
+	width: 250px;
+	background-color: #f90;
+	color: #fff;
+}
+
+.roundcont p {
+	margin: 0 10px;
+}
+
+.roundtop { 
+	background: url(tr.gif) no-repeat top right; 
+}
+
+.roundbottom {
+	background: url(br.gif) no-repeat top right; 
+}
+
+img.corner {
+   width: 15px;
+   height: 15px;
+   border: none;
+   display: block !important;
+}
+</PRE>
+<P>Here’s how it looks when it’s all put together.</P>
+<STYLE>.roundcont {
+	WIDTH: 250px; COLOR: #fff; BACKGROUND-COLOR: #f90
+}
+.roundcont P {
+	MARGIN: 0px 10px
+}
+.roundtop {
+	BACKGROUND: url(http://kalsey.com/tools/css/rounded/images/tr.gif) no-repeat right top
+}
+.roundbottom {
+	BACKGROUND: url(http://kalsey.com/tools/css/rounded/images/br.gif) no-repeat right top
+}
+IMG.corner {
+	DISPLAY: block! important; WIDTH: 15px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 15px; BORDER-BOTTOM-STYLE: none
+}
+</STYLE>
+
+<DIV class=roundcont>
+<DIV class=roundtop><IMG class=corner style="DISPLAY: none" height=15 alt="" 
+src="Rounded corners in CSS  Adam Kalsey_files/tl.gif" width=15> </DIV>
+<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+<DIV class=roundbottom><IMG class=corner style="DISPLAY: none" height=15 alt="" 
+src="Rounded corners in CSS  Adam Kalsey_files/bl.gif" width=15> </DIV></DIV>
+<P>This works in <SPAN class=caps>IE6,</SPAN> Mozilla 1.3, and Opera 7 on 
+Windows. It should work in most other modern browsers as well.</P>
+<P><STRONG>Update:</STRONG> Julian Bond asked if this will work with the 
+container div set to 100% width. Here’s the box again. The only thing changed is 
+the width of the <CODE>roundcont</CODE> class.</P>
+<STYLE>.roundcont100 {
+	WIDTH: 100%; COLOR: #fff; BACKGROUND-COLOR: #f90
+}
+.roundcont100 P {
+	MARGIN: 0px 10px
+}
+.roundtop {
+	BACKGROUND: url(http://kalsey.com/tools/css/rounded/images/tr.gif) no-repeat right top
+}
+.roundbottom {
+	BACKGROUND: url(http://kalsey.com/tools/css/rounded/images/br.gif) no-repeat right top
+}
+IMG.corner {
+	DISPLAY: block! important; WIDTH: 15px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 15px; BORDER-BOTTOM-STYLE: none
+}
+</STYLE>
+
+<DIV class=roundcont100>
+<DIV class=roundtop><IMG class=corner style="DISPLAY: none" height=15 alt="" 
+src="Rounded corners in CSS  Adam Kalsey_files/tl.gif" width=15> </DIV>
+<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+<DIV class=roundbottom><IMG class=corner style="DISPLAY: none" height=15 alt="" 
+src="Rounded corners in CSS  Adam Kalsey_files/bl.gif" width=15> </DIV></DIV>
+<P> </P></DIV>
+<DIV class=hr></DIV>
+<DIV class=noindex id=related><A name=related></A>
+<P>See also: <A 
+title="Jemima Pereira has added rounded corners to my CSS tabs code. By opening the code, it was made stronger. That’s the value of open source." 
+href="http://kalsey.com/2003/05/rounded_tab_corners/">Rounded tab corners </A>, 
+<A 
+title="The Web is different than print, television, or any other medium. To be successful, designers must embrace those differences. " 
+href="http://kalsey.com/2002/10/embrace_the_medium/">Embrace the medium </A>, <A 
+title="One of the most frustrating experiences on the Web is filling out forms. When mistakes are made, the user is often left guessing what they need to correct. We’ve taken an approach that shows the user in no uncertain terms what needs to be fixed." 
+href="http://kalsey.com/2003/07/simplified_form_errors/">Simplified Form Errors 
+</A>, <A title="I started refactoring the site and ended up with a new design." 
+href="http://kalsey.com/2004/07/fresh_paint/">Fresh paint </A>, Tags: <A 
+href="http://www.kalsey.com/tag/bestof" rel=tag>bestof</A> <A 
+href="http://www.kalsey.com/tag/css" rel=tag>css</A> <A 
+href="http://www.kalsey.com/tag/csscorners" rel=tag>csscorners</A> <A 
+href="http://www.kalsey.com/tag/design" rel=tag>design</A> <A 
+href="http://www.kalsey.com/tag/rounded" rel=tag>rounded</A> </P></DIV>
+<SCRIPT type=text/javascript><!--
+google_ad_client = "pub-1229925987425060";
+google_ad_width = 468;
+google_ad_height = 15;
+google_ad_format = "468x15_0ads_al_s";
+//2006-11-16: Blog Links
+google_ad_channel = "9076794888";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "0033FF";
+google_color_text = "000000";
+google_color_url = "999999";
+//--></SCRIPT>
+
+<SCRIPT src="Rounded corners in CSS  Adam Kalsey_files/show_ads.js" 
+type=text/javascript>
+</SCRIPT>
+<A name=comments></A>
+<DIV class=hr></DIV>
+<H2>Comments</H2>
+<P><STRONG>There are too many comments to include them all here, so here are the 
+last 5. If you want, <A 
+href="http://kalsey.com/2003/07/rounded_corners_in_css/comments.html">you can 
+read all 232 comments</A>.</STRONG></P><A name=comment-146761></A>
+<DIV class=commentcontainer-even>
+<P class=blogtitle><STRONG><A title=http://www.willunion.com 
+href="http://www.willunion.com/">Will</A></STRONG><BR><SPAN 
+class=commentdate>October 1, 2007 11:12 AM</SPAN> </P>
+<DIV class=commentbody>
+<P>It would be nice if you can make entire box highlighted when you put mouse 
+over the box. Just my two cents. This code still works great, though. 
+Thanks</P></DIV></DIV><A name=comment-146981></A>
+<DIV class=commentcontainer-odd>
+<P class=blogtitle><STRONG>Jason</STRONG><BR><SPAN class=commentdate>October 9, 
+2007 10:57 AM</SPAN> </P>
+<DIV class=commentbody>
+<P>The problem is that this doesnt work if you need your rounded corners to be 
+on a transparent background. (i.e. your background is gradient) This is because 
+this method relies on the corner images to use an actual background 
+color.</P></DIV></DIV><A name=comment-146982></A>
+<DIV class=commentcontainer-even>
+<P class=blogtitle><IMG style="DISPLAY: block; FLOAT: left; MARGIN-RIGHT: 5px" 
+height=30 alt="" src="Rounded corners in CSS  Adam Kalsey_files/me_small.jpg" 
+width=30> <STRONG>Adam Kalsey</STRONG><BR><SPAN class=commentdate>October 9, 
+2007 11:03 AM</SPAN> </P>
+<DIV class=commentbody>
+<P>This is a case of quite literally not thinking outside the box.</P>
+<P>You could always reverse the image and make the portion outside the box solid 
+and the portion inside the box transparent. Then apply your gradient to the 
+background of the box itself.</P></DIV></DIV><A name=comment-146983></A>
+<DIV class=commentcontainer-odd>
+<P class=blogtitle><STRONG>Jason</STRONG><BR><SPAN class=commentdate>October 9, 
+2007 12:13 PM</SPAN> </P>
+<DIV class=commentbody>
+<P>Hey that is pretty cool! I didn’t consider that. And thank you very much for 
+your reply.</P>
+<P>However, I didn’t articulate my concern correctly. :( </P>
+<P>What I meant was that if the entire box (which has rounded corners) was on a 
+background that was gradient (i.e. the page background was a gradient) then the 
+corners of the corner images would be noticeable. That area that is just outside 
+of the actual color corner pixels in the image. Am I making 
+sense?</P></DIV></DIV><A name=comment-147002></A>
+<DIV class=commentcontainer-even>
+<P class=blogtitle><STRONG>sarae.</STRONG><BR><SPAN class=commentdate>October 
+15, 2007 2:23 AM</SPAN> </P>
+<DIV class=commentbody>
+<P>hey i was also wondering about the background being gradient idea as above. I 
+must say that this is some of the best code iv seen yet. thankyou for this 
+:)</P></DIV></DIV>
+<P><STRONG>These are the last 5 comments. <A 
+href="http://kalsey.com/2003/07/rounded_corners_in_css/comments.html">Read all 
+232 comments here.</A></STRONG></P><!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://kalsey.com/blog/2003/07/rounded_corners_in_css/index.html"
+    trackback:ping="http://kalsey.com/cgi-bin/mt/mt-tb.cgi/680"
+    dc:title="Rounded corners in CSS"
+    dc:identifier="http://kalsey.com/blog/2003/07/rounded_corners_in_css/index.html"
+    dc:subject="Design"
+    dc:description="There lots of ways to create rounded corners with CSS, but they always require lots of complex HTML and CSS. This is simpler."
+    dc:creator="Adam Kalsey"
+    dc:date="2003-07-23T21:09:18-08:00" />
+</rdf:RDF>
+--><BR><A 
+name=commententry></A>
+<DIV class=hr></DIV>
+<H2>Add your comments</H2>
+<P class=smaller>Text only, no HTML. URLs will automatically be converted to 
+links. Your email address is required, but it will not be displayed on the 
+site.</P>
+<SCRIPT language=javascript 
+src="Rounded corners in CSS  Adam Kalsey_files/cookie.js" 
+type=text/javascript></SCRIPT>
+
+<DIV class=commentform>
+<FORM name=comments_form onsubmit=rememberMe(this) 
+action=http://kalsey.com/cgi-bin/mt/fbda07e9fd3bb656bbf62c5b0ed6480e.cgi 
+method=post><INPUT type=hidden value=1038 name=entry_id> <INPUT type=hidden 
+value=1 name=static> <INPUT type=hidden name=CommentKey>
+<SCRIPT>document.comments_form.CommentKey.value="230c6146742434d702eb22293fdd5478";</SCRIPT>
+<NOSCRIPT>To prevent spam bots from filling in worthless comments, without 
+Javascript enabled, you can not comment here. Yeah, spammers suck.</NOSCRIPT> 
+<P>Name:<BR><INPUT class=commentform style="WIDTH: 400px" name=author></P>
+<P>Email: (not displayed)<BR><INPUT class=commentform style="WIDTH: 400px" 
+name=email><BR><SPAN class=smaller>If you don't feel comfortable giving me your 
+real email address, don't expect me to feel comfortable publishing your 
+comment.</SPAN></P>
+<P>Website (optional):<BR><INPUT class=commentform style="WIDTH: 400px" 
+name=url></P>
+<P>Comments:<BR><TEXTAREA class=commentform style="WIDTH: 400px" name=text rows=10 wrap=virtual cols=80></TEXTAREA></P>
+<P><INPUT class=button type=submit value=Preview name=preview> <INPUT class=buttonbold type=submit value=Post name=post></P></FORM></DIV>
+<SCRIPT language=javascript type=text/javascript>
+	<!--
+	document.comments_form.email.value = getCookie("mtcmtmail");
+	document.comments_form.author.value = getCookie("mtcmtauth");
+	document.comments_form.url.value = getCookie("mtcmthome");
+	if (getCookie("mtcmtauth")) {
+	   document.comments_form.bakecookie.checked = true;
+	}
+	//-->
+	</SCRIPT>
+</DIV>
+<DIV id=bottomshadow>
+<DIV id=left></DIV>
+<DIV id=middle></DIV>
+<DIV id=right></DIV></DIV>
+<DIV id=rtcol>
+<UL>
+  <LI><A href="http://kalsey.com/blog/subscribe.html">Subscribe</A> 
+  <LI><A href="http://kalsey.com/tag/bestof">Best Of</A> 
+  <LI><A href="http://kalsey.com/blog/archives/">Archives</A> 
+  <LI><A href="http://kalsey.com/tools/buttonmaker/">Button Maker</A> </LI></UL><!-- SiteSearch Google -->
+<FORM action=http://www.google.com/custom method=get target=_top><INPUT 
+type=hidden value=kalsey.com name=domains></INPUT> <LABEL style="DISPLAY: none" 
+for=sbi>Enter your search terms</LABEL> <INPUT id=sbi maxLength=255 size=15 
+name=q></INPUT> <LABEL style="DISPLAY: none" for=sbb>Submit search form</LABEL> <INPUT id=sbb type=submit value=Search name=sa></INPUT> 
+<P style="DISPLAY: none"><INPUT id=ss0 type=radio value="" 
+name=sitesearch></INPUT> <LABEL title="Search the Web" for=ss0><FONT 
+color=#000000 size=-1>Web</FONT></LABEL> <INPUT id=ss1 type=radio CHECKED 
+value=kalsey.com name=sitesearch></INPUT> <LABEL title="Search kalsey.com" 
+for=ss1><FONT color=#000000 size=-1>kalsey.com</FONT></LABEL></P><INPUT 
+type=hidden value=pub-1229925987425060 name=client></INPUT> <INPUT type=hidden 
+value=1 name=forid></INPUT> <INPUT type=hidden value=8621284923 
+name=channel></INPUT> <INPUT type=hidden value=ISO-8859-1 name=ie></INPUT> 
+<INPUT type=hidden value=ISO-8859-1 name=oe></INPUT> <INPUT type=hidden 
+value=active name=safe></INPUT> <INPUT type=hidden value=0000 name=flav></INPUT> 
+<INPUT type=hidden value=w-H_tyPN4leK4RO8 name=sig></INPUT> <INPUT type=hidden 
+value=GALT:#008000;GL:1;DIV:#7D8587;VLC:663399;AH:center;BGC:FFFFFF;LBGC:7D8587;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;LH:23;LW:128;L:http://kalsey.com/images/logo.png;S:http://kalsey.com/;FORID:1 
+name=cof></INPUT> <INPUT type=hidden value=en name=hl></INPUT> </FORM><!-- SiteSearch Google --></DIV><!-- rtcol --></DIV><!-- body -->
+<DIV id=topLeader><!--
+<script language="JavaScript">
+ctxt_ad_partner = "5561885680";
+ctxt_ad_section = "8391";
+ctxt_ad_bg = "";
+ctxt_ad_width = 728;
+ctxt_ad_height = 90;
+ctxt_ad_bc = "FFFFFF";
+ctxt_ad_cc = "FFFFFF";
+ctxt_ad_lc = "0000FF";
+ctxt_ad_tc = "000000";
+ctxt_ad_uc = "6699CC";
+</script>
+<script language="JavaScript" src="http://ypn-js.overture.com/partner/js/ypn.js">
+</script>
+// -->
+<SCRIPT type=text/javascript>
+var pubId=3625;
+var siteId=3626;
+var kadId=1958;
+var kadwidth=728;
+var kadheight=90;</SCRIPT>
+
+<SCRIPT src="Rounded corners in CSS  Adam Kalsey_files/showad.js" 
+type=text/javascript> </SCRIPT>
+</DIV></DIV><!-- wrapper -->
+<DIV class=cleaner></DIV>
+<DIV id=footnotecontainer>
+<DIV id=footnoteinner>
+<DIV class="footnote wide">
+<H3>Recently</H3>
+<DL>
+  <DT><A href="http://kalsey.com/2007/11/teleflip_spams_your_friends/">Teleflip 
+  spams your friends</A> <SPAN class=date>(Nov 6)</SPAN> 
+  <DD><SPAN class=excerpt>Classless move by teleflip.</SPAN> 
+  <DT><A href="http://kalsey.com/2007/11/oauth_use_case/">OAuth use case</A> 
+  <SPAN class=date>(Nov 3)</SPAN> 
+  <DD><SPAN class=excerpt>A real world account hijacking problem and how OAuth 
+  can solve it.</SPAN> 
+  <DT><A href="http://kalsey.com/2007/10/common_causes_of_failure/">Common 
+  causes of failure</A> <SPAN class=date>(Oct 30)</SPAN> 
+  <DD><SPAN class=excerpt>How to fail at software development</SPAN> 
+  <DT><A 
+  href="http://kalsey.com/2007/10/free_pumpkin_carving_patterns_for_halloween/">Free 
+  Pumpkin carving patterns for Halloween</A> <SPAN class=date>(Oct 28)</SPAN> 
+  <DD><SPAN class=excerpt>This year's installment of Jack-o-Lantern patterns for 
+  Halloween</SPAN> 
+  <DT><A href="http://kalsey.com/2007/10/esitmating_ship_dates/">Esitmating ship 
+  dates</A> <SPAN class=date>(Oct 27)</SPAN> 
+  <DD><SPAN class=excerpt>An automated way of comparing developer estimates to 
+  their past work.</SPAN> 
+  <DT><A href="http://kalsey.com/2007/10/startup_myths/">Startup myths</A> <SPAN 
+  class=date>(Oct 26)</SPAN> 
+  <DD><SPAN class=excerpt>Myths from startup founders.</SPAN> 
+  <DT><A href="http://kalsey.com/2007/10/enterprise_designs/">Enterprise 
+  designs</A> <SPAN class=date>(Oct 26)</SPAN> 
+  <DD><SPAN class=excerpt>Enterprise apps don't have to suck.</SPAN> </DD></DL>
+<P><A class=noborder href="http://kalsey.com/atom.xml"><IMG height=15 
+alt="Subscribe to this site's feed." 
+src="Rounded corners in CSS  Adam Kalsey_files/subscribebutton.png" width=80 
+border=0></A></P></DIV>
+<DIV class=footnote>
+<H3>Elsewhere</H3>
+<DL>
+  <DT><A href="http://feedcrier.com/">Feed Crier</A> 
+  <DD>Get alerted by IM when your favorite web sites and feeds are updated. 
+  <DT><A href="http://sacstarts.com/">SacStarts</A> 
+  <DD>The Sacramento technology startup community. 
+  <DT><A href="http://pinewoodfreak.com/">Pinewood Freak</A> 
+  <DD>Pinewood Derby tips and tricks 
+  <DT><A href="http://del.icio.us/akalsey">Del.icio.us</A> 
+  <DD>My tagstream at del.icio.us. 
+  <DT><A href="http://waddlespot.com/">Waddlespot</A> 
+  <DD>My son's Club Penguin community. News, blogs, tips, and tricks. </DD></DL>
+<H3>Contact</H3>
+<ADDRESS class=vcard>
+<P class=fn>Adam Kalsey</P>
+<P class=tel><SPAN class=type>Mobile</SPAN>: <SPAN 
+class=value>916.600.2497</SPAN></P>
+<P>Email: adam AT kalsey.com</P>
+<P class="tel note">AIM or <SPAN class=type title=mobile>Skype</SPAN>: <SPAN 
+class=value>akalsey</SPAN></P>
+<P><A class=url href="http://kalsey.com/resume/">Resume</A></P>
+<P><A class=url href="http://kalsey.com/publickey.txt">PGP 
+Key</A></P></ADDRESS></DIV></DIV></DIV>
+<DIV class=cleaner></DIV>
+<DIV class=sueme>
+<P>©1999-2007 Adam Kalsey.<BR>Content management by <A 
+href="http://www.movabletype.org/">Movable Type</A>.</P></DIV>
+<SCRIPT src="Rounded corners in CSS  Adam Kalsey_files/urchin.js" 
+type=text/javascript>
+</SCRIPT>
+
+<SCRIPT 
+type=text/javascript>
+_uacct = "UA-1003110-1";
+urchinTracker();
+</SCRIPT>
+
+<SCRIPT> function asClick() { if (window.status.indexOf('go to') == 0) { urchinTracker('/adsense/ads/' + escape(window.status.substring(6))); } else if (window.status.indexOf('View ads about') == 0) { urchinTracker('/adsense/links/' + escape(window.status.substring(15))); } } var elements; if (document.getElementsByTagName) { elements = document.body.getElementsByTagName("IFRAME"); } else if (document.body.all) { elements = document.body.all.tags("IFRAME"); } else { elements = Array(); } for (var i = 0; i < elements.length; i++) { if (elements[i].src.indexOf('googlesyndication.com') > -1) { elements[i].onfocus = asClick(); } } </SCRIPT>
+</BODY></HTML>

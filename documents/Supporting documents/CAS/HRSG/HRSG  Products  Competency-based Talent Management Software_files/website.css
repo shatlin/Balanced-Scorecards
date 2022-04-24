@@ -1,0 +1,198 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 8pt; PADDING-BOTTOM: 0px; MARGIN: 5px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: verdana, arial, tahoma, helvetica; BACKGROUND-COLOR: #0c2577
+}
+P {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+.pblue {
+	FONT-SIZE: 8pt; COLOR: #0033cc; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+A {
+	FONT-SIZE: 8pt; COLOR: #0c2577; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+A:hover {
+	COLOR: #555555; TEXT-DECORATION: underline
+}
+.body_text {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+.sidebar {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 10pt; BACKGROUND: url(http://www.hrsg.ca/images/sidebar.bkgd.gif) no-repeat; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 8px; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+.main_panel {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 25px; FONT-SIZE: 8pt; PADDING-BOTTOM: 10px; MARGIN: 0px; BORDER-LEFT: #ebebeb 5px solid; COLOR: #000000; PADDING-TOP: 10px; FONT-FAMILY: verdana, arial, tahoma, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.titlebar {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 12pt; PADDING-BOTTOM: 2px; TEXT-TRANSFORM: uppercase; COLOR: #b8742b; PADDING-TOP: 2px; BORDER-BOTTOM: #b8742b 1px dotted; FONT-FAMILY: verdana, arial, tahoma, helvetica; TEXT-ALIGN: center
+}
+#tableBackground {
+	BACKGROUND-COLOR: #ffffff
+}
+#tableWrapper {
+	BORDER-RIGHT: #ffffff 10px solid; BORDER-TOP: #ffffff 10px solid; FONT-SIZE: 8pt; BORDER-LEFT: #ffffff 10px solid; COLOR: #000000; BORDER-BOTTOM: #ffffff 10px solid; FONT-FAMILY: verdana, arial, tahoma, helvetica; BACKGROUND-COLOR: #ffffff
+}
+#tableWrapper2 {
+	BORDER-RIGHT: #555555 1px solid; BORDER-TOP: #555555 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #555555 1px solid; COLOR: #000000; BORDER-BOTTOM: #555555 1px solid; FONT-FAMILY: verdana, arial, tahoma, helvetica; BACKGROUND-COLOR: #ffffff
+}
+#rowDisplay {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 8pt; PADDING-BOTTOM: 3px; COLOR: #000000; PADDING-TOP: 3px; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+#news_promo {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 20px; FONT-SIZE: 8pt; PADDING-BOTTOM: 10px; COLOR: #000000; PADDING-TOP: 2px; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+#news_promo A {
+	FONT-SIZE: 8pt; COLOR: #555555; TEXT-DECORATION: none
+}
+#news_promo A:hover {
+	FONT-SIZE: 8pt; COLOR: #b8742b; TEXT-DECORATION: none
+}
+#news_header {
+	FONT-SIZE: 9pt; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 10px; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+#news_header A {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #b8742b; TEXT-DECORATION: none
+}
+#news_header A:hover {
+	COLOR: #555555
+}
+#sctn_wrapper {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 9pt; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px; BORDER-BOTTOM: #b0c4de 2px dotted; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+#sctn_wrapper A {
+	FONT-SIZE: 8pt; COLOR: #b8742b; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+#sctn_wrapper A:hover {
+	COLOR: #555555; TEXT-DECORATION: none
+}
+#front_wrapper {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 8pt; PADDING-BOTTOM: 4px; COLOR: #000000; PADDING-TOP: 4px; BORDER-BOTTOM: #b0c4de 2px dotted; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+#sctn_wrapper_2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 8pt; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+#sctn_wrapper_2 A {
+	FONT-SIZE: 8pt; COLOR: #0c2577; FONT-FAMILY: verdana, arial, tahoma, helvetica; TEXT-DECORATION: none
+}
+#sctn_wrapper_2 A:hover {
+	COLOR: #555555; TEXT-DECORATION: none
+}
+#box {
+	BORDER-RIGHT: #b0c4de 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #b0c4de 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 8pt; PADDING-BOTTOM: 5px; BORDER-LEFT: #b0c4de 1px solid; COLOR: #000000; PADDING-TOP: 5px; BORDER-BOTTOM: #b0c4de 1px solid; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+#box A {
+	FONT-SIZE: 8pt; COLOR: #0c2577; TEXT-DECORATION: none
+}
+#box A:hover {
+	FONT-SIZE: 8pt; COLOR: #555555; TEXT-DECORATION: none
+}
+#box_header {
+	BORDER-RIGHT: #b0c4de 1px solid; BORDER-TOP: #b0c4de 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12pt; BORDER-LEFT: #b0c4de 1px solid; COLOR: #ffffff; FONT-FAMILY: verdana, arial, tahoma, helvetica; BACKGROUND-COLOR: #135aa0
+}
+#box_header A {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FLOAT: left; WIDTH: 100%; COLOR: #ffffff; LINE-HEIGHT: 25px; FONT-FAMILY: verdana, arial, tahoma, helvetica; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#box_header A:hover {
+	COLOR: #cacaca; BACKGROUND-COLOR: #0c2577; TEXT-DECORATION: none
+}
+#imgWrapper {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.header {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #b8742b; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+.header A {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #b8742b; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+.subheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #b8742b; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+.subheader A {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #b8742b; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+.subheader1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #0c2577; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+.subheader1 A {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #0c2577; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+#error {
+	BORDER-RIGHT: #d00000 1px solid; BORDER-TOP: #d00000 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BORDER-LEFT: #d00000 1px solid; COLOR: #d00000; BORDER-BOTTOM: #d00000 1px solid; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+.field {
+	BORDER-RIGHT: #7a7a7a 1px solid; BORDER-TOP: #7a7a7a 1px solid; SCROLLBAR-FACE-COLOR: #0c2577; FONT-SIZE: 10pt; SCROLLBAR-HIGHLIGHT-COLOR: #b0c4de; BORDER-LEFT: #7a7a7a 1px solid; SCROLLBAR-SHADOW-COLOR: #222222; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #b0c4de; SCROLLBAR-ARROW-COLOR: #f5f5f5; SCROLLBAR-TRACK-COLOR: #7a7a7a; BORDER-BOTTOM: #7a7a7a 1px solid; FONT-FAMILY: verdana, arial, tahoma, helvetica; SCROLLBAR-DARKSHADOW-COLOR: #000000; BACKGROUND-COLOR: #ebebeb
+}
+.field2 {
+	BORDER-RIGHT: #b8742b 1px solid; BORDER-TOP: #b8742b 1px solid; SCROLLBAR-FACE-COLOR: #0c2577; FONT-SIZE: 8pt; SCROLLBAR-HIGHLIGHT-COLOR: #b0c4de; BORDER-LEFT: #b8742b 1px solid; SCROLLBAR-SHADOW-COLOR: #222222; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #b0c4de; SCROLLBAR-ARROW-COLOR: #f5f5f5; SCROLLBAR-TRACK-COLOR: #7a7a7a; BORDER-BOTTOM: #b8742b 1px solid; FONT-FAMILY: verdana, arial, tahoma, helvetica; SCROLLBAR-DARKSHADOW-COLOR: #000000; BACKGROUND-COLOR: #ebebeb
+}
+.field_req {
+	BORDER-RIGHT: #d00000 1px solid; BORDER-TOP: #d00000 1px solid; FONT-SIZE: 10pt; BORDER-LEFT: #d00000 1px solid; COLOR: #000000; BORDER-BOTTOM: #d00000 1px solid; FONT-FAMILY: verdana, arial, tahoma, helvetica; BACKGROUND-COLOR: #eed5d5
+}
+#copyright {
+	PADDING-RIGHT: 3px; BORDER-TOP: #555555 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 8pt; PADDING-BOTTOM: 3px; COLOR: #ffffff; PADDING-TOP: 3px; FONT-FAMILY: verdana, arial, tahoma, helvetica; BACKGROUND-COLOR: #b8742b; TEXT-ALIGN: center
+}
+#copyright A {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+#copyright A:hover {
+	COLOR: #0c2577; TEXT-DECORATION: none
+}
+#topMenuWrapper {
+	PADDING-RIGHT: 0px; BORDER-TOP: #555555 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 10pt; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px; BORDER-BOTTOM: #b8742b 2px solid; FONT-FAMILY: verdana, arial, tahoma, helvetica; BACKGROUND-COLOR: #7a7a7a
+}
+#topMenu {
+	WIDTH: 100%; HEIGHT: 25px
+}
+#topMenu A {
+	BORDER-RIGHT: #555555 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 129px; COLOR: #f5f5f5; LINE-HEIGHT: 25px; PADDING-TOP: 0px; FONT-FAMILY: verdana, arial, tahoma, helvetica; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#topMenu A:hover {
+	COLOR: #555555; BACKGROUND-COLOR: #cacaca; TEXT-DECORATION: none
+}
+#topbar {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 10px; BACKGROUND: url(http://www.hrsg.ca/images/topbar.bkgd.gif); PADDING-BOTTOM: 7px; TEXT-TRANSFORM: uppercase; COLOR: #555555; PADDING-TOP: 7px; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+#topbar A {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 10px; PADDING-BOTTOM: 5px; TEXT-TRANSFORM: uppercase; COLOR: #555555; PADDING-TOP: 5px; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+#topbar A:hover {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; COLOR: #0c2577; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+#menu {
+	WIDTH: 100%; HEIGHT: 13px; BACKGROUND-COLOR: #ebebeb
+}
+#menu A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 10px; FLOAT: left; PADDING-BOTTOM: 2px; WIDTH: 100%; COLOR: #555555; LINE-HEIGHT: 15px; PADDING-TOP: 2px; FONT-FAMILY: verdana, arial, tahoma, helvetica; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+#menu A:hover {
+	COLOR: #cacaca; BACKGROUND-COLOR: #0c2577; TEXT-DECORATION: none
+}
+#selector {
+	BORDER-RIGHT: #7a7a7a 1px solid; BACKGROUND-COLOR: #d9d9d9
+}
+.spacer {
+	PADDING-BOTTOM: 5px
+}
+.wrapper {
+	BORDER-RIGHT: #7a7a7a 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #7a7a7a 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #7a7a7a 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #7a7a7a 1px solid
+}
+.wrapper2 {
+	BORDER-RIGHT: #7a7a7a 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://www.hrsg.ca/images/menu.side.bkgd.gif) no-repeat; PADDING-BOTTOM: 0px; BORDER-LEFT: #7a7a7a 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #7a7a7a 1px solid
+}
+.itemWrapper {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BORDER-BOTTOM: #ebebeb 1px solid
+}
+#subWrapper {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; BORDER-LEFT: #7a7a7a 1px solid; COLOR: #555555; BORDER-BOTTOM: #7a7a7a 1px solid; FONT-FAMILY: verdana, arial, tahoma, helvetica; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+#subWrapper A {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 100%; COLOR: #0c2577; FONT-FAMILY: verdana, arial, tahoma, helvetica; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+#subWrapper A:hover {
+	COLOR: #555555; TEXT-DECORATION: none
+}
+#tableBlank {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}
+#tableBlank2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; FONT-FAMILY: verdana, arial, tahoma, helvetica
+}

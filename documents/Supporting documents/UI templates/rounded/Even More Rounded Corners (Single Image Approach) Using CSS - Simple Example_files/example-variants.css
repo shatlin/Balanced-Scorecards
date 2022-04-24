@@ -1,0 +1,60 @@
+.type2 .content {
+	BACKGROUND-IMAGE: url(dialog2-dark-alpha-drip.gif)
+}
+.type2 .t {
+	BACKGROUND-IMAGE: url(dialog2-dark-alpha-drip.gif)
+}
+.type2 .b {
+	BACKGROUND-IMAGE: url(dialog2-dark-alpha-drip.gif)
+}
+.type2 .b DIV {
+	BACKGROUND-IMAGE: url(dialog2-dark-alpha-drip.gif)
+}
+.drip .b {
+	HEIGHT: 75px
+}
+.drip .b DIV {
+	HEIGHT: 75px
+}
+.drip {
+	MARGIN-LEFT: 65px
+}
+.drip .t {
+	MARGIN-LEFT: -65px; WIDTH: 65px
+}
+.drip .b DIV {
+	MARGIN-LEFT: -65px; WIDTH: 65px
+}
+.drip .hd {
+	MARGIN-LEFT: -65px; WIDTH: 65px
+}
+.drip .bd {
+	MARGIN-LEFT: -65px; WIDTH: 65px
+}
+.drip .ft {
+	MARGIN-LEFT: -65px; WIDTH: 65px
+}
+.drip .wrapper {
+	MARGIN-LEFT: -65px; WIDTH: 65px
+}
+.drip .wrapper {
+	WIDTH: auto
+}
+.dialog .wrapper .hd {
+	MARGIN-LEFT: 0px
+}
+.dialog .wrapper .bd {
+	MARGIN-LEFT: 0px
+}
+.dialog .wrapper .ft {
+	MARGIN-LEFT: 0px
+}
+.drip .hd {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; WIDTH: auto; PADDING-TOP: 0px; ZOOM: 1
+}
+.drip .bd {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; WIDTH: auto; PADDING-TOP: 0px; ZOOM: 1
+}
+.drip .ft {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; WIDTH: auto; PADDING-TOP: 0px; ZOOM: 1
+}

@@ -1,0 +1,63 @@
+ HTML #tlc {
+	HEIGHT: 1%
+}
+ HTML #trc {
+	HEIGHT: 1%
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 100.01%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: white; TEXT-ALIGN: center
+}
+#box {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 3em; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: auto; WIDTH: 40em; MARGIN-RIGHT: auto; PADDING-TOP: 0px; POSITION: relative; BACKGROUND-COLOR: #eeeeee; TEXT-ALIGN: left
+}
+#content {
+	PADDING-RIGHT: 3em; PADDING-LEFT: 3em; PADDING-BOTTOM: 3em; PADDING-TOP: 3em
+}
+#content H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.2em; COLOR: #0354c2; FONT-FAMILY: helvetica, geneva, arial, sans-serif
+}
+#content P {
+	FONT-SIZE: 1em; COLOR: #3b3b3b; LINE-HEIGHT: 1.3em; FONT-FAMILY: arial, helvetica, sans-serif
+}
+#tlc {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent
+}
+#trc {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent
+}
+#blc {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent
+}
+#brc {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent
+}
+#tlc {
+	BACKGROUND-POSITION: 0% 0%; BACKGROUND-IMAGE: url(images/tlc.gif)
+}
+#trc {
+	BACKGROUND-POSITION: 100% 0%; BACKGROUND-IMAGE: url(images/trc.gif)
+}
+#blc {
+	BACKGROUND-POSITION: 0% 100%; BACKGROUND-IMAGE: url(images/blc.gif)
+}
+#brc {
+	BACKGROUND-POSITION: 100% 100%; BACKGROUND-IMAGE: url(images/brc.gif)
+}
+#tb {
+	BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+#bb {
+	BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+#tb {
+	BACKGROUND-POSITION: 0% 0%; BACKGROUND-IMAGE: url(images/tb.gif)
+}
+#bb {
+	BACKGROUND-POSITION: 50% 100%; BACKGROUND-IMAGE: url(images/bb.gif)
+}
+#rb {
+	BACKGROUND-POSITION: 100% 0%; BACKGROUND-IMAGE: url(images/r.gif); BACKGROUND-REPEAT: repeat-y
+}
+#lb {
+	BACKGROUND-POSITION: 0% 100%; BACKGROUND-IMAGE: url(images/l.gif); BACKGROUND-REPEAT: repeat-y; BACKGROUND-COLOR: #eeeeee
+}

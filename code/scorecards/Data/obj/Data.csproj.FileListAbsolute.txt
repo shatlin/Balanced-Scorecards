@@ -1,0 +1,12 @@
+C:\Shatlin\IOS\deliverables\development\Data\bin\Debug\Data.dll.config
+C:\Shatlin\IOS\deliverables\development\Data\bin\Debug\Data.dll
+C:\Shatlin\IOS\deliverables\development\Data\bin\Debug\Data.pdb
+C:\Shatlin\IOS\deliverables\development\Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Shatlin\IOS\deliverables\development\Data\obj\Debug\Data.dll
+C:\Shatlin\IOS\deliverables\development\Data\obj\Debug\Data.pdb
+C:\Scorecards\Data\bin\Debug\Data.dll.config
+C:\Scorecards\Data\bin\Debug\Data.dll
+C:\Scorecards\Data\bin\Debug\Data.pdb
+C:\Scorecards\Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Scorecards\Data\obj\Debug\Data.dll
+C:\Scorecards\Data\obj\Debug\Data.pdb

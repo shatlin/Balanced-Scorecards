@@ -1,0 +1,489 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0040)http://24ways.org/2005/tables-with-style -->
+<HTML lang=en xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>24 ways: Tables with Style</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8"><LINK 
+media=screen href="24 ways Tables with Style_files/24ways06.css" type=text/css 
+rel=stylesheet><LINK media=screen 
+href="24 ways Tables with Style_files/promos.css" type=text/css 
+rel=stylesheet><LINK title=rss href="http://feeds.feedburner.com/24ways" 
+type=application/rss+xml rel=alternate>
+<META content="MSHTML 6.00.2900.2995" name=GENERATOR></HEAD>
+<BODY class=y2005>
+<DIV id=masthead>
+<DIV class=wrapper>
+<H1><A href="http://24ways.org/" rel=home>24 ways</A></H1>
+<P class=strapline>to impress your friends</P></DIV></DIV>
+<DIV id=content>
+<DIV class=wrapper>
+<H2>Tables with&nbsp;Style <SPAN class=credit>by Jonathan Snook</SPAN></H2>
+<P>It might not seem like it but styling tabular data can be a lot of fun. From 
+a semantic point of view, there are plenty of elements to tie some style into. 
+You have cells, rows, row groups and, of course, the table element itself. 
+Adding <SPAN class=caps>CSS</SPAN> to a paragraph just isn’t as exciting.</P>
+<H3>Where do I start?</H3>
+<P>First, if you have some tabular data (you know, like a spreadsheet with rows 
+and columns) that you’d like to spiffy up, pop it into a table — it’s rightful 
+place!</P>
+<P>To add more semantics to your table — and coincidentally to add more hooks 
+for <SPAN class=caps>CSS</SPAN> — break up your table into row groups. There are 
+three types of row groups: the header (<CODE>thead</CODE>), the body 
+(<CODE>tbody</CODE>) and the footer (<CODE>tfoot</CODE>). You can only have one 
+header and one footer but you can have as many table bodies as is 
+appropriate.</P>
+<P><A 
+href="http://24ways.org/examples/tables-with-style/table_default.html">Sample 
+table example</A></P>
+<H3>Inspiration</H3>
+<H4>Table Striping</H4>
+<P>To improve scanning information within a table, a common technique is to 
+style alternating rows. Also known as <A 
+href="http://www.alistapart.com/articles/zebratables/">zebra tables</A>. Whether 
+you apply it using a class on every other row or <A 
+href="http://24ways.org/advent/splintered-striper">turn to JavaScript</A> to 
+accomplish the task, a handy-dandy trick is to use a semi-transparent <SPAN 
+class=caps>PNG</SPAN> as your background image. This is especially useful over 
+patterned backgrounds. </P>
+<P><PRE><CODE>tbody tr.odd td
+ {
+     background:transparent url(background.png) repeat top left;
+ }<P></P>
+
+ * html tbody tr.odd td
+ {
+     background:#C00;
+     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+          src=‘background.png’, sizingMethod=‘scale’);
+ }</CODE></PRE>
+<P>We turn off the default background and apply our <SPAN class=caps>PNG</SPAN> 
+hack to have this work in Internet Explorer. </P>
+<H4>Styling Columns</H4>
+<P>Did you know you could style a column? That’s right. You can add special 
+column (<CODE>col</CODE>) or column group (<CODE>colgroup</CODE>) elements. With 
+that you can add border or background styles to the column.</P><PRE><CODE>&lt;table&gt;
+     &lt;col id="ingredients"&gt;
+     &lt;col id="serve12"&gt;
+     &lt;col id="serve24"&gt;
+ ...</CODE></PRE>
+<P><A 
+href="http://24ways.org/examples/tables-with-style/table_columns.html">Check out 
+the example</A>.</P>
+<H4>Fun with Backgrounds</H4>
+<P>Pop in a tiled background to <A 
+href="http://24ways.org/examples/tables-with-style/table_fixed.html">give your 
+table some character</A>! Internet Explorer’s <SPAN class=caps>PNG</SPAN> hack 
+unfortunately only works well when applied to a cell.</P>
+<P>To figure out which background will appear over another, just remember the 
+hierarchy:</P>
+<DIV class=textual-figure>(bottom) Table → Column → Row Group → Row → Cell 
+(top)</DIV>
+<H3>The Future is Bright</H3>
+<P>Once browser-makers start implementing CSS3, we’ll have more power at our 
+disposal. Just with <CODE>:first-child</CODE> and <CODE>:last-child</CODE>, you 
+can pull off a <A 
+href="http://24ways.org/examples/tables-with-style/table_child.html">scalable 
+version of our previous table</A> with rounded corners and all — unfortunately, 
+only Firefox manages to pull this one off successfully. And the selector the 
+masses are clamouring for, nth-child, will make zebra tables easy as eggnog.</P>
+<DIV class="bio vcard">
+<H3>About the author</H3>
+<P><SPAN class=fn>Jonathan Snook</SPAN> is a web developer by trade and 
+tirelessly puts his many skills to work on <A class="url org" 
+href="http://www.snook.ca/jonathan/">snook.ca</A> and other projects.</P></DIV>
+<DIV class=gas>
+<SCRIPT type=text/javascript><!--
+			google_ad_client = "pub-1815355830579562";
+			google_ad_width = 728;
+			google_ad_height = 90;
+			google_ad_format = "728x90_as";
+			google_ad_type = "text";
+			google_ad_channel = "";
+			google_color_border = "FFFFFF";
+			google_color_bg = "FFFFFF";
+			google_color_link = "3300cc";
+			google_color_text = "333333";
+			google_color_url = "000000";
+			//--></SCRIPT>
+
+<SCRIPT src="24 ways Tables with Style_files/show_ads.js" 
+type=text/javascript></SCRIPT>
+</DIV></DIV>
+<DIV class=comments>
+<DIV class=wrapper>
+<H2>Your comments</H2>
+<OL class=comments>
+  <LI>
+  <DIV class=even>
+  <DIV class=commenter><SPAN class=permalink><A id=c000431 
+  href="http://24ways.org/2005/tables-with-style#c000431">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="24 ways Tables with Style_files/avatar.png" width=40> <SPAN 
+  class=author><A href="http://sonspring.com/" rel=nofollow>Nathan 
+  Smith</A>:</SPAN> 
+  <P>Great write-up. It’s good to see more attention being given to semantics, 
+  and implictly increased style-ability, for tables. I admit that back in the 
+  dark days of table design, I often found little use for Tbody or Tfoot, or the 
+  like, since all we were using tables for was presentation (tisk tisk). And, 
+  now that most layouts are done in CSS, entire months will go by without having 
+  to deal with tables at all. Thanks for reminding us about proper usage, and 
+  helping to merge the old-school with new methods. Also, gotta love the 
+  candy-cane holiday zebra-striped theme!</P></DIV></DIV>
+  <LI>
+  <DIV class=odd>
+  <DIV class=commenter><SPAN class=permalink><A id=c000432 
+  href="http://24ways.org/2005/tables-with-style#c000432">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(1).png" 
+  width=40> <SPAN class=author><A href="http://www.grantpalin.com/" 
+  rel=nofollow>Grant Palin</A>:</SPAN> 
+  <P>Some good examples. I agree with your point at the beginning about how 
+  tables can be an interesting (if not sometimes frustating!) element to style. 
+  What with the different sub-elements you can style, there’s many different 
+  things that can be done to style tables.</P>
+  <P>One thing that can make things difficult is the html attributes for padding 
+  and spacing – if you don’t take those into account when styling tables, your 
+  work would be a lot more difficult. I know when I was learning CSS, this 
+  plagued me to no end until I realized that I should zero the table’s 
+  cellpadding and cellspacing attributes to make things easier.</P></DIV></DIV>
+  <LI>
+  <DIV class=even>
+  <DIV class=commenter><SPAN class=permalink><A id=c000433 
+  href="http://24ways.org/2005/tables-with-style#c000433">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="24 ways Tables with Style_files/avatar.jpg" width=40> <SPAN 
+  class=author><A href="http://timburgan.com/" rel=nofollow>Tim 
+  Burgan</A>:</SPAN> 
+  <P>Mmm.. eggnog. I love Eggnog!</P></DIV></DIV>
+  <LI>
+  <DIV class=odd>
+  <DIV class=commenter><SPAN class=permalink><A id=c000434 
+  href="http://24ways.org/2005/tables-with-style#c000434">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(2).png" 
+  width=40> <SPAN class=author><A href="http://glench.com/" rel=nofollow>Glen 
+  C.</A>:</SPAN> 
+  <P>Don’t forget <A href="http://icant.co.uk/csstablegallery/">the css zen 
+  garden of tables</A></P></DIV></DIV>
+  <LI>
+  <DIV class=even>
+  <DIV class=commenter><SPAN class=permalink><A id=c000435 
+  href="http://24ways.org/2005/tables-with-style#c000435">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(3).png" 
+  width=40> <SPAN class=author><A href="http://www.snook.ca/jonathan/" 
+  rel=nofollow>Jonathan Snook</A>:</SPAN> 
+  <P>Thanks Glen! I had it in a previous revision of this article and then it 
+  got lost in the rewrite. Definitely a good link to have for some 
+  inspiration.</P></DIV></DIV>
+  <LI>
+  <DIV class=odd>
+  <DIV class=commenter><SPAN class=permalink><A id=c000436 
+  href="http://24ways.org/2005/tables-with-style#c000436">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(4).png" 
+  width=40> <SPAN class=author><A href="http://www.dustindiaz.com/" 
+  rel=nofollow>Dustin Diaz</A>:</SPAN> 
+  <P>Gosh Jonathan, you made tables look so pretty! Well done.</P></DIV></DIV>
+  <LI>
+  <DIV class=even>
+  <DIV class=commenter><SPAN class=permalink><A id=c000437 
+  href="http://24ways.org/2005/tables-with-style#c000437">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(1).jpg" 
+  width=40> <SPAN class=author><A href="http://www.trovster.com/" 
+  rel=nofollow>trovster</A>:</SPAN> 
+  <P>Pretty funky table. I had my doubts that they could look nice, but you’ve 
+  certainly quashed them…</P>
+  <P>Jonathan: I think you missed the html part of your star-hack in the 
+  article, but not on the page.</P></DIV></DIV>
+  <LI>
+  <DIV class=odd>
+  <DIV class=commenter><SPAN class=permalink><A id=c000438 
+  href="http://24ways.org/2005/tables-with-style#c000438">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(5).png" 
+  width=40> <SPAN class=author>JérÔÔme:</SPAN> 
+  <P>Ô thank you. I’m looking for this way of assigning an id to a col for a 
+  long time now. But CSS gurus talk about evreything <STRONG>but</STRONG> tables 
+  (except to get rid of them, mostly rightly though).</P></DIV></DIV>
+  <LI>
+  <DIV class=even>
+  <DIV class=commenter><SPAN class=permalink><A id=c000439 
+  href="http://24ways.org/2005/tables-with-style#c000439">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(6).png" 
+  width=40> <SPAN class=author><A href="http://cafefort.com/" 
+  rel=nofollow>karim</A>:</SPAN> 
+  <P>Hi all,</P>
+  <P>First of all thanks a lot for these articles! It’s very interesting!</P>
+  <P>Well about :first-child and :last-child<BR><BR>I used to use them with 
+  tables, like you <BR><BR>did. And for IE and others</P>
+  <P>I suggest using classes named</P>
+  <P>.firstchild and lastchild which will be<BR><BR>styled like the elements 
+  with the selectors :first-child and :last-child <BR><BR>respectively.</P>
+  <P>and of course aply to the first TR (or TD) the class .firstchild and to the 
+  last ones .lastchild.</P>
+  <P>Well, I hope you enjoy my modest idea,<BR><BR>I’m personally using it 
+:)</P>
+  <P>Thanks again</P></DIV></DIV>
+  <LI>
+  <DIV class=odd>
+  <DIV class=commenter><SPAN class=permalink><A id=c000440 
+  href="http://24ways.org/2005/tables-with-style#c000440">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(7).png" 
+  width=40> <SPAN class=author><A href="http://www.digitalpills.it/" 
+  rel=nofollow>mirko</A>:</SPAN> 
+  <P>Thanks! Definitely a link that’s worth having, alongside the other 24ways 
+  articles. Well done!</P></DIV></DIV>
+  <LI>
+  <DIV class=even>
+  <DIV class=commenter><SPAN class=permalink><A id=c000443 
+  href="http://24ways.org/2005/tables-with-style#c000443">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(8).png" 
+  width=40> <SPAN class=author><A href="http://www.fewagainstmany.com/" 
+  rel=nofollow>Tim</A>:</SPAN> 
+  <P>Nice write-up…<BR><BR>But what about the col tags, shouldn’t we close them 
+  ??</P></DIV></DIV>
+  <LI>
+  <DIV class=odd>
+  <DIV class=commenter><SPAN class=permalink><A id=c000446 
+  href="http://24ways.org/2005/tables-with-style#c000446">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(3).png" 
+  width=40> <SPAN class=author><A href="http://www.snook.ca/jonathan/" 
+  rel=nofollow>Jonathan Snook</A>:</SPAN> 
+  <P>trovster: ha, not much of a star-html hack if I forget the -html part now 
+  is it? :) Fixed.</P>
+  <P>Tim: If you’re using XHTML, you absolutely should. All my examples use 
+  HTML, in which case, you shouldn’t.</P></DIV></DIV>
+  <LI>
+  <DIV class=even>
+  <DIV class=commenter><SPAN class=permalink><A id=c000447 
+  href="http://24ways.org/2005/tables-with-style#c000447">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(8).png" 
+  width=40> <SPAN class=author><A href="http://www.fewagainstmany.com/" 
+  rel=nofollow>Tim</A>:</SPAN> 
+  <P>thx for the feedback Jonathan… and yes XHTML is the way to go 
+  ;-)</P></DIV></DIV>
+  <LI>
+  <DIV class=odd>
+  <DIV class=commenter><SPAN class=permalink><A id=c000448 
+  href="http://24ways.org/2005/tables-with-style#c000448">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(9).png" 
+  width=40> <SPAN class=author><A href="http://www.autoscoop.com/" 
+  rel=nofollow>Bob Sawyer</A>:</SPAN> 
+  <P><STRONG>JS: <EM>All my examples use HTML, in which case, you 
+  shouldn’t.</EM></STRONG></P>
+  <P>Really? <EM>Shouldn’t</EM>, or <EM>don’t have to</EM>? I don’t want to 
+  start an ideological war of words here, but I’ve never known HTML to be 
+  restrictive with closing tags. Isn’t it just good practice to close them 
+  regardless of whether you’re using XHTML or HTML?</P>
+  <P>Lovely examples, by the way. Don’t want to take away from the point of the 
+  article, which is excellent…</P></DIV></DIV>
+  <LI>
+  <DIV class=even>
+  <DIV class=commenter><SPAN class=permalink><A id=c000450 
+  href="http://24ways.org/2005/tables-with-style#c000450">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(3).png" 
+  width=40> <SPAN class=author><A href="http://www.snook.ca/jonathan/" 
+  rel=nofollow>Jonathan Snook</A>:</SPAN> 
+  <P>While it probably doesn’t hurt, the HTML 4.01 spec actually says:</P>
+  <P>“Some HTML element types have no content. For example, the line break 
+  element BR has no content; its only role is to terminate a line of text. Such 
+  empty elements never have end tags.” COL is an empty element. So, no, you 
+  <EM>shouldn’t</EM>. :)</P></DIV></DIV>
+  <LI>
+  <DIV class=odd>
+  <DIV class=commenter><SPAN class=permalink><A id=c000452 
+  href="http://24ways.org/2005/tables-with-style#c000452">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(10).png" 
+  width=40> <SPAN class=author>Milo van der Leij:</SPAN> 
+  <P>Don’t forget, <A href="http://www.w3.org/TR/CSS21/tables.html#q4">you can 
+  only style COL and COLGROUP tags in a very limited way</A> (also see: <A 
+  href="http://ln.hixie.ch/?start=1070385285&amp;count=1">this explanation of 
+  why that is</A>)</P>
+  <P>Also: “TFOOT must appear before TBODY within a TABLE definition so that 
+  user agents can render the foot before receiving all of the (potentially 
+  numerous) rows of data.” (according to the <A 
+  href="http://www.w3.org/TR/html4/struct/tables.html#h-11.2.3">HTML 4.01 
+  specification</A>)</P></DIV></DIV>
+  <LI>
+  <DIV class=even>
+  <DIV class=commenter><SPAN class=permalink><A id=c000454 
+  href="http://24ways.org/2005/tables-with-style#c000454">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(10).png" 
+  width=40> <SPAN class=author>Milo van der Leij:</SPAN> 
+  <P>Closing COL tags is <A 
+  href="http://www.w3.org/TR/html4/struct/tables.html#edef-COL">forbidden</A>.</P></DIV></DIV>
+  <LI>
+  <DIV class=odd>
+  <DIV class=commenter><SPAN class=permalink><A id=c000456 
+  href="http://24ways.org/2005/tables-with-style#c000456">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(11).png" 
+  width=40> <SPAN class=author><A href="http://dkbg.f2o.org/" 
+  rel=nofollow>Dylan</A>:</SPAN> 
+  <P>That really is a <STRONG>beautiful</STRONG> table, so red and shiny… In a 
+  time when I’ve been getting a bit tired of CSS, you’ve sparked my interest 
+  again with that well designed table.</P>
+  <P>The COL element doesn’t have a closing tag, it just self closes like an IMG 
+  or BR (br /), so you wouldn’t close it in HTML in just the same fashion you 
+  wouldn’t close a BR in HTML but would in XHTML.</P></DIV></DIV>
+  <LI>
+  <DIV class=even>
+  <DIV class=commenter><SPAN class=permalink><A id=c000458 
+  href="http://24ways.org/2005/tables-with-style#c000458">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(12).png" 
+  width=40> <SPAN class=author>Gerben:</SPAN> 
+  <P>Nice one. Day 17 said to avoid using ’* html’ and two days later it’s back 
+  again. <BR><BR>:-)</P></DIV></DIV>
+  <LI>
+  <DIV class=odd>
+  <DIV class=commenter><SPAN class=permalink><A id=c000459 
+  href="http://24ways.org/2005/tables-with-style#c000459">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(13).png" 
+  width=40> <SPAN class=author>Charles Roper:</SPAN> 
+  <P>Gerben, you beat me to the punch. In light of <A 
+  href="http://tantek.com/log/2005/11.html#d26t1820">Tantek’s excellent 
+  article</A> and day 17, I’m trying to do away with hacks where possible and 
+  the * html hack it a prime candidate. So I modified the CSS a bit and used 
+  </P><CODE>tbody tr.odd td { ... }</CODE> 
+  <P>for the non-compliant browsers and then used</P><CODE>tbody tr.odd &gt; td 
+  { ... }</CODE> 
+  <P>to feed the correct declarations to the good browsers.</P>
+  <P>Seems to work a treat.</P></DIV></DIV>
+  <LI>
+  <DIV class=even>
+  <DIV class=commenter><SPAN class=permalink><A id=c000462 
+  href="http://24ways.org/2005/tables-with-style#c000462">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(2).jpg" 
+  width=40> <SPAN class=author><A href="http://www.dextrose.be/" 
+  rel=nofollow>Dextro</A>:</SPAN> 
+  <P>Apparently there is (even with the png hack) some problem in Internet 
+  Explorer. See the picture to see the difference.<BR><BR><A 
+  href="http://www.flickr.com/photos/dextro/75350660/">Example picture on 
+  flickr</A></P>
+  <P>Sorry, I don’t have time this week to check out what causes the 
+  problem.</P></DIV></DIV>
+  <LI>
+  <DIV class=odd>
+  <DIV class=commenter><SPAN class=permalink><A id=c000464 
+  href="http://24ways.org/2005/tables-with-style#c000464">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(3).png" 
+  width=40> <SPAN class=author><A href="http://www.snook.ca/jonathan/" 
+  rel=nofollow>Jonathan Snook</A>:</SPAN> 
+  <P>Dextro: pretty observant! :) The problem is that IE won’t apply the png 
+  hack filter to a cell that doesn’t have a background set. You’ll notice that 
+  in the PNG hack example on this page, I actually set the background color to 
+  #C00. Let’s hope IE7 gets it right. :)</P></DIV></DIV>
+  <LI>
+  <DIV class=even>
+  <DIV class=commenter><SPAN class=permalink><A id=c000499 
+  href="http://24ways.org/2005/tables-with-style#c000499">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(14).png" 
+  width=40> <SPAN class=author><A href="http://www.richarddavies.us/" 
+  rel=nofollow>Richard Davies</A>:</SPAN> 
+  <P>What? You can style columns?!! Where have I been? This article was worth 
+  reading just for learning that cool trick! Thanks!</P></DIV></DIV>
+  <LI>
+  <DIV class=odd>
+  <DIV class=commenter><SPAN class=permalink><A id=c000534 
+  href="http://24ways.org/2005/tables-with-style#c000534">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(3).jpg" 
+  width=40> <SPAN class=author><A href="http://richardmedek.com/" 
+  rel=nofollow>Richard Medek</A>:</SPAN> 
+  <P>No freakin’ kidding… a week after I skin a mess of calendars this tip pops 
+  up. Thanks for some great advice and a beautiful example.</P></DIV></DIV>
+  <LI>
+  <DIV class=even>
+  <DIV class=commenter><SPAN class=permalink><A id=c000535 
+  href="http://24ways.org/2005/tables-with-style#c000535">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(15).png" 
+  width=40> <SPAN class=author><A href="http://www.crm20.com/" 
+  rel=nofollow>ark</A>:</SPAN> 
+  <P>OK, this is a bit not on the subject, I hope you guys can find a moment to 
+  help me out with my little problem…</P>
+  <P>My strong part is the server-side scripting, so I have a server-side script 
+  that generates images for rounded corners.</P>
+  <P>I have a library of my functions, so I can use this script on all of sites 
+  I develop, from a single file.</P>
+  <P>Point is it’s a single piece of code that generates rounded corners on both 
+  these sites: http://www.haroldauto.com/edit:1:43t243r and 
+  http://www.bmw-speedometer-repair.com/Safety.html</P>
+  <P>If someone could have a look and tell me why does the second site shows a 
+  bit of the wrong image in the top right corner, I would appreciate it very 
+  much.</P>
+  <P>It’s a single script on the server, and CSS/XHTML is not my strong side, I 
+  tried to make the css(at least the relevant css(I thought)), the same on both 
+  sites, but something must be off.</P>
+  <P>thanks,<BR><BR>ark</P></DIV></DIV>
+  <LI>
+  <DIV class=odd>
+  <DIV class=commenter><SPAN class=permalink><A id=c000555 
+  href="http://24ways.org/2005/tables-with-style#c000555">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(16).png" 
+  width=40> <SPAN class=author><A href="http://my.opera.com/fatal" 
+  rel=nofollow>FataL</A>:</SPAN> 
+  <P>Opera for now is the one browser that can style TBODY (tbodies) – in the 
+  example only Opera has border after TBODY.<BR><BR>Opera 9 TP1 has pretty good 
+  rendering for last example.<BR><BR>Too bad that all browsers have so little 
+  support for styling COLs and COLGROUPs.</P></DIV></DIV>
+  <LI>
+  <DIV class=even>
+  <DIV class=commenter><SPAN class=permalink><A id=c000557 
+  href="http://24ways.org/2005/tables-with-style#c000557">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(17).png" 
+  width=40> <SPAN class=author>David Singleton:</SPAN> 
+  <P>Another nice article. </P>
+  <P>Good to see more people being made aware of <CODE>thead, tbody, 
+  tfoot</CODE> and the usefulness of <CODE>cols</CODE> and 
+  <CODE>colgroups</CODE>, although a shame that there’s no mention of very 
+  useful <CODE>caption</CODE> tag or the acessability enhancing 
+  <CODE>summary</CODE> attribute. </P>
+  <P>@ <STRONG>FataL</STRONG>: There’s a <A 
+  href="http://ln.hixie.ch/?start=1070385285&amp;count=1">good reason</A> and 
+  explanation why browsers are limited in col styling, with the exception of IE, 
+  oddly.</P></DIV></DIV>
+  <LI>
+  <DIV class=odd>
+  <DIV class=commenter><SPAN class=permalink><A id=c000599 
+  href="http://24ways.org/2005/tables-with-style#c000599">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(18).png" 
+  width=40> <SPAN class=author><A href="http://doctype.cx/" 
+  rel=nofollow>andrwe</A>:</SPAN> 
+  <P>wow. what a nice table. ... it would be nice to see more links here of 
+  excellent table/data styling.</P></DIV></DIV>
+  <LI>
+  <DIV class=even>
+  <DIV class=commenter><SPAN class=permalink><A id=c000700 
+  href="http://24ways.org/2005/tables-with-style#c000700">§</A></SPAN> <IMG 
+  class=gravatar height=40 alt="" 
+  src="C:\Documents and Settings\cc089503\Desktop\aspnet\24 ways Tables with Style_files\avatar(19).png" 
+  width=40> <SPAN class=author><A href="http://julianschrader.de/" 
+  rel=nofollow>Julian Schrader</A>:</SPAN> 
+  <P>Why didn’t I know we can style columns<IMG alt="" 
+  src="24 ways Tables with Style_files/tables-with-style.htm"> That’s 
+  great!</P></DIV></DIV></LI></OL>
+<P class=note>Commenting on this article is now closed.</P></DIV></DIV></DIV>
+<DIV id=topbar>
+<P><A href="http://24ways.org/" rel=home>24 ways</A>: day 19</P>
+<UL>
+  <LI><A class=y2005 href="http://24ways.org/2005/">2005</A> | 
+  <LI><A class=y2006 href="http://24ways.org/2006/">2006</A> 
+</LI></UL></DIV></BODY></HTML>

@@ -1,0 +1,66 @@
+.coloredcode .cmt {
+	COLOR: #00d502
+}
+.coloredcode .cmtg {
+	COLOR: #666
+}
+.coloredcode .st {
+	COLOR: #f00
+}
+.coloredcode .kwdt {
+	COLOR: #666
+}
+.coloredcode .kwd {
+	COLOR: #00f
+}
+.coloredcode .attr {
+	COLOR: #f00
+}
+.coloredcode .attrv {
+	COLOR: #00f
+}
+.coloredcode .ec {
+	COLOR: #00f
+}
+.coloredcode .tag {
+	COLOR: #800000
+}
+.coloredcode .dir {
+	BACKGROUND: #feff22; COLOR: #000
+}
+.coloredcode .sel {
+	COLOR: #800000
+}
+.coloredcode .val {
+	COLOR: #00f
+}
+.coloredcode .unit {
+	COLOR: #800000
+}
+.coloredcode .sqlcmt {
+	COLOR: #008080
+}
+.coloredcode .sqlkwd {
+	COLOR: #00f
+}
+.coloredcode .sqlkwd2 {
+	COLOR: #f0f
+}
+.coloredcode .sqlkwd3 {
+	COLOR: #999
+}
+.coloredcode .sqlkwd4 {
+	COLOR: #800000
+}
+.coloredcode .num {
+	COLOR: #00f
+}
+.coloredcode .sqlst {
+	COLOR: #008000
+}
+.coloredcode B {
+	FONT-WEIGHT: normal; COLOR: #008080
+}
+.coloredcode {
+	FONT-SIZE: small! important
+}

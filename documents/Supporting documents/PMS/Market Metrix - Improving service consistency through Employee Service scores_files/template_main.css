@@ -1,0 +1,21 @@
+.mmhide_three_cols #mainbody_content {
+	PADDING-RIGHT: 2%; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; min-width: 50%; max-width: 56%
+}
+#sidebar {
+	MARGIN: 0px; WIDTH: 165px! important
+}
+ HTML #sidebar {
+	MARGIN: 0px; WIDTH: 165px! important
+}
+UNKNOWN {
+	PADDING-RIGHT: 2%; PADDING-LEFT: 2%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; min-width: 50%; max-width: 54%
+}
+ HTML .mmhide_three_cols #mainbody_content {
+	MARGIN: 0px 0px 0px 14px; WIDTH: 440px
+}
+.mmhide_three_cols .mmhide_left {
+	PADDING-RIGHT: 2%; WIDTH: 17%! important
+}
+.mmhide_three_cols .mmhide_right {
+	WIDTH: 165px! important; LINE-HEIGHT: 1.4em
+}

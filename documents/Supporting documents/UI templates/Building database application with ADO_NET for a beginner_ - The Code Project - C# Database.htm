@@ -1,0 +1,2702 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0046)http://www.codeproject.com/cs/database/ADO.asp -->
+<HTML><HEAD><TITLE>Building database application with ADO.NET for a beginner. - The Code Project - C# Database</TITLE>
+<META http-equiv=Reply-to content=mailto:webmaster@codeproject.com>
+<META http-equiv=Content-Type content="text/html; charset=ISO-8859-1">
+<META content=en-US name=MS.LOCALE>
+<META 
+content="An article on building database with ADO.NET application for a beginner." 
+name=Description>
+<META content=kbArticle name=Search.TopicType>
+<META content=Yulianto. name=Author>
+<META content="25 Dec 2004 14:00:00 GMT" name=Search.PublishDate>
+<META content="22 Mar 2005 14:00:00 GMT" name=Search.RevisedDate>
+<META 
+content="Free source code, , Visual C++, MFC, Windows, Datagrid, Dataset, ADO.NET" 
+name=keywords>
+<META 
+content="Article content copyright Yulianto., 2004, everthing else Copyright © CodeProject, 1999-2007, All Rights Reserved." 
+name=Copyright><LINK title="CodeProject Lounge Postings" 
+href="http://www.codeproject.com/webservices/LoungeRSS.aspx" 
+type=application/rss+xml rel=alternate><LINK 
+title="CodeProject Latest articles - All topics" 
+href="http://www.codeproject.com/webservices/articlerss.aspx?cat=1" 
+type=application/rss+xml rel=alternate><LINK 
+title="CodeProject Latest articles - MFC / C++" 
+href="http://www.codeproject.com/webservices/articlerss.aspx?cat=2" 
+type=application/rss+xml rel=alternate><LINK 
+title="CodeProject Latest articles - C#" 
+href="http://www.codeproject.com/webservices/articlerss.aspx?cat=3" 
+type=application/rss+xml rel=alternate><LINK 
+title="CodeProject Latest articles - ASP.NET" 
+href="http://www.codeproject.com/webservices/articlerss.aspx?cat=4" 
+type=application/rss+xml rel=alternate><LINK 
+title="CodeProject Latest articles - .NET" 
+href="http://www.codeproject.com/webservices/articlerss.aspx?cat=5" 
+type=application/rss+xml rel=alternate><LINK 
+title="CodeProject Latest articles - VB.NET" 
+href="http://www.codeproject.com/webservices/articlerss.aspx?cat=6" 
+type=application/rss+xml rel=alternate><LINK title="The Code Project" 
+href="http://www.codeproject.com/info/OpenSearch.xml" 
+type=application/opensearchdescription+xml rel=search><LINK href="/favicon.ico" 
+type=image/ico rel=icon><LINK href="/favicon.ico" rel="SHORTCUT ICON"><LINK 
+href="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/global.css" 
+type=text/css rel=stylesheet>
+<SCRIPT language=javascript 
+src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/oncopy.js"></SCRIPT>
+
+<SCRIPT language=javascript>
+if (top != self) top.location.href = location.href;
+if (typeof(DemoUrl) != "undefined")
+	document.write('<me' + 'ta http' + '-equiv="re' + 'fresh" con' + 'tent="1;url=' + DemoUrl + '">');
+</SCRIPT>
+
+<META content="MSHTML 6.00.2900.2995" name=GENERATOR></HEAD>
+<BODY style="MARGIN: 0px" oncopy="return copyCode();" text=black vLink=navy 
+aLink=red link=blue bgColor=white>
+<SCRIPT 
+src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/urchin.js" 
+type=text/javascript>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+_uacct = "UA-1735123-1";
+urchinTracker();
+</SCRIPT>
+
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=HeaderLogo><A href="http://www.codeproject.com/"><IMG height=90 
+      alt=Home 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/codeproject225x90.gif" 
+      border=0></A></TD>
+    <TD class=HeaderBanner><SPAN id=AdBanner4>
+      <SCRIPT language=javascript>document.write("<a href=\"/script/admentor/admentorredir.asp?id=4301&way=ban\" target=_blank><img src=\"/script/ann/ServeImg.aspx?File=%2Fscript%2Fadmentor%2Fimages%2FIronSpeed%5F728x90%5F5%2Egif&C=False&id=4301&cb=2815063\" alt=\"\" border=0 width=728 height=90></a>");</SCRIPT>
+      </SPAN></TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <TABLE class=MemberNavBar cellSpacing=0 cellPadding=5 width="100%" 
+      border=0>
+        <TBODY>
+        <TR vAlign=center>
+          <TD class=smallText style="FONT-WEIGHT: bold">4,690,695 members and 
+            growing! &nbsp; 18,459 now online. </TD>
+          <TD class=userNavText align=right>
+            <SCRIPT type=text/javascript>
+function signup(){document.location.href="/script/profile/modify.asp";}
+function ShowJoin()
+{
+document.write("<input type=\"button\" class=FormButton onclick=\"return signup();\" value='Join!'>");
+document.write("<input type=\"hidden\" name=\"fld_quicksign\" value=\"true\" />");
+}
+</SCRIPT>
+
+            <FORM id=subForm 
+            style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px" 
+            name=subForm action=/script/profile/process_logon.asp 
+            method=post>Email <INPUT class=tinyText id=Email 
+            style="WIDTH: 100px" name=Email> Password <INPUT class=tinyText 
+            id=Password style="WIDTH: 60px" type=password name=Password> <INPUT class=FormButton type=submit value="Sign in">
+            <SCRIPT type=text/javascript>ShowJoin();</SCRIPT>
+             <INPUT id=RememberMeCheck type=checkbox CHECKED name=cookie><LABEL 
+            for=RememberMeCheck>Remember me?</LABEL> <A 
+            href="http://www.codeproject.com/script/profile/forgot.asp"><IMG 
+            height=16 
+            src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/HLP.gif" 
+            width=16 align=absMiddle border=0> Password problem?</A> 
+        </FORM></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <TABLE class=SiteNavBar id=tblSiteToolbar cellSpacing=0 cellPadding=0>
+        <TBODY>
+        <TR>
+          <TD><A href="http://www.codeproject.com/">Home</A></TD>
+          <TD noWrap><A 
+            href="http://www.codeproject.com/index.asp?cat=2">MFC/C++</A></TD>
+          <TD><A href="http://www.codeproject.com/index.asp?cat=3">C#</A></TD>
+          <TD class=SelCat noWrap><A 
+            href="http://www.codeproject.com/index.asp?cat=4">ASP.NET</A></TD>
+          <TD noWrap><A 
+            href="http://www.codeproject.com/index.asp?cat=6">VB.NET</A></TD>
+          <TD noWrap><A 
+            href="http://www.codeproject.com/index.asp?cat=8">Architect</A></TD>
+          <TD noWrap><A 
+            href="http://www.codeproject.com/index.asp?cat=9">SQL</A></TD>
+          <TD noWrap><A href="http://www.codeproject.com/index.asp?cat=1">All 
+            Topics</A></TD>
+          <TD width="100%">&nbsp;</TD>
+          <TD>
+            <DIV id=MenuPos 
+            style="WIDTH: 300px; POSITION: relative; TOP: 1px; HEIGHT: 22px">
+            <TABLE id=MPH 
+            style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px" 
+            cellSpacing=0 cellPadding=0 width=300>
+              <TBODY>
+              <TR vAlign=center>
+                <TD 
+                style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" 
+                noWrap><A 
+                  href="http://www.codeproject.com/info/faq.asp">Help!</A></TD>
+                <TD 
+                style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" 
+                noWrap><A 
+                  href="http://www.codeproject.com/info/latest.asp">Articles</A></TD>
+                <TD 
+                style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" 
+                noWrap><A 
+                  href="http://www.codeproject.com/script/comments/forums.asp">Message 
+                  Boards</A></TD>
+                <TD 
+                style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" 
+                noWrap><A 
+                  href="http://www.codeproject.com/lounge.asp">Lounge</A></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE>
+      <SCRIPT type=text/javascript>function Go(){return}</SCRIPT>
+
+      <SCRIPT 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/cpmenu_var.js" 
+      type=text/javascript></SCRIPT>
+
+      <SCRIPT 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/menu10_com.js" 
+      type=text/javascript></SCRIPT>
+
+      <SCRIPT type=text/javascript>
+var MPH = document.getElementById("MPH");
+if (MPH) MPH.style.display='none';
+</SCRIPT>
+    </TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <TABLE class=ArticleHeader cellSpacing=0 cellPadding=3 width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD class=smallText style="PADDING-RIGHT: 10px"><A 
+            href="http://www.codeproject.com/?cat=4">ASP.NET</A>, <A 
+            href="http://www.codeproject.com/?cat=1">All Topics</A>, <A 
+            href="http://www.codeproject.com/?cat=3">C#</A>, <A 
+            href="http://www.codeproject.com/?cat=5">.NET</A> &gt;&gt; <A 
+            href="http://www.codeproject.com/cs/database/">C# Database</A> 
+            &gt;&gt; <A 
+            href="http://www.codeproject.com/cs/database/#General">General</A> 
+            &nbsp;(<SPAN class=SmallText 
+            style="FONT-WEIGHT: bold; COLOR: green">Beginner</SPAN>)<BR><BR>
+            <DIV style="FONT-WEIGHT: bold; FONT-SIZE: 16pt">Building database 
+            application with ADO.NET for a beginner.</DIV><B>By <A 
+            href="http://www.codeproject.com/script/Articles/list_articles.asp?userid=389953">Yulianto.</A></B>. 
+            <BR><BR>
+            <DIV style="FONT-SIZE: 12px">An article on building database with 
+            ADO.NET application for a beginner.</DIV></TD>
+          <TD class=smallText style="WIDTH: 200px">C#, C++ (VC7)<BR>Windows 
+            (Win2K, WinXP), .NET (.NET 1.1)<BR>Win32, VS (VS.NET2003), 
+            ADO.NET<BR>DB, Dev<BR><SPAN 
+            style="PADDING-RIGHT: 2ex">Posted</SPAN>: <B>26 Dec 
+            2004</B><BR><SPAN style="PADDING-RIGHT: 0.3ex">Updated</SPAN>: <B>23 
+            Mar 2005</B><BR><SPAN style="PADDING-RIGHT: 3ex">Views</SPAN>: 
+            <B>72,587</B> </TD></TR></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+  <TBODY>
+  <TR vAlign=top>
+    <TD class=LHNavBar rowSpan=2><!-- Yes, there are IE hacks that will allow us to create a min-width DIV 
+	     (eg http://www.webreference.com/programming/min-width/) but I couldn't
+	     be arsed. Wait for it in v2.0 -->
+      <DIV class=FeatureBlockHeader>Announcements</DIV>
+      <DIV class="FeatureBlockContent RHFeatureBar">
+      <DIV style="PADDING-TOP: 5px"><IMG 
+      style="PADDING-RIGHT: 10px; FLOAT: left; MARGIN: 12px 3px 12px 0px" 
+      height=12 alt="VS 2008" 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/VS2008_sm.gif" 
+      width=20> <A href="http://www.codeproject.com/Feature/VS2008/">Visual 
+      Studio 2008<BR>competition.<BR>$25,000 in prizes</A></DIV>
+      <DIV style="PADDING-TOP: 3px"><IMG 
+      style="MARGIN-LEFT: 2px; MARGIN-RIGHT: 5px" height=16 alt=Jobs 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/staff_sm.gif" 
+      width=12 align=absMiddle> <A 
+      href="http://www.codeproject.com/info/jobs/">http://www.codeproject.com/info/jobs/</A></DIV>
+      <DIV style="PADDING-TOP: 3px"><IMG 
+      style="MARGIN-LEFT: 2px; MARGIN-RIGHT: 5px" height=20 alt=Comp 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/prize_winner_sm.gif" 
+      width=10 align=absMiddle> <A 
+      href="http://www.codeproject.com/script/competitions/monthly/">Monthly 
+      Competition</A></DIV></DIV>
+      <CENTER>
+      <SCRIPT language=javascript>document.write("<a href=\"/script/admentor/admentorredir.asp?id=4420&way=ban\" target=_blank><img src=\"/script/ann/ServeImg.aspx?File=%2Fscript%2Fadmentor%2Fimages%2Fnsoftware%5F160x600%2Egif&C=False&id=4420&cb=2815072\" alt=\"\" border=0 width=160 height=600></a>");</SCRIPT>
+      </CENTER><BR><BR><IMG height=1 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+      width=160> </TD>
+    <TD width="100%">
+      <TABLE class=SearchHeaderBar cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD vAlign=center noWrap align=right width="60%">
+            <FORM style="MARGIN: 0px" name=Search action=/info/search.asp 
+            method=post><B>Search &nbsp;</B><INPUT class=smallText 
+            style="WIDTH: 200px" name=target> <SELECT 
+            style="FONT-WEIGHT: bold; FONT-SIZE: 8pt" name=st> <OPTION 
+              value=kw selected>Articles</OPTION> <OPTION 
+              value=au>Authors</OPTION></SELECT> <INPUT style="FONT-WEIGHT: bold; FONT-SIZE: 8pt" type=submit value=" Go! "> 
+            &nbsp; </FORM></TD>
+          <TD class=tinyText noWrap><A 
+            href="http://www.codeproject.com/info/search.asp">Advanced 
+            Search</A><BR><A 
+            href="http://www.codeproject.com/script/articles/sections.asp">Sitemap</A> 
+          </TD></TR></TBODY></TABLE>
+      <TABLE width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD class=SmallText noWrap>
+            <TABLE>
+              <TBODY>
+              <TR>
+                <TD class=smallText noWrap><IMG 
+                  src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/print.gif" 
+                  align=absMiddle> <A 
+                  href="http://www.codeproject.com/cs/database/ADO.asp?print=true" 
+                  target=_print>Print</A></TD>
+                <TD class=smallText noWrap><IMG 
+                  src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/sitebuild_icon.gif" 
+                  align=absMiddle><A 
+                  href="http://www.codeproject.com/script/submit/ReportProblem.asp?GUID=ADO%2Fcs%2Fdatabase12%2F26%2F2004">Broken 
+                  Article?</A></TD>
+                <TD class=smallText noWrap><IMG 
+                  src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/link.gif" 
+                  align=absMiddle><A 
+                  href="http://www.codeproject.com/script/profile/add_bookmark.asp?t=0&amp;ct=%2Fcs%2Fdatabase%2FADO%2Easp&amp;guid=ADO%2Fcs%2Fdatabase12%2F26%2F2004">Bookmark</A></TD>
+                <TD class=smallText noWrap><IMG 
+                  src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/mail_small.gif" 
+                  align=absMiddle> <A 
+                  href="http://www.codeproject.com/cs/database/ADO.asp#__comments">Discuss</A></TD>
+                <TD class=smallText noWrap><IMG 
+                  src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/mail.gif" 
+                  align=absMiddle> <A 
+                  href="http://www.codeproject.com/script/recommend/form.asp?guid=ADO%2Fcs%2Fdatabase12%2F26%2F2004">Send 
+                  to a friend</A></TD></TR></TBODY></TABLE></TD>
+          <TD noWrap align=right><A name=__top></A>
+            <TABLE>
+              <TBODY>
+              <TR>
+                <TD class=smallText align=right>25 votes for this article.</TD>
+                <TD>
+                  <TABLE cellSpacing=0 cellPadding=0 border=2>
+                    <TBODY>
+                    <TR>
+                      <TD><IMG height=5 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/red.gif" 
+                        width=20 border=0></TD>
+                      <TD><IMG height=5 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/red.gif" 
+                        width=20 border=0></TD>
+                      <TD><IMG height=5 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/red.gif" 
+                        width=20 border=0></TD>
+                      <TD><IMG height=5 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/red.gif" 
+                        width=6 border=0><IMG height=5 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/white.gif" 
+                        width=14 border=0></TD>
+                      <TD><IMG height=5 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/white.gif" 
+                        width=20 border=0></TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD class=smallText align=right colSpan=2><A 
+                  title="Calculated as rating x Log10(# votes)" 
+                  href="http://www.codeproject.com/script/articles/top_articles.asp?st=2">Popularity: 
+                  4.65</A>. Rating: <B>3.32</B> out of 
+        5.</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=ArticlePane><SPAN id=intelliTXT>
+      <DIV id=contentdiv><!-- Article Starts -->
+      <UL class=download>
+        <LI><A 
+        href="http://www.codeproject.com/cs/database/ADO/ADO_demo.zip">Download 
+        demo project - 20.0 Kb</A> 
+        <LI><A 
+        href="http://www.codeproject.com/cs/database/ADO/ado.zip">Download 
+        application - 18.7 Kb</A></LI></UL>
+      <H2>Using the code</H2>
+      <P>To build an application which can view, insert, add, and delete 
+      record(s), we will need Connection, DataAdapter, and Command object. There 
+      are four kinds of connection, adapter, and command objects, which are:</P>
+      <OL>
+        <LI>Data provider for SQL server version 7.0 or later. 
+        <LI>Data provider for OLE DB. 
+        <LI>Data provider for ODBC. 
+        <LI>Data provider for Oracle.</LI></OL>
+      <P>So, if you're using SQL server, you will then use 
+      <CODE>SqlConnection</CODE>, <CODE>SqlDataAdapter</CODE>, and 
+      <CODE>SqlCommand</CODE>.</P>
+      <OL>
+        <LI><B>Creating Connection, DataAdapter, and Command object</B> 
+        <P>To easily build these things, add a new connection at Server 
+        Explorer. After successfully adding a new connection, choose the table 
+        which we're gonna work on from the connection, and drag it to your form. 
+        It will automatically create one connection, one DataAdapter, and four 
+        Command objects. Check it out on your code. The four Command objects are 
+        executed when you want to select, insert, update, or delete record(s). 
+        You will need primary key on your table to have these four commands. 
+        Otherwise, you won't have update and delete Command objects.</P>
+        <P>To build it with the hard way (manually):</P><PRE lang=cs>        
+        OleDbConnection myConnection = <SPAN class=cs-keyword>new</SPAN> OleDbConnection(ConnectionString);
+        OleDbCommand myCommand = <SPAN class=cs-keyword>new</SPAN> OleDbCommand(SelectQuery,myConnection);
+        myConnection.Open();
+        OleDbDataAdapter adapter=<SPAN class=cs-keyword>new</SPAN> OleDbDataAdapter();
+        adapter.SelectCommand = myCommand;</PRE>
+        <LI><B>Prepare the container where, we will put our table.</B> 
+        <P>To view your table, there are numerous ways. Here, I will use the 
+        <CODE>DataGrid</CODE>, and the <CODE>TextBox</CODE> to view our record. 
+        When using the <CODE>TextBox</CODE>, we will be using Buttons to 
+        navigate from one record to another.</P>
+        <LI><B>Binding the control.</B> 
+        <P>Select your DataAdapter, right click, and choose Generate 
+        <CODE>DataSet</CODE>. <CODE>DataSet</CODE> is a representation of 
+        in-memory cache of data. In another word, it's a copy of your database. 
+        It can contain more than one table for one <CODE>DataSet</CODE>. You 
+        must first fill the <CODE>DataSet</CODE> from your DataAdapter. Using 
+        that <CODE>DataSet</CODE>, you can fill the <CODE>DataGrid</CODE>:</P><PRE lang=cs>     oleDbDataAdapter1.Fill(dataSet11,<SPAN class=cpp-string>"Student"</SPAN>);
+     dataGrid1.SetDataBinding(dataSet11,<SPAN class=cpp-string>"Student"</SPAN>);</PRE>
+        <P>The best place to place that binding is when your form loads (where 
+        else?).</P>
+        <P>To view the record at the <CODE>TextBox</CODE>, we will use the help 
+        of DataReader object. There might be an easy way for this. Tell me, when 
+        you find it. Here I will create the object with the name 
+        <CODE>reader</CODE> of type 
+        <CODE>System.Data.OleDb.OleDbDataReader</CODE>. The code to read the 
+        DataReader and put it into the <CODE>TextBox</CODE> follows:</P><PRE lang=cs>        oleDbConnection1.Open();
+        reader=oleDbSelectCommand1.ExecuteReader();
+        reader.Read();
+        nim.Text =reader.GetInt32(<SPAN class=cs-literal>0</SPAN>).ToString();
+        name.Text =reader.GetString(<SPAN class=cs-literal>1</SPAN>); oleDbConnection1.Close();</PRE>
+        <LI><B>Navigating through the records</B> 
+        <P>To navigate through records, I created a new variable representing 
+        the present record position, <CODE>index</CODE>. To get to a particular 
+        position, simply read the DataReader until reaching the record that we 
+        want.</P><PRE lang=cs>        <SPAN class=cs-keyword>for</SPAN>(<SPAN class=cs-keyword>int</SPAN> i=<SPAN class=cs-literal>0</SPAN>;i &lt; index;i++) 
+            reader.Read(); </PRE>
+        <LI><B>Update, delete, and add the DataGrid</B> 
+        <P>To save after updating, inserting, and deleting from the 
+        <CODE>DataGrid</CODE>, get the changes made to the <CODE>DataGrid</CODE> 
+        by executing <CODE>GetChanges()</CODE> from the table of the 
+        <CODE>DataSet</CODE>. When you do something to the 
+        <CODE>DataGrid</CODE>, it willl also affect the <CODE>DataSet</CODE>. 
+        Next, do the update to the DataAdapter object. This will save your 
+        changes to the database.</P><PRE lang=cs>        DataTable table=dataSet11.Tables[<SPAN class=cpp-string>"Student"</SPAN>].GetChanges();    
+        <SPAN class=cs-keyword>if</SPAN>(table!=<SPAN class=cs-keyword>null</SPAN>)   
+        {
+            oleDbDataAdapter1.Update(table);   
+            dataSet11.Tables[<SPAN class=cpp-string>"Student"</SPAN>].AcceptChanges();
+        }</PRE>
+        <P><CODE>AcceptChanges()</CODE> will clear the changes in 
+        <CODE>DataSet</CODE>, and makes it a clean <CODE>DataSet</CODE>.</P>
+        <P>To delete a record from the <CODE>DataGrid</CODE>, I use popup menu. 
+        When the user clicks on the <CODE>DataGrid</CODE>, find which row is 
+        being clicked with:</P><PRE lang=cs>        <SPAN class=cs-keyword>if</SPAN>(dataGrid1.HitTest(e.X, e.Y).Type==
+        System.Windows.Forms.DataGrid.HitTestType.Cell
+        ||dataGrid1.HitTest(e.X, e.Y).Type==
+        System.Windows.Forms.DataGrid.HitTestType.RowHeader)
+        {
+            dataGrid1.Select(dataGrid1.HitTest(e.X, e.Y).Row); 
+            dataGridRow=dataGrid1.HitTest(e.X, e.Y).Row; 
+        }</PRE>
+        <P><CODE>HitTest</CODE> will get information, such as row and column 
+        number of a clicked point of a grid, about the grid using a specific 
+        point, in this case, the mouse position when it clicks. After getting 
+        the row index, deleting the record is a piece of cake.</P><PRE lang=cs>dataSet11.Tables[<SPAN class=cpp-string>"Student"</SPAN>].Rows[dataGridRow].Delete();</PRE>
+        <LI><B>Update, delete, and add by another method</B> 
+        <P>To delete, when using the <CODE>TextBox</CODE> way, get the table and 
+        the row index of the row we're going to delete from the 
+        <CODE>index</CODE> we've created before. </P><PRE lang=cs>        dataSet11.Tables[<SPAN class=cpp-string>"Student"</SPAN>].Rows[index].Delete();  
+        <SPAN class=cs-comment>//save changes</SPAN>
+        DataTable table=dataSet11.Tables[<SPAN class=cpp-string>"Student"</SPAN>].GetChanges();    
+        <SPAN class=cs-keyword>if</SPAN>(table!=<SPAN class=cs-keyword>null</SPAN>)   
+        {
+            oleDbDataAdapter1.Update(table);   
+            dataSet11.Tables[<SPAN class=cpp-string>"Student"</SPAN>].AcceptChanges();
+        }
+</PRE>
+        <P>The code for updating:</P><PRE lang=cs>        DataRow row=dataSet11.Tables[<SPAN class=cpp-string>"Student"</SPAN>].Rows[index-<SPAN class=cs-literal>1</SPAN>];
+        row[<SPAN class=cs-literal>0</SPAN>]=nim.Text; 
+        row[<SPAN class=cs-literal>1</SPAN>]=name.Text;
+        <SPAN class=cs-comment>//save changes</SPAN>
+        DataTable table=dataSet11.Tables[<SPAN class=cpp-string>"Student"</SPAN>].GetChanges();    
+        <SPAN class=cs-keyword>if</SPAN>(table!=<SPAN class=cs-keyword>null</SPAN>)   
+        {
+            oleDbDataAdapter1.Update(table);   
+            dataSet11.Tables[<SPAN class=cpp-string>"Student"</SPAN>].AcceptChanges();
+        }</PRE>
+        <P>The code for adding:</P><PRE lang=cs>        DataRow row;
+        DataTable table=
+        dataSet11.Tables[<SPAN class=cpp-string>"Student"</SPAN>]; row=
+        table.NewRow(); row[<SPAN class=cs-literal>0</SPAN>]=nim.Text;
+        row[<SPAN class=cs-literal>1</SPAN>]=name.Text;
+        table.Rows.Add(row);
+        <SPAN class=cs-comment>//save changes</SPAN>
+        DataTable table=dataSet11.Tables[<SPAN class=cpp-string>"Student"</SPAN>].GetChanges();    
+        <SPAN class=cs-keyword>if</SPAN>(table!=<SPAN class=cs-keyword>null</SPAN>)   
+        {
+            oleDbDataAdapter1.Update(table);   
+            dataSet11.Tables[<SPAN class=cpp-string>"Student"</SPAN>].AcceptChanges();
+        }</PRE>
+        <P>You can delete, update, and delete with another way. Remember the 
+        Command object above? For example, if you're going to delete a record 
+        with the <CODE>StudentNo</CODE> 5 and with the name "Charlie", set the 
+        parameter of the command first, and then execute the command.</P><PRE lang=cs>        oleDbConnection1.Open();  
+        OleDbParameter myParm = 
+                 oleDbDeleteCommand1.Parameters[<SPAN class=cpp-string>"Original_StudentNo"</SPAN>];
+        myParm.Value = <SPAN class=cs-literal>5</SPAN>;
+        myParm=oleDbDeleteCommand1.Parameters[<SPAN class=cpp-string>"Original_Name"</SPAN>]; 
+        myParm.Value = <SPAN class=cpp-string>"Charlie"</SPAN>;
+        myParm=oleDbDeleteCommand1.Parameters[<SPAN class=cpp-string>"Original_Name1"</SPAN>]; 
+        myParm.Value = <SPAN class=cpp-string>"Charlie"</SPAN>;
+        oleDbDeleteCommand1.ExecuteNonQuery();  
+        oleDbConnection1.Close();</PRE></LI></OL>
+      <H2>Conclusion</H2>
+      <P>You can see <CODE>DataSet</CODE> as a copy of your tables, DataAdapter 
+      as your database, and DataReader as collection of rows. You can manipulate 
+      record(s), through <CODE>DataSet</CODE>, get the changes, and finally save 
+      it.</P><!-- Article Ends --></DIV></SPAN>
+      <SCRIPT 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/togglePre.js" 
+      type=text/javascript></SCRIPT>
+
+      <H2>About Yulianto.</H2>
+      <DIV style="OVERFLOW: hidden">
+      <TABLE border=0>
+        <TBODY>
+        <TR vAlign=top>
+          <TD class=smallText noWrap><IMG 
+            src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/{B2C2FA38-05E6-4532-A601-789445FBD4CB}.jpg"><BR></TD>
+          <TD class=smallText>Learned programming since elementry school with 
+            QBASIC. Until now have learned a bit about VB, java, html, php, asp, 
+            delphi. He is taking his master degree in finance. Currently working 
+            for his <A href="http://www.solusiwebindo.com/">own business (desain 
+            web)</A>, <A href="http://www.glorindo.com/">Glorindo</A> and stock 
+            trading. Own a website about <A 
+            href="http://www.stockpickguide.com/">Stock Pick </A>and also <A 
+            href="http://www.kartubisnis.com/">iklan gratis </A>website.
+            <P class=smallText>Click <A 
+            href="http://www.codeproject.com/script/profile/whos_who.asp?vt=arts&amp;id=389953">here</A> 
+            to view Yulianto.'s online 
+profile.</P></TD></TR></TBODY></TABLE></DIV><BR>
+      <TABLE cellPadding=4 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top>
+          <TD width="100%">
+            <H2>Other popular C# Database articles:</H2>
+            <UL>
+              <LI><A 
+              href="http://www.codeproject.com/cs/database/sqldodont.asp">SQL 
+              Server DO's and DONT's</A>
+              <DIV class=smallText>SQL Server database best practices</DIV>
+              <LI><A 
+              href="http://www.codeproject.com/cs/database/SqlInjectionAttacks.asp">SQL 
+              Injection Attacks and Some Tips on How to Prevent Them</A>
+              <DIV class=smallText>Discusses various aspects of SQL Injection 
+              attacks, what to look for in your code, and how to secure it 
+              against SQL Injection attacks.</DIV>
+              <LI><A 
+              href="http://www.codeproject.com/cs/database/CsvReader.asp">A Fast 
+              CSV Reader</A>
+              <DIV class=smallText>A reader that provides fast, non-cached, 
+              forward-only access to CSV data</DIV>
+              <LI><A 
+              href="http://www.codeproject.com/cs/database/DatabaseAcessWithAdoNet1.asp">Using 
+              ADO.NET for beginners</A>
+              <DIV class=smallText>ADO.NET for beginners.</DIV></LI></UL></TD>
+          <TD width=360>
+            <SCRIPT language=javascript>document.write("<a href=\"/script/admentor/admentorredir.asp?id=4306&way=ban\" target=_blank><img src=\"/script/ann/ServeImg.aspx?File=%2Fscript%2Fadmentor%2Fimages%2FIronSpeed%5F300x250%5F5%2Egif&C=False&id=4306&cb=2815078\" alt=\"\" border=0 width=300 height=250></a>");</SCRIPT>
+          </TD></TR></TBODY></TABLE><BR>
+      <SCRIPT language=JavaScript 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/addto.js" 
+      type=text/javascript></SCRIPT>
+
+      <SCRIPT language=JavaScript type=text/javascript>
+var addtoMethod=1;
+var AddURL = document.location.href;
+var AddTitle = escape(document.title);
+DrawLinks(100, 0, "smallText", "addto") 
+</SCRIPT>
+      <BR><BR>
+      <FORM action=/script/rating/code/app/insert_vote.asp method=post><INPUT 
+      type=hidden value=ADO/cs/database12/26/2004 name=vote_name> <INPUT 
+      type=hidden value=/cs/database/ADO.asp name=goal> 
+      <TABLE cellSpacing=0 cellPadding=1 width="100%" bgColor=#ff9900 
+        border=0><TBODY>
+        <TR>
+          <TD width="100%">
+            <TABLE cellSpacing=0 cellPadding=4 width="100%" bgColor=#fbedbb 
+            border=0>
+              <TBODY>
+              <TR>
+                <TD class=smalltext vAlign=center>[<A 
+                  href="http://www.codeproject.com/cs/database/ADO.asp#__top">Top</A>]</TD>
+                <TD vAlign=center noWrap align=right><A 
+                  href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp"><B>Sign 
+                  in</B></A> to vote for this article:&nbsp;&nbsp;&nbsp;&nbsp; 
+                  <I>Poor</I><INPUT style="disabled: true" type=radio value=1 
+                  name=rate><INPUT style="disabled: true" type=radio value=2 
+                  name=rate><INPUT style="disabled: true" type=radio value=3 
+                  name=rate><INPUT style="disabled: true" type=radio value=4 
+                  name=rate><INPUT style="disabled: true" type=radio value=5 
+                  name=rate><I>Excellent</I>&nbsp;&nbsp;<INPUT class=FormButton style="disabled: true" type=submit value=Vote> 
+                </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FORM>
+      <CENTER>
+      <DIV style="MARGIN: 10px"><SPAN id=AdBanner5>
+      <SCRIPT language=javascript>document.write("<a href=\"/script/admentor/admentorredir.asp?id=4308&way=ban\" target=_blank><img src=\"/script/ann/ServeImg.aspx?File=%2Fscript%2Fadmentor%2Fimages%2FIronSpeed%5F468x60%5F1%2Egif&C=False&id=4308&cb=2815067\" alt=\"\" border=0 width=468 height=60></a>");</SCRIPT>
+      </SPAN></DIV></CENTER><A name=__comments></A>
+      <SCRIPT language=JavaScript>
+var Selected = "";
+
+var AdTime = new Date();
+
+
+// Ensures the expanded message appears reasonably close to where 
+// it should appear: on screen, and if possible, under the mouse cursor.
+function SwitchMessage(e)
+{
+   if ( !e ) e = window.event;
+   var target = e.target ? e.target : e.srcElement;
+
+   // is it a post?
+   while ( target && target.id != 'DynMessLink' )
+      target = target.parentNode;
+   if ( !target || target.id != 'DynMessLink' )
+      return;
+
+   if (Selected)
+   {
+      var body = document.getElementById(Selected + "_h1");
+      if (body)
+         body.style.display = 'none';
+      var head = document.getElementById(Selected + "_h0");
+      if (head)
+         head.bgColor = '#FEF9E7';
+   }
+
+   if (Selected == target.name) // just collapse
+      Selected="";
+   else
+   {
+      Selected = target.name;
+      var body = document.getElementById(Selected + "_h1");
+      if (body)
+      {
+         if (body.style.display=='none')
+            body.style.display='';
+         else
+            body.style.display = 'none';
+      }
+      var head = document.getElementById(Selected + "_h0");
+      if (head)
+         head.bgColor = '#99CCFF';
+
+      if ( body && head && body.style.display != 'none' )
+      {
+         // the bit that keeps the post on-screen and under the cursor
+         //var dif = (getRealPos(head, "Top") + head.offsetHeight/2) - (document.body.scrollTop+e.clientY);
+         //document.body.scrollTop += dif;
+         document.body.scrollTop = getRealPos(head, "Top") - document.body.clientHeight/10;
+         EnsureMessageVisible(target.name, true);
+      }
+   }
+
+   if ( e.preventDefault )
+      e.preventDefault();
+   else
+      e.returnValue = false;
+   return false;
+}
+
+// does its best to make a message visible on-screen (vs. scrolled off somewhere).
+function EnsureMessageVisible(msgID, bShowTop) {
+   var msgHeader = document.getElementById(msgID + "_h0");
+   var msgBody = document.getElementById(msgID + "_h1");
+
+   // determine scroll position of top and bottom
+   var scrollContainer = document.body;
+   var top = getRealPos(msgHeader, 'Top');
+   var bottom = getRealPos(msgBody, 'Top') + msgBody.offsetHeight;
+
+   // if not already visible, scroll to make it so
+   if ( scrollContainer.scrollTop > top && !bShowTop)
+      scrollContainer.scrollTop = top - document.body.clientHeight/10;
+   if ( scrollContainer.scrollTop+scrollContainer.clientHeight < bottom )
+      scrollContainer.scrollTop = bottom-scrollContainer.clientHeight;
+   if ( scrollContainer.scrollTop > top && bShowTop)
+      scrollContainer.scrollTop = top - document.body.clientHeight/10;
+}
+
+// utility
+function getRealPos(i,which)
+{
+   iPos = 0
+   while (i!=null)
+   {
+      iPos += i["offset" + which];
+      i = i.offsetParent;
+   }
+   return iPos
+}
+
+
+</SCRIPT>
+
+      <DIV id=_MessageBoard onclick=SwitchMessage(event)>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#ff9900 
+        border=0><TBODY>
+        <TR>
+          <TD width="100%">
+            <TABLE id=ForumTable cellSpacing=1 cellPadding=0 width="100%" 
+            bgColor=#ff9900 border=0>
+              <TBODY>
+              <TR>
+                <TD class=smallText bgColor=#ffcc99><B 
+                  class=forum_hilite>Note</B>: You must <A 
+                  href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp"><B>Sign 
+                  in</B></A> to post to this message board.</TD></TR>
+              <FORM 
+              action=/script/comments/app/do_filtermessages.asp?main=/cs/database/ADO.asp&amp;df=100&amp;forumid=138791 
+              method=post>
+              <TR>
+                <TD>
+                  <TABLE cellSpacing=0 cellPadding=3 width="100%" bgColor=white 
+                  border=0>
+                    <TBODY>
+                    <TR bgColor=#fbedbb>
+                      <TD class=smalltext noWrap><A 
+                        href="http://www.codeproject.com/script/comments/faq.asp"><IMG 
+                        height=16 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/forum_faq.gif" 
+                        width=16 align=absMiddle border=0> 
+                      <B>FAQ</B></A>&nbsp;</TD>
+                      <TD class=smalltext vAlign=top noWrap 
+                        align=right>Message score threshold <SELECT 
+                        class=smalltext size=1 name=noise><OPTION 
+                          value=1>1.0</OPTION> <OPTION value=2>2.0</OPTION> 
+                          <OPTION value=3 selected>3.0</OPTION> <OPTION 
+                          value=4>4.0</OPTION> <OPTION 
+                        value=5>5.0</OPTION></SELECT>&nbsp;&nbsp;</TD>
+                      <TD class=smalltext vAlign=center noWrap align=right 
+                      colSpan=2><A 
+                        href="http://www.codeproject.com/script/comments/search_comments.asp?forumid=138791"><IMG 
+                        height=15 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/forum_search.gif" 
+                        width=16 border=0> Search comments</A> &nbsp;</TD>
+                      <TD vAlign=top align=right><INPUT class=FormButton type=submit value="Set Options" name=submit></TD></TR>
+                    <TR bgColor=#ff9900>
+                      <TD width="100%">&nbsp;</TD>
+                      <TD class=smalltext vAlign=top noWrap align=right>View 
+                        <SELECT class=smalltext size=1 name=expand><OPTION 
+                          value=0>Normal (slow)</OPTION> <OPTION value=2>Preview 
+                          (slow)</OPTION> <OPTION value=5 selected>Message 
+                          View</OPTION> <OPTION value=6>Topic View</OPTION> 
+                          <OPTION value=1>Thread View</OPTION> <OPTION 
+                          value=3>Expanded</OPTION></SELECT>&nbsp;&nbsp;</TD>
+                      <TD class=smalltext vAlign=top noWrap>Per page <SELECT 
+                        class=smalltext size=1 name=perpage><OPTION 
+                          value=10>10</OPTION> <OPTION value=25 
+                          selected>25</OPTION> <OPTION value=50>50 (must 
+                          logon)</OPTION></SELECT></TD>
+                      <TD colSpan=2>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></FORM>
+              <TR bgColor=#fbedbb>
+                <TD><A name=xx0xx></A>
+                  <TABLE cellPadding=2 width="100%" bgColor=#fbedbb border=0>
+                    <TBODY>
+                    <TR>
+                      <TD>&nbsp;</TD>
+                      <TD class=messagetitle>Msgs 1 to 25 of 25 (Total: 25) 
+                        (<A 
+                        href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791">Refresh</A>)</TD>
+                      <TD noWrap align=right><FONT class=messagetitle><SPAN 
+                        class=HoverLink>First</SPAN> <SPAN 
+                        class=HoverLink>Prev</SPAN> <SPAN 
+                        class=HoverLink>Next</SPAN> <SPAN 
+                        class=HoverLink>&nbsp;&nbsp;&nbsp;&nbsp;</SPAN> 
+                      </FONT></TD></TR></TBODY></TABLE></TD></TR>
+              <TR bgColor=white>
+                <TD>
+                  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=2 bgColor=#fbedbb 
+                        border=0>
+                          <TBODY>
+                          <TR>
+                            <TD class=messagetitle 
+                            width="100%">Subject&nbsp;</TD>
+                            <TD class=messagetitle noWrap 
+                            width=140>Author&nbsp;</TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT 
+                              class=messagetitle>Date&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=5 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=2125559_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx2125559xx></A><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_question.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=2125559#xx2125559xx" 
+                              name=2125559><B>Dragging table onto 
+form</B></A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=4251616"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle><B>en3rg9</B>&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle><B>15:02 11 Jul 
+                              '07</B>&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=2125559_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>Thank 
+                                you for your article, it really helped me since 
+                                I am completely new to C# and programming in 
+                                general. However, I didn't manage to fully 
+                                understand how I was to drag the table in the 
+                                database that I am going to work on onto the 
+                                form to create the Data Adapter, Connection and 
+                                Command. Thank you. 
+                                <BR><BR>Simon<BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=2125559&amp;forumid=138791&amp;select=2125559#xx2125559xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=2125559#xx2125559xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=2125559#xx2125559xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=2130464_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx2130464xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=18><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_answer.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=2130464#xx2130464xx" 
+                              name=2130464>Re: Dragging table onto form</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=389953"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>Yulianto.&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>10:40 14 Jul 
+                              '07&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=2130464_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=18><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>Choose 
+                                the table from Server Explorer, and drag drop it 
+                                to your form. <BR><BR>
+                                <DIV class=ForumSig>
+                                <HR>
+                                <ITALIC><SMALL>Work hard, Work 
+                                effectively.<BR><A 
+                                href="http://www.stockpickguide.com/" 
+                                target=_blank>Stock 
+                                Pick</A></DIV><BR>&nbsp;</FONT></SMALL></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=2125559&amp;forumid=138791&amp;select=2130464#xx2130464xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=2130464#xx2130464xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=2125559#xx2125559xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=2133240_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx2133240xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=36><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=2133240#xx2133240xx" 
+                              name=2133240>Re: Dragging table onto form</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=4251616"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>en3rg9&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>14:56 16 Jul 
+                              '07&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=2133240_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=36><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>Thanks 
+                                for your reply<BR>I am using SQL Server and can 
+                                only find a database explorer. Is that the same 
+                                as Server Explorer? When I try to drag the table 
+                                in the database in the database explorer to the 
+                                designer of the form, my cursor changes to a 
+                                black circle with a line through it, indicating 
+                                that I cannot drop that there. I assume I am not 
+                                supposed to drop it on the designer of the 
+                                form?<BR><BR>Simon <BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=2125559&amp;forumid=138791&amp;select=2133240#xx2133240xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=2133240#xx2133240xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=2125559#xx2125559xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=2133667_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx2133667xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=54><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=2133667#xx2133667xx" 
+                              name=2133667>Re: Dragging table onto form</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=389953"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>Yulianto.&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>0:06 17 Jul 
+                              '07&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=2133667_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=54><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>Hmm, I 
+                                think it is best for you to open the application 
+                                to see what is the code for SqlConnection, 
+                                SqlDataAdapter, and SqlCommand. So you manually 
+                                create it. <BR><BR>
+                                <DIV class=ForumSig>
+                                <HR>
+                                <ITALIC><SMALL>Work hard, Work 
+                                effectively.<BR><A 
+                                href="http://www.stockpickguide.com/" 
+                                target=_blank>Stock 
+                                Pick</A></DIV><BR>&nbsp;</FONT></SMALL></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=2125559&amp;forumid=138791&amp;select=2133667#xx2133667xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=2133667#xx2133667xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=2125559#xx2125559xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=5 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR height=1>
+                      <TD bgColor=#ff9900><IMG height=1 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1></TD></TR>
+                    <TR id=1996861_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1996861xx></A><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1996861#xx1996861xx" 
+                              name=1996861><B>Indonesian</B></A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=3914115"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle><B>ebelebelebel</B>&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle><B>5:56 19 Apr 
+                              '07</B>&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1996861_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>feel 
+                                proud when im searching on this and found that 
+                                indonesian who wrote this article..<BR>keep on 
+                                moving bro..<BR>anyway..i got a some problems on 
+                                asp.net..<BR>would u help me,if u dont 
+                                mind,goodmaster?hehe.. 
+                                <BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1996861&amp;forumid=138791&amp;select=1996861#xx1996861xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1996861#xx1996861xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1996861#xx1996861xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1996891_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1996891xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=18><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1996891#xx1996891xx" 
+                              name=1996891>Re: Indonesian</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=389953"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>Yulianto.&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>6:13 19 Apr 
+                              '07&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1996891_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=18><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>
+                                <BLOCKQUOTE class=FQ>
+                                <DIV class=FQA>ebelebelebel wrote:</DIV>feel 
+                                proud when im searching on this and found that 
+                                indonesian who wrote this 
+                                article..</BLOCKQUOTE><BR><BR>Hello. You're an 
+                                Indoenesian? Live in Germany? <BR><BR>Sorry 
+                                couldn't help you with asp.net. I don't have 
+                                enough knowledge on that. Try the forum. 
+<BR><BR>
+                                <DIV class=ForumSig>
+                                <HR>
+                                <ITALIC><SMALL>Work hard, Work effectively. 
+                                <BR><A href="http://www.solusiwebindo.com/">Own 
+                                business (desain web)</A></SMALL></ITALIC> ,<A 
+                                href="http://www.stockpickguide.com/">Stock Pick 
+                                Guide</A>.</DIV><BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1996861&amp;forumid=138791&amp;select=1996891#xx1996891xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1996891#xx1996891xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1996861#xx1996861xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1997148_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1997148xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=36><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1997148#xx1997148xx" 
+                              name=1997148>Re: Indonesian</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=3914115"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>ebelebelebel&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>8:26 19 Apr 
+                              '07&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1997148_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=36><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>yes, 
+                                but just doing my praktikum..<BR>owh..ic..no 
+                                problem.. what's ADO.net use for? sounds 
+                                unfamiliar for me..<BR>where do you live aniway? 
+                                <BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1996861&amp;forumid=138791&amp;select=1997148#xx1997148xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1997148#xx1997148xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1996861#xx1996861xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1998270_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1998270xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=54><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1998270#xx1998270xx" 
+                              name=1998270>Re: Indonesian</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=389953"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>Yulianto.&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>20:23 19 Apr 
+                              '07&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1998270_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=54><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>Still 
+                                live in Indonesia. I see that you're still very 
+                                young. Great. ADO.NET is for database. I usually 
+                                use it with C#. <BR><BR>
+                                <DIV class=ForumSig>
+                                <HR>
+                                <ITALIC><SMALL>Work hard, Work effectively. 
+                                <BR><A href="http://www.solusiwebindo.com/">Own 
+                                business (desain web)</A></SMALL></ITALIC> ,<A 
+                                href="http://www.stockpickguide.com/">Stock Pick 
+                                Guide</A>.</DIV><BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1996861&amp;forumid=138791&amp;select=1998270#xx1998270xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1998270#xx1998270xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1996861#xx1996861xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=5 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR height=1>
+                      <TD bgColor=#ff9900><IMG height=1 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1></TD></TR>
+                    <TR id=1777154_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1777154xx></A><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_question.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1777154#xx1777154xx" 
+                              name=1777154><B>Coping rows problem</B></A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=1385588"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle><B>dr4cul4</B>&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle><B>9:43 27 Nov 
+                              '06</B>&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1777154_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>I have 
+                                a problem with coping DataRow. But let's start 
+                                from beginning. I have a typed DataSet with a 
+                                lot of tables in it. There is a main table which 
+                                has a child tables, and some of those also has 
+                                children. So basically there are only 
+                                parent-child relations. Now I need to make a 
+                                copy of main table row with all it's children 
+                                and children's children and put it to same 
+                                DataSet. All new rows should have state 
+                                "Added".<BR><BR>Thanks in advance. <BR><BR>
+                                <DIV class=ForumSig>------<BR>There are 10 kind 
+                                of people those who understand binary and those 
+                                who not. - Some binary 
+                                freak.</DIV><BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1777154&amp;forumid=138791&amp;select=1777154#xx1777154xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1777154#xx1777154xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1777154#xx1777154xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1778442_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1778442xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=18><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_answer.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1778442#xx1778442xx" 
+                              name=1778442>Re: Coping rows problem</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=389953"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>Yulianto.&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>0:52 28 Nov 
+                              '06&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1778442_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=18><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>What's 
+                                the code? What's the problem(error)? Have you 
+                                tried catching the error? Probably it's because 
+                                the duplicate constraint. <BR><BR>
+                                <DIV class=ForumSig>
+                                <HR>
+                                <ITALIC><SMALL>Work hard, Work effectively. 
+                                <BR><A href="http://www.solusiwebindo.com/">Own 
+                                business</A></SMALL></ITALIC></DIV><BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1777154&amp;forumid=138791&amp;select=1778442#xx1778442xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1778442#xx1778442xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1777154#xx1777154xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1778646_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1778646xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=36><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_answer.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1778646#xx1778646xx" 
+                              name=1778646>Re: Coping rows problem</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=1385588"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>dr4cul4&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>3:56 28 Nov 
+                              '06&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1778646_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=36><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>I 
+                                rather had a way of doing it in mind... not the 
+                                error. But by the way. I have one if something 
+                                goes wrong. Check out the catch block.<BR><BR><PRE>&nbsp;&nbsp;&nbsp;&nbsp;private void CopyCurrentRow()<BR>&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataSet transaction = dataSet.GetChanges();<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// End editing<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EndEditAll();<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Get all rows to copy<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataRowView drv = MainBindingSource.Current as DataRowView;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (drv == null || drv.Row == null)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dataSet.MainRow orgMainRow = drv.Row as dataSet.MainRow;<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataRow[] orgRel1Rows = orgMainRow.GetChildRows("FK_Rel1_Main");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataRow[] orgRel2Rows = orgMainRow.GetChildRows("FK_Rel2_Main");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataRow[] orgRel3Rows = orgMainRow.GetChildRows("FK_Rel3_Main");<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hashtable orgRel3_1RowsHT = new Hashtable();<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hashtable orgRel3_2RowsHT = new Hashtable();<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (orgProd1Rows != null)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach (DataRow dr3_1 in orgProd1Rows)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataRow[] orgRel3_2Rows = dr3_1.GetChildRows("FK_Rel3_Rel3_1");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;orgRel3_1RowsHT[dr3_1] = orgRel3_2Rows;<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (orgProd2Rows != null)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach (DataRow dr3_2 in orgProd2Rows)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataRow[] orgRel3_3Rows = dr3_2.GetChildRows("FK_Rel33_1_Rel3_2");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;orgRel3_2RowsHT[dr3_2] = orgRel3_3Rows;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Perform a copy<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataRow newMainRow = CopyRow(dataSet.Main, orgMainRow);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach (DataRow dr in orgRel1Rows)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataRow newDr = CopyRow(dataSet.Rel1, dr);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;newDr.SetParentRow(newMainRow);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach (DataRow dr in orgRel2Rows)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataRow newDr = CopyRow(dataSet.Rel2, dr);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;newDr.SetParentRow(newMainRow);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach (DataRow dr in orgRel3Rows)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataRow newDr = CopyRow(dataSet.Rel3, dr);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;newDr.SetParentRow(newMainRow);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataRow[] Rel1childs = (DataRow[])orgProd1childRows[dr];<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (Rel1childs != null)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach (DataRow dr2 in Rel1childs)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataRow newDr2 = CopyRow(dataSet.Rel3_2, dr2);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;newDr2.SetParentRow(newDr);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataRow[] Rel2childs = (DataRow[])orgProd2childRows[dr2];<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (Rel2childs != null)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach (DataRow dr3 in Rel2childs)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataRow newDr3 = CopyRow(dataSet.Rel3_3, dr3);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;newDr3.SetParentRow(newDr2);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AutoSaveData();<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MainBindingSource.MoveLast();<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;catch (Exception ex)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Somtimes this also throws an exception... don't know why!<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dataSet.RejectChanges();<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dataSet.Merge(transaction);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ExceptionHandler.ShowMessage(ex);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<BR>&nbsp;&nbsp;&nbsp;&nbsp;}<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;private DataRow CopyRow(DataTable schemaAndDataDataTable, DataRow dataRowToCopy)<BR>&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DataRow dr = schemaAndDataDataTable.NewRow();<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach (DataColumn dc in schemaAndDataDataTable.Columns)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (!dc.Unique &amp;&amp; !dc.AutoIncrement)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dr[dc] = dataRowToCopy[dc];<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;schemaAndDataDataTable.Rows.Add(dr);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return dr;<BR>&nbsp;&nbsp;&nbsp;&nbsp;}</PRE><BR><BR>
+                                <DIV class=ForumSig>------<BR>There are 10 kind 
+                                of people those who understand binary and those 
+                                who not. - Some binary 
+                                freak.</DIV><BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1777154&amp;forumid=138791&amp;select=1778646#xx1778646xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1778646#xx1778646xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1777154#xx1777154xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle align=right>Score: 2.0 (1 
+                                vote). 
+                                </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1778840_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1778840xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=54><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1778840#xx1778840xx" 
+                              name=1778840>Re: Coping rows problem</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=389953"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>Yulianto.&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>5:26 28 Nov 
+                              '06&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1778840_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=54><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>So 
+                                what's the error which you catch? I haven't 
+                                check the code carefully. From the error 
+                                message, you should be able to figure out what 
+                                went wrong. <BR><BR>
+                                <DIV class=ForumSig>
+                                <HR>
+                                <ITALIC><SMALL>Work hard, Work effectively. 
+                                <BR><A href="http://www.solusiwebindo.com/">Own 
+                                business</A></SMALL></ITALIC></DIV><BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1777154&amp;forumid=138791&amp;select=1778840#xx1778840xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1778840#xx1778840xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1777154#xx1777154xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1778940_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1778940xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=72><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1778940#xx1778940xx" 
+                              name=1778940>Re: Coping rows problem</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=1385588"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>dr4cul4&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>6:06 28 Nov 
+                              '06&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1778940_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=72><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>I have 
+                                working app at home, so I can't tell you now. It 
+                                this error occurs again I will check it out and 
+                                post it here (With problem solution I 
+                                think)<BR><BR>This code is a sample code which 
+                                actually haven't bee tested.. you can say it's a 
+                                overview of the solution (I suppose that there 
+                                is a bug in it.)<BR><BR>Exception was about some 
+                                rows not being in the collection. It might be 
+                                caused by constrains, but the funny part is that 
+                                I had an error in the code before operations so 
+                                problem was inside changes that i stored and not 
+                                the operations.<BR><BR><PRE><BR>DataSet transaction = dataSet.GetChanges();<BR>// Let say that there are couple of rows in<BR>// state 'Added' and at least one in state 'Detached'<BR>dataSet.RejectChanges(); // &lt;- Throws an exception<BR>dataSet.Merge(transaction);<BR></PRE><BR><BR>I 
+                                don't have time to test it now... I'm at work 
+                                <IMG 
+                                src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/smiley_frown.gif" 
+                                align=absMiddle> <BR><BR>
+                                <DIV class=ForumSig>------<BR>There are 10 kind 
+                                of people those who understand binary and those 
+                                who not. - Some binary 
+                                freak.</DIV><BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1777154&amp;forumid=138791&amp;select=1778940#xx1778940xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1778940#xx1778940xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1777154#xx1777154xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1780585_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1780585xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=90><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1780585#xx1780585xx" 
+                              name=1780585>Re: Coping rows problem</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=389953"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>Yulianto.&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>2:46 29 Nov 
+                              '06&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1780585_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=90><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>Anyway, 
+                                you should be able to find the problem, looking 
+                                from the error message.<BR><BR>
+                                <BLOCKQUOTE class=FQ>
+                                <DIV class=FQA>dr4cul4 wrote:</DIV>I don't have 
+                                time to test it now... I'm at 
+                                work</BLOCKQUOTE><BR><BR>So what's the code for? 
+                                Not for work? I saw your profile. You were 
+                                saying that you didn't get much from your job. 
+                                Why don't making your own business, then you can 
+                                have control of your life. <BR><BR>
+                                <DIV class=ForumSig>
+                                <HR>
+                                <ITALIC><SMALL>Work hard, Work effectively. 
+                                <BR><A href="http://www.solusiwebindo.com/">Own 
+                                business</A></SMALL></ITALIC></DIV><BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1777154&amp;forumid=138791&amp;select=1780585#xx1780585xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1780585#xx1780585xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1777154#xx1777154xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1780619_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1780619xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=100><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1780619#xx1780619xx" 
+                              name=1780619>Re: Coping rows problem</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=1385588"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>dr4cul4&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>3:07 29 Nov 
+                              '06&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1780619_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=100><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>Heh... 
+                                Good point, but at my place there is not to many 
+                                developers to assembly a good team and open up a 
+                                business. I need this for my over hours project 
+                                which I'm writing at home.<BR><BR>By the way, I 
+                                found a solution <IMG 
+                                src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/smiley_smile.gif" 
+                                align=absMiddle> The reason was this 'Detached' 
+                                row. <IMG 
+                                src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/smiley_smile.gif" 
+                                align=absMiddle> But I have no idea how to 
+                                prevent it. Not at this point... 
+                                <CODE>dataSet.RejectChanges();</CODE> should 
+                                prevent restore original state of data set... 
+                                not add new rows or something. Any way I moved 
+                                <CODE>EndEdit();</CODE> before <CODE>DataSet 
+                                transaction = dataSet.GetChanges();</CODE> and 
+                                all works fine. <IMG 
+                                src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/smiley_smile.gif" 
+                                align=absMiddle> <BR><BR>
+                                <DIV class=ForumSig>------<BR>There are 10 kind 
+                                of people those who understand binary and those 
+                                who not. - Some binary 
+                                freak.</DIV><BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1777154&amp;forumid=138791&amp;select=1780619#xx1780619xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1780619#xx1780619xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1777154#xx1777154xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=5 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR height=1>
+                      <TD bgColor=#ff9900><IMG height=1 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1></TD></TR>
+                    <TR id=1069811_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1069811xx></A><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1069811#xx1069811xx" 
+                              name=1069811><B>Not bad, but there's a few 
+                              problems.</B></A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=956116"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle><B>Adam 
+                              Goossens</B>&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle><B>2:49 29 Mar 
+                              '05</B>&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1069811_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT 
+                                class=messagecontent>Hi,<BR><BR>First, let me 
+                                say I'm the sort of person that really likes to 
+                                have some form of discussion when it comes to 
+                                the code. If you're not going to discuss the 
+                                code in any great detail in your article, at 
+                                least comment your source. Please. <IMG 
+                                src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/smiley_smile.gif" 
+                                align=absMiddle><BR><BR>Secondly, re-reading all 
+                                data from the database each time you select a 
+                                record is a bad idea performance-wise (it also 
+                                defeats the purpose of having a disconnected 
+                                data source). You would be better off binding 
+                                the text boxes to the related fields in your 
+                                dataset and then navigating through the records 
+                                like 
+                                so:<BR><BR><CODE><BR>this.BindingContext(dataSet11, 
+                                "Student").Position = 0; // move to first 
+                                record<BR>this.BindingContext(dataSet11, 
+                                "Student").Position += 1; // move to next 
+                                record<BR>this.BindingContext(dataSet11, 
+                                "Student").Position -= 1; // move to previous 
+                                record<BR></CODE><BR><BR>The BindingContext 
+                                property is a property of the form.<BR><BR>By 
+                                setting the Position property you control what 
+                                record you are "viewing" in the DataSet. Because 
+                                your text boxes are bound to the dataset, 
+                                changing the Position property changes the 
+                                values displayed.<BR><BR>Regards,<BR>-Adam. 
+                                <BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1069811&amp;forumid=138791&amp;select=1069811#xx1069811xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1069811#xx1069811xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1069811#xx1069811xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1069816_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1069816xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=18><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1069816#xx1069816xx" 
+                              name=1069816>Re: Not bad, but there's a few 
+                              problems.</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=389953"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>Yulianto AKA 
+                              goodmast3r&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>3:02 29 Mar 
+                              '05&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1069816_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=18><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>Thank 
+                                you, Adam. <BR><BR>
+                                <HR>
+
+                                <H5><ITALIC>Work hard, Work effectively and a 
+                                bit of luck is the key to success. 
+                                </H5></ITALIC><BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1069811&amp;forumid=138791&amp;select=1069816#xx1069816xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1069816#xx1069816xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1069811#xx1069811xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle align=right>Score: 2.0 (1 
+                                vote). 
+                                </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=5 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR height=1>
+                      <TD bgColor=#ff9900><IMG height=1 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1></TD></TR>
+                    <TR id=1006470_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1006470xx></A><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1006470#xx1006470xx" 
+                              name=1006470><B>Demo Project</B></A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=799879"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle><B>ACorbs</B>&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle><B>4:22 1 Jan 
+                              '05</B>&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1006470_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>FYI, 
+                                your demo project is getting a lot of unhandled 
+                                exceptions. I'm not going to rate this now, 
+                                because it's new and clearly needs a little 
+                                modifcation. Other then that your article looks 
+                                good. <BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1006470&amp;forumid=138791&amp;select=1006470#xx1006470xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1006470#xx1006470xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1006470#xx1006470xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle align=right>Score: 2.0 (1 
+                                vote). 
+                                </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1007960_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1007960xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=18><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1007960#xx1007960xx" 
+                              name=1007960>Re: Demo Project</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=389953"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>goodmast3r&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>3:46 4 Jan 
+                              '05&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1007960_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=18><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>Did the 
+                                application also has unhandled exception? What 
+                                exception in the demo project? <BR><BR>
+                                <HR>
+
+                                <H5><ITALIC>Work hard and a bit of luck is the 
+                                key to success. </H5></ITALIC>You don`t need to 
+                                be genius, to be 
+                                rich.<BR><BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1006470&amp;forumid=138791&amp;select=1007960#xx1007960xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1007960#xx1007960xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1006470#xx1006470xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle align=right>Score: 1.5 (2 
+                                votes). 
+                                </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1016191_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1016191xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=36><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1016191#xx1016191xx" 
+                              name=1016191>Re: Demo Project</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=799879"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>ACorbs&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>14:44 14 Jan 
+                              '05&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1016191_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=36><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>In the 
+                                demo application, click on a null row... This 
+                                causes things to go down hill. It should be a 
+                                quick fix. <BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1006470&amp;forumid=138791&amp;select=1016191#xx1016191xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1016191#xx1016191xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1006470#xx1006470xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1018325_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1018325xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=54><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1018325#xx1018325xx" 
+                              name=1018325>Re: Demo Project</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=389953"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>goodmast3r&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>3:38 18 Jan 
+                              '05&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1018325_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=54><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>Done 
+                                <BR><BR>
+                                <HR>
+
+                                <H5><ITALIC>Work hard and a bit of luck is the 
+                                key to success. </H5></ITALIC>You don`t need to 
+                                be genius, to be 
+                                rich.<BR><BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1006470&amp;forumid=138791&amp;select=1018325#xx1018325xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1018325#xx1018325xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1006470#xx1006470xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1041806_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1041806xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=72><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1041806#xx1041806xx" 
+                              name=1041806>Re: Demo Project</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=799879"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>ACorbs&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>21:11 17 Feb 
+                              '05&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1041806_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=72><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>Looks 
+                                good, I went a head and gave a good rating. I 
+                                will say that some people might find your 
+                                article a little thin on discussion, but I 
+                                personally don’t care as long as there is good 
+                                solid code to learn from. One additional thing, 
+                                you might consider moving the file, db1.mdb, up 
+                                one folder or adding another copy in the debug 
+                                folder. <BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1006470&amp;forumid=138791&amp;select=1041806#xx1041806xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1041806#xx1041806xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1006470#xx1006470xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle 
+                                align=right></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1041992_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1041992xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=90><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1041992#xx1041992xx" 
+                              name=1041992>Re: Demo Project</A></TD>
+                            <TD vAlign=bottom noWrap><A 
+                              href="http://www.codeproject.com/script/profile/whos_who.asp?id=389953"><IMG 
+                              title="Click for User Profile" height=15 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/userinfo.gif" 
+                              width=14 border=0></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>Yulianto AKA 
+                              goodmast3r&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>5:08 18 Feb 
+                              '05&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1041992_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=90><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT 
+                                class=messagecontent>Thanks.<BR><BR><SMALL><B>ACorbs 
+                                wrote:</B></SMALL><BR><I>adding another copy in 
+                                the debug folder. </I><BR><BR>I was thinking 
+                                about that, but I change my mind. It would be 
+                                bigger in size. <BR><IMG 
+                                src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/smiley_smile.gif" 
+                                align=absMiddle><BR><BR><BR><BR>
+                                <HR>
+
+                                <H5><ITALIC>Work hard and a bit of luck is the 
+                                key to success. </H5></ITALIC>You don`t need to 
+                                be genius, to be 
+                                rich.<BR><BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1006470&amp;forumid=138791&amp;select=1041992#xx1041992xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1041992#xx1041992xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1006470#xx1006470xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle align=right>Score: 2.0 (1 
+                                vote). 
+                                </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1098962_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1098962xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=36><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1098962#xx1098962xx" 
+                              name=1098962>Re: Demo Project</A></TD>
+                            <TD vAlign=bottom noWrap><IMG height=13 
+                              alt="Unconfirmed/Anonymous posting" 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/usersuss.gif" 
+                              width=15></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>Anonymous&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>8:02 4 May 
+                              '05&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1098962_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=36><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent>hellooo 
+                                <BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1006470&amp;forumid=138791&amp;select=1098962#xx1098962xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1098962#xx1098962xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1006470#xx1006470xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle align=right>[<A 
+                                href="http://www.codeproject.com/script/comments/owner_modify_pw.asp?main=/cs/database/ADO.asp&amp;df=100&amp;forumid=138791&amp;select=1098962">Modify</A> 
+                                | <A 
+                                href="http://www.codeproject.com/script/comments/owner_delete_pw.asp?main=/cs/database/ADO.asp&amp;df=100&amp;forumid=138791&amp;select=1098962">Delete</A>]<BR></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=6 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR>
+                    <TR id=1098964_h0 bgColor=#fef9e7>
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=white><A name=xx1098964xx></A><IMG 
+                              height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=36><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD class=messagetitle width="100%"><A 
+                              class=messagetitle id=DynMessLink 
+                              href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;forumid=138791&amp;select=1098964#xx1098964xx" 
+                              name=1098964>Re: Demo Project</A></TD>
+                            <TD vAlign=bottom noWrap><IMG height=13 
+                              alt="Unconfirmed/Anonymous posting" 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/usersuss.gif" 
+                              width=15></A>&nbsp;</TD>
+                            <TD noWrap width=140><FONT 
+                              class=messagetitle>Anonymous&nbsp;</FONT></TD>
+                            <TD style="WIDTH: 9em" noWrap align=right 
+                              width=120><FONT class=messagetitle>8:02 4 May 
+                              '05&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR id=1098964_h1 style="DISPLAY: none">
+                      <TD width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=1 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/ind.gif" 
+                              width=36><IMG 
+                              src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_blank.gif" 
+                              align=absMiddle>&nbsp;</TD>
+                            <TD width="100%" bgColor=#d5eaff>
+                              <TABLE cellSpacing=5 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                                border=0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=2><FONT class=messagecontent><IMG 
+                                src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/smiley_rolleyes.gif" 
+                                align=absMiddle>hellooo 
+                                <BR>&nbsp;</FONT></TD></TR>
+                                <TR vAlign=top>
+                                <TD class=messagetitle>[<A 
+                                href="http://www.codeproject.com/script/profile/logon.asp?ct=%2Fcs%2Fdatabase%2FADO%2Easp">Sign 
+                                in</A> | <A 
+                                title="View only messages within this thread" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?df=100&amp;tid=1006470&amp;forumid=138791&amp;select=1098964#xx1098964xx">View 
+                                Thread</A> | <A 
+                                title="Get the URL for this message" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1098964#xx1098964xx">PermaLink</A> 
+                                | <A title="Go to Thread Start" 
+                                href="http://www.codeproject.com/cs/database/ADO.asp?msg=1006470#xx1006470xx">Go 
+                                to Thread Start</A>]</TD>
+                                <TD class=messagetitle align=right>[<A 
+                                href="http://www.codeproject.com/script/comments/owner_modify_pw.asp?main=/cs/database/ADO.asp&amp;df=100&amp;forumid=138791&amp;select=1098964">Modify</A> 
+                                | <A 
+                                href="http://www.codeproject.com/script/comments/owner_delete_pw.asp?main=/cs/database/ADO.asp&amp;df=100&amp;forumid=138791&amp;select=1098964">Delete</A>]<BR>Score: 
+                                2.0 (1 vote). 
+                                </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD><IMG height=5 
+                        src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/t.gif" 
+                        width=1 border=0></TD></TR></TBODY></TABLE></TD></TR>
+              <TR bgColor=#fbedbb>
+                <TD>
+                  <TABLE cellPadding=2 width="100%">
+                    <TBODY>
+                    <TR>
+                      <TD class=messagetitle>Last Visit: 7:22 Thursday 8th 
+                        November, 2007</TD>
+                      <TD noWrap align=right><FONT class=messagetitle><SPAN 
+                        class=HoverLink>First</SPAN> <SPAN 
+                        class=HoverLink>Prev</SPAN> <SPAN 
+                        class=HoverLink>Next</SPAN> <SPAN 
+                        class=HoverLink>&nbsp;&nbsp;&nbsp;&nbsp;</SPAN> 
+                      </FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+      <P class=smallText><IMG 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_general.gif" 
+      align=absMiddle> General comment &nbsp;&nbsp; <IMG 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_info.gif" 
+      align=absMiddle> News / Info &nbsp;&nbsp; <IMG 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_question.gif" 
+      align=absMiddle> Question &nbsp;&nbsp; <IMG 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_answer.gif" 
+      align=absMiddle> Answer &nbsp;&nbsp; <IMG 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_game.gif" 
+      align=absMiddle> Joke / Game &nbsp;&nbsp; <IMG 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/news_sticky.gif" 
+      align=absMiddle> Admin message</P><BR>
+      <TABLE cellSpacing=5 width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD class=smallText>Updated: 23 Mar 2005 </TD>
+          <TD class=SmallText align=right>Article content copyright Yulianto., 
+            2004<BR>everything else Copyright © <A 
+            href="mailto:webmaster@codeproject.com">CodeProject</A>, 
+            1999-2007</A>. <BR>Web10 | <A 
+            href="http://www.codeproject.com/info/MediaKit">Advertise on The 
+            Code Project</A> | <A 
+            href="http://www.codeproject.com/info/privacy.asp">Privacy</A> 
+        </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<SCRIPT 
+src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/front.asp" 
+type=text/javascript></SCRIPT>
+<BR>
+<CENTER>
+<TABLE cellSpacing=0 cellPadding=0 width="95%" border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#ff9900 height=1><IMG height=1 
+      src="Building database application with ADO_NET for a beginner_ - The Code Project - C# Database_files/space.gif"></TD></TR>
+  <TR>
+    <TD align=middle><FONT size=1><A 
+      href="http://www.theultimatetoolbox.com/">The Ultimate Toolbox</A> • <A 
+      href="http://aspalliance.com/">ASP Alliance</A> • <A 
+      href="http://www.developerfusion.co.uk/">Developer Fusion</A> • <A 
+      href="http://www.developersdex.com/">Developersdex</A> • <A 
+      href="http://www.devguru.com/">DevGuru</A> • <A 
+      href="http://www.programmersheaven.com/">Programmers Heaven</A> • <A 
+      href="http://www.planet-source-code.com/">Planet Source Code</A> • <A 
+      href="http://www.tek-tips.com/">Tek-Tips Forums</A> • 
+</FONT></TD></TR></TBODY></TABLE></CENTER></BODY></HTML>

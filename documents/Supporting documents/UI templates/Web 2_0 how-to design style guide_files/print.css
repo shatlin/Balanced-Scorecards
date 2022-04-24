@@ -1,0 +1,36 @@
+#nav {
+	DISPLAY: none
+}
+#cap {
+	DISPLAY: none
+}
+#left-col {
+	DISPLAY: none
+}
+#foot {
+	DISPLAY: none
+}
+#insert {
+	DISPLAY: none
+}
+BODY {
+	FONT-SIZE: 12pt; FONT-FAMILY: serif
+}
+#right-col {
+	MARGIN: 2%; WIDTH: 96%; TEXT-ALIGN: left
+}
+H1 {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #555; TEXT-INDENT: 0px! important; FONT-FAMILY: arial
+}
+A:link {
+	FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #520; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #520; TEXT-DECORATION: underline
+}
+.kLink {
+	FONT-SIZE: 1em! important; COLOR: #000! important; BORDER-TOP-STYLE: none! important; FONT-FAMILY: inherit! important; BORDER-RIGHT-STYLE: none! important; BORDER-LEFT-STYLE: none! important; TEXT-DECORATION: none! important; BORDER-BOTTOM-STYLE: none! important
+}
+.kLink FONT {
+	FONT-SIZE: 1em! important; COLOR: #000! important; BORDER-TOP-STYLE: none! important; FONT-FAMILY: inherit! important; BORDER-RIGHT-STYLE: none! important; BORDER-LEFT-STYLE: none! important; TEXT-DECORATION: none! important; BORDER-BOTTOM-STYLE: none! important
+}

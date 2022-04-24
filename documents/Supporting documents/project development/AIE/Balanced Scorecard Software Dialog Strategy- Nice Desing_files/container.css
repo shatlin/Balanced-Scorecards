@@ -1,0 +1,12 @@
+.leftpanetitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #af5203; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.head {
+	
+}
+DIV#mainheading SPAN.head {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.maincontainertext {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; LIST-STYLE-IMAGE: url(bullet1.gif); COLOR: #4d6c8a; FONT-FAMILY: Arial, Helvetica, sans-serif
+}

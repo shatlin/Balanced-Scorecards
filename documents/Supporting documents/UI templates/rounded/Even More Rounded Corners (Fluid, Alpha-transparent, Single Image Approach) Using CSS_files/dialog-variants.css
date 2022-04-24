@@ -1,0 +1,108 @@
+.short .wrapper {
+	max-height: 520px
+}
+.type2 .content {
+	BACKGROUND-IMAGE: url(dialog2-dark-alpha-drip.gif)
+}
+.type2 .t {
+	BACKGROUND-IMAGE: url(dialog2-dark-alpha-drip.gif)
+}
+.type2 .b {
+	BACKGROUND-IMAGE: url(dialog2-dark-alpha-drip.gif)
+}
+.type2 .b DIV {
+	BACKGROUND-IMAGE: url(dialog2-dark-alpha-drip.gif)
+}
+.type2 .b {
+	HEIGHT: 40px
+}
+.type2 .b DIV {
+	HEIGHT: 40px
+}
+.type2 .content {
+	
+}
+.type3 .content {
+	BACKGROUND-IMAGE: url(dialog2-mrclean.gif)
+}
+.type3 .t {
+	BACKGROUND-IMAGE: url(dialog2-mrclean.gif)
+}
+.type3 .b {
+	BACKGROUND-IMAGE: url(dialog2-mrclean.gif)
+}
+.type3 .b DIV {
+	BACKGROUND-IMAGE: url(dialog2-mrclean.gif)
+}
+.type4 .content {
+	BACKGROUND-IMAGE: url(dialog2-blue.gif)
+}
+.type4 .t {
+	BACKGROUND-IMAGE: url(dialog2-blue.gif)
+}
+.type4 .b {
+	BACKGROUND-IMAGE: url(dialog2-blue.gif)
+}
+.type4 .b DIV {
+	BACKGROUND-IMAGE: url(dialog2-blue.gif)
+}
+.type5 .content {
+	BACKGROUND-IMAGE: url(dialog2-red-drip.gif)
+}
+.type5 .t {
+	BACKGROUND-IMAGE: url(dialog2-red-drip.gif)
+}
+.type5 .b {
+	BACKGROUND-IMAGE: url(dialog2-red-drip.gif)
+}
+.type5 .b DIV {
+	BACKGROUND-IMAGE: url(dialog2-red-drip.gif)
+}
+.drip .b {
+	HEIGHT: 80px
+}
+.drip .b DIV {
+	HEIGHT: 80px
+}
+.drip {
+	MARGIN-LEFT: 65px
+}
+.drip .t {
+	MARGIN-LEFT: -65px; WIDTH: 65px
+}
+.drip .b DIV {
+	MARGIN-LEFT: -65px; WIDTH: 65px
+}
+.drip .hd {
+	MARGIN-LEFT: -65px; WIDTH: 65px
+}
+.drip .bd {
+	MARGIN-LEFT: -65px; WIDTH: 65px
+}
+.drip .ft {
+	MARGIN-LEFT: -65px; WIDTH: 65px
+}
+.drip .wrapper {
+	MARGIN-LEFT: -65px; WIDTH: 65px
+}
+.drip .wrapper {
+	WIDTH: auto
+}
+.dialog .wrapper .hd {
+	MARGIN-LEFT: 0px
+}
+.dialog .wrapper .bd {
+	MARGIN-LEFT: 0px
+}
+.dialog .wrapper .ft {
+	MARGIN-LEFT: 0px
+}
+.drip .hd {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; WIDTH: auto; PADDING-TOP: 0px; ZOOM: 1
+}
+.drip .bd {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; WIDTH: auto; PADDING-TOP: 0px; ZOOM: 1
+}
+.drip .ft {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; WIDTH: auto; PADDING-TOP: 0px; ZOOM: 1
+}

@@ -1,0 +1,9 @@
+UL.noIndent {
+	MARGIN-LEFT: 14px
+}
+.stateTitle {
+	FILTER: alpha(opacity=100, finishopacity=5, style=2, startx=50, finishx=100, starty=50, finishy=100); WIDTH: 60px
+}
+.subMenuContainer {
+	FILTER: alpha(opacity=95)
+}

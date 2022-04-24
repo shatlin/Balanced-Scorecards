@@ -1,0 +1,423 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: small; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000; PADDING-TOP: 0px; FONT-FAMILY: arial, helvetica, sans-serif; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center; min-width: 740px
+}
+.wrapper {
+	MARGIN-LEFT: auto; WIDTH: 75%; MARGIN-RIGHT: auto; POSITION: relative; TEXT-ALIGN: left
+}
+.idx#content {
+	MARGIN: 0px 0px 0px 5%; WIDTH: 85%
+}
+#masthead {
+	MARGIN: 3em 0px 45px; FONT-FAMILY: "Trebuchet MS", arial, helvetica, sans-serif
+}
+#masthead H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 900%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#masthead H1 A:link {
+	COLOR: #c03; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+#masthead H1 A:visited {
+	COLOR: #c03; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+#masthead H1 A:hover {
+	COLOR: #000
+}
+#masthead H1 A:active {
+	COLOR: #000
+}
+#masthead P.strapline {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 160%; PADDING-BOTTOM: 0px; MARGIN: -24px 0px 0px -210px; COLOR: #c03; PADDING-TOP: 0px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center
+}
+#masthead P.dateline {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 160%; PADDING-BOTTOM: 0px; MARGIN: -24px 0px 0px -210px; COLOR: #c03; PADDING-TOP: 0px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center
+}
+#masthead P.dateline {
+	MARGIN: -24px 0px 0px -315px
+}
+#topbar {
+	BACKGROUND: url(/img/tb.gif) #c03 repeat-x left bottom; LEFT: 0px; WIDTH: 100%; COLOR: #fff; FONT-FAMILY: "Trebuchet MS", arial, helvetica, sans-serif; POSITION: absolute; TOP: 0px
+}
+#topbar A:link {
+	COLOR: #fff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+#topbar A:visited {
+	COLOR: #fff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+#topbar A:hover {
+	COLOR: #000; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+#topbar A:active {
+	COLOR: #000; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+BODY.y2005 #topbar A.y2005:link {
+	COLOR: #000; BACKGROUND-COLOR: transparent
+}
+BODY.y2005 #topbar A.y2005:visited {
+	COLOR: #000; BACKGROUND-COLOR: transparent
+}
+BODY.y2006 #topbar A.y2006:link {
+	COLOR: #000; BACKGROUND-COLOR: transparent
+}
+BODY.y2006 #topbar A.y2006:visited {
+	COLOR: #000; BACKGROUND-COLOR: transparent
+}
+#topbar P {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; FONT-WEIGHT: bold; FONT-SIZE: 110%; FLOAT: left; PADDING-BOTTOM: 0.5em; MARGIN: 0px; WIDTH: 30%; PADDING-TOP: 0.5em; TEXT-ALIGN: left
+}
+#topbar UL {
+	PADDING-RIGHT: 0.7em; PADDING-LEFT: 0.7em; FONT-SIZE: 95%; FLOAT: right; PADDING-BOTTOM: 0.7em; MARGIN: 0px; WIDTH: 30%; PADDING-TOP: 0.7em; LIST-STYLE-TYPE: none; TEXT-ALIGN: right
+}
+#topbar LI {
+	DISPLAY: inline; MARGIN: 0px; LIST-STYLE-TYPE: none
+}
+.idx#content H2 {
+	FONT-SIZE: 170%; MARGIN: 0px; FONT-FAMILY: "Trebuchet MS", arial, helvetica, sans-serif
+}
+#content H2 {
+	FONT-SIZE: 170%; MARGIN: 0px; FONT-FAMILY: "Trebuchet MS", arial, helvetica, sans-serif
+}
+.idx#content H2 A:link {
+	COLOR: #000; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.idx#content H2 A:visited {
+	COLOR: #000; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.idx#content H2 A:hover {
+	COLOR: #c03; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+.idx#content H2 A:active {
+	COLOR: #c03; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+#content H2 SPAN.credit {
+	FONT-WEIGHT: normal; FONT-SIZE: 70%; COLOR: #ababab; WHITE-SPACE: nowrap; BACKGROUND-COLOR: transparent
+}
+.idx#content DIV.entry-summary abbr.updated {
+	DISPLAY: none
+}
+.idx#content LI {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left top; PADDING-LEFT: 60px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 30px; LINE-HEIGHT: normal; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; LIST-STYLE-TYPE: none
+}
+.idx#content LI#day1 {
+	BACKGROUND-IMAGE: url(/img/days/day1.gif)
+}
+.idx#content LI#day2 {
+	BACKGROUND-IMAGE: url(/img/days/day2.gif)
+}
+.idx#content LI#day3 {
+	BACKGROUND-IMAGE: url(/img/days/day3.gif)
+}
+.idx#content LI#day4 {
+	BACKGROUND-IMAGE: url(/img/days/day4.gif)
+}
+.idx#content LI#day5 {
+	BACKGROUND-IMAGE: url(/img/days/day5.gif)
+}
+.idx#content LI#day6 {
+	BACKGROUND-IMAGE: url(/img/days/day6.gif)
+}
+.idx#content LI#day7 {
+	BACKGROUND-IMAGE: url(/img/days/day7.gif)
+}
+.idx#content LI#day8 {
+	BACKGROUND-IMAGE: url(/img/days/day8.gif)
+}
+.idx#content LI#day9 {
+	BACKGROUND-IMAGE: url(/img/days/day9.gif)
+}
+.idx#content LI#day10 {
+	BACKGROUND-IMAGE: url(/img/days/day10.gif)
+}
+.idx#content LI#day11 {
+	BACKGROUND-IMAGE: url(/img/days/day11.gif)
+}
+.idx#content LI#day12 {
+	BACKGROUND-IMAGE: url(/img/days/day12.gif)
+}
+.idx#content LI#day13 {
+	BACKGROUND-IMAGE: url(/img/days/day13.gif)
+}
+.idx#content LI#day14 {
+	BACKGROUND-IMAGE: url(/img/days/day14.gif)
+}
+.idx#content LI#day15 {
+	BACKGROUND-IMAGE: url(/img/days/day15.gif)
+}
+.idx#content LI#day16 {
+	BACKGROUND-IMAGE: url(/img/days/day16.gif)
+}
+.idx#content LI#day17 {
+	BACKGROUND-IMAGE: url(/img/days/day17.gif)
+}
+.idx#content LI#day18 {
+	BACKGROUND-IMAGE: url(/img/days/day18.gif)
+}
+.idx#content LI#day19 {
+	BACKGROUND-IMAGE: url(/img/days/day19.gif)
+}
+.idx#content LI#day20 {
+	BACKGROUND-IMAGE: url(/img/days/day20.gif)
+}
+.idx#content LI#day21 {
+	BACKGROUND-IMAGE: url(/img/days/day21.gif)
+}
+.idx#content LI#day22 {
+	BACKGROUND-IMAGE: url(/img/days/day22.gif)
+}
+.idx#content LI#day23 {
+	BACKGROUND-IMAGE: url(/img/days/day23.gif)
+}
+.idx#content LI#day24 {
+	BACKGROUND-IMAGE: url(/img/days/day24.gif)
+}
+#content P {
+	MARGIN: 10px 0px 20px; LINE-HEIGHT: 140%
+}
+#content LI {
+	LINE-HEIGHT: 140%
+}
+#content H3 {
+	FONT-SIZE: 130%; MARGIN: 40px 0px 15px
+}
+#content CODE {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; MARGIN: 20px 0px; COLOR: #309; PADDING-TOP: 1px; FONT-FAMILY: courier, fixed; BACKGROUND-COLOR: #efefef
+}
+#content PRE {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; MARGIN: 20px 0px; COLOR: #309; PADDING-TOP: 1px; FONT-FAMILY: courier, fixed; BACKGROUND-COLOR: #efefef
+}
+#content P CODE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: transparent
+}
+#content BLOCKQUOTE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 40px; PADDING-TOP: 0px; FONT-STYLE: italic
+}
+#content A:link {
+	COLOR: #30c; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+#content A:visited {
+	COLOR: #30c; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+#content A:hover {
+	COLOR: #c03; BACKGROUND-COLOR: transparent
+}
+#content A:active {
+	COLOR: #c03; BACKGROUND-COLOR: transparent
+}
+DIV.gas {
+	TEXT-ALIGN: center
+}
+#author {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../img/aub.gif) #c03 repeat-x left top; PADDING-BOTTOM: 2em; MARGIN: 60px 0px 4px; PADDING-TOP: 1em
+}
+#author H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 110%; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #fff; PADDING-TOP: 0px; FONT-FAMILY: "Trebuchet MS", arial, helvetica, sans-serif; BACKGROUND-COLOR: transparent
+}
+#author P {
+	PADDING-LEFT: 30px; MARGIN-LEFT: 83px
+}
+#author P IMG {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; FLOAT: left; MARGIN-LEFT: -113px; BORDER-LEFT: #fff 1px solid; BORDER-BOTTOM: #fff 1px solid
+}
+#author DIV.wrapper:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+#content #author A:link {
+	COLOR: #fff; BACKGROUND-COLOR: transparent
+}
+#content #author A:visited {
+	COLOR: #fff; BACKGROUND-COLOR: transparent
+}
+#content #author A:hover {
+	COLOR: #000; BACKGROUND-COLOR: transparent
+}
+#content #author A:active {
+	COLOR: #000; BACKGROUND-COLOR: transparent
+}
+DIV.comments {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../img/cb.gif) #ababab repeat-x left top; PADDING-BOTTOM: 10px; COLOR: #000; PADDING-TOP: 0px
+}
+#content DIV.comments H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 140%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 2em; FONT-FAMILY: "Trebuchet MS", arial, helvetica, sans-serif
+}
+#content DIV.comments H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 140%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 2em; FONT-FAMILY: "Trebuchet MS", arial, helvetica, sans-serif
+}
+#content DIV.comments H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 2em 0px 0px; PADDING-TOP: 0px
+}
+#content DIV.comments FORM {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 2px; MARGIN: 10px 0px 0px; COLOR: #000; PADDING-TOP: 2px; BACKGROUND-COLOR: #bbb
+}
+#content DIV.comments FORM LABEL {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%
+}
+#content DIV.comments FORM INPUT.comment_name_input {
+	DISPLAY: block; FONT-SIZE: 100%; WIDTH: 30em; FONT-FAMILY: arial, helvetica, sans-serif
+}
+#content DIV.comments FORM INPUT.comment_email_input {
+	DISPLAY: block; FONT-SIZE: 100%; WIDTH: 30em; FONT-FAMILY: arial, helvetica, sans-serif
+}
+#content DIV.comments FORM INPUT.comment_web_input {
+	DISPLAY: block; FONT-SIZE: 100%; WIDTH: 30em; FONT-FAMILY: arial, helvetica, sans-serif
+}
+#content DIV.comments FORM INPUT.comment_name_input {
+	FLOAT: left
+}
+#content DIV.comments FORM #remember-container {
+	DISPLAY: block; MARGIN: 0px 0px 0px 31em
+}
+#content DIV.comments FORM TEXTAREA {
+	DISPLAY: block; FONT-SIZE: 110%; WIDTH: 100%; FONT-FAMILY: arial, helvetica, sans-serif; HEIGHT: 300px
+}
+#content DIV.comments FORM A#txpCommentHelpLink:link {
+	DISPLAY: block; FONT-SIZE: 90%; WIDTH: 100%; COLOR: #fff; BACKGROUND-COLOR: transparent; TEXT-ALIGN: right
+}
+#content DIV.comments FORM A#txpCommentHelpLink:visited {
+	DISPLAY: block; FONT-SIZE: 90%; WIDTH: 100%; COLOR: #fff; BACKGROUND-COLOR: transparent; TEXT-ALIGN: right
+}
+#content DIV.comments OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#content DIV.comments LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; POSITION: relative
+}
+#content DIV.comments LI DIV.even {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+#content DIV.comments LI DIV.odd {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; COLOR: #000; PADDING-TOP: 10px; BACKGROUND-COLOR: #bbb
+}
+#content DIV.comments LI IMG {
+	BACKGROUND: url(/img/gravatar.png) no-repeat left top; FLOAT: left; MARGIN-LEFT: -48px
+}
+#content DIV.comments LI DIV.commenter {
+	MARGIN-LEFT: 48px
+}
+#content DIV.comments LI DIV.commenter SPAN.author {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; FONT-FAMILY: "Trebuchet MS", arial, helvetica, sans-serif
+}
+#content DIV.comments LI DIV.commenter SPAN.author A:link {
+	COLOR: #000; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+#content DIV.comments LI DIV.commenter SPAN.author A:visited {
+	COLOR: #000; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+#content DIV.comments LI DIV.commenter SPAN.author A:hover {
+	TEXT-DECORATION: underline
+}
+#content DIV.comments LI DIV.commenter SPAN.author A:active {
+	TEXT-DECORATION: underline
+}
+#content DIV.comments LI DIV.commenter P {
+	FONT-SIZE: 95%; MARGIN: 0px 0px 0.5em
+}
+#content DIV.comments LI DIV.commenter SPAN.permalink {
+	FONT-SIZE: 90%; RIGHT: 10px; POSITION: absolute; TOP: 10px
+}
+#content DIV.comments LI DIV.commenter SPAN.permalink A:link {
+	COLOR: #676767; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+#content DIV.comments LI DIV.commenter SPAN.permalink A:visited {
+	COLOR: #676767; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+#content DIV.comments LI DIV.commenter SPAN.permalink A:hover {
+	FONT-SIZE: 200%; COLOR: #fff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+#content DIV.comments LI DIV.commenter SPAN.permalink A:active {
+	FONT-SIZE: 200%; COLOR: #fff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+#content P.note {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 10px; FONT-WEIGHT: bold; PADDING-BOTTOM: 10px; BORDER-LEFT: #999 1px solid; COLOR: #676767; PADDING-TOP: 10px; BORDER-BOTTOM: #999 1px solid; BACKGROUND-COLOR: #efe
+}
+#content DIV.comments P.note {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 10px; FONT-WEIGHT: bold; PADDING-BOTTOM: 10px; BORDER-LEFT: #999 1px solid; COLOR: #676767; PADDING-TOP: 10px; BORDER-BOTTOM: #999 1px solid; BACKGROUND-COLOR: #efe
+}
+#content DIV.comments P#txpCommentInputForm {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 10px; FONT-WEIGHT: bold; PADDING-BOTTOM: 10px; BORDER-LEFT: #999 1px solid; COLOR: #676767; PADDING-TOP: 10px; BORDER-BOTTOM: #999 1px solid; BACKGROUND-COLOR: #efe
+}
+#content OL.code {
+	BORDER-RIGHT: #eee 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #eee 1px solid; PADDING-LEFT: 45px; PADDING-BOTTOM: 5px; MARGIN: 0px; FONT: 98%/110% Courier, monospace; OVERFLOW: auto; BORDER-LEFT: #eee 1px solid; COLOR: #c03; PADDING-TOP: 5px; BORDER-BOTTOM: #eee 1px solid
+}
+#content OL.code LI {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #999; PADDING-TOP: 0px; BACKGROUND-COLOR: #efefef
+}
+#content OL.code LI.source {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 90%; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px; FONT-FAMILY: 'trebuchet ms', arial, helvetica, sans-serif; LIST-STYLE-TYPE: none; BACKGROUND-COLOR: #fff; TEXT-ALIGN: right
+}
+UNKNOWN {
+	MARGIN-TOP: 2px
+}
+#content OL.code LI.tab1 {
+	PADDING-LEFT: 15px
+}
+#content OL.code LI.tab2 {
+	PADDING-LEFT: 30px
+}
+#content OL.code LI.tab3 {
+	PADDING-LEFT: 45px
+}
+#content OL.code LI.tab4 {
+	PADDING-LEFT: 60px
+}
+#content OL.code LI.tab5 {
+	PADDING-LEFT: 75px
+}
+#content OL.code LI.tab6 {
+	PADDING-LEFT: 90px
+}
+#content OL.code LI CODE {
+	COLOR: #309! important
+}
+#content OL.code LI.cmnt CODE {
+	COLOR: #824c88! important
+}
+#content DL {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #efefef 3px solid; PADDING-TOP: 5px
+}
+#content DT {
+	FONT-WEIGHT: bold; COLOR: #000; BACKGROUND-COLOR: #fff
+}
+#content DT CODE {
+	FONT-WEIGHT: bold; COLOR: #000; BACKGROUND-COLOR: #fff
+}
+#box1 {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 12px; BORDER-LEFT: black 1px solid; WIDTH: 1em; BORDER-BOTTOM: black 1px solid; HEIGHT: 1em
+}
+#box2 {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 60px; BORDER-LEFT: black 1px solid; WIDTH: 1em; BORDER-BOTTOM: black 1px solid; HEIGHT: 1em
+}
+DIV.figure IMG {
+	BORDER-RIGHT: #333 1px solid; BORDER-TOP: #333 1px solid; BORDER-LEFT: #333 1px solid; BORDER-BOTTOM: #333 1px solid
+}
+DIV.textual-figure {
+	BORDER-RIGHT: #efefef 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #efefef 1px solid; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; BORDER-LEFT: #efefef 1px solid; PADDING-TOP: 6px; BORDER-BOTTOM: #efefef 1px solid; TEXT-ALIGN: center
+}
+#colly .bqstart {
+	MARGIN-TOP: -20px; FONT-SIZE: 700%; FLOAT: left; MARGIN-BOTTOM: -50px; COLOR: #ff0000; PADDING-TOP: 45px; FONT-STYLE: normal; FONT-FAMILY: 'Lucida Grande', Verdana, helvetica, sans-serif; HEIGHT: 45px
+}
+#colly .bqend {
+	MARGIN-TOP: 0px; FONT-SIZE: 700%; FLOAT: right; COLOR: #ff0000; PADDING-TOP: 45px; FONT-STYLE: normal; FONT-FAMILY: 'Lucida Grande', Verdana, helvetica, sans-serif; HEIGHT: 25px
+}
+#colly BLOCKQUOTE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 130%; PADDING-BOTTOM: 0px; MARGIN: 45px; LINE-HEIGHT: 160%; PADDING-TOP: 0px; FONT-STYLE: normal
+}
+#webkrauts {
+	FLOAT: right; MARGIN: 0px 0px 10px 10px
+}
+#webkrauts A:link IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#webkrauts A:visited IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#content #cederholm DL {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#content #cederholm DL DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 93%; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 1.5em; WIDTH: 30em; COLOR: #666; LINE-HEIGHT: 1.3em; PADDING-TOP: 0px
+}
+#content #cederholm OL.code {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 30em; COLOR: #666; PADDING-TOP: 5px; BORDER-RIGHT-WIDTH: 0px
+}
+#content #cederholm OL.code LI {
+	COLOR: #666; LIST-STYLE-TYPE: none; BACKGROUND-COLOR: #efefef
+}

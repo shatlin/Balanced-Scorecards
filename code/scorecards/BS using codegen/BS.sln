@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\BS\", ".", "{9D2DD3BD-48C4-45A6-BE7B-8EE92C7F4F9D}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/BS"
+		Debug.AspNetCompiler.PhysicalPath = "..\BS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\BS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/BS"
+		Release.AspNetCompiler.PhysicalPath = "..\BS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\BS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2067"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D2DD3BD-48C4-45A6-BE7B-8EE92C7F4F9D}.Debug|.NET.ActiveCfg = Debug|.NET
+		{9D2DD3BD-48C4-45A6-BE7B-8EE92C7F4F9D}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

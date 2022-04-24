@@ -1,0 +1,1025 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0087)http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html -->
+<HTML lang=en-US xml:lang="en-US" 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>Best practices for software development projects</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<META http-equiv=PICS-Label 
+content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true r (n 0 s 0 v 0 l 0) "http://www.classify.org/safesurf/" l gen true r (SS~~000 1))'><LINK 
+href="http://purl.org/DC/elements/1.0/" rel=schema.DC><LINK 
+href="http://www.ibm.com/favicon.ico" rel="SHORTCUT ICON">
+<META content="dW Information/Raleigh/IBM" name=Owner>
+<META scheme=rfc1766 content=en-US name=DC.Language>
+<META content=ZZ name=IBM.Country>
+<META content=Public name=Security><!-- <meta name="IBM.SpecialPurpose" content="SP001" />
+<meta name="IBM.PageAttributes" content="sid=1003"/> -->
+<META content="Based on v14 Template Generator, Template 14" name=Source>
+<META 
+content="This article provides a list of best practices for improving the success of your software development projects." 
+name=Abstract>
+<META 
+content="This article provides a list of best practices for improving the success of your software development projects.f&#10;      " 
+name=Description>
+<META 
+content="best practices, software development, project management, requirements, development process, dddwca" 
+name=Keywords>
+<META scheme=iso8601 content=2006-08-10 name=DC.Date>
+<META scheme=IBM_ContentClassTaxonomy content=CT316 name=DC.Type>
+<META scheme=IBM_SubjectTaxonomy content="" name=DC.Subject>
+<META content="Copyright (c) 2003 by IBM Corporation" name=DC.Rights>
+<META content=index,follow name=Robots>
+<META scheme=W3CDTF content=2003-06-16 name=IBM.Effective>
+<META content=29112006haysmark@us.ibm.com name="Last update"><!-- STYLESHEETS/SCRIPTS --><!-- for tables --><LINK 
+media=screen,print 
+href="Best practices for software development projects_files/table.css" 
+type=text/css rel=stylesheet><!-- end for tables -->
+<SCRIPT language=JavaScript 
+src="Best practices for software development projects_files/dwcss14.js" 
+type=text/javascript></SCRIPT>
+<LINK href="Best practices for software development projects_files/main.css" 
+type=text/css rel=stylesheet><LINK media=all 
+href="Best practices for software development projects_files/screen.css" 
+type=text/css rel=stylesheet><LINK media=print 
+href="Best practices for software development projects_files/print.css" 
+type=text/css rel=stylesheet>
+<SCRIPT language=JavaScript 
+src="Best practices for software development projects_files/detection.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=JavaScript 
+src="Best practices for software development projects_files/dropdown.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=JavaScript 
+src="Best practices for software development projects_files/grabtitle.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=JavaScript 
+src="Best practices for software development projects_files/emailfriend2.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=JavaScript 
+src="Best practices for software development projects_files/urltactic.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=JavaScript type=text/javascript>
+ <!--
+ setDefaultQuery('websphereart');
+ //-->
+</SCRIPT>
+<!--START RESERVED FOR FUTURE USE INCLUDE FILES-->
+<SCRIPT language=javascript 
+src="Best practices for software development projects_files/ajax1.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=javascript 
+src="Best practices for software development projects_files/searchcount.js" 
+type=text/javascript></SCRIPT>
+<!--END RESERVED FOR FUTURE USE INCLUDE FILES-->
+<SCRIPT language=JavaScript type=text/javascript>var emailAbstract = "This article provides a list of best practices for improving the success of your software development projects."; </SCRIPT>
+
+<META content="MSHTML 6.00.2900.2995" name=GENERATOR></HEAD>
+<BODY><!--MASTHEAD_BEGIN-->
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR vAlign=top>
+    <TD class=bbg width=110><A href="http://www.ibm.com/"><IMG height=52 
+      alt=IBM® 
+      src="Best practices for software development projects_files/ibm-logo.gif" 
+      width=110 border=0></A></TD>
+    <TD class=bbg><IMG height=1 alt="" 
+      src="Best practices for software development projects_files/c.gif" width=1 
+      border=0></TD>
+    <TD class=mbbg align=right width=650>
+      <TABLE cellSpacing=0 cellPadding=0 align=right border=0>
+        <TBODY>
+        <TR class=cty-tou>
+          <TD class=upper-masthead-corner width=17 rowSpan=2><A 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#main"><IMG 
+            height=1 alt="Skip to main content" 
+            src="Best practices for software development projects_files/c.gif" 
+            width=1 border=0></A></TD>
+          <TD align=left>
+            <TABLE cellSpacing=0 cellPadding=0 align=left border=0>
+              <TBODY>
+              <TR>
+                <TD><SPAN class=spacer>&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><B 
+                  class=country>Country/region</B><SPAN 
+                  class=spacer>&nbsp;[</SPAN><A class=ur-link 
+                  href="http://www.ibm.com/developerworks/country/">select</A><SPAN 
+                  class=spacer>]</SPAN></TD>
+                <TD class=upper-masthead-divider 
+                width=29>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+                <TD align=left><A class=ur-link 
+                  href="http://www.ibm.com/legal/">Terms of 
+            use</A></TD></TR></TBODY></TABLE></TD>
+          <TD width=40>&nbsp;</TD></TR>
+        <TR>
+          <TD class=cty-tou-border colSpan=2 height=1><IMG height=1 alt="" 
+            src="Best practices for software development projects_files/c.gif" 
+            width=1></TD></TR>
+        <TR>
+          <TD colSpan=3><IMG height=8 alt="" 
+            src="Best practices for software development projects_files/c.gif" 
+            width=1></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD>
+          <TD align=middle colSpan=2>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <FORM id=form1 name=form1 
+                action=//www.ibm.com/developerworks/search/searchResults.jsp 
+                method=get><INPUT type=hidden value=1 name=searchType><INPUT 
+                type=hidden value=dW name=searchSite> 
+                <TD width=18><LABEL for=q><IMG height=1 alt="Search in:" 
+                  src="Best practices for software development projects_files/c.gif" 
+                  width=1></LABEL></TD>
+                <TD align=right><SELECT class=input-local id=sq size=1 
+                  name=searchScope> <OPTION value=dW selected>All of 
+                    dW</OPTION> <OPTION value=dW>-----------------</OPTION> 
+                    <OPTION value=aixunix>&nbsp;&nbsp;AIX and UNIX</OPTION> 
+                    <OPTION value=eserver>&nbsp;&nbsp;IBM Systems</OPTION> 
+                    <OPTION value=db2>&nbsp;&nbsp;Information Mgmt</OPTION> 
+                    <OPTION value=lotus>&nbsp;&nbsp;Lotus</OPTION> <OPTION 
+                    value=rdd>&nbsp;&nbsp;Rational</OPTION> <OPTION 
+                    value=tivoli>&nbsp;&nbsp;Tivoli</OPTION> <OPTION 
+                    value=WSDD>&nbsp;&nbsp;WebSphere</OPTION> <OPTION 
+                    value=dW>-----------------</OPTION> <OPTION 
+                    value=archZ>&nbsp;&nbsp;Architecture</OPTION> <OPTION 
+                    value=acZ>&nbsp;&nbsp;Autonomic computing</OPTION> <OPTION 
+                    value=gridZ>&nbsp;&nbsp;Grid computing</OPTION> <OPTION 
+                    value=javaZ>&nbsp;&nbsp;Java technology</OPTION> <OPTION 
+                    value=linuxZ>&nbsp;&nbsp;Linux</OPTION> <OPTION 
+                    value=opensrcZ>&nbsp;&nbsp;Open source</OPTION> <OPTION 
+                    value=paZ>&nbsp;&nbsp;Power Architecture</OPTION> <OPTION 
+                    value=webservZ>&nbsp;&nbsp;SOA &amp; Web services</OPTION> 
+                    <OPTION value=webarchZ>&nbsp;&nbsp;Web development</OPTION> 
+                    <OPTION value=xmlZ>&nbsp;&nbsp;XML</OPTION> <OPTION 
+                    value=dW>-----------------</OPTION> <OPTION 
+                    value=forums>&nbsp;&nbsp;dW forums</OPTION> <OPTION 
+                    value=dW>-----------------</OPTION> <OPTION 
+                    value=aW>alphaWorks</OPTION> <OPTION 
+                    value=dW>-----------------</OPTION> <OPTION value=all>All of 
+                    IBM</OPTION></SELECT></TD>
+                <TD align=right width=7><LABEL for=q><IMG height=1 
+                  alt="Search for:" 
+                  src="Best practices for software development projects_files/c.gif" 
+                  width=1></LABEL>&nbsp;&nbsp;</TD>
+                <TD align=right><INPUT class=input id=q maxLength=100 size=15 
+                  name=query> </TD>
+                <TD width=7>&nbsp; </TD>
+                <TD width=90><INPUT type=image alt=Search 
+                  src="Best practices for software development projects_files/search.gif" 
+                  value=Search name=Search></TD><!-- <td width="20">&nbsp;</td> --></FORM></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=blbg colSpan=3>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD><SPAN class=spacer>&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></TD>
+                <TD><A class=masthead-mainlink 
+                  href="http://www.ibm.com/">Home</A></TD>
+                <TD class=masthead-divider 
+width=27>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+                <TD><A class=masthead-mainlink 
+                  href="http://www.ibm.com/products/">Products</A></TD>
+                <TD class=masthead-divider 
+width=27>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+                <TD><A class=masthead-mainlink 
+                  href="http://www.ibm.com/servicessolutions/">Services &amp; 
+                  industry solutions</A></TD>
+                <TD class=masthead-divider 
+width=27>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+                <TD><A class=masthead-mainlink 
+                  href="http://www.ibm.com/support/">Support &amp; 
+                downloads</A></TD>
+                <TD class=masthead-divider 
+width=27>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+                <TD><A class=masthead-mainlink 
+                  href="http://www.ibm.com/account/">My IBM</A></TD>
+                <TD><SPAN 
+              class=spacer>&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<SCRIPT language=JavaScript 
+src="Best practices for software development projects_files/pmh.js" 
+type=text/javascript></SCRIPT>
+<!--MASTHEAD_END--><!-- CMA ID for this content is: 23564 -->
+<TABLE id=v14-body-table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR vAlign=top><!--LEFTNAV_BEGIN-->
+    <TD id=navigation width=150>
+      <TABLE cellSpacing=0 cellPadding=0 width=150 border=0>
+        <TBODY>
+        <TR>
+          <TD class=left-nav-spacer><A class=left-nav-overview 
+            href="http://www.ibm.com/developerworks">&nbsp;</A></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width=150 border=0>
+        <TBODY>
+        <TR>
+          <TD class=left-nav-overview colSpan=2><A class=left-nav-overview 
+            href="http://www.ibm.com/developerworks">developerWorks</A></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width=150 border=0>
+        <TBODY>
+        <TR>
+          <TD class=left-nav-highlight colSpan=2><A class=left-nav 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#">In 
+            this article:</A></TD></TR>
+        <TR class=left-nav-child-highlight>
+          <TD><IMG height=8 alt="" 
+            src="Best practices for software development projects_files/cl-bullet.gif" 
+            width=2></TD>
+          <TD><A class=left-nav-child 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#N10045">Introduction</A></TD></TR>
+        <TR class=left-nav-child-highlight>
+          <TD><IMG height=8 alt="" 
+            src="Best practices for software development projects_files/cl-bullet.gif" 
+            width=2></TD>
+          <TD><A class=left-nav-child 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#N1005B">Best 
+            practices</A></TD></TR>
+        <TR class=left-nav-child-highlight>
+          <TD><IMG height=8 alt="" 
+            src="Best practices for software development projects_files/cl-bullet.gif" 
+            width=2></TD>
+          <TD><A class=left-nav-child 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#conc">Conclusion</A></TD></TR>
+        <TR class=left-nav-child-highlight>
+          <TD><IMG height=8 alt="" 
+            src="Best practices for software development projects_files/cl-bullet.gif" 
+            width=2></TD>
+          <TD><A class=left-nav-child 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#related">Related 
+            information</A></TD></TR>
+        <TR class=left-nav-child-highlight>
+          <TD><IMG height=8 alt="" 
+            src="Best practices for software development projects_files/cl-bullet.gif" 
+            width=2></TD>
+          <TD><A class=left-nav-child 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#author">About 
+            the author</A></TD></TR>
+        <TR class=left-nav-child-highlight>
+          <TD><IMG height=8 alt="" 
+            src="Best practices for software development projects_files/cl-bullet.gif" 
+            width=2></TD>
+          <TD><A class=left-nav-child 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#rate">Rate 
+            this page</A></TD></TR>
+        <TR class=left-nav-last>
+          <TD width=14><IMG class=display-img height=1 alt="" 
+            src="Best practices for software development projects_files/c.gif" 
+            width=14></TD>
+          <TD width=136><IMG class=display-img height=19 alt="" 
+            src="Best practices for software development projects_files/left-nav-corner.gif" 
+            width=136></TD></TR></TBODY></TABLE><BR>
+      <TABLE cellSpacing=0 cellPadding=0 width=150 border=0>
+        <TBODY>
+        <TR>
+          <TD class=related colSpan=2><B class=related>Related links</B></TD></TR>
+        <TR class=rlinks>
+          <TD><IMG height=8 alt="" 
+            src="Best practices for software development projects_files/rl-bullet.gif" 
+            width=2></TD>
+          <TD><A class=rlinks 
+            href="http://www.ibm.com/developerworks/views/websphere/library.jsp">WebSphere 
+            technical library</A></TD></TR><!--START RESERVED FOR FUTURE USE INCLUDE FILES--><!-- No content currently --><!--END RESERVED FOR FUTURE USE INCLUDE FILES-->
+        <TR>
+          <TD width=14><IMG class=display-img height=1 alt="" 
+            src="Best practices for software development projects_files/c.gif" 
+            width=14></TD>
+          <TD width=136><IMG class=display-img height=19 alt="" 
+            src="Best practices for software development projects_files/c.gif" 
+            width=136></TD></TR></TBODY></TABLE><!--START RESERVED FOR FUTURE USE INCLUDE FILES--><!-- Next Steps Area:  Start --><!-- Commented out the include call in the dwmaster version of this file to prevent ajax calls
+     being made during article previews and testing.  Live site has uncommented copy of this file (jpp) --><!-- Call Next Steps Servlet -->
+      <SCRIPT language=JavaScript type=text/javascript>
+<!--
+/*
+ * ajaxInclude makes a call to the url and render the results in the div tag specified in divId
+ */
+function ajaxInclude(url, divId) { 
+ var req = newXMLHttpRequest(); 
+ if (req) { 
+   req.onreadystatechange = getReadyStateHandler(req, 
+	function (result) {  
+           var contents = document.getElementById(divId);  
+           if (result != null && result.length > 0 && contents != null) {
+	     contents.innerHTML = result;  
+           }
+        }); 
+   req.open("GET", url, true);
+   req.send("");
+ }
+}
+//-->
+</SCRIPT>
+<!-- Display Next Steps Result -->
+      <DIV id=nextsteps></DIV><!-- Initiate Next Steps Call -->
+      <SCRIPT language=JavaScript type=text/javascript>
+<!-- 
+ ajaxInclude("/developerworks/niagara/jsp/getNiagaraContent.jsp?url="+window.location.href,"nextsteps");
+//-->
+</SCRIPT>
+<!-- Next Steps Area:  End --><!--END RESERVED FOR FUTURE USE INCLUDE FILES--></TD><!--LEFTNAV_END-->
+    <TD width="100%">
+      <TABLE id=content-table cellSpacing=0 cellPadding=0 width="100%" 
+        border=0><TBODY>
+        <TR vAlign=top>
+          <TD width="100%">
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><A name=main><IMG height=1 alt="skip to main content" 
+                  src="Best practices for software development projects_files/c.gif" 
+                  width=592 border=0></A></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR vAlign=top>
+                <TD width=10 height=18><IMG height=18 alt="" 
+                  src="Best practices for software development projects_files/c.gif" 
+                  width=10></TD>
+                <TD width="100%"><IMG height=6 alt="" 
+                  src="Best practices for software development projects_files/c.gif" 
+                  width=1><BR><A class=bctl 
+                  href="http://www.ibm.com/developerworks/">developerWorks</A><SPAN 
+                  class=bct>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</SPAN><A class=bctl 
+                  href="http://www.ibm.com/developerworks/websphere/">WebSphere</A><SPAN 
+                  class=bct>&nbsp;&nbsp;&gt;</SPAN><IMG height=1 alt="" 
+                  src="Best practices for software development projects_files/c.gif" 
+                  width=1><BR>
+                  <H1>Best practices for software development projects</H1><IMG 
+                  class=display-img height=6 alt="" 
+                  src="Best practices for software development projects_files/c.gif" 
+                  width=1></TD>
+                <TD class=no-print width=192><A 
+                  href="http://www.ibm.com/developerworks/"><IMG height=18 
+                  alt=developerWorks 
+                  src="Best practices for software development projects_files/dw.gif" 
+                  width=192 
+border=0></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top>
+          <TD width=10><IMG height=1 alt="" 
+            src="Best practices for software development projects_files/c.gif" 
+            width=10></TD>
+          <TD width="100%">
+            <TABLE class=no-print cellSpacing=0 cellPadding=0 width=160 
+            align=right border=0>
+              <TBODY>
+              <TR>
+                <TD width=10><IMG height=1 alt="" 
+                  src="Best practices for software development projects_files/c.gif" 
+                  width=10></TD>
+                <TD>
+                  <TABLE cellSpacing=0 cellPadding=0 width=150 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=v14-header-1-small>Document 
+                    options</TD></TR></TBODY></TABLE>
+                  <TABLE class=v14-gray-table-border cellSpacing=0 cellPadding=0 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=no-padding width=150>
+                        <TABLE cellSpacing=0 cellPadding=0 width=143 border=0>
+                          <SCRIPT language=JavaScript type=text/javascript>
+<!--
+document.write('<tr valign="top"><td width="8"><img src="//www.ibm.com/i/c.gif" width="8" height="1" alt=""/></td><td width="16"><img alt="Set printer orientation to landscape mode" height="16" src="//www.ibm.com/i/v14/icons/printer.gif" width="16" vspace="3" /></td><td width="122"><p><b><a class="smallplainlink" href="javascript:print()">Print this page</a></b></p></td></tr>');
+//-->
+</SCRIPT>
+                          <NOSCRIPT></NOSCRIPT>
+                          <SCRIPT language=JavaScript type=text/javascript>
+<!-- 5.6 10/24 llk: added cdata around the subdirectory path of email gif-->
+<!--
+document.write('<tr valign="top"><td width="8"><img src="//www.ibm.com/i/c.gif" width="8" height="1" alt=""/></td><td width="16"><img src="//www.ibm.com/i/v14/icons/em.gif" height="16" width="16" vspace="3" alt="Email this page" /></td><td width="122"><p><a class="smallplainlink" href="javascript:void newWindow()"><b>E-mail this page</b></a></p></td></tr>');
+//-->
+</SCRIPT>
+                          <NOSCRIPT>
+                          <TBODY>
+                          <TR vAlign=top>
+                            <TD width=8><IMG height=1 alt="" 
+                              src="Best practices for software development projects_files/c.gif" 
+                              width=8></TD>
+                            <TD width=16><IMG height=16 alt="" 
+                              src="Best practices for software development projects_files/c.gif" 
+                              width=16></TD>
+                            <TD class=small width=122>
+                              <P><SPAN class=ast>Document options requiring 
+                              JavaScript are not 
+                          displayed</SPAN></P></TD></TR></NOSCRIPT></TBODY></TABLE></TD></TR></TBODY></TABLE><!--START RESERVED FOR FUTURE USE INCLUDE FILES--><!-- 08/27/07 refreshed by jill, per MOC --><BR>
+                  <TABLE cellSpacing=0 cellPadding=0 width=150 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=v14-header-2-small>Watch these 
+                    demos</TD></TR></TBODY></TABLE>
+                  <TABLE class=v14-gray-table-border cellSpacing=0 cellPadding=0 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=no-padding width=150>
+                        <TABLE cellSpacing=0 cellPadding=0 width=143 border=0>
+                          <TBODY>
+                          <TR vAlign=top>
+                            <TD width=8><IMG height=1 alt="" 
+                              src="Best practices for software development projects_files/c.gif" 
+                              width=8></TD>
+                            <TD><IMG height=16 alt="" 
+                              src="Best practices for software development projects_files/fw_bold.gif" 
+                              width=16 vspace=3 border=0></TD>
+                            <TD width=125>
+                              <P><A class=smallplainlink 
+                              href="http://www.ibm.com/developerworks/integrate/demos/index.html">Integrate 
+                              new tools and architectures into your environment 
+                              -- fast!</A> 
+                  </P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!--END RESERVED FOR FUTURE USE INCLUDE FILES--><BR>
+                  <TABLE cellSpacing=0 cellPadding=0 width=150 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=v14-header-2-small>Rate this 
+                  page</TD></TR></TBODY></TABLE>
+                  <TABLE class=v14-gray-table-border cellSpacing=0 cellPadding=0 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=no-padding width=150>
+                        <TABLE cellSpacing=0 cellPadding=0 width=143 border=0>
+                          <TBODY>
+                          <TR vAlign=top>
+                            <TD width=8><IMG height=1 alt="" 
+                              src="Best practices for software development projects_files/c.gif" 
+                              width=8></TD>
+                            <TD><IMG height=16 alt="" 
+                              src="Best practices for software development projects_files/d_bold.gif" 
+                              width=16 vspace=3 border=0></TD>
+                            <TD width=125>
+                              <P><A class=smallplainlink 
+                              href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#rate"><B>Help 
+                              us improve this 
+                        content</B></A></P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR></TD></TR></TBODY></TABLE>
+            <P>Level: Introductory</P>
+            <P><A 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#author">Mike 
+            Perks</A> (<A 
+            href="mailto:mperks@us.ibm.com?subject=Best practices for software development projects">mailto:mperks@us.ibm.com?subject=Best 
+            practices for software development projects</A>), Solution 
+            Architect, IBM Software Services for WebSphere<BR></P>
+            <P>16 Jun 2003<BR>Updated 10 Aug 2006</P>
+            <BLOCKQUOTE>This article provides a list of best practices for 
+              improving the success of your software development 
+            projects.</BLOCKQUOTE><!--START RESERVED FOR FUTURE USE INCLUDE FILES-->
+            <SCRIPT language=JavaScript type=text/javascript>
+<!--
+if (document.referrer&&document.referrer!="") { 
+   // document.write(document.referrer);
+   var q = document.referrer;
+   var engine = q;
+   var isG = engine.search(/google\.com/i);
+   var searchTerms;
+   //var searchTermsForDisplay;
+   if (isG != -1) { 
+	   var i = q.search(/q=/);
+	   var q2 = q.substring(i+2);
+	   var j = q2.search(/&/);
+	   j = (j == -1)?q2.length:j;
+	   searchTerms = q.substring(i+2,i+2+j);
+	   if (searchTerms.length != 0) {
+	       searchQuery(searchTerms);
+	       document.write("<div id=\"contents\"></div>");
+	   }
+   } 
+}
+//-->
+</SCRIPT>
+<!--END RESERVED FOR FUTURE USE INCLUDE FILES-->
+            <P>© Copyright International Business Machines Corporation 2003. All 
+            rights reserved.</P>
+            <P><A name=N10045><SPAN class=atitle>Introduction</SPAN></A></P>
+            <P>Most software projects fail. In fact, the <A 
+            href="http://www.standishgroup.com/sample_research/chaos_1994_1.php">Standish 
+            group reports</A> that over 80% of projects are unsuccessful either 
+            because they are over budget, late, missing function, or a 
+            combination. Moreover, 30% of software projects are so poorly 
+            executed that they are canceled before completion. In our 
+            experience, software projects using modern technologies such as 
+            Java, J2EE, XML, and Web Services are no exception to this rule. 
+</P>
+            <P>This article contains a summary of best practices for software 
+            development projects. Industry luminaries such as Scott Ambler, 
+            Martin Fowler, Steve McConnell, and Karl Wiegers have documented 
+            many of these best practices on the Internet and they are referenced 
+            in this article. See also the <A 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#related">Related 
+            information</A> section at the end of this article. The companion 
+            article, <A 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks.html">Guide 
+            to Running Software Development Projects</A>, describes the top ten 
+            factors that help improve the success of your project.</P><BR>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><IMG height=1 alt="" 
+                  src="Best practices for software development projects_files/blue_rule.gif" 
+                  width="100%"></TD></TR></TBODY></TABLE>
+            <TABLE class=no-print cellSpacing=0 cellPadding=0 align=right>
+              <TBODY>
+              <TR align=right>
+                <TD>
+                  <TABLE cellSpacing=0 cellPadding=0 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD vAlign=center><IMG height=16 alt="" 
+                        src="Best practices for software development projects_files/u_bold.gif" 
+                        width=16 border=0><BR></TD>
+                      <TD vAlign=top align=right><A class=fbox 
+                        href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#main"><B>Back 
+                        to 
+            top</B></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR><BR>
+            <P><A name=N1005B><SPAN class=atitle>Best practices</SPAN></A></P>
+            <P><A name=devt><B>1. Development process</B> - It is important to 
+            choose the appropriate development lifecycle process to the project 
+            at hand because all other activities are derived from the process. 
+            For most modern software development projects, some kind of 
+            spiral-based methodology is used over a waterfall process. There are 
+            several choices, including the Rational Unified Process (RUP), IBM® 
+            Global Services Method, and eXtreme Programming (XP). Having a 
+            process is better than not having one at all, and in many cases it 
+            is less important on what process is used than how well it is <A 
+            href="http://www.stevemcconnell.com/articles/art09.htm">executed</A>. 
+            The commonly used methodologies listed above all contain guidance 
+            about how to execute the process and templates for artifacts. In 
+            addition, the RUP has a series of books that describe the best 
+            practices for using RUP <A 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#related">[1][2][3][4]</A> 
+            although if you do not choose to use RUP, these books still provide 
+            an excellent source of best practices. It is also possible to add 
+            plugins to the RUP. For a list of available plug-ins, see <A 
+            href="http://www.ibm.com/developerworks/websphere/downloads/plugin/index.html">Plug-in 
+            Central</A>. </P>
+            <P><A name=reqs><B>2. Requirements</B> - Gathering and agreeing on 
+            requirements is fundamental to a successful project. This does not 
+            necessarily imply that all requirements need to be fixed before any 
+            architecture, design, and coding are done, but it is important for 
+            the development team to understand what needs to be built. <A 
+            href="http://www.processimpact.com/articles/qualreqs.html">Quality 
+            requirements</A> are broken up into two kinds: functional and 
+            non-functional. A good way to document functional requirements is 
+            using Use Cases. Note that Use Cases are used for non-OO projects. A 
+            definitive book on the subject of use cases is by Armour and Miller 
+            <A 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#related">[5]</A>. 
+            Non-functional requirements describe the performance and system 
+            characteristics of the application. It is important to gather them 
+            because they have a major impact on the application architecture, 
+            design, and performance. See the <A 
+            href="http://www.construx.com/docs/member/cxone/CxCheck_NonFunctionalRequirement.pdf">non-functional 
+            requirements checklist</A> on the <A 
+            href="http://www.construx.com/cxone/basic">Construx</A> Web 
+site.</P>
+            <P><A name=architecture><B>3. Architecture</B> - Choosing the 
+            appropriate architecture for your application is key. Many times IBM 
+            is asked to review a project in trouble and we have found that the 
+            development team did not apply well-known industry architecture best 
+            practices. A good way to avoid this type of problem is to contact 
+            IBM. Our consultants can work side by side with your team and ensure 
+            that the projects get started on the right track. Tried and true 
+            practices are called patterns and they range from the classic Gang 
+            of Four <A 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#related">[6]</A> 
+            patterns, Java patterns <A 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#related">[7]</A>, 
+            to EJB design patterns <A 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#related">[8]</A>. 
+            Sun's equivalent is the Core J2EE Patterns catalog <A 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#related">[9]</A>. 
+            Many projects fail as discussed in the introduction. The study of 
+            these failures has given rise to the concept of <A 
+            href="http://www.antipatterns.com/">antipatterns</A>. They are 
+            valuable because they provide useful knowledge of what does not 
+            work, and why. </P>
+            <P><A name=design><B>4. Design</B> - Even with a good architecture 
+            it is still possible to have a bad design. Many applications are 
+            either over-designed or under-designed. The two basic principles 
+            here are <A 
+            href="http://www.construx.com/stevemcc/ieeesoftware/bp06.htm">"Keep 
+            it Simple"</A> and <A 
+            href="http://www.construx.com/stevemcc/ieeesoftware/bp02.htm">information 
+            hiding</A>. For many projects, it is important to perform 
+            Object-Oriented Analysis and Design using UML. There are many books 
+            on UML, but we recommend <I>UML User Guide</I> <A 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#related">[11]</A> 
+            and <I>Applying UML and Patterns</I> <A 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#related">[12]</A>. 
+            Reuse is one of the great promises of OO, but it is often unrealized 
+            because of the additional effort required to create reusable assets. 
+            Code reuse is but one form of reuse and there are other <A 
+            href="http://www.sdmagazine.com/documents/sdm9801a/9801a.htm">kinds 
+            of reuse</A> that can provide better productivity gains.</P>
+            <P><A name=wad><B>5. WebSphere application design</B> - IBM has 
+            extensive knowledge of the best practices and design patterns for 
+            the WebSphere product family. Each project is different and our 
+            consultants have the experience to help you. There is still a 
+            tremendous return on investment (ROI) even if you only use the 
+            consultants for a short time because you save the costs later in the 
+            project. Our experts have also published a great deal of this <A 
+            href="http://www.ibm.com/developerworks/websphere/zones/bp">wisdom</A>, 
+            including considerations for <A 
+            href="http://www.ibm.com/developerworks/websphere/zones/hvws/library.html">high-performance 
+            Web sites</A> and guidelines for <A 
+            href="ftp://ftp.software.ibm.com/software/tivoli/brochures/br-autonomic-guide.pdf">autonomic 
+            computing</A>.</P>
+            <P><A name=code><B>6. Construction of the code</B> - Construction of 
+            the code is a fraction of the total project effort, but it is often 
+            the most visible. Other work equally important includes 
+            requirements, architecture, analysis, design, and test. In projects 
+            with no development process (so-called "code and fix"), these tasks 
+            are also happening, but under the guise of programming. A best 
+            practice for constructing code includes the <A 
+            href="http://www.stevemcconnell.com/ieeesoftware/bp04.htm">daily 
+            build and smoke test</A>. Martin Fowler goes one step further and 
+            suggests <A 
+            href="http://www.martinfowler.com/articles/continuousIntegration.html">continuous 
+            integration</A> that also integrates the concept of unit tests and 
+            <A 
+            href="http://martinfowler.com/distributedComputing/duckling.pdf">self-testing 
+            code</A>. Note that even though continuous integration and unit 
+            tests have gained popularity through XP, you can use these best 
+            practices on all types of projects. I recommend using standard 
+            frameworks to automate builds and testing, such as <A 
+            href="http://ant.apache.org/">Ant</A> and <A 
+            href="http://www.junit.org/">JUnit</A>.</P>
+            <P><A name=peer><B>7. Peer reviews</B> - It is important to review 
+            other people's work. Experience has shown that problems are 
+            eliminated earlier this way and reviews are as effective or even 
+            more effective than testing. Any artifact from the development 
+            process is reviewed, including plans, requirements, architecture, 
+            design, code, and test cases. Karl Wiegers paper on the <A 
+            href="http://www.processimpact.com/articles/revu_sins.html">Seven 
+            Deadly Sins of Software Reviews</A> explains the correct ways to 
+            perform peer reviews. Peer reviews are helpful in trying to produce 
+            <A href="http://www.stevemcconnell.com/articles/art04.htm">software 
+            quality at top speed</A>.</P>
+            <P><A name=testing><B>8. Testing</B> - Testing is not an 
+            afterthought or cutback when the schedule gets tight. It is an 
+            integral part of software development that needs to be <A 
+            href="http://www.sdmagazine.com/documents/sdm9904b/">planned</A>. It 
+            is also important that testing is done proactively; meaning that 
+            test cases are planned before coding starts, and test cases are 
+            developed while the application is being designed and coded. There 
+            are also a number of <A 
+            href="http://testing.com/test-patterns/patterns">testing 
+            patterns</A> that have been developed.</P>
+            <P><A name=performance><B>9. Performance testing</B> - Testing is 
+            usually the last resort to catch application defects. It is labor 
+            intensive and usually only catches coding defects. Architecture and 
+            design defects may be missed. One method to catch some architectural 
+            defects is to simulate load testing on the application before it is 
+            deployed and to deal with <A 
+            href="http://www.sdmagazine.com/documents/sdm0008b/">performance 
+            issues</A> before they become problems.</P>
+            <P><A name=configuration><B>10. Configuration management</B> - 
+            Configuration management involves knowing the state of all artifacts 
+            that make up your system or project, managing the state of those 
+            artifacts, and releasing distinct versions of a system. There is 
+            more to configuration management than just source control systems, 
+            such as Rational Clearcase. There are also <A 
+            href="http://www.perforce.com/perforce/bestpractices.html">best 
+            practices</A> and patterns <A 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#related">[13]</A> 
+            for configuration management.</P>
+            <P><A name=quality><B>11. Quality and defects management</B> - It is 
+            important to establish <A 
+            href="http://www.sdmagazine.com/documents/sdm9902a/9902a.htm">quality 
+            priorities and release criteria</A> for the project so that a plan 
+            is constructed to help the team achieve quality software. As the 
+            project is coded and tested, the defect arrival and fix rate can 
+            help measure the maturity of the code. It is important that a defect 
+            tracking system is used that is linked to the source control 
+            management system. For example, projects using Rational ClearCase 
+            may also use Rational ClearQuest. By using defect tracking, it is 
+            possible to <A 
+            href="http://www.stevemcconnell.com/ieeesoftware/bp09.htm">gauge</A> 
+            when a project is ready to release.</P>
+            <P><A name=deployment><B>12. Deployment</B> - Deployment is the 
+            final stage of releasing an application for users. If you get this 
+            far in your project - congratulations! However, there are still 
+            things that can go wrong. You need to plan for <A 
+            href="http://www.sdmagazine.com/documents/sdm0107j/">deployment</A> 
+            and you can use a <A 
+            href="http://www.construx.com/docs/member/cxone/CxCheck_ProductRelease.pdf">deployment 
+            checklist</A> on the <A 
+            href="http://www.construx.com/cxone/basic/">Construx</A> Web 
+            site.</P>
+            <P><A name=operations><B>13. System operations and support</B> - 
+            Without the operations department, you cannot deploy and support a 
+            new application. The support area is a vital factor to respond and 
+            <A href="http://www.sdmagazine.com/documents/sdm0109d/">resolve user 
+            problems</A>. To ease the flow of problems, the support problem 
+            database is hooked into the application defect tracking system.</P>
+            <P><A name=data><B>14. Data migration</B> - Most applications are 
+            not brand new, but are enhancements or rewrites of existing 
+            applications. Data migration from the existing data sources is 
+            usually a major project by itself. This is not a project for your 
+            junior programmers. It is as important as the new application. 
+            Usually the new application has better business rules and expects 
+            higher quality data. Improving the <A 
+            href="http://www.sdmagazine.com/documents/sdm9907i/9907i.htm">quality 
+            of data</A> is a complex subject outside the scope of this 
+            article.</P>
+            <P><A name=project><B>15. Project management</B> - Project 
+            management is key to a successful project. Many of the other best 
+            practice areas described in this article are related to project 
+            management and a good project manager is already aware of the 
+            existence of these best practices. Our recommended bible for project 
+            management is <I>Rapid Development</I> by Steve McConnell <A 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#related">[14]</A>. 
+            Given the number of <A 
+            href="http://www.sdmagazine.com/documents/sdm9911d/">other 
+            checklists and tip sheets</A> for project management, it is 
+            surprising how many project managers are not aware of them and do 
+            not apply <A href="http://www.spmn.com/lessons.html">lessons 
+            learned</A> from previous projects, such as: "if you fail to plan, 
+            you plan to fail." One way to manage a difficult project is through 
+            <A 
+            href="http://www.belizenorth.com/articles/TIMEBOX.htm">timeboxing</A>. 
+            </P>
+            <P><A name=success><B>16. Measuring success</B> - You can measure 
+            your development process against an industry standard known as the 
+            <A href="http://www.sei.cmu.edu/cmm">Capability Maturity Model 
+            (CMM)</A> from the Software Engineering Institute at Carnegie Mellon 
+            University. Most projects are at level 1 (initial). If you implement 
+            the best practices described above and the guidelines in the 
+            companion article, <A 
+            href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks.html">Guide 
+            to Running Software Development Projects</A>, then you could be well 
+            on the way to achieving a higher maturity level and a successful 
+            project.</P><BR>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><IMG height=1 alt="" 
+                  src="Best practices for software development projects_files/blue_rule.gif" 
+                  width="100%"></TD></TR></TBODY></TABLE>
+            <TABLE class=no-print cellSpacing=0 cellPadding=0 align=right>
+              <TBODY>
+              <TR align=right>
+                <TD>
+                  <TABLE cellSpacing=0 cellPadding=0 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD vAlign=center><IMG height=16 alt="" 
+                        src="Best practices for software development projects_files/u_bold.gif" 
+                        width=16 border=0><BR></TD>
+                      <TD vAlign=top align=right><A class=fbox 
+                        href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#main"><B>Back 
+                        to 
+            top</B></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR><BR>
+            <P><A name=conc><SPAN class=atitle>Conclusion</SPAN></A></P>
+            <P>This article provided a list of best practices that help improve 
+            the success of a software development project. By following these 
+            best practices, you have a better chance of completing your project 
+            successfully. </P><BR>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><IMG height=1 alt="" 
+                  src="Best practices for software development projects_files/blue_rule.gif" 
+                  width="100%"></TD></TR></TBODY></TABLE>
+            <TABLE class=no-print cellSpacing=0 cellPadding=0 align=right>
+              <TBODY>
+              <TR align=right>
+                <TD>
+                  <TABLE cellSpacing=0 cellPadding=0 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD vAlign=center><IMG height=16 alt="" 
+                        src="Best practices for software development projects_files/u_bold.gif" 
+                        width=16 border=0><BR></TD>
+                      <TD vAlign=top align=right><A class=fbox 
+                        href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#main"><B>Back 
+                        to 
+            top</B></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR><BR>
+            <P><A name=related><SPAN class=atitle>Related 
+            information</SPAN></A></P>
+            <OL>
+              <LI>Ambler, Scott and Constantine, Larry, <I>The Unified Process 
+              Inception Phase</I>, ISBN 1929629109 
+              <LI>Ambler, Scott, <I>The Unified Process Elaboration Phase</I>, 
+              ISBN 1929629052 
+              <LI>Ambler, Scott and Constantine, Larry, <I>The Unified Process 
+              Construction Phase</I>, ISBN 192962901X 
+              <LI>Ambler, Scott and Constantine, Larry, <I>The Unified Process 
+              Transition and Production Phases</I>, ISBN 157820092X 
+              <LI>Armour, Frank and Miller, Granville, <I>Advanced Use Case 
+              Modeling</I>, ISBN 0201615924 
+              <LI>Gamma, E., Helm, R., Johnson, R., and Vlissides, J., <I>Design 
+              Patterns</I>, ISBN 0201633612 
+              <LI>Grand, Mark, <I>Patterns in Java</I>, ISBN 0471258393 
+              <LI>Marinescu, Floydd, <I>EJB Design Patterns</I>, ISBN 
+              0471208310, <A 
+              href="http://www.theserverside.com/books/EJBDesignPatterns/index.jsp">PDF 
+              file</A> 
+              <LI>Alur, D., Crupi, J., Malks, D., <I>Core J2EE Patterns</I>, 
+              ISBN 0130648841, also see <A 
+              href="http://java.sun.com/blueprints/corej2eepatterns">http://java.sun.com/blueprints/corej2eepatterns</A> 
+
+              <LI><A href="http://www.redbooks.ibm.com/">IBM Redbooks</A>. 
+              Search for "patterns AND e-business". 
+              <LI>Booch, G., Rumbaugh, J., and Jacobson, I., <I>The Unified 
+              Modeling Language User Guide</I>, ISBN 0201571684 
+              <LI>Larman, Craig, <I>Applying UML and Patterns</I>, ISBN 
+              0130925691 
+              <LI>Berczuk, Stephen, and Appleton, Brad, <I>Software 
+              Configuration Management Patterns</I>, ISBN 0201741172 
+              <LI>McConnell, Steve, <I>Rapid Development</I>, ISBN 1556159005 
+              </LI></OL>
+            <P><BR><BR>
+            <P><A name=author><SPAN class=atitle>About the author</SPAN></A></P>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD colSpan=3><IMG height=5 alt="" 
+                  src="Best practices for software development projects_files/c.gif" 
+                  width="100%"></TD></TR>
+              <TR vAlign=top align=left>
+                <TD>
+                  <P></P></TD>
+                <TD><IMG height=5 alt="" 
+                  src="Best practices for software development projects_files/c.gif" 
+                  width=4></TD>
+                <TD width="100%">
+                  <P><B>Mike Perks</B> is a Solution Architect with the IBM 
+                  Software Services for WebSphere team in Austin, Texas. Outside 
+                  the <I>normal daily grind</I> of delivering customer projects 
+                  on time and within budget, Mike's interests include Aspect 
+                  Oriented Software Development (AOSD) and Model Driven 
+                  Architecture (MDA). </P></TD></TR></TBODY></TABLE><BR><BR><BR>
+            <P class=no-print><SPAN class=atitle><A name=rate>Rate this 
+            page</A></SPAN></P><SPAN class=no-print>
+            <FORM 
+            action=http://www-128.ibm.com/developerworks/utils/RatingsHandler 
+            method=post><INPUT type=hidden value=1 name=SITE_ID><INPUT 
+            type=hidden value="Best practices for software development projects" 
+            name=ArticleTitle><INPUT type=hidden value=WebSphere 
+            name=Zone><INPUT type=hidden 
+            value=http://www.ibm.com/developerworks/thankyou/feedback-thankyou.html 
+            name=RedirectURL><INPUT type=hidden value=23564 
+            name=ArticleID><INPUT type=hidden value=08102006 
+            name=publish-date><INPUT type=hidden value=mperks@us.ibm.com 
+            name=author1-email><INPUT type=hidden name=author1-email-cc>
+            <SCRIPT language=javascript type=text/javascript>document.write('<input type="hidden" name="url" value="'+location.href+'" />');</SCRIPT>
+            <IMG height=1 alt="" 
+            src="Best practices for software development projects_files/gray_rule.gif" 
+            width="100%"><BR>
+            <TABLE class=v14-gray-table-border cellSpacing=0 cellPadding=0 
+            width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD width="100%">
+                  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                    <TBODY>
+                    <TR>
+                      <TD colSpan=3>
+                        <P>Please take a moment to complete this form to help us 
+                        better serve you.</P></TD></TR>
+                    <TR vAlign=top>
+                      <TD width=140><IMG height=1 alt="" 
+                        src="Best practices for software development projects_files/c.gif" 
+                        width=140><BR>
+                        <P><LABEL for=Goal>Did the information help you to 
+                        achieve your goal?</LABEL></P></TD>
+                      <TD width=303><IMG height=6 alt="" 
+                        src="Best practices for software development projects_files/c.gif" 
+                        width=303><BR>
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><INPUT id=Goal type=radio value=Yes 
+                              name=Goal>Yes</TD>
+                            <TD><INPUT id=Goal type=radio value=No 
+                            name=Goal>No</TD>
+                            <TD><INPUT id=Goal type=radio value="Don't know" 
+                              name=Goal>Don't know</TD></TR></TBODY></TABLE></TD>
+                      <TD width="100%">&nbsp;</TD></TR>
+                    <TR>
+                      <TD colSpan=3><IMG height=12 alt="" 
+                        src="Best practices for software development projects_files/c.gif" 
+                        width=8></TD></TR>
+                    <TR vAlign=top>
+                      <TD width=140><IMG height=1 alt="" 
+                        src="Best practices for software development projects_files/c.gif" 
+                        width=140><BR>
+                        <P><LABEL for=Comments>Please provide us with comments 
+                        to help improve this page:</LABEL></P></TD>
+                      <TD width=303><IMG height=6 alt="" 
+                        src="Best practices for software development projects_files/c.gif" 
+                        width=303><BR>
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><TEXTAREA class=iform id=Comments name=Comments rows=5 wrap=virtual cols=35>&nbsp;</TEXTAREA></TD></TR></TBODY></TABLE></TD>
+                      <TD width="100%">&nbsp;</TD></TR>
+                    <TR>
+                      <TD colSpan=3><IMG height=12 alt="" 
+                        src="Best practices for software development projects_files/c.gif" 
+                        width=8></TD></TR>
+                    <TR vAlign=top>
+                      <TD width=140><IMG height=1 alt="" 
+                        src="Best practices for software development projects_files/c.gif" 
+                        width=140><BR>
+                        <P><LABEL for=Rating>How useful is the 
+                        information?</LABEL></P></TD>
+                      <TD width=303><IMG height=6 alt="" 
+                        src="Best practices for software development projects_files/c.gif" 
+                        width=303><BR>
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD align=left width=60><INPUT id=Rating 
+                              type=radio value=1 name=Rating>1</TD>
+                            <TD align=left width=60><INPUT id=Rating 
+                              type=radio value=2 name=Rating>2</TD>
+                            <TD align=left width=60><INPUT id=Rating 
+                              type=radio value=3 name=Rating>3</TD>
+                            <TD align=left width=60><INPUT id=Rating 
+                              type=radio value=4 name=Rating>4</TD>
+                            <TD align=left width=63><INPUT id=Rating 
+                              type=radio value=5 name=Rating>5</TD></TR>
+                          <TR>
+                            <TD align=left width=60><SPAN 
+                              class=greytext>Not</SPAN><BR><SPAN 
+                              class=greytext>useful</SPAN></TD>
+                            <TD align=left width=60><IMG height=1 alt="" 
+                              src="Best practices for software development projects_files/c.gif" 
+                              width=1></TD>
+                            <TD align=left width=60><IMG height=1 alt="" 
+                              src="Best practices for software development projects_files/c.gif" 
+                              width=1></TD>
+                            <TD align=left width=60><IMG height=1 alt="" 
+                              src="Best practices for software development projects_files/c.gif" 
+                              width=1></TD>
+                            <TD align=left width=63><SPAN 
+                              class=greytext>Extremely<BR>useful</SPAN></TD></TR></TBODY></TABLE></TD>
+                      <TD 
+            width="100%">&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+            <TABLE class=v14-gray-table-border cellSpacing=0 cellPadding=0 
+            width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD colSpan=3><IMG height=8 alt="" 
+                  src="Best practices for software development projects_files/c.gif" 
+                  width=8></TD></TR>
+              <TR>
+                <TD width=8><IMG height=1 alt="" 
+                  src="Best practices for software development projects_files/c.gif" 
+                  width=8></TD>
+                <TD colSpan=3><INPUT type=image height=21 alt=Submit width=120 
+                  src="Best practices for software development projects_files/submit.gif" 
+                  border=0></TD></TR>
+              <TR>
+                <TD colSpan=3><IMG height=8 alt="" 
+                  src="Best practices for software development projects_files/c.gif" 
+                  width=8></TD></TR></TBODY></TABLE></FORM><BR></SPAN><SPAN 
+            class=no-print>
+            <TABLE cellSpacing=0 cellPadding=0 align=right>
+              <TBODY>
+              <TR align=right>
+                <TD>
+                  <TABLE cellSpacing=0 cellPadding=0 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD vAlign=center><IMG height=16 alt="" 
+                        src="Best practices for software development projects_files/u_bold.gif" 
+                        width=16 border=0><BR></TD>
+                      <TD vAlign=top align=right><A class=fbox 
+                        href="http://www.ibm.com/developerworks/websphere/library/techarticles/0306_perks/perks2.html#main"><B>Back 
+                        to 
+            top</B></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR><BR></SPAN></TD>
+          <TD width=10><IMG height=1 alt="" 
+            src="Best practices for software development projects_files/c.gif" 
+            width=10></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!--FOOTER_BEGIN--><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=bbg height=19>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD><SPAN class=spacer>&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><A 
+            class=mainlink href="http://www.ibm.com/ibm/">About IBM</A></TD>
+          <TD class=footer-divider width=27>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+          <TD><A class=mainlink 
+          href="http://www.ibm.com/privacy/">Privacy</A></TD>
+          <TD class=footer-divider width=27>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+          <TD><A class=mainlink 
+          href="http://www.ibm.com/contact/">Contact</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<SCRIPT language=JavaScript1.2 
+src="Best practices for software development projects_files/stats.js" 
+type=text/javascript></SCRIPT>
+<NOSCRIPT><IMG height=1 alt="" 
+src="C:\shatlin_moved\Assorted files\project development\Best practices for software development projects_files\c(1).gif" 
+width=1 border=0></NOSCRIPT><!--FOOTER_END--><!--XSLT stylesheet used to transform this file:  dw-document-html-5.8.xsl--></BODY></HTML>

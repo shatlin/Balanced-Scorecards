@@ -1,0 +1,144 @@
+#content {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 40px; BACKGROUND: url(http://images.apple.com/iphone/images/content_bg20070905.gif) #f0f1f2 repeat-x 0px 0px; PADDING-BOTTOM: 2.8em; OVERFLOW: visible; COLOR: #fff; PADDING-TOP: 0px; POSITION: relative
+}
+.dark#content {
+	BACKGROUND: url(http://images.apple.com/iphone/images/content_bgdark_alt20070905.jpg) #030408 repeat-x 50% bottom
+}
+.darkalt#content {
+	BACKGROUND: url(http://images.apple.com/iphone/images/content_bgdark_grad20070905.jpg) #292d30 no-repeat
+}
+.gray#content {
+	BACKGROUND: url(http://images.apple.com/iphone/images/content_bggray20070905.gif) #646a6e repeat-x
+}
+#content H2.topcap {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 40px; BACKGROUND: url(http://images.apple.com/iphone/images/content_bgtop20070905.gif) no-repeat 0px 0px; PADDING-BOTTOM: 30px; MARGIN: 0px -40px; PADDING-TOP: 45px
+}
+#content DIV.bottomcap {
+	FONT-SIZE: 0px; BACKGROUND: url(http://images.apple.com/iphone/images/content_bgbottom20070621.png) no-repeat; LEFT: 0px; MARGIN-BOTTOM: -1px; BEHAVIOR: url(/global/scripts/lib/iepngfix.htc); WIDTH: 980px; BOTTOM: 0px; POSITION: absolute; HEIGHT: 4px
+}
+#main A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#main A:hover {
+	TEXT-DECORATION: underline
+}
+#main #contentheader {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 40px; BACKGROUND: url(http://images.apple.com/iphone/images/content_bgtop20070621.png) no-repeat; PADDING-BOTTOM: 0px; MARGIN: 0px -40px; BEHAVIOR: url(/global/scripts/lib/iepngfix.htc); WIDTH: 900px; PADDING-TOP: 2.8em
+}
+#main #contentheader H2 {
+	FLOAT: left; MARGIN-BOTTOM: 0px; PADDING-TOP: 10px; HEIGHT: 17px
+}
+#main #content H2.headline {
+	PADDING-BOTTOM: 20px; MARGIN-LEFT: 40px; PADDING-TOP: 1px
+}
+#main #contentheader HR {
+	BORDER-TOP-WIDTH: 0px; CLEAR: both; DISPLAY: block; BORDER-LEFT-WIDTH: 0px; BACKGROUND: #999; BORDER-BOTTOM-WIDTH: 0px; MARGIN-BOTTOM: 43px; WIDTH: 100%; HEIGHT: 1px; BORDER-RIGHT-WIDTH: 0px
+}
+BODY.usingiphone #main #contentheader HR {
+	BACKGROUND: #525556
+}
+#main #contentheader UL#sectionnav {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px 0px -8px; PADDING-TOP: 0px
+}
+#main #contentheader UL#sectionnav LI {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 1.2em 0px -1px 28px; PADDING-TOP: 0px
+}
+#main #contentheader UL#sectionnav LI A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 11px; MARGIN: 0px; CURSOR: pointer; COLOR: #9d9d9d; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+#main #contentheader UL#sectionnav LI A:hover {
+	COLOR: #ccc
+}
+BODY.softwareupdate #main .dark #contentheader UL#sectionnav LI#sn-softwareupate A BODY.guidedtour #main .dark #contentheader UL#sectionnav LI#sn-guidedtour A {
+	BACKGROUND: url(http://images.apple.com/iphone/images/sectionnav_active_black20070905.gif) no-repeat center bottom; CURSOR: default; COLOR: #fff
+}
+BODY.activation #main .dark #contentheader UL#sectionnav LI#sn-activation A {
+	BACKGROUND: url(http://images.apple.com/iphone/images/sectionnav_active_black20070905.gif) no-repeat center bottom; CURSOR: default; COLOR: #fff
+}
+BODY.keyboard #main .dark #contentheader UL#sectionnav LI#sn-keyboard A {
+	BACKGROUND: url(http://images.apple.com/iphone/images/sectionnav_active_black20070905.gif) no-repeat center bottom; CURSOR: default; COLOR: #fff
+}
+BODY.photos #main .darkalt #contentheader UL#sectionnav LI#sn-photos A {
+	BACKGROUND: url(http://images.apple.com/iphone/images/sectionnav_activedark20070905.gif) no-repeat center bottom; CURSOR: default; COLOR: #fff
+}
+BODY#qtvr #main .gray #contentheader UL#sectionnav LI#sn-qtvr A {
+	BACKGROUND: url(http://images.apple.com/iphone/images/sectionnav_active20070905.gif) no-repeat center bottom; CURSOR: default; COLOR: #fff
+}
+BODY.ads #main .gray #contentheader UL#sectionnav LI#sn-ads A {
+	BACKGROUND: url(http://images.apple.com/iphone/images/sectionnav_active20070905.gif) no-repeat center bottom; CURSOR: default; COLOR: #fff
+}
+#main #contentfooter {
+	MARGIN-TOP: 18px; FONT-SIZE: 10px; BACKGROUND: url(http://images.apple.com/iphone/images/contentfooter_bg20070625.gif) repeat-y center 50%; COLOR: #999; LINE-HEIGHT: 1.4em
+}
+#main #contentfooter .topcap {
+	BACKGROUND: url(http://images.apple.com/iphone/images/contentfooter_bgtop20070622.gif) no-repeat center top; PADDING-TOP: 12px; POSITION: relative
+}
+#main #contentfooter .bottomcap {
+	BACKGROUND: url(http://images.apple.com/iphone/images/contentfooter_bgbottom20070625.gif) no-repeat center bottom; HEIGHT: 109px
+}
+#main #contentfooter .alternate {
+	DISPLAY: none
+}
+BODY.guidedtour #main #contentfooter .first .default {
+	DISPLAY: none
+}
+BODY.activation #main #contentfooter .second .default {
+	DISPLAY: none
+}
+BODY.keyboard #main #contentfooter .third .default {
+	DISPLAY: none
+}
+BODY#technology #main #contentfooter .last .default {
+	DISPLAY: none
+}
+BODY.guidedtour #main #contentfooter .first .alternate {
+	DISPLAY: block
+}
+BODY.activation #main #contentfooter .second .alternate {
+	DISPLAY: block
+}
+BODY.keyboard #main #contentfooter .third .alternate {
+	DISPLAY: block
+}
+BODY#technology #main #contentfooter .last .alternate {
+	DISPLAY: block
+}
+#main #contentfooter .grid4col .column {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 4px; WIDTH: 213px; PADDING-TOP: 8px
+}
+#main #contentfooter .grid4col .last {
+	MARGIN: 0px
+}
+#main #contentfooter H3 {
+	MARGIN-BOTTOM: 0.6em; TEXT-ALIGN: left
+}
+#main #contentfooter H3.nobottom {
+	MARGIN-BOTTOM: 0.2em; TEXT-ALIGN: left
+}
+#main #contentfooter A {
+	COLOR: #666
+}
+#main #contentfooter A.arrow {
+	PADDING-RIGHT: 8px; BACKGROUND: url(http://images.apple.com/iphone/images/arrow_onwhite20070621.gif) no-repeat right center
+}
+#main #contentfooter IMG.right {
+	MARGIN-TOP: -12px; MARGIN-BOTTOM: 1px; MARGIN-LEFT: 10px; POSITION: relative
+}
+#main #contentfooter .third IMG.right {
+	MARGIN-RIGHT: 5px
+}
+#main #contentfooter SPAN {
+	DISPLAY: block; MARGIN-BOTTOM: 0.3em
+}
+#main #contentfooter .buy UL {
+	MARGIN-BOTTOM: 1px
+}
+#main #contentfooter .buy UL LI {
+	MARGIN-BOTTOM: 0.3em
+}
+#main #contentfooter .buy #availability {
+	MARGIN-BOTTOM: 0px
+}
+#globalfooter P.sosumi {
+	MARGIN-TOP: -30px; FLOAT: right; COLOR: #999
+}

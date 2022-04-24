@@ -1,0 +1,1095 @@
+HTML {
+	direction: ltr;
+	}
+
+
+/**********************************************************************
+ * Page Center Styles                                                 *
+ **********************************************************************/
+.pcTable {
+	}
+.pcTL {
+	}
+.pcT {
+	}
+.pcTR {
+	}
+.pcL {
+	padding-left: 1px;
+	padding-top: 0px;
+	vertical-align: top;
+	width: 1px;
+	}
+.pcC {
+	vertical-align: top;
+	}
+.pcR {
+	}
+.pcBL {
+	}
+.pcB {
+	}
+.pcBR {
+	}
+
+
+/**********************************************************************
+ * Button Styles                                                      *
+ **********************************************************************/
+a.button_link, .thc a.button_link, .tic a.button_link, .ttc a.button_link {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	padding-left: 4px;
+	padding-right: 4px;
+	width: 100%;
+	}
+
+a.button_link:hover, .thc a.button_link:hover, .tic a.button_link:hover, .ttc a.button_link:hover {
+	text-decoration: none;
+	}
+
+.button-TL-white, .bTL {
+	}
+.button-T-white, .bT {
+	}
+.button-TR-white, .bTR {
+	}
+.button-L-white, .bL {
+	}
+.button-white, .bC {
+	}
+.button-R-white, .bR {
+	}
+.button-BL-white, .bBL {
+	}
+.button-B-white, .bB {
+	}
+.button-BR-white, .bBR {
+	} 
+
+
+/**********************************************************************
+ * Menu Styles                                                        *
+ **********************************************************************/
+.menus {
+	}
+
+.menusV {
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+
+.menu {
+	font-weight: bold;
+	}
+	
+a.menu {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	text-align: center;
+	width: 100%;
+	}
+
+a.menu:hover {
+	}
+
+.menu_on-TL, .moTL {
+	}
+.menu_on-T, .moT {
+	}
+.menu_on-TR, .moTR {
+	}
+.menu_on-L, .moL {
+	}
+.menu_on, .moC {
+	white-space: nowrap;
+	}
+.menu_on-R, .moR {
+	}
+.menu_on-BL, .moBL {
+	}
+.menu_on-B, .moB {
+	}
+.menu_on-BR, .moBR {
+	}
+
+.menu_on a, .moC a {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	}
+
+.menu_off-TL, .mTL {
+	}
+.menu_off-T, .mT {
+	}
+.menu_off-TR, .mTR {
+	}
+.menu_off-L, .mL {
+	}
+.menu_off, .mC {
+	white-space: nowrap;	
+	}
+.menu_off-R, .mR {
+	}
+.menu_off-BL, .mBL {
+	}
+.menu_off-B, .mB {
+	}
+.menu_off-BR, .mBR {
+	}
+
+.menuEdgeL, .mel {
+	width: 0px;
+	}
+
+.menuEdgeR, .mer {
+	width: 0px;
+	}
+
+.menu_bot_bg, .mbbg { 
+	} 
+
+
+/**********************************************************************
+ * Tab Control Styles                                                 *
+ **********************************************************************/
+.tabBG {
+	background-color: #ffffff;
+	border-top: 1px solid #a8beb1;
+	border-right: 1px solid #a8beb1;
+	border-left: 1px solid #a8beb1;
+	}
+
+.tabBG a {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	white-space: nowrap;
+	}
+
+.tabBG a:hover {
+	}
+
+
+/**********************************************************************
+ * Page Background Styles                                             *
+ **********************************************************************/
+.pageBackground, .pBack {
+	background-color: #ffffff;
+	margin: 0px;
+	}
+
+.pageBorderTL, .pbTL {
+	}
+.pageBorderT, .pbT {
+	}
+.pageBorderTR, .pbTR {
+	}
+.pageBorderL, .pbL {
+	}
+.pageBorderC, .pbC {
+	vertical-align: top;
+	}
+.pageBorderR, .pbR {
+	}
+.pageBorderBL, .pbBL {
+	}
+.pageBorderB, .pbB {
+	}
+.pageBorderBR, .pbBR {
+	}
+
+.page_yellow, .pContent {
+	height: 30px;
+	text-align: left;
+	}
+
+.pageAlignment, .pAlign {
+	}
+
+.borderTable, .pbTable {
+	}
+
+.divider { 
+	}
+
+.footer {
+	color: #444444;
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding-top: 6px;
+	}
+
+.logoBG {
+	}
+
+
+/**********************************************************************
+ * Panel Body Styles                                                  *
+ **********************************************************************/
+.dialog_body, .dBody {
+	background-color: #ffffff;
+	color: #666666;
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding: 4px;
+	}
+
+.dialog_field_value, .dfv {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding: 3px;
+	}
+
+.dialog_header, .dh {
+	border-top: 1px #a8beb1 solid;
+	border-bottom: 1px #a8beb1 solid;
+	}
+
+.dialogHeaderBackground, .dhb {
+	}
+
+.dialog_header_text, .dht {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	font-weight: bold;
+	padding-left: 4px;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	vertical-align: middle;
+	}
+
+.dialogHeaderTextRecord, .dhtr {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-left: 4px;
+	padding-top: 6px;
+	}
+
+.dialogHeaderEdgeL, .dhel {
+	width: 10px;
+	}
+
+.dialogHeaderEdgeR, .dher {
+	width: 10px;
+	}
+
+.dialogHeaderIcon, .dhi {
+	padding-top: 2px;
+	vertical-align: middle;
+	width: 0px;
+	}
+
+.dialogHeaderIconRecord, .dhir {
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+
+.dialogHeaderExpandCollapseIcon, .dheci {
+	background-image:url(../Images/dialogHeaderT.gif);
+	width:20px;
+	height:14px;
+	vertical-align:middle;
+	}
+
+.dialogHeaderPrintEmailIcon, .dhpei {
+	padding-right: 10px;
+	text-align: right;
+	vertical-align: middle;
+	width: 100%;
+	}
+
+.dialogHeaderTotalRecordCount, .dhtrc {
+	background-image: url(../Images/dialogHeaderT.gif);
+	text-align: right;
+	vertical-align: middle;
+	padding-left: 20px;
+	padding-top: 2px;
+	}
+
+.dialogHeaderTotalRecordCountText, .dhtrct {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	}
+
+.dialog_view, .dv {
+	}
+
+.category, .c {
+	padding: 5px;
+	}
+
+.category_area, .ca {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	vertical-align: middle;
+	white-space: nowrap;	
+	padding-bottom: 4px;
+	}
+
+.category_area A, .ca A {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	text-decoration: underline;
+	}
+
+.category_area A:hover, .ca A:hover {
+	text-decoration: underline;
+	}
+
+.subcategory_label, .scl {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	font-weight: normal;
+	padding-left: 4px;
+	white-space: nowrap;	
+	vertical-align: middle;
+	}
+
+.subcategory SELECT, .sc SELECT {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	}
+
+.recordPanelButtonsAlignment, .rpbAlign {
+	padding-bottom: 5px;
+   	padding-left: 100px;
+	}
+    
+.field_label, .fl {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	white-space: nowrap;	
+	vertical-align: middle;
+	text-align: left;
+	padding: 3px 6px 3px 6px;
+	}
+
+.field_label_on_side, .fls {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	white-space: nowrap;	
+	vertical-align: middle;
+	text-align: right;
+	padding: 3px 6px 3px 6px;
+	}
+
+.field_value, .fv {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding: 0px;
+	}
+
+.field_input, .fi {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	}
+
+.filter_value, .filv {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding: 2px;
+	}
+
+.filter_button_cell, .filbc {
+	padding-left: 8px;
+	vertical-align:bottom;
+	}
+
+.Filter_Input, .fili {
+	border-bottom: 1px #eeeeee solid;
+	border-left: 1px #555555 solid;
+	border-right: 1px #eeeeee solid;
+	border-top: 1px #555555 solid;
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	}
+
+.filter_area, .fila {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	text-align: right;
+	padding: 3px 6px 3px 6px;
+	vertical-align: middle;
+	white-space: nowrap;	
+	}
+	
+.search_area, .sa {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	}
+
+.search_label, .sl {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	vertical-align: middle;
+	white-space: nowrap;	
+	padding: 5px;
+	}
+
+.Search_Input, .si {
+	border-bottom: 1px #eeeeee solid;
+	border-left: 1px #555555 solid;
+	border-right: 1px #eeeeee solid;
+	border-top: 1px #555555 solid;
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	} 
+
+.rangeFilterText, .rft {
+	color: #666666;
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	font-weight: normal;
+	padding-left: 6px;
+	padding-right: 6px;
+	text-decoration: none;
+	text-transform: none;
+	}
+
+
+/**********************************************************************
+ * Pagination Styles                                                  *
+ **********************************************************************/
+.button_bar_cell, .prbbc {
+	padding-top: 2px;
+	vertical-align: bottom;
+	}
+	
+.prbg {
+	background-image:url(../Images/ButtonBarBackground.gif); 
+	background-repeat: repeat-x;
+	color: #666666;
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	font-weight: normal;
+	padding-left: 3px;
+	padding-right: 3px;
+	white-space: nowrap;
+	}
+
+.pagination_area, .pra {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding-top: 2px;
+	vertical-align: bottom;
+	white-space: nowrap;	
+	}
+
+.pagination_label, .prl {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	vertical-align: middle;
+	white-space: nowrap;	
+	padding: 2px;
+	}
+
+.pagination_value, .prv {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	vertical-align: middle;
+	white-space: nowrap;	
+	padding: 2px;
+	padding-right: 5px;
+	padding-left: 5px;
+	}
+
+.Pagination_Input, .pri {
+	border-bottom: 1px #eeeeee solid;
+	border-left: 1px #555555 solid;
+	border-right: 1px #eeeeee solid;
+	border-top: 1px #555555 solid;
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	}
+
+.pagination_row, .pr {
+	vertical-align: middle;
+	border-top: 1px #a8beb1 solid;
+	border-bottom: 1px #a8beb1 solid;
+	}
+
+.paginationRowEdgeL, .prel {
+	width: 0px;
+	}
+
+.paginationRowEdgeR, .prer {
+	width: 0px;
+	}
+
+.paginationButtonFirst, .prbf {
+	background-image:url(../Images/arrow_beg.gif);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 17px;
+	}
+
+.paginationButtonPrevious, .prbp {
+	background-image:url(../Images/arrow_left.gif);
+	background-repeat: no-repeat;
+	width: 17px;
+	height: 17px;
+	}
+
+.paginationButtonNext, .prbn {
+	background-image:url(../Images/arrow_right.gif);
+	background-repeat: no-repeat;
+	width: 17px;
+	height: 17px;
+	}
+
+.paginationButtonLast, .prbl {
+	background-image:url(../Images/arrow_end.gif);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 17px;
+	} 
+
+
+/**********************************************************************
+ * Table Rows Styles                                                  *
+ **********************************************************************/ 
+.header_cell, .header_cell_scrolling, .thc, .thcs {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	background-color: #ffffff;
+	padding: 5px;
+	vertical-align: top;
+	}
+
+.header_cell_empty, .thce {
+	background-color: #ffffff;
+	}
+
+.column_header, .tch {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	}
+
+.column_header A, .column_header_scrolling A, .tch A, .tchs A {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	text-decoration: underline;
+	} 
+	
+.column_header A:hover, .column_header_scrolling A:hover, .tch A:hover, .tchs A:hover {
+	text-decoration: underline;
+	}
+
+.columnHeaderFilterPadding, .tchfilp {
+	padding-top: 4px;
+	}
+
+.columnHeaderFilterPadding A, .tchfilp A {
+	text-decoration: none;
+	}
+
+.columnHeaderFilterPadding A:hover, .tchfilp A:hover {
+	text-decoration: none;
+	}
+
+.icon_cell, .alt_icon_cell, .tic, .taic {
+	padding: 0px;
+	vertical-align: middle;
+	background-color: #ffffff;
+	width: 16px;
+	}
+
+.icon_cell_highlighted, .alt_icon_cell_highlighted, .tich, .taich {
+	padding: 0px;
+	vertical-align: middle;
+	width: 16px;
+	background-color: #cccccc;
+	}
+
+.icon_cell_selected, .tics {
+	padding: 0px;
+	vertical-align: middle;
+	width: 16px;
+	background-color: #eeeeee;
+	}
+
+.icon_cell_empty, .tice {
+	background-color: #ffffff;
+	width: 0px;
+	}
+
+.icon_cell_highlighted_empty, .tiche {
+	background-color: #cccccc;
+	width: 0px;
+	}
+
+.icon_cell_selected_empty, .ticse {
+	background-color: #eeeeee;
+	width: 0px;
+	}
+			
+.table_cell, .alt_table_cell, .ttc, .tatc {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding: 5px;
+	vertical-align: top;
+	text-align: left;
+	background-color: #ffffff;
+	}
+
+.table_cell_highlighted, .alt_table_cell_highlighted, .ttch, .tatch {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding: 5px;
+	vertical-align: top;
+	text-align: left;
+	background-color: #cccccc;
+	}
+
+.table_cell_selected, .ttcs {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding: 5px;
+	vertical-align: top;
+	text-align: left;
+	background-color: #eeeeee;
+	}
+
+.ttc a, .tatc a, .ttch a, .tatch a, .ttcs a, .dfv a, .dialog_field_value a {
+	}
+
+.ttc a:hover, .tatc a:hover, .ttch a:hover, .tatch a:hover, .ttcs a:hover, .dfv a:hover, .dialog_field_value a:hover {
+	}
+
+.totals_cell, .tpttc {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding: 5px;
+	vertical-align: top;
+	text-align: left;
+	background-color: #ffffff;
+	width: 48px;
+	}
+
+.totals_cell_value, .tpttcv {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding: 5px;
+	vertical-align: top;
+	text-align: right;
+	background-color: #ffffff;
+	}
+
+.page_total_label, .tptl {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding-left: 20px;
+	white-space: nowrap;	
+	vertical-align: middle;
+	}
+
+.page_total_value, .tptv {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding: 3px;
+	}
+
+.grand_total_label, .tgtl {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding-left: 20px;
+	white-space: nowrap;	
+	vertical-align: middle;
+	}
+
+.grand_total_value, .tgtv {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 3px;
+	}
+
+.tableRowsEdge, .tre {
+	}
+
+
+/**********************************************************************
+ * Scrolling Table Styles                                             *
+ **********************************************************************/
+div.tableContainer {
+	clear: both;
+	height: 285px;  /* defines scrolling region height */
+	overflow: auto; /* enables scroll bar */
+	}
+
+div.tableContainer table {
+	width: 97%; /* defines data region width (provide room for scroll bar) */
+	}
+
+thead.fixedHeader tr {
+	background-color: #ffffff; /* obscures data behind headers */
+	position: relative; 	   /* fixes headers in place */
+	}
+
+.scrollContent {
+	display: block;
+	}
+
+thead.fixedHeader td.button-white {
+	white-space: nowrap;
+	width: 0%;
+	}
+
+thead.fixedHeader table {
+	width: 0%;
+	}
+
+
+/**********************************************************************
+ * Auto Type Ahead Styles                                             * 
+ **********************************************************************/
+.autotypeahead_completionListElement {  
+	background-color: #ffffff;
+	border-bottom: 1px #555555 solid;
+	border-left: 1px #555555 solid;
+	border-right: 1px #555555 solid;
+	border-top: 1px #555555 solid;
+	height: 90px;
+	list-style-type: none;
+	margin: 0px;
+	overflow: auto;
+	padding: 0px;
+	visibility: hidden;
+	}
+
+.autotypeahead_highlightedListItem {
+	background-color: #cccccc;
+	padding-bottom: 1px; 
+	}
+
+.autotypeahead_listItem {
+	padding-bottom: 1px; 
+	}
+
+
+/**********************************************************************
+ * Date Selector Styles                                               *
+ **********************************************************************/
+.dsTodayDay {
+	background-color: #eeeeee; 
+	}
+
+.dsDayHeader {
+	color: #666666;
+	background-color: #eeeeee; 
+	font-size: 10px;
+	padding: 6px;
+	}
+
+.dsSelectedDay {
+	padding: 6px;
+	}
+
+.dsTitle {
+	color: #666666;
+	background-color: #ffffff;
+	font-weight: bold;
+	}
+
+.dsWeekendDay {
+	background-color: #ffffff; 
+	padding: 6px;
+	}
+
+.dsOtherMonthDay {
+	background-color: #ffffff; 
+	padding: 6px;
+	}
+
+.dsDay a, .dsTodayDay a, .dsSelectedDay a, .dsWeekendDay a, .dsOtherMonthDay a {
+	color: #666666;
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	}
+
+
+/**********************************************************************
+ * Info Panel Styles                                                  *
+ **********************************************************************/
+.panelInformationDisplayWithImage_ImageArea {
+	padding: 10px 10px 10px 16px;
+	}
+
+.panelInformationDisplayWithImage_InfoArea {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	vertical-align: middle;
+	}
+
+.panelInformationDisplayWithImage_InfoTitle {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #777777;
+	white-space: nowrap;	
+	}
+
+.panelInformationDisplayWithImage_InfoDetails {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	padding-right: 16px;
+	white-space: nowrap;
+	}
+
+.panelInformationDisplay {
+	border-top: 1px #cccccc solid;
+	border-left: 1px #cccccc solid;
+	border-right: 1px #cccccc solid;
+	border-bottom: 1px #cccccc solid;
+	}
+
+.panelInformationDisplay_InfoArea {
+	padding: 10px;
+	}
+
+.panelInformationDisplay_InfoTitle {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #777777;
+	white-space: nowrap;	
+	text-align: center;
+	}
+
+.panelInformationDisplay_InfoDetails {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	white-space: nowrap;
+	text-align: center;
+	} 
+
+
+/**********************************************************************
+ * Configuration/Error Page Styles                                    *
+ **********************************************************************/
+.configureErrorPagesText {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 11px;
+	color: #333333;
+	}
+	
+
+/**********************************************************************
+ * Section 508 Compliance Styles                                      *
+ **********************************************************************/
+.skipNavigationLinks {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	color: #666666;
+	}
+	
+
+/**********************************************************************
+ * Detail Rollover Popup Styles                                       *
+ **********************************************************************/
+.detailRolloverTitle {
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	font-weight: bold;
+	padding-left: 4px;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	vertical-align: middle;
+	width: 100%;
+	}
+
+.detailRolloverTL {
+	background-image:url(../Images/detailRolloverTL.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	height: 57px;
+	width: 65px;
+	}
+
+.detailRolloverTL_noPNG {
+	height: 57px;
+	width: 65px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../Images/detailRolloverTL.png');
+	}
+
+.detailRolloverT {
+	background-image:url(../Images/detailRolloverT.png);
+	background-position: bottom center;
+	background-repeat: repeat-x;
+	height: 57px;
+	}
+
+.detailRolloverT_noPNG {
+	height: 57px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../Images/detailRolloverT.png');
+	}
+
+.detailRolloverTR {
+	background-image:url(../Images/detailRolloverTR.png);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	height: 57px;
+	width: 65px;
+	}
+
+.detailRolloverTR_noPNG {
+	height: 57px;
+	width: 65px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../Images/detailRolloverTR.png');
+	}
+
+.detailRolloverL {
+	background-image:url(../Images/detailRolloverL.png);
+	background-position: center right;
+	background-repeat: repeat-y;
+	width: 65px;
+	}
+
+.detailRolloverL_noPNG {
+	width: 65px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../Images/detailRolloverL.png');
+	}
+
+.detailRolloverC {
+	background-image:url(../Images/detailRolloverC.png);
+	font-family: Verdana, Geneva, ms sans serif;
+	font-size: 10px;
+	}
+
+.detailRolloverR {
+	background-image:url(../Images/detailRolloverR.png);
+	background-position: center left;
+	background-repeat: repeat-y;
+	width: 65px;
+	}
+
+.detailRolloverR_noPNG {
+	width: 65px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../Images/detailRolloverR.png');
+	}
+
+.detailRolloverBL {
+	background-image:url(../Images/detailRolloverBL.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	height: 29px;
+	width: 65px;
+	}
+
+.detailRolloverBL_noPNG {
+	height: 29px;
+	width: 65px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../Images/detailRolloverBL.png');
+	}
+
+.detailRolloverB {
+	background-image:url(../Images/detailRolloverB.png);
+	background-position: top center;
+	background-repeat: repeat-x;
+	height: 29px;
+	}
+
+.detailRolloverB_noPNG {
+	height: 29px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../Images/detailRolloverB.png');
+	}
+
+.detailRolloverBR {
+	background-image:url(../Images/detailRolloverBR.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	height: 29px;
+	width: 65px;
+	}
+
+.detailRolloverBR_noPNG {
+	height: 29px;
+	width: 65px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../Images/detailRolloverBR.png');
+	}
+
+
+/**********************************************************************
+ * JavaScript Date Selector Styles                                    *
+ **********************************************************************/
+.dpTable {
+	background-color: #ffffff;
+	border: 1px solid #aaaaaa;
+	color: #333333;
+	}
+
+.dpTD {
+	border: 1px solid #aaaaaa;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.dpDayHighlightTD {
+	border: 1px solid #aaaaaa;
+	color: #0000ff;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.dpTDHover {
+	border: 1px solid #aaaaaa;
+	color: #0000ff;
+	cursor: pointer;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.dpDayTD {
+	padding-top: 2px;
+	padding-right: 8px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.dpTitleText {
+	color: #333333;
+	font-size: 13px;
+	font-weight: bold;
+	padding-top: 3px;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.dpDiv {
+	}
+
+.dpTR {
+	}
+
+.dpTitleTR {
+	}
+
+.dpDayTR {
+	}
+
+

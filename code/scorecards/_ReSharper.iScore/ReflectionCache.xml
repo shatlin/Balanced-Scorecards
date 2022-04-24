@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="805306377">
+  <Assembly Name="System.IdentityModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="ad971b7d-66ed-4382-98c1-15ec8d32db7e" Timestamp="633276735140000000" />
+  <Assembly Name="System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="bb5bfbe9-68e1-472e-a327-e3d412b81026" Timestamp="633276735120000000" />
+  <Assembly Name="System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="21f60814-1222-4d4c-8667-a8e74cc26b15" Timestamp="633276735120000000" />
+  <Assembly Name="System.ServiceModel.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="9b8babdb-2efb-4bc8-b14c-fcae235d248e" Timestamp="633283497660000000" XmlDocIndexTimestamp="633258835260000000" />
+  <Assembly Name="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="13c1dc26-a5c0-4c0e-9931-a7dc2dcd629b" Timestamp="633048927920000000" />
+  <Assembly Name="System.Web.Extensions.Design, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="4bd32d55-66de-40e5-b82a-22795108e936" Timestamp="633048927940000000" />
+  <Assembly Name="System.WorkflowServices, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="7e44368f-7114-4fd4-9ace-1555697c26f3" Timestamp="633283497680000000" XmlDocIndexTimestamp="633259693780000000" />
+  <Assembly Name="AjaxControlToolkit, Version=1.0.10618.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" Image="b233b546-6ac1-4270-8c11-62af90f9b34c" Timestamp="633315333360000000" />
+  <Assembly Name="BaseClasses, Version=5.0.1.20363, Culture=neutral, PublicKeyToken=null" Image="6088c4e8-f029-4ba2-96c6-e8c6dcc0d7bd" Timestamp="633305297300000000" />
+  <Assembly Name="CarlosAg.ExcelXmlWriter, Version=1.0.0.6, Culture=neutral, PublicKeyToken=null" Image="5248124f-0a39-4122-8fc3-017f42b263a6" Timestamp="633305295020000000" />
+  <Assembly Name="Report, Version=3.1.8.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca" Image="6ff8b370-3d30-41f6-bbc1-28f458fba4e3" Timestamp="633305297360000000" />
+  <Assembly Name="Validators, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Image="251b6fa5-1933-4abe-9b15-559e6ad15f61" Timestamp="633305295020000000" />
+  <Assembly Name="Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Image="a5acfb39-c62a-480f-9c31-25d3f5dcaf85" Timestamp="633388478137031250" />
+</Assemblies>

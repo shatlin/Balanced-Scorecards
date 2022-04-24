@@ -1,0 +1,483 @@
+HTML {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 100%
+}
+BODY {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left top; PADDING-LEFT: 0px; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(Images/GradientLeft.jpg); PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #707171; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #01305a
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.RootPage {
+	COLOR: #e0efff
+}
+.DetailsPageHeader {
+	PADDING-LEFT: 15px; WIDTH: 100%; PADDING-TOP: 15px; BACKGROUND-COLOR: #f1f1f1
+}
+.Form {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px
+}
+.Main {
+	WIDTH: 1%
+}
+.Clear {
+	CLEAR: both
+}
+.HeadlineSpacing {
+	
+}
+A {
+	COLOR: #346dad
+}
+.RootPage A {
+	COLOR: #99cbff
+}
+.StatusImage {
+	MARGIN-LEFT: 5px; VERTICAL-ALIGN: bottom
+}
+.Header {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 17px; PADDING-TOP: 19px
+}
+.Navigation {
+	PADDING-RIGHT: 10px; WIDTH: 1%
+}
+.MainBanner {
+	MARGIN-TOP: 34px
+}
+.Banners {
+	MARGIN-TOP: 11px
+}
+.OnceBanner {
+	MARGIN-TOP: 20px
+}
+.Slogan {
+	FONT-SIZE: 42px; MARGIN-LEFT: -5px; COLOR: white; LINE-HEIGHT: 65%; PADDING-TOP: 8px; FONT-FAMILY: Tahoma; WHITE-SPACE: nowrap; POSITION: absolute
+}
+.MiniSlogan {
+	FONT-SIZE: 18px; MARGIN-LEFT: 3px; COLOR: #acdafa; WHITE-SPACE: nowrap
+}
+.BannerLime A {
+	COLOR: #ffffff
+}
+.BannerLime {
+	FONT-SIZE: 10px; COLOR: #ffffff; LINE-HEIGHT: 130%
+}
+.Content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1px; PADDING-TOP: 1px
+}
+HR {
+	BORDER-TOP: #bbd7dd 1px solid; DISPLAY: block; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 200px; HEIGHT: 1px; BORDER-RIGHT-WIDTH: 0px
+}
+.RootPage {
+	PADDING-LEFT: 35px; LINE-HEIGHT: 140%
+}
+.ControlActionSpacing {
+	PADDING-LEFT: 17px
+}
+.GridViewHeaderStyle {
+	BACKGROUND-IMAGE: url(MenuInternal/GridView/HeaderBackImage.gif); BACKGROUND-REPEAT: repeat-x
+}
+.GridViewHeaderStyle TH {
+	FONT-WEIGHT: normal
+}
+.Footer {
+	PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 23px; COLOR: #6e839f; PADDING-TOP: 54px
+}
+.Features B {
+	MARGIN-TOP: 6px; DISPLAY: block; FONT-WEIGHT: normal; FONT-SIZE: 16px; MARGIN-BOTTOM: 5px; COLOR: #9cd5ff; FONT-FAMILY: Tahoma
+}
+DIV.Spacer {
+	OVERFLOW: hidden; WIDTH: 1px; HEIGHT: 1px
+}
+.Title IMG {
+	MARGIN-RIGHT: 12px
+}
+.Title H1.h1Blue {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 25px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #346dad; PADDING-TOP: 0px; FONT-FAMILY: Tahoma
+}
+.Title H2.h2Gray {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 25px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #a9a9a9; PADDING-TOP: 0px; FONT-FAMILY: Tahoma
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 8px 0px 0px; PADDING-TOP: 0px
+}
+P.h1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #818180; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: transparent! important
+}
+P.h2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #818180; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: transparent! important
+}
+P.h3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #818180; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: transparent! important
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #818180; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: transparent! important
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #818180; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: transparent! important
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #818180; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: transparent! important
+}
+P.h2 {
+	MARGIN-TOP: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 11px
+}
+P.h3 {
+	MARGIN-TOP: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 11px
+}
+H2 {
+	MARGIN-TOP: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 11px
+}
+H3 {
+	MARGIN-TOP: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 11px
+}
+P.h3 {
+	FONT-SIZE: 10px; MARGIN-BOTTOM: 8px
+}
+H3 {
+	FONT-SIZE: 10px; MARGIN-BOTTOM: 8px
+}
+.think {
+	FONT-WEIGHT: normal
+}
+PRE {
+	PADDING-RIGHT: 20px; MARGIN-TOP: 23px; PADDING-LEFT: 20px; FONT-SIZE: 13px; MARGIN-BOTTOM: 23px; PADDING-BOTTOM: 20px; COLOR: #000000; PADDING-TOP: 20px; FONT-FAMILY: Courier New; BACKGROUND-COLOR: #ffffff
+}
+PRE.NoIndent {
+	MARGIN: 0px; BACKGROUND-COLOR: #edf3f4
+}
+TABLE {
+	FONT-SIZE: 100%
+}
+TD {
+	FONT-SIZE: 100%
+}
+.DemoInfoLabel {
+	FONT-SIZE: 11px; COLOR: red; FONT-FAMILY: Verdana; WHITE-SPACE: nowrap
+}
+TEXTAREA {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma, Arial
+}
+SELECT {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma, Arial
+}
+INPUT {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma, Arial
+}
+TEXTAREA {
+	BACKGROUND-COLOR: #ffffff
+}
+SELECT {
+	BACKGROUND-COLOR: #ffffff
+}
+TEXTAREA {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+TEXTAREA.Code {
+	BORDER-RIGHT: #9d9d9d 1px solid; BORDER-TOP: #9d9d9d 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #9d9d9d 1px solid; COLOR: #000000; BORDER-BOTTOM: #9d9d9d 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #ffffff
+}
+DIV.Events {
+	BORDER-RIGHT: #9d9d9d 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #9d9d9d 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; OVERFLOW: auto; BORDER-LEFT: #9d9d9d 1px solid; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #9d9d9d 1px solid; FONT-FAMILY: Tahoma; HEIGHT: 200px; BACKGROUND-COLOR: #ffffff
+}
+TEXTAREA.EditSample {
+	BORDER-RIGHT: #c3d9ff 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #c3d9ff 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: -1px 0px 0px; OVERFLOW: auto; BORDER-LEFT: #c3d9ff 1px solid; WIDTH: 398px; COLOR: #000000; PADDING-TOP: 0px; BORDER-BOTTOM: #c3d9ff 1px solid; FONT-FAMILY: Tahoma; HEIGHT: 200px; BACKGROUND-COLOR: #ffffff
+}
+DIV.LoadingDiv {
+	VERTICAL-ALIGN: middle; TEXT-ALIGN: center
+}
+.PopupControlTemplate IMG {
+	BORDER-RIGHT: #f3f3f3 1px solid; BORDER-TOP: #f3f3f3 1px solid; BORDER-LEFT: #f3f3f3 1px solid; BORDER-BOTTOM: #f3f3f3 1px solid
+}
+.PopupControlTemplate .Hover {
+	BORDER-RIGHT: #454545 1px dotted; BORDER-TOP: #454545 1px dotted; BORDER-LEFT: #454545 1px dotted; BORDER-BOTTOM: #454545 1px dotted
+}
+DIV.Events TABLE {
+	COLOR: #000000
+}
+DIV.Events TD {
+	COLOR: #000000
+}
+.Cursor {
+	CURSOR: hand
+}
+.NoWrap {
+	WHITE-SPACE: nowrap
+}
+.ActionGroupIndent {
+	PADDING-TOP: 30px
+}
+.ActionItemIndent {
+	PADDING-TOP: 10px
+}
+INPUT.DemoButton {
+	WIDTH: 75px; HEIGHT: 23px
+}
+INPUT.BigButton {
+	WIDTH: 120px; HEIGHT: 23px
+}
+A.LinkButton {
+	COLOR: #0451a7; TEXT-DECORATION: underline
+}
+.DemoLabel {
+	PADDING-LEFT: 6px; COLOR: #666666; WHITE-SPACE: nowrap
+}
+.NoLeftIndent {
+	PADDING-LEFT: 0px
+}
+.CaptionLabelIndent {
+	DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px
+}
+TD.ActionMainLabel {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 6px
+}
+TD.ActionPanel {
+	PADDING-BOTTOM: 4px; WIDTH: 100%
+}
+.EventMonitor {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 2px
+}
+IMG.HideBorder {
+	BORDER-TOP-WIDTH: 0px! important; BORDER-LEFT-WIDTH: 0px! important; BORDER-BOTTOM-WIDTH: 0px! important; BORDER-RIGHT-WIDTH: 0px! important
+}
+.Show {
+	DISPLAY: block
+}
+.ShowInline {
+	DISPLAY: inline
+}
+.Hide {
+	DISPLAY: none
+}
+.CheckBoxLeftIndentCorrect {
+	PADDING-LEFT: 6px
+}
+.CheckBoxTopIndent {
+	PADDING-BOTTOM: 10px
+}
+.TableCheckBoxLeftIndentCorrect {
+	MARGIN-LEFT: 6px
+}
+.Bold {
+	FONT-WEIGHT: bold
+}
+.ActionLabel {
+	WIDTH: 1%; WHITE-SPACE: nowrap
+}
+TD.InfoPanel {
+	PADDING-LEFT: 24px
+}
+TD.InfoPanelGroupItem {
+	PADDING-LEFT: 30px
+}
+TD.InfoPanelLabel {
+	PADDING-LEFT: 3px
+}
+TABLE.InfoPanelIndent {
+	MARGIN-TOP: 8px
+}
+SPAN.blue {
+	FONT-WEIGHT: normal; COLOR: #293acf
+}
+SPAN.black {
+	COLOR: #333333
+}
+TEXTAREA.InactiveColor {
+	COLOR: gray
+}
+.FontNormal {
+	FONT-WEIGHT: normal! important
+}
+.Hint {
+	BORDER-RIGHT: #a8a8a8 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #a8a8a8 1px solid; PADDING-LEFT: 10px; FONT-SIZE: 10px; PADDING-BOTTOM: 10px; BORDER-LEFT: #a8a8a8 1px solid; COLOR: #5a5a5a; PADDING-TOP: 10px; BORDER-BOTTOM: #a8a8a8 1px solid; BACKGROUND-COLOR: #feffde
+}
+.FontSmall {
+	FONT-SIZE: 11px! important
+}
+.FontSmall  {
+	FONT-SIZE: 11px! important
+}
+.ClearIndent {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.NoTopIndent {
+	MARGIN: 0px
+}
+TABLE.CodeLabel {
+	MARGIN-TOP: 13px
+}
+.BlackBorder {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.Gray {
+	COLOR: #333333
+}
+DIV.sampleCSS SPAN {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: Verdana
+}
+.UserHelpTopic {
+	FONT-SIZE: 11px; WIDTH: 100%
+}
+.WhiteAreaHeadline {
+	BORDER-RIGHT: #78bacf 1px solid; BORDER-TOP: #78bacf 1px solid; BORDER-LEFT: #78bacf 1px solid; BORDER-BOTTOM: #78bacf 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.WhiteControlArea {
+	PADDING-RIGHT: 16px; PADDING-LEFT: 16px; FONT-SIZE: 12px; PADDING-BOTTOM: 16px; MARGIN: 0px; COLOR: #3d3d3d; LINE-HEIGHT: 20px; PADDING-TOP: 16px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #ffffff
+}
+.WhiteControlArea IMG {
+	MARGIN: 0px 0px 0px 1px; VERTICAL-ALIGN: baseline; CURSOR: hand
+}
+.WhiteControlArea IMG {
+	MARGIN: 0px 0px 0px 2px; VERTICAL-ALIGN: middle; WIDTH: 10px; CURSOR: hand; HEIGHT: 20px
+}
+UNKNOWN {
+	VERTICAL-ALIGN: top
+}
+.PopupControlCSAPI {
+	
+}
+.TabbedMenuTableSide {
+	BACKGROUND-IMAGE: url(MenuInternal/TabbedMenu/LeftSideSeparators.gif); OVERFLOW: hidden; WIDTH: 1px; HEIGHT: 28px
+}
+.TabbedMenu .rootItem TABLE {
+	BACKGROUND-IMAGE: url(MenuInternal/TabbedMenu/ItemBackground.gif)
+}
+.TabbedMenu .rootItemHover TABLE {
+	BACKGROUND-IMAGE: url(MenuInternal/TabbedMenu/ItemBackgroundHover.gif)
+}
+.TabbedMenu .rootItemSelected TABLE {
+	BACKGROUND-IMAGE: url(MenuInternal/TabbedMenu/ItemBackgroundSelected.gif)
+}
+.TabbedMenu .rootItem DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.TabbedMenu .rootItemHover DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.TabbedMenu .rootItemSelected DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.TabbedMenu .rootItem DIV {
+	BORDER-TOP: #d8d8d8 1px solid; BORDER-BOTTOM: #a3a3a3 1px solid; HEIGHT: 26px
+}
+.TabbedMenuSideBorders {
+	BORDER-BOTTOM: #a3a3a3 1px solid
+}
+.TabbedMenu .rootItemHover DIV {
+	BORDER-TOP-STYLE: none; HEIGHT: 27px
+}
+.TabbedMenu .rootItemSelected DIV {
+	BORDER-TOP-STYLE: none; HEIGHT: 27px
+}
+.TabbedMenu .rootItem TABLE {
+	BORDER-TOP-WIDTH: 0px; BACKGROUND-POSITION: 50% top; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1px; MARGIN-RIGHT: 1px; BACKGROUND-REPEAT: repeat-x; BORDER-COLLAPSE: collapse; BORDER-RIGHT-WIDTH: 0px
+}
+.TabbedMenu .rootItemHover TABLE {
+	BORDER-TOP-WIDTH: 0px; BACKGROUND-POSITION: 50% top; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1px; MARGIN-RIGHT: 1px; BACKGROUND-REPEAT: repeat-x; BORDER-COLLAPSE: collapse; BORDER-RIGHT-WIDTH: 0px
+}
+.TabbedMenu .rootItemSelected TABLE {
+	BORDER-TOP-WIDTH: 0px; BACKGROUND-POSITION: 50% top; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1px; MARGIN-RIGHT: 1px; BACKGROUND-REPEAT: repeat-x; BORDER-COLLAPSE: collapse; BORDER-RIGHT-WIDTH: 0px
+}
+.TabbedMenu .rootItem TH {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; FONT-WEIGHT: normal; PADDING-BOTTOM: 7px; PADDING-TOP: 6px; WHITE-SPACE: nowrap
+}
+.TabbedMenu .rootItemHover TH {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; FONT-WEIGHT: normal; PADDING-BOTTOM: 7px; PADDING-TOP: 6px; WHITE-SPACE: nowrap
+}
+.TabbedMenu .rootItemSelected TH {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; FONT-WEIGHT: normal; PADDING-BOTTOM: 7px; PADDING-TOP: 6px; WHITE-SPACE: nowrap
+}
+.TabbedMenu .rootItemHover TH {
+	PADDING-TOP: 7px
+}
+.TabbedMenu .rootItemSelected TH {
+	PADDING-TOP: 7px
+}
+.TabbedMenu .WhiteBorderRight {
+	BORDER-RIGHT: white 1px solid
+}
+.TabbedMenu .rootItemSelected DIV {
+	BORDER-BOTTOM-WIDTH: 0px
+}
+.tbOffice2003 {
+	BORDER-RIGHT: #000080 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #000080 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN-LEFT: 2px; VERTICAL-ALIGN: middle; BORDER-LEFT: #000080 1px solid; WIDTH: 102px; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #000080 1px solid; HEIGHT: 12px; BACKGROUND-COLOR: #ffffff
+}
+.cbDemoHead {
+	BORDER-RIGHT: #ababab 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #ababab 1px solid; PADDING-LEFT: 10px; FONT-SIZE: 12px; BACKGROUND: #dcdcdc; PADDING-BOTTOM: 5px; MARGIN: 4px 0px; BORDER-LEFT: #ababab 1px solid; COLOR: #404040; PADDING-TOP: 5px; BORDER-BOTTOM: #ababab 1px solid
+}
+.cbDemoLink {
+	CURSOR: pointer; COLOR: #4889db
+}
+.cbDemoDescription {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 12px; FONT-SIZE: 11px; MARGIN-BOTTOM: 11px; PADDING-BOTTOM: 5px; COLOR: black; PADDING-TOP: 0px; FONT-FAMILY: Tahoma
+}
+.templateTable {
+	BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #f3f8f7
+}
+.templateTable TD {
+	BORDER-RIGHT: #c2d4da 1px solid; BORDER-TOP: #c2d4da 1px solid; BORDER-LEFT: #c2d4da 1px solid; BORDER-BOTTOM: #c2d4da 1px solid
+}
+.templateCaption {
+	BACKGROUND-COLOR: #ecf2f3
+}
+.DataViewItemTop {
+	MARGIN-BOTTOM: 16px
+}
+.DataViewItemTop A {
+	FONT-SIZE: 10px; COLOR: #666666; TEXT-DECORATION: underline
+}
+.DataViewItemTitle {
+	FONT-SIZE: 13px; MARGIN: 6px 0px
+}
+.DataViewItemTitle A {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+.DataViewItemPrice {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: black
+}
+LABEL.defaultLabel {
+	COLOR: black
+}
+SPAN.defaultLabel {
+	COLOR: black
+}
+.centeredContentContainer {
+	TEXT-ALIGN: center
+}
+UNKNOWN {
+	max-width: 800px
+}
+DIV.MaxWidth {
+	
+}
+UNKNOWN {
+	max-width: 800px
+}
+.tbOffice2003 {
+	HEIGHT: auto! important
+}
+.dxcp_tCategory {
+	FONT: bold 9pt Tahoma; COLOR: #333333; WHITE-SPACE: nowrap
+}
+.dxcp_tInfo {
+	PADDING-LEFT: 7px; FONT: 9pt Tahoma; COLOR: #333333
+}
+.pcmCellCaption {
+	PADDING-TOP: 5px; WHITE-SPACE: nowrap
+}
+.pcmCellText {
+	PADDING-LEFT: 10px; PADDING-TOP: 2px
+}
+.pcmCheckBox {
+	PADDING-LEFT: 6px; PADDING-BOTTOM: 10px
+}
+.pcmCreateAccount {
+	PADDING-BOTTOM: 4px; PADDING-TOP: 8px; TEXT-ALIGN: right
+}
+.pcmButton {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}
+.pcmSideSpacer {
+	WIDTH: 60px; HEIGHT: 1px
+}
+.dvcSortColor {
+	COLOR: red
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="805306377">
+  <Assembly Name="AjaxControlToolkit, Version=1.0.10618.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" Image="d70bb40c-1451-4c2f-adb1-64a0ac8b9e4c" Timestamp="633305295020000000" />
+  <Assembly Name="BaseClasses, Version=5.0.1.20363, Culture=neutral, PublicKeyToken=null" Image="4827d7ce-9c65-49fc-86da-091014f99809" Timestamp="633305297300000000" />
+  <Assembly Name="CarlosAg.ExcelXmlWriter, Version=1.0.0.6, Culture=neutral, PublicKeyToken=null" Image="9b28d24a-7254-4e44-bca8-1c97b6a8910f" Timestamp="633305295020000000" />
+  <Assembly Name="Report, Version=3.1.8.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca" Image="d9d9531e-c5ab-46e7-b51e-5372c2d7021a" Timestamp="633305297360000000" />
+  <Assembly Name="System.IdentityModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="0d274295-3fd5-46b2-b848-42138a6f1179" Timestamp="633276735140000000" />
+  <Assembly Name="System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="41bca6a4-1653-4571-bac4-4b174ce0bd68" Timestamp="633276735120000000" />
+  <Assembly Name="System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="fb4676d8-faa1-467e-b640-00d84d2aa97c" Timestamp="633276735120000000" />
+  <Assembly Name="System.ServiceModel.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="49903489-10df-453e-9276-aac0cd7529ed" Timestamp="633283497660000000" XmlDocIndexTimestamp="633258835260000000" />
+  <Assembly Name="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="74b45298-01a5-4549-b3d7-ac875eafadb6" Timestamp="633048927920000000" />
+  <Assembly Name="System.WorkflowServices, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="0065ab24-031b-4294-89c0-17ac532e8980" Timestamp="633283497680000000" XmlDocIndexTimestamp="633259693780000000" />
+  <Assembly Name="Validators, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Image="151649de-5cd6-4ff2-912a-2341f926b998" Timestamp="633305295020000000" />
+</Assemblies>

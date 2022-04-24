@@ -1,0 +1,144 @@
+ {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 1em; FONT-SIZE: 0.9em; BACKGROUND: #363; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em; FONT-FAMILY: Arial,Verdana,Sans-Serif
+}
+#boundary {
+	MARGIN: 1em 0px; WIDTH: 700px; POSITION: relative; TEXT-ALIGN: left
+}
+#content {
+	CLEAR: both; PADDING-RIGHT: 50px; PADDING-LEFT: 50px; BACKGROUND: url(contenttop.gif) #fff no-repeat left top; PADDING-BOTTOM: 30px; OVERFLOW: hidden; WIDTH: 600px; PADDING-TOP: 30px
+}
+#home #content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; WIDTH: 700px; PADDING-TOP: 0px
+}
+#content P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2em; PADDING-TOP: 2em
+}
+#itsthetable {
+	PADDING-RIGHT: 2em; PADDING-LEFT: 2em; BACKGROUND: url(whiteroundtop.gif) #fff no-repeat left top; PADDING-BOTTOM: 2em; PADDING-TOP: 2em
+}
+H1 {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; TEXT-TRANSFORM: uppercase; COLOR: #000; PADDING-TOP: 0px; FONT-FAMILY: "trebuchet ms",Helvetica,Arial,Sans-Serif; LETTER-SPACING: -1px
+}
+H2 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; FONT-SIZE: 140%; PADDING-BOTTOM: 0px; TEXT-TRANSFORM: uppercase; COLOR: #030; PADDING-TOP: 10px; FONT-FAMILY: "trebuchet ms",Helvetica,Arial,Sans-Serif
+}
+#nav {
+	PADDING-RIGHT: 0px; BORDER-TOP: #060 1px solid; PADDING-LEFT: 20px; BACKGROUND: #393; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 680px; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px solid; LIST-STYLE-TYPE: none
+}
+#nav LI {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; FLOAT: left; PADDING-BOTTOM: 0px; TEXT-TRANSFORM: uppercase; PADDING-TOP: 0px; FONT-FAMILY: verdana
+}
+#footer {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(footertop.gif) #9c9 no-repeat left top; PADDING-BOTTOM: 0px; COLOR: #000; PADDING-TOP: 30px
+}
+#footer P {
+	CLEAR: both; PADDING-RIGHT: 10px; PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND: url(footerbottom.gif) #9c9 no-repeat left bottom; PADDING-BOTTOM: 14px; COLOR: #333; PADDING-TOP: 0px
+}
+#nav A:link {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#nav A:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#nav A:hover {
+	BACKGROUND: #fff; COLOR: #000
+}
+#nav A:active {
+	BACKGROUND: #fff; COLOR: #000
+}
+#nav LI STRONG {
+	COLOR: #cfc
+}
+#content P A:link {
+	COLOR: #090
+}
+#content P A:visited {
+	COLOR: #090
+}
+#content H3 A:link {
+	COLOR: #090
+}
+#content H3 A:visited {
+	COLOR: #090
+}
+#content P A:hover {
+	COLOR: #060; TEXT-DECORATION: none
+}
+#content P A:active {
+	COLOR: #060; TEXT-DECORATION: none
+}
+#content H3 A:hover {
+	COLOR: #060; TEXT-DECORATION: none
+}
+#content H3 A:active {
+	COLOR: #060; TEXT-DECORATION: none
+}
+#about #content P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 1.3em; PADDING-TOP: 1em
+}
+#submit #content P {
+	PADDING-RIGHT: 2em; PADDING-LEFT: 2em; PADDING-BOTTOM: 0.5em; MARGIN: 0px; LINE-HEIGHT: 1.3em; PADDING-TOP: 0.5em
+}
+#submit #content FORM P {
+	PADDING-RIGHT: 3em; PADDING-LEFT: 3em; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#submit #content FORM P.submit {
+	PADDING-RIGHT: 9em; PADDING-LEFT: 9em; PADDING-BOTTOM: 1em; PADDING-TOP: 1em; TEXT-ALIGN: right
+}
+.error {
+	BORDER-RIGHT: #c00 1px solid; PADDING-RIGHT: 0.5em; BORDER-TOP: #c00 1px solid; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0.5em; BORDER-LEFT: #c00 1px solid; COLOR: #c00; PADDING-TOP: 0.5em; BORDER-BOTTOM: #c00 1px solid
+}
+.error UL {
+	MARGIN-LEFT: 2em
+}
+#meta {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND: url(metabottom.gif) #6c6 no-repeat left bottom; FLOAT: left; PADDING-BOTTOM: 10px; MARGIN: 0px; WIDTH: 660px; COLOR: #333; PADDING-TOP: 10px
+}
+#meta LI {
+	PADDING-RIGHT: 2em; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; LIST-STYLE-TYPE: none
+}
+#meta LI A {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 90%; BACKGROUND: #369; PADDING-BOTTOM: 2px; TEXT-TRANSFORM: uppercase; COLOR: #fff; PADDING-TOP: 2px; TEXT-DECORATION: none
+}
+#meta LI A#rss {
+	BACKGROUND: #f93
+}
+#content #intro {
+	CLEAR: both; PADDING-RIGHT: 200px; PADDING-LEFT: 30px; BACKGROUND: #363; PADDING-BOTTOM: 10px; MARGIN: 0.5em 0px 0px; COLOR: #fff; PADDING-TOP: 10px; weight: bold
+}
+#content #intro H3 {
+	MARGIN: 0.5em 0px 0px
+}
+#content #intro H3 STRONG {
+	DISPLAY: block; TEXT-TRANSFORM: uppercase; COLOR: #fff
+}
+#content #intro P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px; COLOR: #ccc; PADDING-TOP: 10px
+}
+#content DIV#intro H3 A {
+	COLOR: #afa; TEXT-ALIGN: right
+}
+#adspace {
+	RIGHT: -130px; WIDTH: 120px; POSITION: absolute; TOP: 0px; TEXT-ALIGN: center
+}
+#adspace H3 {
+	FONT-SIZE: 0.9em; PADDING-BOTTOM: 5px; TEXT-TRANSFORM: uppercase; COLOR: #ff9
+}
+#content DIV#adspace A {
+	FONT-WEIGHT: bold; COLOR: #fff; TEXT-DECORATION: none
+}
+#content #adspace A IMG {
+	MARGIN: 0px auto; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#adspace P IMG {
+	DISPLAY: block
+}
+#adspace P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0.85em; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#header {
+	BACKGROUND: url(headertop.gif) #6c6 no-repeat left top; PADDING-TOP: 10px
+}

@@ -1,0 +1,90 @@
+.pink #bca_wrapper {
+	BACKGROUND: #e1cdde
+}
+.pink #bca_inner {
+	BACKGROUND: #e1cdde
+}
+.pink #content_inner {
+	BACKGROUND: url(images/pink-content-wrapper.gif) no-repeat right top
+}
+.pink .bca_border {
+	BORDER-TOP: #ccadc7 1px solid
+}
+.pink #content_inner A:hover {
+	COLOR: #caa2c5
+}
+.pink #bottom_inner A:hover {
+	COLOR: #caa2c5! important
+}
+.green #bca_wrapper {
+	BACKGROUND: #b2caa5
+}
+.green #bca_inner {
+	BACKGROUND: #b2caa5
+}
+.green #content_inner {
+	BACKGROUND: url(images/green-content-wrapper.gif) no-repeat right top
+}
+.green .bca_border {
+	BORDER-TOP: #89a679 1px solid
+}
+.green #content_inner A:hover {
+	COLOR: #89a679
+}
+.green #bottom_inner A:hover {
+	COLOR: #89a679! important
+}
+.brown #bca_wrapper {
+	BACKGROUND: #bba58e
+}
+.brown #bca_inner {
+	BACKGROUND: #bba58e
+}
+.brown #content_inner {
+	BACKGROUND: url(images/brown-content-wrapper.gif) no-repeat right top
+}
+.brown .bca_border {
+	BORDER-TOP: #a2907d 1px solid
+}
+.brown #content_inner A:hover {
+	COLOR: #b89e83
+}
+.brown #bottom_inner A:hover {
+	COLOR: #b89e83! important
+}
+.red #bca_wrapper {
+	BACKGROUND: #d86983
+}
+.red #bca_inner {
+	BACKGROUND: #d86983
+}
+.red #content_inner {
+	BACKGROUND: url(images/red-content-wrapper.gif) no-repeat right top
+}
+.red .bca_border {
+	BORDER-TOP: #d84265 1px solid
+}
+.red #content_inner A:hover {
+	COLOR: #d3607b
+}
+.red #bottom_inner A:hover {
+	COLOR: #d3607b! important
+}
+.orange #bca_wrapper {
+	BACKGROUND: #e1c078
+}
+.orange #bca_inner {
+	BACKGROUND: #e1c078
+}
+.orange #content_inner {
+	BACKGROUND: url(images/orange-content-wrapper.gif) no-repeat right top
+}
+.orange .bca_border {
+	BORDER-TOP: #f2d698 1px solid
+}
+.orange #content_inner A:hover {
+	COLOR: #e6c274
+}
+.orange #bottom_inner A:hover {
+	COLOR: #e6c274! important
+}

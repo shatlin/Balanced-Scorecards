@@ -1,0 +1,1506 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+	
+	
+    
+    
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<html>
+  <HEAD>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+     <meta name="keywords" content="dotnet,aspnet">
+     <meta name="description" content="ASP dot NET 2.0 Step By Step - eSnips, share anything">
+
+	
+
+	
+
+	
+		<link href="http://res0.esnips.com/viewdocument/style14.css" rel="stylesheet" type="text/css">
+
+	
+	
+	<link href="http://res0.esnips.com/common/style15.css" rel="stylesheet" type="text/css">
+
+	<link href="http://res0.esnips.com/common/thumbs.css" rel="stylesheet" type="text/css">
+
+	
+	
+  
+  <script type="text/javascript" src="http://res0.esnips.com/3rd/media/video13.js"></script>
+
+  <script type="text/javascript" src="http://res0.esnips.com/util/main.js"></script>
+
+  <script type="text/javascript" src="http://res0.esnips.com/3rd/ddrive/imageRollover.js"></script>
+
+  <script type="text/javascript" src="http://res0.esnips.com/util/actionsUtil.js"></script>
+
+  <link href="http://res0.esnips.com/util/window/window.css" rel="stylesheet" type="text/css">
+
+	
+<script type="text/javascript" src="/util/window/window.js">
+/***********************************************
+* DHTML Window Widget- © Dynamic Drive (www.dynamicdrive.com)
+* This notice must stay intact for legal use.
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+</script>
+ 
+  <script type="text/javascript" src="http://res0.esnips.com/util/window/loginwindow.js"></script>
+
+  <script type="text/javascript" src="http://res0.esnips.com/util/window/commentwindow14.js"></script>
+
+  <script type="text/javascript" src="http://res0.esnips.com/registeruser/register.js"></script>
+
+  <script type="text/javascript" src="http://res0.esnips.com/dna/script/dna11.js"></script>
+
+
+  </HEAD>
+
+<body bgcolor="#A7B3C9">
+
+<table id="tableDefaultLayout" align="center" border="0" cellpadding="0" cellspacing="0" width="900">
+
+
+<tr>
+  <td height="1">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href="http://res0.esnips.com/common/tabs.css" rel="stylesheet" type="text/css">
+
+
+  
+<div id="divTop">
+  <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" id="tableTop">
+
+  
+    <tr>
+      <td width="190" height="56" align="center" bgcolor="#FFFFFF"><a href='/'><img src="http://res0.esnips.com/signin/images/logo.gif" width="169" height="45" border="0" alt='5GB of free space to upload and share your files, photos, videos and music - eSnips.com  '></a></td>
+      <td width="10" >&nbsp;</td>
+      <td >        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+        <tr>
+          <td  class="whiteLink"><strong>Let your content take you places</strong></td>
+        </tr>
+	  
+        <tr>
+          <td class="whiteLink">
+      Upload and share files, photos, videos, anything! 
+            <a href="/NewAccountAction.ns?action=init" class="whiteLink">Get 5GB free storage</a>
+	  </td>
+        </tr>
+        
+      </table></td>
+      <td width="10"><img src="/images/spacer.gif" width="1" height="1"></td>
+      <td width="220">
+        <table width="100%" border="0" cellpadding="3" cellspacing="0" id="tableSignout">
+          <tr>
+            <td align="right" class="whiteLink">
+			   
+			     &nbsp;
+  			   
+
+			   
+
+			</td>
+          </tr>
+		  
+		  
+<form name="FormSearchTags" method="post" action="/SearchTagsAction.ns" id="FormSearchTags">
+          <tr>
+            <td align="right" class="whiteLink">Search: 
+              <input type="text" name="searchTerm" size="20" value="" class="searchBox" id="txtSearchTerm">
+              <input type="submit" value="GO" style="font-size: 11px; width:30px"></td>
+          </tr>
+</form>		  
+		  
+        </table> 
+      </td>
+    <td width="4">&nbsp;</td>
+    </tr>
+
+  </table>
+</div>
+
+
+
+
+
+	
+		 
+		 
+	
+
+
+
+
+
+
+
+
+
+<div id="divTopCommBar">
+	<div class="CommTab" style="">
+		<a href="/CommunitiesAction.ns" >Communities</a>
+	</div>
+	
+	
+		<a href='/community/karaoke'>Karaoke</a>
+	
+		<a href='/community/remix'>DJs</a>
+	
+		<a href='/community/photography'>Photography</a>
+	
+		<a href='/community/painting'>Painting</a>
+	
+		<a href='/community/video'>Video</a>
+	
+		<a href='/community/spiritual'>Spiritual</a>
+	
+		<a href='/community/poetry'>Poetry</a>
+	
+		<a href='/community/humor'>Humor</a>
+	
+		<a href='/community/paranormal'>Paranormal</a>
+	
+		<a href='/community/marketplace'>Marketplace</a>
+	  
+	
+	<a href='/CommunitiesAction.ns'>See all...</a>
+	
+	<div class ="CommEnd">
+	</div>
+</div>
+
+
+
+		   
+
+		   
+
+
+
+
+
+<div id="divSelectedFiles">
+   
+</div>
+
+
+
+
+
+<div id="divNav">	
+  <table width="100%" height="26" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+  
+    &nbsp;
+    
+
+  </td>
+    <td align="right" class="GrayText">
+	
+	    <a  class="blueLink" href='/'>esnips home</a> 
+		 &nbsp;| &nbsp;
+         <a class="blueLink" href="/HtmlmailAction.ns">share esnips</a>
+		 &nbsp;| &nbsp;
+	   
+	     <a href="javascript:showLoginWindow(null, null);" class="ContentLinkBold">Sign In</a>
+        
+	   </td>
+    <td width="12" align="right">&nbsp;</td>
+  </tr>
+</table>
+</div>
+
+</td>
+</tr>
+
+
+
+<tr valign="top"><td id="cellLayoutContent">
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<link href="http://res0.esnips.com/signin/style.css" rel="stylesheet" type="text/css">
+
+	<link href="http://res0.esnips.com/viewdocument/style14.css" rel="stylesheet" type="text/css">
+
+	<link href="http://res0.esnips.com/viewdocument/image.css" rel="stylesheet" type="text/css">
+
+
+<title>ASP dot NET 2.0 Step By Step - eSnips, share anything</title>
+
+  <script type="text/javascript" src="http://res0.esnips.com/viewdocument/vote.js"></script>
+
+  
+	     
+
+</head>
+
+<body>
+
+<form name="FormViewDocument" method="post" action="/ViewDocumentAction.ns" id="FormViewDocument">
+   
+    <input type="hidden" name="ns_EventTarget" value="" />
+    <input type="hidden" name="ns_EventArgument" value="" />
+    <input type="hidden" name="referrer" value=""/>
+    <input type="hidden" name="ID" value="18afe400-6614-45fd-b081-116e5d258d27"/>
+    
+  <script language="javascript">
+<!--
+
+	
+	function ns_SendPostBack(eventTarget, eventArgument) 
+	{
+		var theform;
+		if (window.navigator.appName.toLowerCase().indexOf("netscape") > -1) {
+			theform = document.forms["FormViewDocument"];
+		}
+		else {
+			theform = document.FormViewDocument;
+		}
+
+		theform.ns_EventTarget.value   = eventTarget.split("$").join(":");
+		theform.ns_EventArgument.value = eventArgument;
+		
+		theform.submit();
+	}
+	
+
+function selectHTML(elementID)
+{
+	document.getElementById(elementID).select();
+}
+
+
+function ns_DeleteComment(commentUUID) 
+{
+	var b = confirm('Are you sure you want to delete this comment?\n\nPlease click \'OK\' to confirm'); 
+	if (b)
+	{ 
+		ns_SendPostBack('deleteComment', commentUUID);
+	} 
+}
+
+function performAddComment(type)
+{
+	ns_SendPostBack('new' + type + 'Comment', '3ec7527b-cedf-4ed9-b3f0-db17b387bdeb');
+}
+
+function ns_NewBaseComment(type) 
+{
+	
+		showLoginWindow(performAddComment, type);
+	
+	
+	
+	
+}	
+// -->
+  </script>
+    
+  
+  <div class="viewer-body">
+  
+                 
+
+  
+	  <table class="main" cellpadding="0" cellspacing="0"><tr><td>
+		
+		 <div class="heading-bg">
+			<div class="heading-text">ASP dot NET 2.0 Step By Step.pdf</div>
+			<div class="heading-img" id="left">
+			</div>
+			<div class="heading-img" id="right">
+			</div>
+			<div class="heading-text" id="aux">Views: 439</div>
+
+		</div>
+		<div class="wrapper">
+			
+			
+				
+					  			
+			
+			<table class="view" cellpadding="0" cellspacing="0"><tr><td>
+				
+				
+					
+						                              
+					
+
+
+
+
+
+
+
+
+
+
+<table class="GrayBorder" border="0" cellpadding="0" cellspacing="0" id="tableMain">
+            
+       <tr>
+         <td width="300" height="200" align="center">
+	         <a href='/nsdoc/18afe400-6614-45fd-b081-116e5d258d27'>
+			 <img class='' src='/images/thumbs/thumb.pdf.gif' border="0"></a><br/>
+			 <br/>		
+			 <a  class="ContentLink" href='/nsdoc/18afe400-6614-45fd-b081-116e5d258d27'>
+           Download 
+         ASP dot NET 2.0 Step By Step.pdf     </td>
+       </tr>
+</table>
+
+
+
+
+
+				
+			</td></tr></table>
+			<div class="contents">
+
+					
+					
+					
+
+					
+						
+						<div style="margin-top:12px;">
+							
+							         
+							       
+							       
+							       
+							      
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-3980696689991450";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_type = "text";
+
+
+	google_ad_type = "text";
+
+
+
+  google_ad_channel = "6835395498";
+
+
+google_color_bg = "FFFFFF";
+google_color_link = "0066FF";
+google_color_text = "333333";
+
+
+
+
+
+
+
+google_color_url = google_color_link;
+google_color_border = google_color_bg;
+
+
+  google_kw_type = 'broad';
+  google_kw = "dotnet,aspnet";
+
+
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+				
+						</div>
+						
+						
+
+				<div class="info-block" id="facts">
+					
+				 
+	
+					<div class="item">
+						Added to <a href='/webfolder/6d803efe-4156-4b9b-a62f-626bd78714f1' target="_top" class="ContentLinkBold">
+						Development
+						</a> by <a class="UserProfile" href='/user/NelsonNascimento'>
+							Nelson Nascimento
+						</a>
+						on Apr. 18 2007
+					</div>
+					
+						<div class="item">
+							<a href='/FavoritedByAction.ns?type=0&amp;objectId=18afe400-6614-45fd-b081-116e5d258d27' class="ContentLink">
+							&quot;Favorited&quot; by 2 users
+							</a>
+						</div>
+					
+					
+						<div class="item">
+							
+						</div>
+						<div class="item">
+							Tags:
+							
+								
+								<a href='/_t_/dotnet' class="TagLink">
+									dotnet
+								</a>
+							
+								
+									,
+								
+								<a href='/_t_/aspnet' class="TagLink">
+									aspnet
+								</a>
+							
+						</div>
+					
+					
+					
+				</div>
+				<div class="info-block options">
+					<div class="options-wrapper">
+						
+							
+								<a class="image-link" a href='/nsdoc/18afe400-6614-45fd-b081-116e5d258d27/?action=forceDL' id="download">Download</a>
+							
+							
+						
+
+						
+						
+							<a class="image-link" id="widget" href="javascript:ns_SendPostBack('addDocumentWidget', '18afe400-6614-45fd-b081-116e5d258d27')" >Get Widgets</a>
+							
+							  <a class="image-link" id="share" href='/selectedfile/emaildoc/18afe400-6614-45fd-b081-116e5d258d27' >Share File</a>
+							
+							
+							<a class="image-link" id='favorite' 
+							    href="javascript:void(0);"
+							    onClick="javascript: addToFavorites('favorite',
+													name,
+													'0',
+													'18afe400-6614-45fd-b081-116e5d258d27',
+													'/viewdocument/images/favorite_indicator.gif',
+													'/viewdocument/images/favorite_added.gif')"
+							>Add to Favorites</a>
+							
+								<a class="image-link" id='view-document-quicklist' href="javascript:addToSelected('18afe400-6614-45fd-b081-116e5d258d27')" >Add to Quicklist</a>
+							
+							
+							
+							<a class="image-link" 
+								id='flag' 
+								href="javascript:void(0);"
+								onClick="javascript: flagAsInappropriate('flag',
+														'18afe400-6614-45fd-b081-116e5d258d27',
+														'/viewdocument/images/flag_indicator.gif',
+														'/viewdocument/images/flag_added.gif')"
+							>Flag as Inappropriate</a>
+							
+							
+							
+						
+						<div class="clearBottom"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="heading-bg" id="user">
+			<div class="heading-text">User</div>
+			<div class="heading-img" id="left">
+			</div>
+			<div class="heading-img" id="right">
+			</div>
+		</div>
+		<div class="wrapper" id="dummyWrapper">
+			<div class="contents">
+				<div class="info-block" id="author">
+					<div class="item">
+						<a id="photo" href="/user/NelsonNascimento">
+							<img src="http://userthumb0.esnips.com/userThumb/m/3ec7527b-cedf-4ed9-b3f0-db17b387bdeb/1/?du=0d81da9e-6904-4408-95d7-99a0d92d82e2">
+							</img>
+						</a>
+					</div>
+					<div class="item" id="author-bio">
+						<a class="UserProfile" href="/user/NelsonNascimento">
+							Nelson Nascimento
+						</a>
+						
+							<img src="http://res0.esnips.com/escentral/images/flags/flag_brazil.gif">
+							</img>
+						
+						
+					</div>
+					<div class="clearBottom"></div>
+				</div>
+			</div>
+		</div>
+		
+			<div class="heading-bg" id="promote">
+				<div class="heading-text" >Promote</div>
+				<div class="heading-img" id="left">
+				</div>
+				<div class="heading-img" id="right">
+				</div>
+			</div>
+			<div class="wrapper" id="dummyWrapper">
+				<div class="contents">
+						<div class="info-block" id="link-out">
+								
+									<div class="item">                       
+										<div>To <strong>link to this file</strong> copy and paste the address below:</div>
+										<input id="txtPermalink" onfocus='javascript:selectHTML("txtPermalink")' name="permalink" class="editBoxSmall" type="text" value="http://www.esnips.com/doc/18afe400-6614-45fd-b081-116e5d258d27/ASP-dot-NET-2.0-Step-By-Step" size="55" readonly="true">
+									</div>
+									<div class="item" id="sites-out">
+										<div>Submit:</div>
+										<a class="image-link" title="Del.icio.us" href='http://del.icio.us/post?url=http://www.esnips.com/doc/18afe400-6614-45fd-b081-116e5d258d27/ASP-dot-NET-2.0-Step-By-Step&title=ASP dot NET 2.0 Step By Step' id="delicious">
+											
+										</a> 
+										<a class="image-link" title="Digg it!" href='http://digg.com/submit?phase=2&url=http://www.esnips.com/doc/18afe400-6614-45fd-b081-116e5d258d27/ASP-dot-NET-2.0-Step-By-Step' id="digg">
+											
+										</a> 
+										<a class="image-link" title="Stumbleupon" href='http://www.stumbleupon.com/submit?url=http://www.esnips.com/doc/18afe400-6614-45fd-b081-116e5d258d27/ASP-dot-NET-2.0-Step-By-Step' id="stumble">
+											
+										</a>
+										<a class="image-link" title="Reddit" href='http://reddit.com/submit?url=http://www.esnips.com/doc/18afe400-6614-45fd-b081-116e5d258d27/ASP-dot-NET-2.0-Step-By-Step&title=ASP dot NET 2.0 Step By Step' id="reddit">
+											
+										</a>
+										<div class="clearBottom"></div>
+									</div>
+							
+							 <div class="clearBottom"></div>
+							
+							
+						</div>
+				</div>
+			</div>
+		
+		
+			<div class="heading-bg" id="comments">
+				<div class="heading-text">Comments</div>
+				<div class="heading-img" id="left"></div>
+				<div class="heading-img" id="right"></div>
+			</div>
+			<div class="wrapper">
+				<div class="contents">
+					<div class="info-block" id="add-comment">
+						
+						<div class ="item" id="first">
+							<div id="text">Be the first to add a comment</div>
+						</div>
+						
+						<div class ="item" id="panel">
+							<span id="text">Add Comment:</span> 
+							<a class="roundButtonShort" href="javascript:ns_NewBaseComment('')">Text</a>
+							<a class="roundButtonShort" href="javascript:ns_NewBaseComment('Audio')">Audio</a>
+							<a class="roundButtonShort" href="javascript:ns_NewBaseComment('Video')">Video</a>
+						</div>
+						<div class="clearBottom"></div>
+					</div> 
+					<div class="info-block" id="last">
+						
+						
+					</div> 
+				</div>
+			</div>
+		
+	 </td></tr></table>
+	 
+	 
+	 
+			<div class="moreAdBlock">
+				<div class="contents" id="ad">
+					<div class="info-block" id="last">
+						
+					
+
+						
+						
+						
+
+						
+							
+						
+						
+							
+								
+							    
+							
+
+
+
+
+
+
+ 
+<iframe src="http://c2.zedo.com/jsc/c2/ff2.html?n=689;c=397/124;s=19;d=9;w=300;h=250;p=dotnet,aspnet" frameborder=0 marginheight=0 marginwidth=0 scrolling="no" allowTransparency="true" width=300 height=250></iframe>
+
+ 
+
+
+							
+						
+						
+					</div>
+				</div>
+			</div>
+
+		
+		
+		
+			<div class="moreBlock" id="folder">
+				
+					 <div class="heading-bg">
+						<div class="heading-text">More from this <a class="heading-link" href='/webfolder/6d803efe-4156-4b9b-a62f-626bd78714f1'>folder</a></div>
+						<div class="heading-img" id="left">
+						</div>
+						<div class="heading-img" id="right">
+						</div>
+					</div>
+					<div class="contents" id="moreFrom">
+						<div class="info-block" id="last">
+								
+								      
+								      
+								
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+<!--
+	.relatedFile
+	{
+		margin-left:40px;
+		padding-bottom:20px;
+		float:left;
+	}
+	
+-->
+</style>
+
+	<div class="relatedFile"
+	
+		style="clear:left;margin-left:0px;width:100px"
+	
+	>
+		
+			    
+		
+
+
+
+
+
+
+
+<div>
+
+	
+		   
+		   
+	
+
+
+
+
+
+
+
+
+
+
+	
+				   
+	
+
+
+
+
+
+
+
+
+ 	<div class="fileThumb" align="left" style='background-image: url(/images/thumbs/thumb.pdf.gif);' title='C# Developer&#39;S Guide To Asp Net, Xml, And Ado Net'>
+    
+	      <a href='/doc/f9dd2ba1-896b-4995-b41f-677378ca4426/C-DeveloperS-Guide-To-Asp-Net,-Xml,-And-Ado-Net' class='fileThumbLink'>
+		
+
+		  </a>	
+  </div>
+ 	
+
+
+
+
+	<a style="line-height:180%" class="CommandLink" href='/doc/f9dd2ba1-896b-4995-b41f-677378ca4426/C-DeveloperS-Guide-To-Asp-Net,-Xml,-And-Ado-Net'> 
+		C# Developer&#39;S...
+	</a>
+
+</div>
+
+
+
+	</div>
+
+	<div class="relatedFile"
+	
+	>
+		
+			    
+		
+
+
+
+
+
+
+
+<div>
+
+	
+		   
+		   
+	
+
+
+
+
+
+
+
+
+
+
+	
+				   
+	
+
+
+
+
+
+
+
+
+ 	<div class="fileThumb" align="left" style='background-image: url(/images/thumbs/thumb.pdf.gif);' title='Livro - C# e .Net - Guia do Desenvolvedor'>
+    
+	      <a href='/doc/60337237-b60b-45ad-8da3-9ab2d938e4a6/Livro---C-e-.Net---Guia-do-Desenvolvedor' class='fileThumbLink'>
+		
+
+		  </a>	
+  </div>
+ 	
+
+
+
+
+	<a style="line-height:180%" class="CommandLink" href='/doc/60337237-b60b-45ad-8da3-9ab2d938e4a6/Livro---C-e-.Net---Guia-do-Desenvolvedor'> 
+		Livro - C# e ....
+	</a>
+
+</div>
+
+
+
+	</div>
+
+	<div class="relatedFile"
+	
+		style="clear:left;margin-left:0px;width:100px"
+	
+	>
+		
+			    
+		
+
+
+
+
+
+
+
+<div>
+
+	
+		   
+		   
+	
+
+
+
+
+
+
+
+
+
+
+	
+				   
+	
+
+
+
+
+
+
+
+
+ 	<div class="fileThumb" align="left" style='background-image: url(/images/thumbs/thumb.pdf.gif);' title='C# e Asp.net'>
+    
+	      <a href='/doc/6c0488a4-af9b-4740-b485-bba36110cdeb/C-e-Asp.net' class='fileThumbLink'>
+		
+
+		  </a>	
+  </div>
+ 	
+
+
+
+
+	<a style="line-height:180%" class="CommandLink" href='/doc/6c0488a4-af9b-4740-b485-bba36110cdeb/C-e-Asp.net'> 
+		C# e Asp.net.p...
+	</a>
+
+</div>
+
+
+
+	</div>
+
+	<div class="relatedFile"
+	
+	>
+		
+			    
+		
+
+
+
+
+
+
+
+<div>
+
+	
+		   
+		   
+	
+
+
+
+
+
+
+
+
+
+
+	
+				   
+	
+
+
+
+
+
+
+
+
+ 	<div class="fileThumb" align="left" style='background-image: url(/images/thumbs/thumb.pdf.gif);' title='Asp.net Bible Vb.net &amp; C#'>
+    
+	      <a href='/doc/ada28457-29f5-43c2-8101-24aeed951d11/Asp.net-Bible-Vb.net--C' class='fileThumbLink'>
+		
+
+		  </a>	
+  </div>
+ 	
+
+
+
+
+	<a style="line-height:180%" class="CommandLink" href='/doc/ada28457-29f5-43c2-8101-24aeed951d11/Asp.net-Bible-Vb.net--C'> 
+		Asp.net Bible ...
+	</a>
+
+</div>
+
+
+
+	</div>
+
+<div style="clear:both;"></div>
+
+						</div>
+					</div>
+			</div>
+		
+
+
+		
+		
+			<div class="moreBlock" id="files">
+				<div class="heading-bg">
+					<div class="heading-text">Related Stuff</div>
+					<div class="heading-img" id="left">
+					</div>
+					<div class="heading-img" id="right">
+					</div>
+				</div>
+				<div class="contents" id="moreFrom">
+					<div class="info-block" id="last">
+						 
+						      
+						      
+						
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+<!--
+	.relatedFile
+	{
+		margin-left:40px;
+		padding-bottom:20px;
+		float:left;
+	}
+	
+-->
+</style>
+
+	<div class="relatedFile"
+	
+		style="clear:left;margin-left:0px;width:100px"
+	
+	>
+		
+			    
+		
+
+
+
+
+
+
+
+<div>
+
+	
+		   
+		   
+	
+
+
+
+
+
+
+
+
+
+
+	
+				   
+	
+
+
+
+
+
+
+
+
+ 	<div class="fileThumb" align="left" style='background-image: url(/images/thumbs/thumb.pdf.gif);' title='DotNet'>
+    
+	      <a href='/doc/048a2ec2-4b39-4630-9b97-1bd1d72d5d1f/DotNet' class='fileThumbLink'>
+		
+
+		  </a>	
+  </div>
+ 	
+
+
+
+
+	<a style="line-height:180%" class="CommandLink" href='/doc/048a2ec2-4b39-4630-9b97-1bd1d72d5d1f/DotNet'> 
+		DotNet.pdf
+	</a>
+
+</div>
+
+
+
+	</div>
+
+	<div class="relatedFile"
+	
+	>
+		
+			    
+		
+
+
+
+
+
+
+
+<div>
+
+	
+		   
+		   
+	
+
+
+
+
+
+
+
+
+
+
+	
+				   
+	
+
+
+
+
+
+
+
+
+ 	<div class="fileThumb" align="left" style='background-image: url(/images/thumbs/thumb.zip.gif);' title='aspnet'>
+    
+	      <a href='/doc/30593838-f18a-4d66-a045-393be799192b/aspnet' class='fileThumbLink'>
+		
+
+		  </a>	
+  </div>
+ 	
+
+
+
+
+	<a style="line-height:180%" class="CommandLink" href='/doc/30593838-f18a-4d66-a045-393be799192b/aspnet'> 
+		aspnet.zip
+	</a>
+
+</div>
+
+
+
+	</div>
+
+	<div class="relatedFile"
+	
+		style="clear:left;margin-left:0px;width:100px"
+	
+	>
+		
+			    
+		
+
+
+
+
+
+
+
+<div>
+
+	
+		   
+		   
+	
+
+
+
+
+
+
+
+
+
+
+	
+				   
+	
+
+
+
+
+
+
+
+
+ 	<div class="fileThumb" align="left" style='background-image: url(/images/thumbs/thumb.pdf.gif);' title='aspnet-sample'>
+    
+	      <a href='/doc/53d2c19b-56f7-4258-a22d-fdaa00bfa677/aspnet-sample' class='fileThumbLink'>
+		
+
+		  </a>	
+  </div>
+ 	
+
+
+
+
+	<a style="line-height:180%" class="CommandLink" href='/doc/53d2c19b-56f7-4258-a22d-fdaa00bfa677/aspnet-sample'> 
+		aspnet-sample....
+	</a>
+
+</div>
+
+
+
+	</div>
+
+	<div class="relatedFile"
+	
+	>
+		
+			    
+		
+
+
+
+
+
+
+
+<div>
+
+	
+		   
+		   
+	
+
+
+
+
+
+
+
+
+
+
+	
+				   
+	
+
+
+
+
+
+
+
+
+ 	<div class="fileThumb" align="left" style='background-image: url(/images/thumbs/thumb.pdf.gif);' title='ASPnet'>
+    
+	      <a href='/doc/790c65b0-d9ae-4a4b-a5dd-744463ef914a/ASPnet' class='fileThumbLink'>
+		
+
+		  </a>	
+  </div>
+ 	
+
+
+
+
+	<a style="line-height:180%" class="CommandLink" href='/doc/790c65b0-d9ae-4a4b-a5dd-744463ef914a/ASPnet'> 
+		ASPnet.pdf
+	</a>
+
+</div>
+
+
+
+	</div>
+
+	<div class="relatedFile"
+	
+		style="clear:left;margin-left:0px;width:100px"
+	
+	>
+		
+			    
+		
+
+
+
+
+
+
+
+<div>
+
+	
+		   
+		   
+	
+
+
+
+
+
+
+
+
+
+
+	
+				   
+	
+
+
+
+
+
+
+
+
+ 	<div class="fileThumb" align="left" style='background-image: url(/images/thumbs/thumb.pdf.gif);' title='DotNet'>
+    
+	      <a href='/doc/9194ece2-40d0-4d61-9d2a-a6d8c68524ff/DotNet' class='fileThumbLink'>
+		
+
+		  </a>	
+  </div>
+ 	
+
+
+
+
+	<a style="line-height:180%" class="CommandLink" href='/doc/9194ece2-40d0-4d61-9d2a-a6d8c68524ff/DotNet'> 
+		DotNet.pdf
+	</a>
+
+</div>
+
+
+
+	</div>
+
+	<div class="relatedFile"
+	
+	>
+		
+			    
+		
+
+
+
+
+
+
+
+<div>
+
+	
+		   
+		   
+	
+
+
+
+
+
+
+
+
+
+
+	
+				   
+	
+
+
+
+
+
+
+
+
+ 	<div class="fileThumb" align="left" style='background-image: url(/images/thumbs/thumb.pdf.gif);' title='DotNet'>
+    
+	      <a href='/doc/97752411-320b-4bc0-9702-e7ce8ca0e461/DotNet' class='fileThumbLink'>
+		
+
+		  </a>	
+  </div>
+ 	
+
+
+
+
+	<a style="line-height:180%" class="CommandLink" href='/doc/97752411-320b-4bc0-9702-e7ce8ca0e461/DotNet'> 
+		DotNet.pdf
+	</a>
+
+</div>
+
+
+
+	</div>
+
+<div style="clear:both;"></div>
+
+					</div>
+				</div>
+			</div>
+		
+		<div class="clearBottom"></div>
+	
+	  <div class="clearBottom"></div>
+   </div>
+   
+</form>
+
+</body>
+</html>
+</td></tr>
+
+<tr>
+<td height="1">
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" id="tableFooter">
+  <tr>
+    <td><span class="copyright">Copyright &copy; 2006-2007 eSnips Ltd.</span></td>
+    <td align="right"><div id="tableFooterMenu" class="GrayText">
+         <a href="/statments/about.jsp" class="blueLink">About Us</a> | 
+         <a href="http://esnips.blogs.com/" class="blueLink">CEO Blog</a> | 
+         <a href="http://esnippers.typepad.com/" class="blueLink">eSnips Blog</a> | 
+         <a href="/support" class="blueLink">Support</a> | 
+         <a href="/statments/terms.jsp" class="blueLink">Terms of Use</a> | 
+         <a href="/statments/copyright.jsp" class="blueLink">Copyright Policy</a> |
+         <a href="/statments/privacy.jsp" class="blueLink">Privacy Policy</a> 
+    </div>    </td>
+  </tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-495747-1";
+urchinTracker();
+
+var userValue = "esnips_";
+
+
+
+
+   userValue +=  'visitor';
+
+
+__utmSetVar(userValue);
+  
+</script>
+
+</body>
+</html>

@@ -1,0 +1,483 @@
+BODY {
+	BACKGROUND: url(images/bg.gif) #bda44d left top; COLOR: #333; FONT-FAMILY: Verdana,Arial,Sans-Serif; TEXT-ALIGN: center
+}
+DIV.head {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(images/head-bg.gif) repeat-x left top; MARGIN-BOTTOM: 22px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 51px; TEXT-ALIGN: left
+}
+H1.home {
+	MARGIN: 0px; WIDTH: 0px; TEXT-INDENT: -9999px; HEIGHT: 0px
+}
+.description {
+	TEXT-ALIGN: center
+}
+.author {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; FONT-SIZE: 10px; BACKGROUND: url(/wp/img/about-bg.gif) no-repeat left top; PADDING-BOTTOM: 12px; WIDTH: 351px; PADDING-TOP: 12px; HEIGHT: 50px
+}
+.author A:link {
+	COLOR: #fafafa; BORDER-BOTTOM: #173b61 1px dotted
+}
+.author A:visited {
+	COLOR: #fafafa; BORDER-BOTTOM: #173b61 1px dotted; TEXT-DECORATION: none
+}
+.author A:active {
+	COLOR: #fafafa; BORDER-BOTTOM: #173b61 1px dotted
+}
+.author A:hover {
+	COLOR: #fafafa; BORDER-BOTTOM: #173b61 1px dotted; BACKGROUND-COLOR: transparent
+}
+.inset {
+	MARGIN-TOP: 10px; BACKGROUND: url(/includes/global_new/images/profile-bg1.gif) #ecebe3 repeat-x left top
+}
+#shadowboxer {
+	MARGIN: 0px auto 20px; WIDTH: 1250px; TEXT-ALIGN: center
+}
+.one {
+	FLOAT: left; MARGIN: 0px; min-width: 450px
+}
+.two {
+	FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; MARGIN: 0px 0px 0px 55px; WIDTH: 450px; COLOR: #f7f7fa; TEXT-ALIGN: left
+}
+#content {
+	PADDING-RIGHT: 45px; PADDING-LEFT: 45px; FONT-SIZE: 11px; BACKGROUND: #b4d4d3; PADDING-BOTTOM: 5px; WIDTH: 500px; COLOR: #404040; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+#content A:link {
+	COLOR: #173b61
+}
+#content A:visited {
+	COLOR: #6a7785; TEXT-DECORATION: none
+}
+#content A:active {
+	COLOR: #6a7785; BORDER-BOTTOM: #fafafa 1px dotted
+}
+#content A:hover {
+	COLOR: #6a7785; BORDER-BOTTOM: #fafafa 1px dotted; BACKGROUND-COLOR: #fafafa
+}
+#sidebar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; WIDTH: 190px; PADDING-TOP: 20px
+}
+#sidebar FORM {
+	MARGIN: 0px
+}
+.linky {
+	FONT-SIZE: 10px; MARGIN: 0px auto; WIDTH: 240px
+}
+#linkspam {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 35px; PADDING-LEFT: 0px; BACKGROUND: #006c80; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 250px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#linkspam H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 8px; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 4px
+}
+#linkspam P {
+	WIDTH: 240px
+}
+#linkspam P.bottom {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 9px; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-TOP: 2px
+}
+#linkspam A:link {
+	COLOR: #fff; BORDER-BOTTOM-STYLE: none
+}
+#linkspam A:visited {
+	COLOR: #fff; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none
+}
+#linkspam A:active {
+	COLOR: #fff; BORDER-BOTTOM-STYLE: none
+}
+#linkspam A:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #57626d; BORDER-BOTTOM-STYLE: none
+}
+.spacer {
+	CLEAR: both
+}
+#page {
+	BORDER-RIGHT: #959596 1px solid; BORDER-TOP: #959596 1px solid; BORDER-LEFT: #959596 1px solid; BORDER-BOTTOM: #959596 1px solid; BACKGROUND-COLOR: white; TEXT-ALIGN: left
+}
+#header {
+	BACKGROUND-COLOR: #73a0c5
+}
+.widecolumn .entry P {
+	FONT-SIZE: 1.05em
+}
+.narrowcolumn .entry {
+	LINE-HEIGHT: 1.4em
+}
+.widecolumn .entry {
+	LINE-HEIGHT: 1.4em
+}
+.widecolumn {
+	LINE-HEIGHT: 1.6em
+}
+.narrowcolumn .postmetadata {
+	TEXT-ALIGN: center
+}
+.alt {
+	BORDER-TOP: #ddd 1px solid; BORDER-BOTTOM: #ddd 1px solid
+}
+#footer {
+	
+}
+SMALL {
+	FONT-SIZE: 0.9em; COLOR: #fff; LINE-HEIGHT: 1.5em; FONT-FAMILY: Verdana, Helvetica, Sans-Serif
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-FAMILY: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-FAMILY: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-FAMILY: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif
+}
+H2 {
+	FONT-SIZE: 1.6em
+}
+H2.pagetitle {
+	FONT-SIZE: 1.6em
+}
+#sidebar H2 {
+	FONT-SIZE: 1.2em; FONT-FAMILY: 'Lucida Grande', Verdana, Sans-Serif
+}
+H3 {
+	FONT-SIZE: 1.3em
+}
+H1 {
+	COLOR: #404040
+}
+H2 {
+	COLOR: #3c2000
+}
+H2 A {
+	COLOR: #3c2000
+}
+#content H2 A:visited {
+	COLOR: #3c2000
+}
+#content H2 A:link {
+	COLOR: #3c2000
+}
+H3 {
+	COLOR: #3c2000
+}
+H3 A {
+	COLOR: #3c2000
+}
+H3 A:visited {
+	COLOR: #3c2000
+}
+H2 {
+	TEXT-DECORATION: none
+}
+H2 A {
+	TEXT-DECORATION: none
+}
+H2 A:hover {
+	TEXT-DECORATION: none
+}
+H2 A:visited {
+	TEXT-DECORATION: none
+}
+H3 {
+	TEXT-DECORATION: none
+}
+H3 A {
+	TEXT-DECORATION: none
+}
+H3 A:hover {
+	TEXT-DECORATION: none
+}
+H3 A:visited {
+	TEXT-DECORATION: none
+}
+#sidebar H2 {
+	TEXT-DECORATION: none
+}
+#wp-calendar CAPTION {
+	TEXT-DECORATION: none
+}
+CITE {
+	TEXT-DECORATION: none
+}
+.commentlist LI {
+	FONT: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif
+}
+#commentform INPUT {
+	FONT: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif
+}
+#commentform TEXTAREA {
+	FONT: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif
+}
+.commentlist LI {
+	FONT-WEIGHT: bold
+}
+.commentlist CITE {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.1em; FONT-STYLE: normal
+}
+.commentlist CITE A {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.1em; FONT-STYLE: normal
+}
+.commentlist P {
+	FONT-WEIGHT: normal; TEXT-TRANSFORM: none; LINE-HEIGHT: 1.5em
+}
+#commentform P {
+	FONT-FAMILY: 'Lucida Grande', Verdana, Arial, Sans-Serif
+}
+.commentmetadata {
+	FONT-WEIGHT: normal
+}
+#sidebar {
+	FONT: 1em 'Lucida Grande', Verdana, Arial, Sans-Serif
+}
+CODE {
+	FONT: 1.1em 'Courier New', Courier, Fixed
+}
+ACRONYM {
+	FONT-SIZE: 0.9em; LETTER-SPACING: 0.07em
+}
+abbr {
+	FONT-SIZE: 0.9em; LETTER-SPACING: 0.07em
+}
+SPAN.caps {
+	FONT-SIZE: 0.9em; LETTER-SPACING: 0.07em
+}
+#wp-calendar #prev A {
+	FONT-SIZE: 9pt
+}
+#wp-calendar A {
+	TEXT-DECORATION: none
+}
+#wp-calendar CAPTION {
+	FONT: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif; TEXT-ALIGN: center
+}
+#wp-calendar TH {
+	TEXT-TRANSFORM: capitalize; FONT-STYLE: normal
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.widecolumn {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; MARGIN: 5px 0px 0px 150px; WIDTH: 450px; PADDING-TOP: 10px
+}
+.widecolumn .post {
+	MARGIN: 0px
+}
+.narrowcolumn .postmetadata {
+	PADDING-TOP: 5px
+}
+.widecolumn .postmetadata {
+	MARGIN: 30px 0px
+}
+#footer {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 760px; PADDING-TOP: 0px
+}
+#footer P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; MARGIN: 0px; PADDING-TOP: 20px; TEXT-ALIGN: center
+}
+H2 {
+	MARGIN: 30px 0px 0px
+}
+H2.pagetitle {
+	MARGIN-TOP: 30px; TEXT-ALIGN: center
+}
+#sidebar H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 30px 0px 0px; PADDING-TOP: 0px
+}
+H3.comments {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 40px auto 20px; PADDING-TOP: 0px
+}
+P IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; max-width: 100%
+}
+IMG.centered {
+	DISPLAY: block; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+IMG.alignright {
+	PADDING-RIGHT: 4px; DISPLAY: inline; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 0px 0px 2px 7px; PADDING-TOP: 4px
+}
+IMG.alignleft {
+	PADDING-RIGHT: 4px; DISPLAY: inline; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 0px 7px 2px 0px; PADDING-TOP: 4px
+}
+.alignright {
+	FLOAT: right
+}
+.alignleft {
+	FLOAT: left
+}
+UNKNOWN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; TEXT-INDENT: -10px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UNKNOWN {
+	MARGIN: 7px 0px 8px 10px
+}
+.entry UL LI:unknown {
+	content: "» "
+}
+#sidebar UL UL LI:unknown {
+	content: "» "
+}
+.entry OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 35px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.entry OL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.postmetadata UL {
+	DISPLAY: inline; LIST-STYLE-IMAGE: none; LIST-STYLE-TYPE: none
+}
+.postmetadata LI {
+	DISPLAY: inline; LIST-STYLE-IMAGE: none; LIST-STYLE-TYPE: none
+}
+.specialist UL {
+	PADDING-RIGHT: 3px; DISPLAY: inline; PADDING-LEFT: 3px; LIST-STYLE-IMAGE: none; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; LIST-STYLE-TYPE: none
+}
+.specialist LI {
+	PADDING-RIGHT: 3px; DISPLAY: inline; PADDING-LEFT: 3px; LIST-STYLE-IMAGE: none; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; LIST-STYLE-TYPE: none
+}
+#sidebar UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#sidebar UL OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#sidebar UL LI {
+	LIST-STYLE-IMAGE: none; MARGIN-BOTTOM: 15px; LIST-STYLE-TYPE: none
+}
+#sidebar UL P {
+	MARGIN: 5px 0px 8px
+}
+#sidebar UL SELECT {
+	MARGIN: 5px 0px 8px
+}
+#sidebar UL UL {
+	MARGIN: 5px 0px 0px 10px
+}
+#sidebar UL OL {
+	MARGIN: 5px 0px 0px 10px
+}
+#sidebar UL UL UL {
+	MARGIN: 0px 0px 0px 10px
+}
+#sidebar UL OL {
+	MARGIN: 0px 0px 0px 10px
+}
+OL LI {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: decimal
+}
+#sidebar UL OL LI {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: decimal
+}
+#sidebar UL UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 3px 0px 0px; PADDING-TOP: 0px
+}
+#sidebar UL OL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 3px 0px 0px; PADDING-TOP: 0px
+}
+#searchform {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 5px; MARGIN: 10px auto; PADDING-TOP: 5px; TEXT-ALIGN: center
+}
+#sidebar #searchform #s {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 115px; PADDING-TOP: 2px
+}
+#sidebar #searchsubmit {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.entry FORM {
+	TEXT-ALIGN: center
+}
+SELECT {
+	WIDTH: 130px
+}
+#commentform INPUT {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 5px 5px 1px 0px; WIDTH: 170px; PADDING-TOP: 2px
+}
+#commentform TEXTAREA {
+	BORDER-RIGHT: #888 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #888 1px solid; PADDING-LEFT: 2px; BACKGROUND: #fafafa; PADDING-BOTTOM: 2px; BORDER-LEFT: #888 1px solid; WIDTH: 100%; PADDING-TOP: 2px; BORDER-BOTTOM: #888 1px solid
+}
+#commentform #submit {
+	FLOAT: right; MARGIN: 0px
+}
+.alt {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-TOP: 10px
+}
+.commentlist {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: justify
+}
+.commentlist LI {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 3px; MARGIN: 15px 0px 3px; PADDING-TOP: 5px; LIST-STYLE-TYPE: none
+}
+.commentlist P {
+	MARGIN: 10px 5px 10px 0px
+}
+#commentform P {
+	BACKGROUND: #888; MARGIN: 5px 0px
+}
+.nocomments {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.commentmetadata {
+	DISPLAY: block; MARGIN: 0px
+}
+#wp-calendar {
+	MARGIN: 10px auto 0px; WIDTH: 155px; empty-cells: show
+}
+#wp-calendar #next A {
+	PADDING-RIGHT: 10px; TEXT-ALIGN: right
+}
+#wp-calendar #prev A {
+	PADDING-LEFT: 10px; TEXT-ALIGN: left
+}
+#wp-calendar A {
+	DISPLAY: block
+}
+#wp-calendar CAPTION {
+	WIDTH: 100%; TEXT-ALIGN: center
+}
+#wp-calendar TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; TEXT-ALIGN: center
+}
+#wp-calendar TD.pad:hover {
+	BACKGROUND-COLOR: #fff
+}
+ACRONYM {
+	CURSOR: help
+}
+abbr {
+	CURSOR: help
+}
+SPAN.caps {
+	CURSOR: help
+}
+ACRONYM {
+	BORDER-BOTTOM: #999 1px dashed
+}
+abbr {
+	BORDER-BOTTOM: #999 1px dashed
+}
+BLOCKQUOTE {
+	PADDING-LEFT: 20px; MARGIN: 15px 30px 0px 10px; BORDER-LEFT: #ddd 5px solid; COLOR: #4b4b4b
+}
+BLOCKQUOTE CITE {
+	DISPLAY: block; MARGIN: 5px 0px 0px
+}
+.center {
+	TEXT-ALIGN: center
+}
+HR {
+	DISPLAY: none
+}
+A IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.navigation {
+	MARGIN-TOP: 10px; DISPLAY: block; MARGIN-BOTTOM: 60px; TEXT-ALIGN: center
+}
+.projectsbox {
+	BACKGROUND: #5f7c9a; WIDTH: 414px; HEIGHT: auto
+}
+.projectsbox IMG {
+	BORDER-RIGHT: #e5e5da 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #e5e5da 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 1px; BORDER-LEFT: #e5e5da 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #e5e5da 1px solid; BACKGROUND-COLOR: #eef0e3; TEXT-ALIGN: center
+}
+.easybox {
+	BORDER-RIGHT: #e5e5da 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #e5e5da 1px solid; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; MARGIN: 5px; BORDER-LEFT: #e5e5da 1px solid; WIDTH: 175px; PADDING-TOP: 5px; BORDER-BOTTOM: #e5e5da 1px solid; BACKGROUND-COLOR: #eef0e3; TEXT-ALIGN: center
+}

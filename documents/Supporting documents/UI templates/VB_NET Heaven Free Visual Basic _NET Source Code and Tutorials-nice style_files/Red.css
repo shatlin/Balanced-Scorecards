@@ -1,0 +1,45 @@
+A.ControlTitleRightBar:active {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #800000; TEXT-DECORATION: none
+}
+A.ControlTitleRightBar:visited {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #800000; TEXT-DECORATION: none
+}
+A.ControlTitleRightBar:link {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #800000; TEXT-DECORATION: none
+}
+A.ControlTitleRightBar:hover {
+	PADDING-LEFT: 2px; VERTICAL-ALIGN: middle; COLOR: gray
+}
+A.ControlTitleMidBar:active {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #800000; TEXT-DECORATION: none
+}
+A.ControlTitleMidBar:visited {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #800000; TEXT-DECORATION: none
+}
+A.ControlTitleMidBar:link {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #800000; TEXT-DECORATION: none
+}
+A.ControlTitleMidBar:hover {
+	PADDING-LEFT: 2px; VERTICAL-ALIGN: middle; COLOR: gray
+}
+.ControlMidHeaderBackground {
+	COLOR: #800000; BORDER-BOTTOM: #ff3300 1px solid; BACKGROUND-COLOR: #ffcaca
+}
+.ControlMidBorderStyle {
+	BORDER-RIGHT: #ff3300 1px solid; BORDER-TOP: #ff3300 1px solid; BORDER-LEFT: #ff3300 1px solid; BORDER-BOTTOM: #ff3300 1px solid; BORDER-COLLAPSE: collapse
+}
+.ControlRightHeaderBackground {
+	COLOR: #800000; BORDER-BOTTOM: #ff3300 1px solid; BACKGROUND-COLOR: #ffcaca
+}
+.ControlRightBorderStyle {
+	BORDER-RIGHT: #ff3300 1px solid; BORDER-TOP: #ff3300 1px solid; BORDER-LEFT: #ff3300 1px solid; BORDER-BOTTOM: #ff3300 1px solid; BORDER-COLLAPSE: collapse
+}
+.ArticleIcon {
+	BACKGROUND-IMAGE: url(/App_Themes/CSharp/images/ArticleIcons/ArticleIcon_red.gif); BACKGROUND-REPEAT: no-repeat
+}
+.BulletIcon {
+	BACKGROUND-IMAGE: url(/App_Themes/CSharp/images/BulletIcons/bullet_red.gif); BACKGROUND-REPEAT: no-repeat
+}
+.pagingBackground {
+	BORDER-TOP: #ff3300 1px solid; WIDTH: 100%; BORDER-COLLAPSE: collapse
+}

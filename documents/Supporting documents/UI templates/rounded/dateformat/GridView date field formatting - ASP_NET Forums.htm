@@ -1,0 +1,619 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0043)http://forums.asp.net/p/941466/1126616.aspx -->
+<HTML lang=en xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>GridView date field formatting - ASP.NET Forums</TITLE>
+<META content="MSHTML 6.00.2900.2995" name=GENERATOR><LINK href="/favicon.ico" 
+type=image/ico rel="shortcut icon"><LINK title="Forums RSS (RSS 2.0)" 
+href="http://forums.asp.net/aggregaterss.aspx?Mode=0" type=application/rss+xml 
+rel=alternate><LINK title="Data Presentation Controls (RSS 2.0)" 
+href="http://forums.asp.net/rss.aspx?ForumID=24&amp;Mode=0" 
+type=application/rss+xml rel=alternate><LINK 
+title="GridView date field formatting (RSS 2.0)" 
+href="http://forums.asp.net/rss.aspx?ForumID=24&amp;PostID=1126616" 
+type=application/rss+xml rel=alternate>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8"><LINK 
+media=screen 
+href="GridView date field formatting - ASP_NET Forums_files/Common.css" 
+type=text/css rel=stylesheet><LINK media=print 
+href="GridView date field formatting - ASP_NET Forums_files/common_print.css" 
+type=text/css rel=stylesheet><LINK media=screen 
+href="GridView date field formatting - ASP_NET Forums_files/forum.css" 
+type=text/css rel=stylesheet><LINK media=print 
+href="GridView date field formatting - ASP_NET Forums_files/forum_print.css" 
+type=text/css rel=stylesheet><LINK media=screen 
+href="GridView date field formatting - ASP_NET Forums_files/job-burner.css" 
+type=text/css rel=stylesheet><LINK media=screen 
+href="GridView date field formatting - ASP_NET Forums_files/fan.css" 
+type=text/css rel=stylesheet><LINK media=print 
+href="GridView date field formatting - ASP_NET Forums_files/fan_print.css" 
+type=text/css rel=stylesheet><LINK media=screen 
+href="GridView date field formatting - ASP_NET Forums_files/colorcode.css" 
+type=text/css rel=stylesheet><LINK 
+href="http://static.asp.net/www/i/favicon.ico" rel="shortcut icon"><!--[if lte IE 7]>
+<SCRIPT language=javascript>
+    
+        // Because IE 6 and less will sometimes render 
+        // floating <div> tags incorrectly, I am forcing 
+        // the window to repaint which corrects the problem.
+        function fixIEPaintBug()
+        {    
+            document.getElementById('CommonContent').style.height = "1%";
+        }
+        
+        attachEvent("onload", fixIEPaintBug);
+
+    </SCRIPT>
+<![endif]--></HEAD>
+<BODY class=forum>
+<FORM id=aspnetForm name=aspnetForm action=/p/941466/1126616.aspx method=post>
+<DIV><INPUT id=__EVENTTARGET type=hidden name=__EVENTTARGET> <INPUT 
+id=__EVENTARGUMENT type=hidden name=__EVENTARGUMENT> <INPUT id=__VIEWSTATE 
+type=hidden 
+value=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 
+name=__VIEWSTATE> </DIV>
+<SCRIPT type=text/javascript>
+<!--
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// -->
+</SCRIPT>
+
+<SCRIPT 
+src="GridView date field formatting - ASP_NET Forums_files/WebResource.axd" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="C:\Documents and Settings\cc089503\Desktop\dateformat\GridView date field formatting - ASP_NET Forums_files\WebResource(1).axd" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="C:\Documents and Settings\cc089503\Desktop\dateformat\GridView date field formatting - ASP_NET Forums_files\WebResource(2).axd" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="C:\Documents and Settings\cc089503\Desktop\dateformat\GridView date field formatting - ASP_NET Forums_files\WebResource(3).axd" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="C:\Documents and Settings\cc089503\Desktop\dateformat\GridView date field formatting - ASP_NET Forums_files\WebResource(4).axd" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="C:\Documents and Settings\cc089503\Desktop\dateformat\GridView date field formatting - ASP_NET Forums_files\WebResource(5).axd" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=javascript 
+src="GridView date field formatting - ASP_NET Forums_files/CommunityBar.ashx" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="GridView date field formatting - ASP_NET Forums_files/__utm.js" 
+type=text/javascript></SCRIPT>
+
+<DIV class=content_container>
+<DIV class=header_container>
+<DIV class=header_top>
+<DIV class=header_top_right></DIV></DIV>
+<DIV class=header_content>
+<DIV class=header_content_right><A title=Home 
+href="http://www.asp.net/"><CONTENTTEMPLATE><IMG class=logo 
+alt="Microsoft ASP.net" 
+src="GridView date field formatting - ASP_NET Forums_files/logo.png"></CONTENTTEMPLATE></A> 
+
+<UL class=nav_main>
+  <LI class=first><A href="http://www.asp.net/">Home</A> 
+  <LI><A href="http://www.asp.net/get-started/">Get Started</A> 
+  <LI><A href="http://www.asp.net/learn/">Learn </A>
+  <LI><A href="http://www.asp.net/downloads/">Downloads</A> 
+  <LI><A href="http://www.asp.net/ajax/">AJAX</A> 
+  <LI><A href="http://www.asp.net/community/">Community</A> </LI>
+  <LI class=active><A href="http://forums.asp.net/">Forums</A> </LI>
+  <LI class=search>
+  <DIV id=SearchBoxWrapper><INPUT class=search_box 
+  id=ctl00_ctl00_bhcr_SearchForm1_ctl00_TitleBarSearchText 
+  onkeydown="return KeyDownHandlerctl00_ctl00_bhcr_SearchForm1_ctl00_TitleBarSearchButton(event);" 
+  onblur="if(this.value=='') this.value=this.defaultValue;" 
+  onclick="if(this.defaultValue==this.value) this.value='';" maxLength=64 
+  name=ctl00$ctl00$bhcr$SearchForm1$ctl00$TitleBarSearchText> </DIV><INPUT class=search_button id=ctl00_ctl00_bhcr_SearchForm1_ctl00_TitleBarSearchButton type=submit value=Search name=ctl00$ctl00$bhcr$SearchForm1$ctl00$TitleBarSearchButton> 
+  </LI></UL><!--div class="rss_list"><a href="http://www.asp.net/RSS/">RSS LIST</a></div-->
+<DIV class=nav_login_user>
+<P><A 
+href="http://forums.asp.net/login.aspx?ReturnUrl=%2fp%2f941466%2f1126616.aspx">Sign 
+in </A>| <A 
+href="http://forums.asp.net/user/CreateUser.aspx?ReturnUrl=">Join</A> 
+</P></DIV></DIV></DIV>
+<DIV class=header_breadcrumb_top>
+<DIV class=header_breadcrumb_top_right></DIV></DIV>
+<DIV class=header_breadcrumb_content>
+<DIV class=header_breadcrumb_content_right><A 
+href="http://www.asp.net/">Home</A> › 
+<DIV class=CommonBreadCrumbArea>
+<DIV class=Common><A href="http://forums.asp.net/">ASP.NET Forums</A> » <A 
+href="http://forums.asp.net/default.aspx?GroupID=7">General ASP.NET</A> » <A 
+href="http://forums.asp.net/24.aspx">Data Presentation Controls</A> » <A 
+href="http://forums.asp.net/t/941466.aspx">GridView date field 
+formatting</A></DIV></DIV></DIV></DIV>
+<DIV class=header_breadcrumb_bottom>
+<DIV class=header_breadcrumb_bottom_right></DIV></DIV></DIV><!-- END HEADER & BREADCRUMB -->
+<DIV style="PADDING-BOTTOM: 5px; PADDING-TOP: 5px" align=center><IFRAME 
+marginWidth=0 marginHeight=0 
+src="GridView date field formatting - ASP_NET Forums_files/Banner.htm" 
+frameBorder=0 width=468 scrolling=no height=60></IFRAME></DIV>
+<DIV id=CommonSidebarRight></DIV>
+<DIV id=CommonSidebarLeft></DIV>
+<DIV id=CommonContent>
+<DIV id=CommonContentInner>
+<DIV class=CommonContentArea>
+<DIV class=CommonContent>
+<DIV style="FONT-SIZE: 70%; TEXT-ALIGN: right"><A class=CommonImageTextButton 
+href="http://forums.asp.net/ThreadNavigation.aspx?PostID=1126616&amp;NavType=Previous"><SPAN 
+class=CommonPreviousButton>Previous</SPAN></A> <A class=CommonImageTextButton 
+href="http://forums.asp.net/ThreadNavigation.aspx?PostID=1126616&amp;NavType=Next"><SPAN 
+class=CommonNextButton>Next</SPAN></A> </DIV>
+<DIV class=CommonInlineMessageTitle>
+<DIV class=CommonInlineMessageTitleRight></DIV>
+<H2>GridView date field formatting</H2></DIV>
+<DIV class=CommonInlineMessageArea>
+<DIV class=CommonInlineMessageTop><SPAN></SPAN></DIV>
+<DIV class=CommonInlineMessageContent>
+<P style="FLOAT: right"></P>
+<P>Last post 03-02-2006 6:40 AM by <A 
+href="http://forums.asp.net/members/RFGSoftware.aspx">RFGSoftware</A>. 3 
+replies.</P>
+<P>Sort Posts: <SELECT id=ctl00_ctl00_bcr_bcr_ctl00_ctl05_ctl00_SortOrder 
+onchange="window.setTimeout('__doPostBack(\'ctl00$ctl00$bcr$bcr$ctl00$ctl05\',\'\')',0)" 
+name=ctl00$ctl00$bcr$bcr$ctl00$ctl05$ctl00$SortOrder> <OPTION value=0 
+  selected>Oldest to newest</OPTION> <OPTION value=1>Newest to 
+oldest</OPTION></SELECT> </P></DIV>
+<DIV class=CommonInlineMessageBottom><SPAN></SPAN></DIV></DIV>
+<UL class=ForumPostList>
+  <LI><A name=1126616></A>
+  <DIV class=ForumPostHeader>
+  <DIV class=ForumPostHeaderRight></DIV>
+  <H2>GridView date field formatting</H2>
+  <DIV style="CLEAR: both">
+  <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+    <TBODY>
+    <TR>
+      <TD style="PADDING-LEFT: 8px" vAlign=top noWrap width="20%">11-29-2005, 
+        9:35 AM </TD>
+      <TD vAlign=center align=right width="80%">
+        <DIV style="PADDING-RIGHT: 5px; FLOAT: right; HEIGHT: 27px"><A 
+        class=CommonImageTextButton 
+        onclick="return window.ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_UserContactPopupMenu1_ctl01_ClientPopulatedPopupMenu.LoadMenu(this,event,['635002','USFbobFL','0','1','','','','/search/SearchResults.aspx?q=userid%3a635002&amp;o=DateDescending'],null);" 
+        href="http://forums.asp.net/p/941466/1126616.aspx#"><SPAN 
+        class=CommonContactButton>Contact</SPAN></A> </DIV><TRAILERTEMPLATE>
+        <DIV></DIV></TRAILERTEMPLATE><TRAILERTEMPLATE>
+        <DIV></DIV></TRAILERTEMPLATE>
+        <DIV style="PADDING-RIGHT: 5px; FLOAT: right; HEIGHT: 27px"><A 
+        class=CommonImageTextButton 
+        href="http://forums.asp.net/AddPost.aspx?ReplyToPostID=1126616&amp;Quote=False"><SPAN 
+        class=CommonReplyButton>Reply</SPAN> 
+        </A><TRAILERTEMPLATE></DIV></TRAILERTEMPLATE></TD></TR></TBODY></TABLE></DIV>
+  <DIV class=ForumPostArea style="MARGIN-TOP: 0px; BACKGROUND-COLOR: white">
+  <TABLE id=tbl0 cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <TBODY>
+    <TR vAlign=top>
+      <TD class=ForumPostUserArea rowSpan=2>
+        <DIV class=ForumPostUserContent>
+        <UL class=ForumPostUserPropertyList>
+          <LI class=ForumPostUserAvatar><IMG 
+          style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" 
+          alt="" 
+          src="GridView date field formatting - ASP_NET Forums_files/avatar_null_59x59.jpg"> 
+
+          <LI class=ForumPostUserAttribute>
+          <DIV id=USFbobFL-rs-avatar-1126616>Loading...</DIV>
+          <LI class=ForumPostUserName><A 
+          href="http://forums.asp.net/members/USFbobFL.aspx">USFbobFL</A> 
+          <LI class=ForumPostUserAttribute>Joined on 11-29-2005, 2:14 PM 
+          <LI class=ForumPostUserAttribute>Posts <A 
+          href="http://forums.asp.net/search/SearchResults.aspx?q=userid%3a635002&amp;o=DateDescending">39</A> 
+          </LI></UL></DIV></TD>
+      <TD class=ForumPostContentArea>
+        <TABLE style="TABLE-LAYOUT: fixed" height="100%" cellSpacing=0 
+        cellPadding=0 width="100%" border=0>
+          <TBODY>
+          <TR>
+            <TD>
+              <DIV class=ForumPostBodyArea>
+              <DIV class=ForumPostContentText>
+              <P>Despite extensive searching I have been unable to determine how 
+              to do this. </P>
+              <P>Search criteria: <FONT color=#0000ff>.NET&nbsp;GridView date 
+              field formatting</FONT></P>
+              <P>Here is the question.</P>
+              <P><FONT color=#006400>The <STRONG>default display format</STRONG> 
+              of a date field in a <STRONG>GridView</STRONG> is <EM>MM/DD/YYYY 
+              hh:mm:ss AM</EM>/PM.&nbsp; <BR>I would like to display it in the 
+              GridView as <EM>MM/DD/YY hh:mm</EM>.</FONT></P>
+              <P>Does anyone know the secret?</P>
+              <P>Thanks for your time.</P><SPAN 
+              class=ForumPostContentScrollbarCorrector></SPAN></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR>
+    <TR vAlign=bottom>
+      <TD class=ForumPostFooterArea>
+        <DIV><SPAN 
+        id=ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_ctl07_ctl01></SPAN><INPUT 
+        id=ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_ctl07_ctl01_State 
+        type=hidden value=nochange 
+        name=ctl00$ctl00$bcr$bcr$ctl00$PostList$ctl02$ctl07$ctl01></DIV>
+        <UL class="ForumPostStatistics CommonPrintHidden" style="CLEAR: both">
+          <LI></LI></UL></TD></TR></TBODY></TABLE></DIV>
+  <SCRIPT 
+  src="GridView date field formatting - ASP_NET Forums_files/default.ashx" 
+  type=text/javascript></SCRIPT>
+  </DIV>
+  <LI><A name=1126681></A>
+  <DIV class=ForumPostHeader>
+  <DIV class=ForumPostHeaderRight></DIV>
+  <H2><IMG alt="Cool [cool]" 
+  src="GridView date field formatting - ASP_NET Forums_files/emotion-11.gif"> 
+  Re: GridView date field formatting</H2>
+  <DIV style="CLEAR: both">
+  <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+    <TBODY>
+    <TR>
+      <TD style="PADDING-LEFT: 8px" vAlign=top noWrap width="20%">11-29-2005, 
+        10:33 AM </TD>
+      <TD vAlign=center align=right width="80%">
+        <DIV style="PADDING-RIGHT: 5px; FLOAT: right; HEIGHT: 27px"><A 
+        class=CommonImageTextButton 
+        onclick="return window.ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_UserContactPopupMenu1_ctl01_ClientPopulatedPopupMenu.LoadMenu(this,event,['635002','USFbobFL','0','1','','','','/search/SearchResults.aspx?q=userid%3a635002&amp;o=DateDescending'],null);" 
+        href="http://forums.asp.net/p/941466/1126616.aspx#"><SPAN 
+        class=CommonContactButton>Contact</SPAN></A> </DIV><TRAILERTEMPLATE>
+        <DIV></DIV></TRAILERTEMPLATE><TRAILERTEMPLATE>
+        <DIV></DIV></TRAILERTEMPLATE>
+        <DIV style="PADDING-RIGHT: 5px; FLOAT: right; HEIGHT: 27px"><A 
+        class=CommonImageTextButton 
+        href="http://forums.asp.net/AddPost.aspx?ReplyToPostID=1126681&amp;Quote=False"><SPAN 
+        class=CommonReplyButton>Reply</SPAN> 
+        </A><TRAILERTEMPLATE></DIV></TRAILERTEMPLATE></TD></TR></TBODY></TABLE></DIV>
+  <DIV class=ForumPostArea style="MARGIN-TOP: 0px; BACKGROUND-COLOR: white">
+  <TABLE id=tbl1 cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <TBODY>
+    <TR vAlign=top>
+      <TD class=ForumPostUserArea rowSpan=2>
+        <DIV class=ForumPostUserContent>
+        <UL class=ForumPostUserPropertyList>
+          <LI class=ForumPostUserAvatar><IMG 
+          style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" 
+          alt="" 
+          src="GridView date field formatting - ASP_NET Forums_files/avatar_null_59x59.jpg"> 
+
+          <LI class=ForumPostUserAttribute>
+          <DIV id=USFbobFL-rs-avatar-1126681>Loading...</DIV>
+          <LI class=ForumPostUserName><A 
+          href="http://forums.asp.net/members/USFbobFL.aspx">USFbobFL</A> 
+          <LI class=ForumPostUserAttribute>Joined on 11-29-2005, 2:14 PM 
+          <LI class=ForumPostUserAttribute>Posts <A 
+          href="http://forums.asp.net/search/SearchResults.aspx?q=userid%3a635002&amp;o=DateDescending">39</A> 
+          </LI></UL></DIV></TD>
+      <TD class=ForumPostContentArea>
+        <TABLE style="TABLE-LAYOUT: fixed" height="100%" cellSpacing=0 
+        cellPadding=0 width="100%" border=0>
+          <TBODY>
+          <TR>
+            <TD>
+              <DIV class=ForumPostBodyArea>
+              <DIV class=ForumPostContentText><FONT color=#0000ff size=2>
+              <P>&lt;</FONT><FONT color=#800000 size=2>asp</FONT><FONT 
+              color=#0000ff size=2>:</FONT><FONT color=#800000 
+              size=2>BoundField</FONT><FONT size=2> </FONT><FONT color=#ff0000 
+              size=2>DataField</FONT><FONT color=#0000ff 
+              size=2>="gsLastUpdDateTime"</FONT><FONT size=2> </FONT><FONT 
+              color=#ff0000 size=2>DataFormatString</FONT><FONT color=#0000ff 
+              size=2>="<STRONG>{0:d t}</STRONG>"</FONT><FONT size=2> 
+              </FONT><FONT color=#ff0000 size=2>HeaderText</FONT><FONT 
+              color=#0000ff size=2>="Last Updated"</FONT><FONT size=2> 
+              </FONT><FONT color=#0000ff size=2>/&gt;<BR><BR>I've tried umpteen 
+              variations of the DataFormatString and nothing yet has altered the 
+              output in the GridView.&nbsp; I can tell you that if I take the 
+              "0:" out of the string, I get a format exception 
+              error.<BR><BR>When the Visual Studio "Edit Fields" diaglog is open 
+              and the BoundField properties are displayed, the value 
+              <STRONG>{0:d t}</STRONG> is in the DataFormatString 
+              property.&nbsp; The "of little actual help" text that is displayed 
+              when the cursor is in the property shows "The formatting that is 
+              applied to the bound value.&nbsp; For example, "{0:d}" or 
+              "{0:c}"<BR><BR>OK, so I try just <FONT color=#0000ff size=2>{0:d}, 
+              but it has no effect on the output either.<BR></P>
+              <P>Of course, when you press F1 for context sensitive help, you 
+              get get help for <SPAN id=nsrTitle><STRONG>Fields Dialog 
+              Box</STRONG>.</SPAN>&nbsp; So, you scroll down a little and click 
+              on Bound Field (right?),&nbsp; then you scroll down a little more 
+              until you see <STRONG>DataFormatString</STRONG> in the 
+              <EM>Remarks</EM> section and click on that.<BR></FONT><BR>Yeah, so 
+              now you think you're getting somewhere:<BR><BR><STRONG><SPAN 
+              id=nsrTitle>BoundField.DataFormatString Property</SPAN> 
+              <BR></STRONG><FONT color=red>Note: This property is new in the 
+              .NET Framework version 2.0.</FONT>&nbsp;&nbsp;&nbsp;<BR>Gets or 
+              sets the string that specifies the display format for the value of 
+              the field. <BR><BR>So, you click on the "Example" link and you see 
+              just one example (and not of a date, or 
+              course):<BR>dataformatstring="{0:F4}%"<BR><BR>Kind of makes you 
+              think that this property is only for numeric values, not 
+              dates.&nbsp; Although I've seen vague references in other places 
+              that it can also be used for formatting date values... but no 
+              working examples.<BR><BR>How can this be so difficult?&nbsp; There 
+              must be something very simple that I am overlooking?<BR><BR>Make 
+              me feel like saying "forget bound controls"... they'll just be 
+              obsolete in the next release anyway, right?<BR></P></FONT><SPAN 
+              class=ForumPostContentScrollbarCorrector></SPAN></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR>
+    <TR vAlign=bottom>
+      <TD class=ForumPostFooterArea>
+        <DIV><SPAN 
+        id=ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl03_ctl07_ctl01></SPAN><INPUT 
+        id=ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl03_ctl07_ctl01_State 
+        type=hidden value=nochange 
+        name=ctl00$ctl00$bcr$bcr$ctl00$PostList$ctl03$ctl07$ctl01></DIV>
+        <UL class="ForumPostStatistics CommonPrintHidden" style="CLEAR: both">
+          <LI></LI></UL></TD></TR></TBODY></TABLE></DIV>
+  <SCRIPT 
+  src="C:\Documents and Settings\cc089503\Desktop\dateformat\GridView date field formatting - ASP_NET Forums_files\default(1).ashx" 
+  type=text/javascript></SCRIPT>
+  </DIV>
+  <LI><A name=1126872></A>
+  <DIV class=ForumPostHeader>
+  <DIV class=ForumPostHeaderRight></DIV>
+  <H2>Re: GridView date field formatting</H2>
+  <DIV style="CLEAR: both">
+  <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+    <TBODY>
+    <TR>
+      <TD style="PADDING-LEFT: 8px" vAlign=top noWrap width="20%">11-29-2005, 
+        1:23 PM </TD>
+      <TD vAlign=center align=right width="80%">
+        <DIV style="PADDING-RIGHT: 5px; FLOAT: right; HEIGHT: 27px"><A 
+        class=CommonImageTextButton 
+        onclick="return window.ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_UserContactPopupMenu1_ctl01_ClientPopulatedPopupMenu.LoadMenu(this,event,['349','joteke','0','1','http://teemukeiski.net','http://aspadvice.com/blogs/joteke','','/search/SearchResults.aspx?q=userid%3a349&amp;o=DateDescending'],null);" 
+        href="http://forums.asp.net/p/941466/1126616.aspx#"><SPAN 
+        class=CommonContactButton>Contact</SPAN></A> </DIV><TRAILERTEMPLATE>
+        <DIV></DIV></TRAILERTEMPLATE><TRAILERTEMPLATE>
+        <DIV></DIV></TRAILERTEMPLATE>
+        <DIV style="PADDING-RIGHT: 5px; FLOAT: right; HEIGHT: 27px"><A 
+        class=CommonImageTextButton 
+        href="http://forums.asp.net/AddPost.aspx?ReplyToPostID=1126872&amp;Quote=False"><SPAN 
+        class=CommonReplyButton>Reply</SPAN> 
+        </A><TRAILERTEMPLATE></DIV></TRAILERTEMPLATE></TD></TR></TBODY></TABLE></DIV>
+  <DIV class=ForumPostArea style="MARGIN-TOP: 0px; BACKGROUND-COLOR: white">
+  <TABLE id=tbl2 cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <TBODY>
+    <TR vAlign=top>
+      <TD class=ForumPostUserArea rowSpan=2>
+        <DIV class=ForumPostUserContent>
+        <UL class=ForumPostUserPropertyList>
+          <LI class=ForumPostUserAvatar><IMG 
+          style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" 
+          alt="" 
+          src="GridView date field formatting - ASP_NET Forums_files/avatar_null_59x59.jpg"> 
+
+          <LI class=ForumPostUserAttribute>
+          <DIV id=joteke-rs-avatar-1126872>Loading...</DIV>
+          <LI class=ForumPostUserName><A 
+          href="http://forums.asp.net/members/joteke.aspx">joteke</A> 
+          <LI class=ForumPostUserAttribute>Joined on 06-16-2002, 3:24 PM 
+          <LI class=ForumPostUserAttribute>Kyro, Finland 
+          <LI class=ForumPostUserAttribute>Posts <A 
+          href="http://forums.asp.net/search/SearchResults.aspx?q=userid%3a349&amp;o=DateDescending">6,017</A> 
+
+          <LI class=ForumPostRoleIcons><A 
+          href="http://forums.asp.net/user/Members.aspx?search=1&amp;r=0b58abb1-c888-4d9c-ba88-4765d174d502"><IMG 
+          style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" 
+          alt=ASPInsiders 
+          src="GridView date field formatting - ASP_NET Forums_files/0b58abb1-c888-4d9c-ba88-4765d174d502.gif"></A><BR><A 
+          href="http://forums.asp.net/user/Members.aspx?search=1&amp;r=a41b3d60-d7fc-406f-b355-7daf0c4cbd7f"><IMG 
+          style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" 
+          alt=Moderator 
+          src="GridView date field formatting - ASP_NET Forums_files/a41b3d60-d7fc-406f-b355-7daf0c4cbd7f.gif"></A><BR><A 
+          href="http://forums.asp.net/user/Members.aspx?search=1&amp;r=a874d69e-0ac8-4b80-acc7-512767e281f6"><IMG 
+          style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" 
+          alt=TrustedFriends-MVPs 
+          src="GridView date field formatting - ASP_NET Forums_files/a874d69e-0ac8-4b80-acc7-512767e281f6.gif"></A> 
+          </LI></UL></DIV></TD>
+      <TD class=ForumPostContentArea>
+        <TABLE style="TABLE-LAYOUT: fixed" height="100%" cellSpacing=0 
+        cellPadding=0 width="100%" border=0>
+          <TBODY>
+          <TR>
+            <TD>
+              <DIV class=ForumPostBodyArea>
+              <DIV class=ForumPostContentText>Add <FONT 
+              face="Courier New">HtmlEncode="False" </FONT><FONT 
+              face="Times New Roman">to BoundField declaration.<BR><BR>See 
+              explanation here: <BR><BR>GridView &amp; DataFormatString in post 
+              beta 2<BR><A 
+              href="http://aspadvice.com/blogs/joteke/archive/2005/09/25/12871.aspx">http://aspadvice.com/blogs/joteke/archive/2005/09/25/12871.aspx</A></FONT> 
+              <SPAN class=ForumPostContentScrollbarCorrector></SPAN></DIV>
+              <DIV class=ForumPostSignature>Thanks,<BR><BR>Teemu 
+              Keiski<BR>Finland, EU<BR></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR>
+    <TR vAlign=bottom>
+      <TD class=ForumPostFooterArea>
+        <DIV><SPAN 
+        id=ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl04_ctl07_ctl01></SPAN><INPUT 
+        id=ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl04_ctl07_ctl01_State 
+        type=hidden value=nochange 
+        name=ctl00$ctl00$bcr$bcr$ctl00$PostList$ctl04$ctl07$ctl01></DIV>
+        <UL class="ForumPostStatistics CommonPrintHidden" style="CLEAR: both">
+          <LI></LI></UL></TD></TR></TBODY></TABLE></DIV>
+  <SCRIPT 
+  src="C:\Documents and Settings\cc089503\Desktop\dateformat\GridView date field formatting - ASP_NET Forums_files\default(2).ashx" 
+  type=text/javascript></SCRIPT>
+  </DIV>
+  <LI><A name=1214731></A>
+  <DIV class=ForumPostHeader>
+  <DIV class=ForumPostHeaderRight></DIV>
+  <H2>Re: GridView date field formatting</H2>
+  <DIV style="CLEAR: both">
+  <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+    <TBODY>
+    <TR>
+      <TD style="PADDING-LEFT: 8px" vAlign=top noWrap width="20%">03-02-2006, 
+        6:40 AM </TD>
+      <TD vAlign=center align=right width="80%">
+        <DIV style="PADDING-RIGHT: 5px; FLOAT: right; HEIGHT: 27px"><A 
+        class=CommonImageTextButton 
+        onclick="return window.ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_UserContactPopupMenu1_ctl01_ClientPopulatedPopupMenu.LoadMenu(this,event,['646592','RFGSoftware','0','1','','','','/search/SearchResults.aspx?q=userid%3a646592&amp;o=DateDescending'],null);" 
+        href="http://forums.asp.net/p/941466/1126616.aspx#"><SPAN 
+        class=CommonContactButton>Contact</SPAN></A> </DIV><TRAILERTEMPLATE>
+        <DIV></DIV></TRAILERTEMPLATE><TRAILERTEMPLATE>
+        <DIV></DIV></TRAILERTEMPLATE>
+        <DIV style="PADDING-RIGHT: 5px; FLOAT: right; HEIGHT: 27px"><A 
+        class=CommonImageTextButton 
+        href="http://forums.asp.net/AddPost.aspx?ReplyToPostID=1214731&amp;Quote=False"><SPAN 
+        class=CommonReplyButton>Reply</SPAN> 
+        </A><TRAILERTEMPLATE></DIV></TRAILERTEMPLATE></TD></TR></TBODY></TABLE></DIV>
+  <DIV class=ForumPostArea style="MARGIN-TOP: 0px; BACKGROUND-COLOR: white">
+  <TABLE id=tbl3 cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <TBODY>
+    <TR vAlign=top>
+      <TD class=ForumPostUserArea rowSpan=2>
+        <DIV class=ForumPostUserContent>
+        <UL class=ForumPostUserPropertyList>
+          <LI class=ForumPostUserAvatar><IMG 
+          style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" 
+          alt="" 
+          src="GridView date field formatting - ASP_NET Forums_files/avatar_null_59x59.jpg"> 
+
+          <LI class=ForumPostUserAttribute>
+          <DIV id=RFGSoftware-rs-avatar-1214731>Loading...</DIV>
+          <LI class=ForumPostUserName><A 
+          href="http://forums.asp.net/members/RFGSoftware.aspx">RFGSoftware</A> 
+          <LI class=ForumPostUserAttribute>Joined on 03-02-2006, 6:38 AM 
+          <LI class=ForumPostUserAttribute>Posts <A 
+          href="http://forums.asp.net/search/SearchResults.aspx?q=userid%3a646592&amp;o=DateDescending">2</A> 
+          </LI></UL></DIV></TD>
+      <TD class=ForumPostContentArea>
+        <TABLE style="TABLE-LAYOUT: fixed" height="100%" cellSpacing=0 
+        cellPadding=0 width="100%" border=0>
+          <TBODY>
+          <TR>
+            <TD>
+              <DIV class=ForumPostBodyArea>
+              <DIV class=ForumPostContentText>
+              <P>Thanks for the solution, it works perfectly.</P>
+              <P>Regards</P><SPAN 
+              class=ForumPostContentScrollbarCorrector></SPAN></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR>
+    <TR vAlign=bottom>
+      <TD class=ForumPostFooterArea>
+        <DIV><SPAN 
+        id=ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl05_ctl07_ctl01></SPAN><INPUT 
+        id=ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl05_ctl07_ctl01_State 
+        type=hidden value=nochange 
+        name=ctl00$ctl00$bcr$bcr$ctl00$PostList$ctl05$ctl07$ctl01></DIV>
+        <UL class="ForumPostStatistics CommonPrintHidden" style="CLEAR: both">
+          <LI></LI></UL></TD></TR></TBODY></TABLE></DIV>
+  <SCRIPT 
+  src="C:\Documents and Settings\cc089503\Desktop\dateformat\GridView date field formatting - ASP_NET Forums_files\default(3).ashx" 
+  type=text/javascript></SCRIPT>
+  </DIV></LI></UL>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top align=left></TD>
+    <TD vAlign=top>
+      <DIV class=CommonPagingArea align=right>Page 1 of 1 (4 items) 
+  </DIV></TD></TR></TBODY></TABLE>
+<DIV class=CommonFeedArea align=right><A class=rssplain 
+href="http://forums.asp.net/rss.aspx?ForumID=24&amp;PostID=1126616"><IMG 
+style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" 
+alt="" src="GridView date field formatting - ASP_NET Forums_files/feedicon.png"> 
+RSS Available</A> </DIV></DIV></DIV></DIV></DIV>
+<DIV style="CLEAR: both"><!-- clear --></DIV>
+<DIV style="CLEAR: both"><!-- clear --></DIV>
+<DIV class=ad_text_blocks id=ctl00_ctl00_KanoodleFooter style="CLEAR: both">
+<SCRIPT src="GridView date field formatting - ASP_NET Forums_files/context.htm" 
+type=text/javascript></SCRIPT>
+
+<DIV class=clear></DIV></DIV>
+<DIV class=footer_container><A 
+href="http://forums.asp.net/p/941466/1126616.aspx#"><IMG class=logo height=44 
+alt="Microsoft ASP.net" 
+src="GridView date field formatting - ASP_NET Forums_files/logo.png" 
+width=108></A> 
+<DIV class=footer_content>
+<DIV class="footer_group first">
+<P>Advertise on ASP.NET</P>
+<UL>
+  <LI><A href="http://www.asp.net/Advertise/">Interested in advertising with 
+  us?</A> 
+  <LI><A href="http://www.banmanpro.com/">Graphic ads served by BanManPro</A> 
+  <LI><A href="http://www.kanoodle.com/">Text ads served by Kanoodle</A> 
+</LI></UL></DIV>
+<DIV class=footer_group>
+<P>About this Site</P>
+<UL>
+  <LI><A href="http://www.asp.net/feedback/">Questions / Problems with this 
+  site?</A> 
+  <LI><A href="http://www.orcsweb.com/">Visit our hoster: ORCS Web</A> <!--li><a href="http://www.communityserver.org">Forums Powered by Community Server 2007</a></li--></LI></UL></DIV>
+<DIV class=clear></DIV></DIV>
+<DIV class=footer_bottom><SPAN></SPAN></DIV></DIV>
+<DIV class=footer_legal id=footerLegalId>
+<P>Copyright © 2007 Microsoft Corporation. All Rights Reserved. <A 
+href="http://www.asp.net/privacy/">Privacy Statement</A> | <A 
+href="http://www.microsoft.com/info/cpyright.mspx">Terms of 
+Use</A></P></DIV></DIV>
+<SCRIPT type=text/javascript>
+// <![CDATA[
+Telligent_Modal.Configure('/utility/loading.htm',['CommonModal','CommonModal1','CommonModal2','CommonModal3','CommonModal4','CommonModal5'],['CommonModalTitle'],['CommonModalClose'],['CommonModalContent'],['CommonModalFooter'],['CommonModalResize'],['CommonModalMask'],100);
+// ]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+<!--
+function KeyDownHandlerctl00_ctl00_bhcr_SearchForm1_ctl00_TitleBarSearchButton(event)
+{
+	if (event.keyCode == 13)
+	{
+		event.returnValue = false;
+		event.cancel = true;
+     __doPostBack('ctl00$ctl00$bhcr$SearchForm1$ctl00$TitleBarSearchButton','')
+   return false;
+	}
+}
+
+//-->
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+// <![CDATA[
+window.ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_UserContactPopupMenu1_ctl01_ClientPopulatedPopupMenu = new ClientPopulatedPopupMenu('ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_UserContactPopupMenu1_ctl01_ClientPopulatedPopupMenu','ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_UserContactPopupMenu1_ctl01','CommonImageTextButton','CommonImageTextButtonHighlight',[[new Function('parms', 'return parms[4];'),'View {1}\'s home page','/Themes/fan/images/common/homepage.gif','{4}','_blank',null],[new Function('parms', 'return parms[5];'),'View {1}\'s weblog','/Themes/fan/images/common/weblog.gif','{5}','_blank',null],[new Function('parms', 'return parms[6];'),'View {1}\'s gallery','/Themes/fan/images/common/webgallery.gif','{6}','_blank',null],[new Function('parms', 'return true;'),'View {1}\'s profile','/Themes/fan/images/common/profile.gif','/user/Profile.aspx?UserID={0}',null,null],[new Function('parms', 'return true;'),'Find posts by {1}','/Themes/fan/images/common/search.gif','{7}',null,null]]);
+// ]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+// <![CDATA[
+window.ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_ctl07_ctl01 = new Telligent_InlineEditorPanel('ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_ctl07_ctl01','ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_ctl07_ctl01','ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_ctl07_ctl01_State','ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_ctl07_ctl00',false,null,null,null);
+// ]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+// <![CDATA[
+window.ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl03_ctl07_ctl01 = new Telligent_InlineEditorPanel('ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl03_ctl07_ctl01','ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl03_ctl07_ctl01','ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl03_ctl07_ctl01_State','ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_ctl07_ctl00',false,null,null,null);
+// ]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+// <![CDATA[
+window.ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl04_ctl07_ctl01 = new Telligent_InlineEditorPanel('ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl04_ctl07_ctl01','ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl04_ctl07_ctl01','ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl04_ctl07_ctl01_State','ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_ctl07_ctl00',false,null,null,null);
+// ]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+// <![CDATA[
+window.ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl05_ctl07_ctl01 = new Telligent_InlineEditorPanel('ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl05_ctl07_ctl01','ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl05_ctl07_ctl01','ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl05_ctl07_ctl01_State','ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_ctl07_ctl00',false,null,null,null);
+// ]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+// <![CDATA[
+window.ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_UserContactPopupMenu1_ctl01 = new Telligent_PopupMenu('ctl00_ctl00_bcr_bcr_ctl00_PostList_ctl02_UserContactPopupMenu1_ctl01','CommonContextMenuGroup','CommonContextMenuItem','CommonContextMenuItemHover','CommonContextMenuItemExpanded','',0,0,20,14,'updown',0,null,null,null,[]);
+// ]]>
+</SCRIPT>
+</FORM></BODY></HTML>

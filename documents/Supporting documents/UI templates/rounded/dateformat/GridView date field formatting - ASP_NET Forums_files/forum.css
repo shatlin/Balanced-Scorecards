@@ -1,0 +1,327 @@
+#Common {
+	
+}
+.ForumListCellLeftMostImageOnly {
+	BORDER-RIGHT: #e1e1e1 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #e1e1e1 0px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #e1e1e1 1px solid; WIDTH: 20px; PADDING-TOP: 4px; BORDER-BOTTOM: #e1e1e1 1px solid
+}
+.ForumListCellImageOnly {
+	BORDER-RIGHT: #e1e1e1 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #e1e1e1 0px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #e1e1e1 0px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #e1e1e1 1px solid
+}
+.ForumSubListCellLeftMost {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; TEXT-ALIGN: left
+}
+.ForumLastPost {
+	
+}
+.ForumSubListCell {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.ForumSubListCellPager {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 90%; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; TEXT-ALIGN: right
+}
+A.ForumGroupNameRead {
+	FONT-WEIGHT: bold; COLOR: #034efa
+}
+.ForumGroupNameRead:link {
+	FONT-WEIGHT: bold; COLOR: #034efa
+}
+.ForumGroupNameRead:visited {
+	FONT-WEIGHT: bold; COLOR: #034efa
+}
+.ForumNameRead:active {
+	FONT-WEIGHT: bold; COLOR: #034efa
+}
+A.ForumNameRead {
+	FONT-WEIGHT: normal; COLOR: #627fbc
+}
+.ForumNameRead:link {
+	FONT-WEIGHT: normal; COLOR: #627fbc
+}
+.ForumNameRead:visited {
+	FONT-WEIGHT: normal; COLOR: #627fbc
+}
+.ForumNameRead:active {
+	FONT-WEIGHT: normal; COLOR: #627fbc
+}
+A.ForumGroupNameUnRead {
+	FONT-WEIGHT: bold; COLOR: #034efa! important
+}
+.ForumGroupNameUnRead:link {
+	FONT-WEIGHT: bold; COLOR: #034efa! important
+}
+.ForumGroupNameUnRead:visited {
+	FONT-WEIGHT: bold; COLOR: #034efa! important
+}
+A.ForumNameUnRead {
+	FONT-WEIGHT: bold; COLOR: #034efa! important
+}
+.ForumNameUnRead:link {
+	FONT-WEIGHT: bold; COLOR: #034efa! important
+}
+.ForumNameUnRead:visited {
+	FONT-WEIGHT: bold; COLOR: #034efa! important
+}
+UL.ForumPostList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.ForumPostArea {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 18px; PADDING-TOP: 0px
+}
+.ForumPostHeader {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(./i/bg_heading.png) #7aa4dd no-repeat; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative
+}
+.ForumPostHeader H2 {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 120%; FLOAT: left; PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-TOP: 5px; POSITION: relative
+}
+.ForumPostHeaderRight {
+	BACKGROUND: url(./i/bg_heading.png) no-repeat 0px -70px; FLOAT: right; OVERFLOW: hidden; WIDTH: 5px; POSITION: relative; HEIGHT: 5px
+}
+.ForumPostTitleArea {
+	BORDER-RIGHT: #8db0e2 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #8db0e2 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #8db0e2 0px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #8db0e2 1px solid; BACKGROUND-COLOR: #f4f4f4
+}
+.ForumPostContentArea {
+	BORDER-RIGHT: #8db0e2 1px solid; BORDER-TOP: #8db0e2 0px solid; BORDER-LEFT: #8db0e2 0px solid; COLOR: #000; BORDER-BOTTOM: #8db0e2 0px solid
+}
+.ForumPostUserArea {
+	BACKGROUND: #dce4f9; BORDER-LEFT: #8db0e2 1px solid; WIDTH: 180px; BORDER-BOTTOM: #8db0e2 1px solid; TEXT-ALIGN: left
+}
+.ForumPostUserContent {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.ForumPostUserAvatar IMG {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-RIGHT-WIDTH: 0px
+}
+.ForumPostContentArea BLOCKQUOTE {
+	BORDER-RIGHT: #999 1px dotted; PADDING-RIGHT: 5px; BORDER-TOP: #999 1px dotted; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #999 1px dotted; COLOR: #666; PADDING-TOP: 5px; BORDER-BOTTOM: #999 1px dotted; FONT-STYLE: italic
+}
+.ForumPostFooterArea {
+	BORDER-RIGHT: #8db0e2 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #8db0e2 0px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: bottom; BORDER-LEFT: #8db0e2 0px solid; LINE-HEIGHT: 20px; PADDING-TOP: 4px; BORDER-BOTTOM: #8db0e2 1px solid
+}
+DIV.ForumPostBodyArea {
+	MARGIN-TOP: 8px; FONT-SIZE: 1.2em; MARGIN-LEFT: 8px; VERTICAL-ALIGN: top; OVERFLOW: hidden; MARGIN-RIGHT: 8px
+}
+.ForumPostContentText {
+	OVERFLOW-Y: hidden; PADDING-LEFT: 1px; FONT-SIZE: 90%; OVERFLOW: auto; WIDTH: 100%; TEXT-ALIGN: left
+}
+.ForumPostContentScrollbarCorrector {
+	VISIBILITY: hidden; HEIGHT: 0px
+}
+.ForumPostSignature {
+	BORDER-RIGHT: #ddd 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 90%; PADDING-BOTTOM: 20px; MARGIN: 1em 8px 8px; BORDER-LEFT: #ddd 0px solid; PADDING-TOP: 1em; BORDER-BOTTOM: #ddd 0px solid; TEXT-ALIGN: left
+}
+.ForumPostUserName {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0.9em; PADDING-BOTTOM: 2px; PADDING-TOP: 8px
+}
+.ForumPostUserAvatar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.ForumPostRoleIcons {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.ForumPostRoleIcons IMG {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.ForumPostAttachment {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 90%; PADDING-BOTTOM: 4px; COLOR: #333; PADDING-TOP: 4px
+}
+.ForumPostThreadStatus {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FLOAT: right; PADDING-BOTTOM: 4px; COLOR: #666; PADDING-TOP: 4px
+}
+.ForumPostButtons {
+	PADDING-LEFT: 4px; MARGIN: 4px 4px 4px 0px; TEXT-ALIGN: right
+}
+UL.ForumPostStatistics {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 90%; PADDING-BOTTOM: 0px; MARGIN: 4px 8px 0px 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; TEXT-ALIGN: right
+}
+UL.ForumPostStatistics LI {
+	DISPLAY: inline; PADDING-LEFT: 16px; FONT-SIZE: 90%
+}
+UL.ForumPostUserPropertyList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; PADDING-TOP: 0px
+}
+UL.ForumPostUserPropertyList LI {
+	FONT-SIZE: 1em; MARGIN: 2px 0px
+}
+.ForumThreadImageAndNameHeader {
+	TEXT-ALIGN: center
+}
+.ForumThreadLastPostHeader {
+	TEXT-ALIGN: center
+}
+.ForumThreadTotalThreadsHeader {
+	TEXT-ALIGN: center
+}
+.ForumThreadTotalPostsHeader {
+	TEXT-ALIGN: center
+}
+.ForumThreadMoveHeader {
+	TEXT-ALIGN: center
+}
+.ForumMyImageAndNameHeader {
+	TEXT-ALIGN: center
+}
+.ForumMyRepliesHeader {
+	TEXT-ALIGN: center
+}
+.FormMyMoveHeader {
+	
+}
+.ForumGroupImageAndNameHeader {
+	TEXT-ALIGN: center
+}
+.ForumGroupLastPostHeader {
+	TEXT-ALIGN: center
+}
+.ForumGroupTotalThreadsHeader {
+	TEXT-ALIGN: center
+}
+.ForumGroupTotalPostsHeader {
+	TEXT-ALIGN: center
+}
+.ForumThreadImageColumn {
+	
+}
+.ForumThreadNameColumn {
+	
+}
+.ForumThreadLastPostColumn {
+	TEXT-ALIGN: center
+}
+UNKNOWN {
+	TEXT-ALIGN: center
+}
+.ForumThreadTotalPostsColumn {
+	TEXT-ALIGN: center
+}
+.ForumThreadMoveColumn {
+	TEXT-ALIGN: center
+}
+.ForumMyImageColumn {
+	
+}
+.ForumMyRepliesColumn {
+	WIDTH: 40px; TEXT-ALIGN: center
+}
+.ForumMyViewsColumn {
+	WIDTH: 50px; TEXT-ALIGN: center
+}
+.ForumMyMoveColumn {
+	TEXT-ALIGN: center
+}
+.ForumGroupImageColumn {
+	
+}
+.ForumGroupNameColumn {
+	
+}
+.ForumGroupLastPostColumn {
+	WIDTH: 140px; TEXT-ALIGN: left
+}
+.ForumGroupTotalThreadsColumn {
+	TEXT-ALIGN: center
+}
+.ForumGroupTotalPostsColumn {
+	TEXT-ALIGN: center
+}
+.ForumMyThreadStatusColumn {
+	WIDTH: 30px
+}
+BLOCKQUOTE {
+	BORDER-RIGHT: #ccc 1px dotted; PADDING-RIGHT: 4px; BORDER-TOP: #ccc 1px dotted; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 16px; BORDER-LEFT: #ccc 1px dotted; PADDING-TOP: 4px; BORDER-BOTTOM: #ccc 1px dotted
+}
+.ForumReplyToPostArea {
+	BORDER-RIGHT: #ccc 1px dotted; PADDING-RIGHT: 8px; BORDER-TOP: #ccc 1px dotted; PADDING-LEFT: 8px; MARGIN-BOTTOM: 16px; PADDING-BOTTOM: 8px; BORDER-LEFT: #ccc 1px dotted; PADDING-TOP: 8px; BORDER-BOTTOM: #ccc 1px dotted; BACKGROUND-COLOR: #dddddd
+}
+.ForumSubArea {
+	MARGIN-TOP: -10px; PADDING-BOTTOM: 15px
+}
+.ForumThreadRateControlReadOnly {
+	PADDING-RIGHT: 4px; DISPLAY: inline-block; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; MARGIN: 1px; LINE-HEIGHT: normal; PADDING-TOP: 4px; POSITION: relative; TOP: 2px
+}
+.ForumThreadRateControlReadOnly IMG {
+	MARGIN: auto 0px; WIDTH: 7px; HEIGHT: 14px
+}
+.ForumThreadRateControl {
+	PADDING-RIGHT: 4px; DISPLAY: inline-block; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; MARGIN: 1px; CURSOR: pointer; LINE-HEIGHT: normal; PADDING-TOP: 4px; POSITION: relative; TOP: 2px
+}
+.ForumThreadRateControl IMG {
+	MARGIN: auto 0px; WIDTH: 7px; HEIGHT: 14px
+}
+.ForumThreadRateControlActive {
+	PADDING-RIGHT: 4px; DISPLAY: inline-block; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; MARGIN: 1px; CURSOR: pointer; LINE-HEIGHT: normal; PADDING-TOP: 4px; POSITION: relative; TOP: 2px; BACKGROUND-COLOR: #ddf
+}
+.ForumThreadRateControlActive IMG {
+	MARGIN: auto 0px; WIDTH: 7px; HEIGHT: 14px
+}
+.ForumCollapsedReply {
+	
+}
+.ForumCollapsedReplyChild {
+	
+}
+.ForumCollapsedReply SPAN {
+	CURSOR: pointer; COLOR: #02469b
+}
+.ForumCollapsedReplyChild {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 5px; MARGIN-LEFT: 15px; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #eeeeee
+}
+.ForumGroupToggleCollapsed {
+	DISPLAY: block; FONT-SIZE: 1px; RIGHT: 20px; BACKGROUND: url(./i/bg_icon_sprite.png) no-repeat -37px -480px; FLOAT: left; MARGIN: 10px 3px 4px 0px; WIDTH: 16px; POSITION: absolute; TOP: -5px; HEIGHT: 15px
+}
+.ForumGroupToggleCollapsed:link {
+	TEXT-DECORATION: none
+}
+.ForumGroupToggleCollapsed:visited {
+	TEXT-DECORATION: none
+}
+.ForumGroupToggleCollapsed:active {
+	TEXT-DECORATION: none
+}
+.ForumGroupToggleCollapsed:hover {
+	TEXT-DECORATION: none
+}
+.ForumGroupToggleExpanded {
+	DISPLAY: block; FONT-SIZE: 1px; RIGHT: 20px; BACKGROUND: url(./i/bg_icon_sprite.png) no-repeat -37px -520px; FLOAT: left; MARGIN: 10px 3px 4px 0px; WIDTH: 16px; POSITION: absolute; TOP: -5px; HEIGHT: 15px
+}
+.ForumGroupToggleExpanded:link {
+	TEXT-DECORATION: none
+}
+.ForumGroupToggleExpanded:visited {
+	TEXT-DECORATION: none
+}
+.ForumGroupToggleExpanded:active {
+	TEXT-DECORATION: none
+}
+.ForumGroupToggleExpanded:hover {
+	TEXT-DECORATION: none
+}
+.ForumTreeArea {
+	BORDER-RIGHT: #e1e1e1 1px solid; BORDER-TOP: #e1e1e1 1px solid; BORDER-LEFT: #e1e1e1 1px solid; BORDER-BOTTOM: #e1e1e1 1px solid
+}
+.ForumThreadedPostArea {
+	BORDER-RIGHT: #e1e1e1 1px solid; BORDER-TOP: #e1e1e1 1px solid; BORDER-LEFT: #e1e1e1 0px solid; BORDER-BOTTOM: #e1e1e1 1px solid; BACKGROUND-COLOR: #999
+}
+.ForumSplitterPane {
+	
+}
+.ForumPostTree {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.ForumPostTreeNode {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 3px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; CURSOR: pointer; PADDING-TOP: 2px
+}
+.ForumPostTreeNodeSelected {
+	BORDER-RIGHT: #e1e1e1 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #e1e1e1 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #e1e1e1 1px solid; CURSOR: pointer; PADDING-TOP: 1px; BORDER-BOTTOM: #e1e1e1 1px solid; BACKGROUND-COLOR: #f4f4f4
+}
+.ForumPostTreeNodeHover {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 3px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; CURSOR: pointer; PADDING-TOP: 2px; BACKGROUND-COLOR: #f4f4f4
+}
+.ForumPostTreeHeading {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 90%; BACKGROUND-IMAGE: none; PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-TOP: 4px; BORDER-BOTTOM: #e1e1e1 1px solid; BACKGROUND-COLOR: #f4f4f4; TEXT-ALIGN: center
+}
+.ForumDisplayMessage {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; COLOR: #900; PADDING-TOP: 4px; BACKGROUND-COLOR: #fee
+}
+.inlineLink {
+	CURSOR: pointer
+}

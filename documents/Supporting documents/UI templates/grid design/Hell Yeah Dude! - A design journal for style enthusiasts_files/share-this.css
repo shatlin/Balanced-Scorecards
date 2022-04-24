@@ -1,0 +1,102 @@
+#akst_form {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; DISPLAY: none; Z-INDEX: 999; BACKGROUND: #999; BORDER-LEFT: #ddd 1px solid; WIDTH: 350px; BORDER-BOTTOM: #ddd 1px solid; POSITION: absolute
+}
+#akst_form A.akst_close {
+	FLOAT: right; MARGIN: 5px; COLOR: #fff
+}
+#akst_form UL.tabs {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 10px 0px; BORDER-LEFT: #999 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #999 1px solid; LIST-STYLE-TYPE: none
+}
+#akst_form UL.tabs LI {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #ccc; FLOAT: left; PADDING-BOTTOM: 2px; MARGIN: 0px 3px 0px 0px; CURSOR: pointer; PADDING-TOP: 3px; BORDER-BOTTOM: #999 1px solid
+}
+#akst_form UL.tabs LI.selected {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #fff; PADDING-BOTTOM: 1px; CURSOR: default; PADDING-TOP: 4px; BORDER-BOTTOM: #fff 1px solid
+}
+#akst_form DIV.clear {
+	CLEAR: both; FLOAT: none
+}
+#akst_social {
+	BORDER-RIGHT: #fff 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 10px; BACKGROUND: #fff; PADDING-BOTTOM: 10px; BORDER-LEFT: #fff 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #fff 1px solid
+}
+#akst_email {
+	BORDER-RIGHT: #fff 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 10px; BACKGROUND: #fff; PADDING-BOTTOM: 10px; BORDER-LEFT: #fff 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #fff 1px solid
+}
+#akst_social UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#akst_social UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 45%; PADDING-TOP: 0px
+}
+#akst_social UL LI A {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 2px; DISPLAY: block; PADDING-LEFT: 22px; FLOAT: left; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 4px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 24px
+}
+#akst_delicious {
+	BACKGROUND-IMAGE: url(delicious.gif)
+}
+#akst_digg {
+	BACKGROUND-IMAGE: url(digg.gif)
+}
+#akst_furl {
+	BACKGROUND-IMAGE: url(furl.gif)
+}
+#akst_netscape {
+	BACKGROUND-IMAGE: url(netscape.gif)
+}
+#akst_yahoo_myweb {
+	BACKGROUND-IMAGE: url(yahoo_myweb.gif)
+}
+#akst_stumbleupon {
+	BACKGROUND-IMAGE: url(stumbleupon.gif)
+}
+#akst_google_bmarks {
+	BACKGROUND-IMAGE: url(google_bmarks.gif)
+}
+#akst_technorati {
+	BACKGROUND-IMAGE: url(technorati.gif)
+}
+#akst_blinklist {
+	BACKGROUND-IMAGE: url(blinklist.gif)
+}
+#akst_newsvine {
+	BACKGROUND-IMAGE: url(newsvine.gif)
+}
+#akst_magnolia {
+	BACKGROUND-IMAGE: url(magnolia.gif)
+}
+#akst_reddit {
+	BACKGROUND-IMAGE: url(reddit.gif)
+}
+#akst_windows_live {
+	BACKGROUND-IMAGE: url(windows_live.gif)
+}
+#akst_tailrank {
+	BACKGROUND-IMAGE: url(tailrank.gif)
+}
+#akst_email {
+	DISPLAY: none; TEXT-ALIGN: left
+}
+#akst_email FORM {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#akst_email FIELDSET {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#akst_email FIELDSET LEGEND {
+	DISPLAY: none
+}
+#akst_email UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#akst_email UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 7px; PADDING-TOP: 0px
+}
+#akst_email UL LI LABEL {
+	DISPLAY: block; MARGIN-BOTTOM: 3px; COLOR: #555
+}
+#akst_email UL LI INPUT {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+#akst_email UL LI INPUT.akst_text {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; WIDTH: 280px; PADDING-TOP: 3px
+}

@@ -1,0 +1,15 @@
+.leftpanetitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; WIDTH: 180px; COLOR: #af5203; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.Head {
+	COLOR: #af5203
+}
+DIV#otherheading SPAN.head {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; WIDTH: 180px; COLOR: #af5203; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.lefttablealignment {
+	WIDTH: 180px
+}
+.leftcontainertext {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; LIST-STYLE-IMAGE: url(bullet1.gif); WIDTH: 180px; COLOR: #58595b; FONT-FAMILY: Arial, Helvetica, sans-serif
+}

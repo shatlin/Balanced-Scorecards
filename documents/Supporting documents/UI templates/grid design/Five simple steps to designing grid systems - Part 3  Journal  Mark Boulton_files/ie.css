@@ -1,0 +1,51 @@
+#masthead OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 75px 5px 0px 0px; PADDING-TOP: 5px
+}
+H1#sectiontitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: none; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 5px 10px; LINE-HEIGHT: 1em; PADDING-TOP: 0px
+}
+#content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px 0px 10px; PADDING-TOP: 5px
+}
+.hide {
+	CLEAR: both
+}
+#entrycontent P {
+	WIDTH: 390px
+}
+#entrycontent OL {
+	WIDTH: 390px
+}
+#entrycontent UL {
+	WIDTH: 390px
+}
+BODY#article #c1 P {
+	WIDTH: 390px
+}
+#posted {
+	FLOAT: right; WIDTH: 205px
+}
+#posted UL {
+	WIDTH: 205px
+}
+#recentwork P {
+	WIDTH: 190px
+}
+.c1-c2-c3 #c1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 10px 0px 0px; PADDING-TOP: 15px
+}
+.c1-c2-c3 #c2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px 0px; PADDING-TOP: 12px
+}
+.c1-c2-c3 #c3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 10px 0px 0px 5px; PADDING-TOP: 12px
+}
+.c1-c2-c3#photos #c2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 5px 0px 0px; PADDING-TOP: 12px
+}
+.c1-c2 #c2 {
+	CLEAR: right; MARGIN: 14px 0px 0px
+}
+.c1-c2 #c1 {
+	MARGIN: 14px 0px 0px
+}

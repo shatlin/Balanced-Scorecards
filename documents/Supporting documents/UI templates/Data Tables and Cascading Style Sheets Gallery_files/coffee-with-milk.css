@@ -1,0 +1,66 @@
+TABLE {
+	MARGIN: 0px 0px 1em; FONT: 76%/150% "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif; COLOR: #000; BORDER-COLLAPSE: separate; border-spacing: 0
+}
+TABLE A {
+	COLOR: #523a0b; BORDER-BOTTOM: 1px dotted; TEXT-DECORATION: none
+}
+TABLE A:visited {
+	FONT-WEIGHT: normal; COLOR: #444
+}
+TABLE A:visited:unknown {
+	content: " v"
+}
+TABLE A:hover {
+	BORDER-BOTTOM-STYLE: solid
+}
+THEAD TH {
+	BORDER-RIGHT: #523a0b 0px solid; BORDER-TOP: #523a0b 1px solid; BACKGROUND: #ebe5d9; BORDER-LEFT: #523a0b 0px solid; BORDER-BOTTOM: #523a0b 1px solid
+}
+THEAD TD {
+	BORDER-RIGHT: #523a0b 0px solid; BORDER-TOP: #523a0b 1px solid; BACKGROUND: #ebe5d9; BORDER-LEFT: #523a0b 0px solid; BORDER-BOTTOM: #523a0b 1px solid
+}
+TFOOT TH {
+	BORDER-RIGHT: #523a0b 0px solid; BORDER-TOP: #523a0b 1px solid; BACKGROUND: #ebe5d9; BORDER-LEFT: #523a0b 0px solid; BORDER-BOTTOM: #523a0b 1px solid
+}
+TFOOT TD {
+	BORDER-RIGHT: #523a0b 0px solid; BORDER-TOP: #523a0b 1px solid; BACKGROUND: #ebe5d9; BORDER-LEFT: #523a0b 0px solid; BORDER-BOTTOM: #523a0b 1px solid
+}
+TH {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; FONT-WEIGHT: bold; PADDING-BOTTOM: 0.25em; LINE-HEIGHT: normal; PADDING-TOP: 0.25em; TEXT-ALIGN: left
+}
+TBODY TH {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0.25em; VERTICAL-ALIGN: top; PADDING-TOP: 0.25em; TEXT-ALIGN: left
+}
+TD {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0.25em; VERTICAL-ALIGN: top; PADDING-TOP: 0.25em; TEXT-ALIGN: left
+}
+TBODY TH {
+	FONT-WEIGHT: normal; WHITE-SPACE: nowrap
+}
+TBODY TH A:link {
+	FONT-WEIGHT: bold
+}
+TBODY TH A:visited {
+	FONT-WEIGHT: bold
+}
+TBODY TD {
+	BORDER-RIGHT: #fff 0px solid; BORDER-TOP: #fff 1px solid; BORDER-LEFT: #fff 0px solid; BORDER-BOTTOM: #fff 1px solid
+}
+TBODY TH {
+	BORDER-RIGHT: #fff 0px solid; BORDER-TOP: #fff 1px solid; BORDER-LEFT: #fff 0px solid; BORDER-BOTTOM: #fff 1px solid
+}
+TBODY TR.odd TH {
+	BORDER-LEFT-COLOR: #ebe5d9; BACKGROUND: #f7f4ee; BORDER-BOTTOM-COLOR: #ebe5d9; BORDER-TOP-COLOR: #ebe5d9; BORDER-RIGHT-COLOR: #ebe5d9
+}
+TBODY TR.odd TD {
+	BORDER-LEFT-COLOR: #ebe5d9; BACKGROUND: #f7f4ee; BORDER-BOTTOM-COLOR: #ebe5d9; BORDER-TOP-COLOR: #ebe5d9; BORDER-RIGHT-COLOR: #ebe5d9
+}
+TBODY TR:hover TD {
+	BORDER-LEFT-COLOR: #523a0b; BACKGROUND: #ffffee; BORDER-BOTTOM-COLOR: #523a0b; BORDER-TOP-COLOR: #523a0b; BORDER-RIGHT-COLOR: #523a0b
+}
+TBODY TR:hover TH {
+	BORDER-LEFT-COLOR: #523a0b; BACKGROUND: #ffffee; BORDER-BOTTOM-COLOR: #523a0b; BORDER-TOP-COLOR: #523a0b; BORDER-RIGHT-COLOR: #523a0b
+}
+CAPTION {
+	PADDING-RIGHT: 0.25em; PADDING-LEFT: 0.25em; FONT-WEIGHT: normal; FONT-SIZE: 1.4em; PADDING-BOTTOM: 0.5em; MARGIN: 0px; PADDING-TOP: 0.5em; FONT-FAMILY: Georgia,Times,serif; TEXT-ALIGN: left
+}

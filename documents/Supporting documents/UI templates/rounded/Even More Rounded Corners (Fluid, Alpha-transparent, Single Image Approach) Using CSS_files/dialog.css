@@ -1,0 +1,57 @@
+.dialog {
+	Z-INDEX: 1; MARGIN: 0px auto 0.5em 12px; COLOR: #fff; POSITION: relative; min-width: 8em; max-width: 760px
+}
+.dialog .content {
+	BACKGROUND: url(dialog2-blue.gif) no-repeat right top
+}
+.dialog .t {
+	BACKGROUND: url(dialog2-blue.gif) no-repeat right top
+}
+.dialog .b {
+	BACKGROUND: url(dialog2-blue.gif) no-repeat right top
+}
+.dialog .b DIV {
+	BACKGROUND: url(dialog2-blue.gif) no-repeat right top
+}
+.dialog .content {
+	PADDING-RIGHT: 12px; OVERFLOW-Y: hidden; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; ZOOM: 1; POSITION: relative
+}
+.dialog .t {
+	BACKGROUND-POSITION: left top; LEFT: 0px; MARGIN-LEFT: -12px; WIDTH: 12px; POSITION: absolute; TOP: 0px; HEIGHT: 1600px
+}
+.dialog .b {
+	WIDTH: 100%; POSITION: relative
+}
+.dialog .b {
+	FONT-SIZE: 1px; HEIGHT: 30px
+}
+.dialog .b DIV {
+	FONT-SIZE: 1px; HEIGHT: 30px
+}
+.dialog .b {
+	BACKGROUND-POSITION: right bottom
+}
+.dialog .b DIV {
+	BACKGROUND-POSITION: left bottom; MARGIN-LEFT: -12px; WIDTH: 12px; POSITION: relative
+}
+.dialog .hd {
+	POSITION: relative
+}
+.dialog .bd {
+	POSITION: relative
+}
+.dialog .ft {
+	POSITION: relative
+}
+.dialog .wrapper {
+	OVERFLOW: auto; POSITION: static; max-height: 1000px
+}
+.dialog H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.5em; MARGIN: 0px; PADDING-TOP: 0.5em
+}
+.dialog P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.5em; MARGIN: 0px; PADDING-TOP: 0.5em
+}
+.dialog H1 {
+	PADDING-BOTTOM: 0px
+}

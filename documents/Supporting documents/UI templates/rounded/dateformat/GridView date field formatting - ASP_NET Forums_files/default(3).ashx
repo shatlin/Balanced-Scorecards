@@ -1,0 +1,1 @@
+document.getElementById('RFGSoftware-rs-avatar-1214731').innerHTML = '<div class="reputation-user-level"><img src="http://static.asp.net/asp.net/images/rs/level-Member.gif" alt="Member" /></div><div class="reputation-user-points">10 point <b>Member</b></div>';

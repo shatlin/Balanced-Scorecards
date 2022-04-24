@@ -1,0 +1,66 @@
+HR {
+	BORDER-TOP: #ccc 1px dotted; WIDTH: 80%; COLOR: #ccc; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 1px; BORDER-BOTTOM-STYLE: none
+}
+H3.blogtitle A {
+	FONT-SIZE: 1.1em; COLOR: #2b77af
+}
+H3.blogtitle {
+	FONT-SIZE: 1.1em; COLOR: #2b77af
+}
+.blogbody P {
+	MARGIN-TOP: 0px
+}
+.blogbody BLOCKQUOTE {
+	PADDING-RIGHT: 5px; MARGIN-TOP: 0.5em; PADDING-LEFT: 5px; MARGIN-BOTTOM: 1em; PADDING-BOTTOM: 5px; COLOR: black; PADDING-TOP: 5px
+}
+.blogbody {
+	MARGIN-BOTTOM: 2em
+}
+.linkbody {
+	DISPLAY: block; MARGIN: 2em 0px
+}
+.linkbody P {
+	DISPLAY: inline
+}
+.blogbyline {
+	FONT-SIZE: 0.65em; MARGIN: 0px; COLOR: #999
+}
+.blogbyline A {
+	COLOR: #8fa3ff
+}
+.commentcontainer-even {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px -10px 2em; PADDING-TOP: 0px
+}
+.commentcontainer-odd {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px -10px 2em; PADDING-TOP: 0px
+}
+.trackback {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px -10px 2em; PADDING-TOP: 0px
+}
+.commentcontainer-even {
+	BORDER-RIGHT: #cccfc2 1px solid; BORDER-TOP: #cccfc2 1px solid; BORDER-LEFT: #cccfc2 1px solid; BORDER-BOTTOM: #cccfc2 1px solid; BACKGROUND-COLOR: #ecefe0
+}
+.commentform INPUT {
+	BORDER-RIGHT: #333 1px solid; BORDER-TOP: #333 1px solid; FONT-SIZE: small; BORDER-LEFT: #333 1px solid; BORDER-BOTTOM: #333 1px solid
+}
+.commentform TEXTAREA {
+	BORDER-RIGHT: #333 1px solid; BORDER-TOP: #333 1px solid; FONT-SIZE: small; BORDER-LEFT: #333 1px solid; BORDER-BOTTOM: #333 1px solid
+}
+.commentform {
+	WIDTH: 100%; FONT-FAMILY: verdana, arial, sans-serif
+}
+.commentform TEXTAREA {
+	WIDTH: 250px
+}
+.commentbyline {
+	MARGIN: 2em 0px 0px
+}
+.entrydate {
+	BORDER-RIGHT: #ccc 1px dotted; PADDING-RIGHT: 1em; FONT-SIZE: 0.7em; FLOAT: left; MARGIN: 0px 1em 0px 0px; COLOR: #666
+}
+#related UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 1em; PADDING-TOP: 0px
+}
+#related LI {
+	LIST-STYLE-IMAGE: url(/images/bullet_target_blue.png); MARGIN: 0.5em
+}

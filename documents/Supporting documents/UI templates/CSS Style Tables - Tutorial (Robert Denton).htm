@@ -1,0 +1,418 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0058)http://robertdenton.org/reference/css-tables-tutorial.html -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>CSS Style Tables - Tutorial (Robert Denton)</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK 
+href="CSS Style Tables - Tutorial (Robert Denton)_files/style.css" type=text/css 
+rel=stylesheet><LINK 
+href="CSS Style Tables - Tutorial (Robert Denton)_files/tables.css" 
+type=text/css rel=stylesheet>
+<STYLE type=text/css>#content {
+	MARGIN-BOTTOM: 25px; WIDTH: 780px; BACKGROUND-COLOR: transparent
+}
+.box {
+	BORDER-RIGHT: #333 thin solid; PADDING-RIGHT: 18px; BORDER-TOP: #333 thin solid; MARGIN-TOP: 40px; PADDING-LEFT: 18px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 18px; BORDER-LEFT: #333 thin solid; WIDTH: 580px; PADDING-TOP: 18px; BORDER-BOTTOM: #333 thin solid; BACKGROUND-COLOR: #ccc
+}
+#boxB {
+	BORDER-RIGHT: #333 thin solid; PADDING-RIGHT: 18px; BORDER-TOP: #333 thin solid; MARGIN-TOP: 40px; PADDING-LEFT: 18px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 18px; BORDER-LEFT: #333 thin solid; WIDTH: 580px; PADDING-TOP: 18px; BORDER-BOTTOM: #333 thin solid; BACKGROUND-COLOR: #fff
+}
+.details {
+	BORDER-RIGHT: #333 thin solid; PADDING-RIGHT: 18px; BORDER-TOP: #333 thin solid; PADDING-LEFT: 18px; FONT-SIZE: 0.7em; PADDING-BOTTOM: 18px; MARGIN: 10px; BORDER-LEFT: #333 thin solid; WIDTH: 80%; PADDING-TOP: 18px; BORDER-BOTTOM: #333 thin solid; FONT-FAMILY: courier, mono-spaced; BACKGROUND-COLOR: #fff
+}
+.foo {
+	
+}
+A:link {
+	COLOR: blue
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2900.2995" name=GENERATOR></HEAD>
+<BODY>
+<DIV class=head><A href="http://robertdenton.org/"><IMG 
+alt="Robert Denton - Media and Design Consulting" 
+src="CSS Style Tables - Tutorial (Robert Denton)_files/head-title.gif">
+<H1 class=home>Robert Denton - Media and Design Consultant, Web 
+Designer</H1></A>
+<P 
+style="FONT-SIZE: 10px; LEFT: 80%; COLOR: #b332ba; FONT-FAMILY: Helvetica, sans-serif; POSITION: absolute; TOP: 25px">Agonizingly 
+slow redesign in process…</P></DIV>
+<DIV id=shadowboxer>
+<DIV id=content>
+<DIV class=easybox>This tutorial was written in 2002... it needs to be updated 
+for XHTML standards and I don't have the time but will get to it some day this 
+year... (2006) </DIV>
+<DIV class=spacer></DIV>
+<H2>CSS Tables</H2>
+<P class=caption>Robert Denton - June 2002</P>
+<P>Tables styled with CSS rules are much more efficient, if done well, than the 
+old method of using font tags, a lot of color tags, and more...These tables are 
+forward looking in the use of CSS but also degrade with a bit of grace for older 
+browsers (NS4). <BR>Instead of all the crust that came with tables before, now 
+we can just use the tags: </P><PRE>	table
+	tr
+	td
+</PRE>
+<P>... with a few class tags here or there, and our tables will look great.</P>
+<P>Using CSS styled tables will help our site have consistent presentation of 
+basic data. We realize there are probably needs out weighing these few examples. 
+If you find yourself using a table style repeatedly that is not represented here 
+let us know and we can write it into the global table CSS file, or, show you how 
+to make a CSS file local to the sites you need the table style for.</P>
+<P>Rather than recreate the wheel, I point you to the excellent CSS Tables 
+documentation from the <A 
+href="http://www.westciv.com/style_master/academy/css_tutorial/real_world/index.html">Western 
+Civ CSS Guide</A>.<BR>This guide will explain a lot and provide links to 
+relevant CSS descriptions within the guide. Read it first.</P>
+<P><STRONG>Work to be done:</STRONG> unify color choices throughout site, or 
+according to sitelet, and, table style usage guidelines need to be 
+standardized</P>
+<SCRIPT type=text/javascript><!--
+google_ad_client = "pub-6818268042390161";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+google_ad_channel = "";
+//--></SCRIPT>
+
+<SCRIPT src="CSS Style Tables - Tutorial (Robert Denton)_files/show_ads.js" 
+type=text/javascript>
+</SCRIPT>
+
+<H3>Bowdoin tables</H3>
+<DIV class=box>
+<H3>Post-it note</H3>
+<TABLE class=alerts cellSpacing=0 summary="Standard alerts box">
+  <TBODY>
+  <TR>
+    <TD class=alertHd>Alerts Box Template </TD></TR>
+  <TR>
+    <TD class=alertBod>
+      <P><SPAN class=rightDate>Friday, 05.31.2002</SPAN> <BR>· <A 
+      href="http://robertdenton.org/reference/css-tables-tutorial.html#">A nice 
+      indented headline</A> <BR>· <A 
+      href="http://robertdenton.org/reference/css-tables-tutorial.html#">The 
+      little dot instead of a bullet goes like this: &amp;middot;</A> </P>
+      <P><SPAN class=rightDate>Saturday, 06.01.2002</SPAN> <BR>· <A 
+      href="http://robertdenton.org/reference/css-tables-tutorial.html#">Long 
+      Pond has fish!</A> </P></TD></TR></TBODY></TABLE>
+<H4>Table code:</H4>
+<FORM method=post><TEXTAREA rows=15 cols=65>&lt;table summary="Standard alerts box" class="alerts" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;td class="alertHd"&gt;Alerts Box Template&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="alertBod"&gt;
+&lt;p&gt;
+&lt;span class="rightDate"&gt;Friday, 05.31.2002&lt;/span&gt; 
+&lt;br /&gt;
+· &lt;a href="#"&gt;A nice indented headline&lt;/a&gt; 
+&lt;br /&gt;
+· &lt;a href="#"&gt;The little dot instead of a bullet goes like this: &amp;middot;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span class="rightDate"&gt;Saturday, 06.01.2002&lt;/span&gt;
+&lt;br /&gt;
+· &lt;a href="#"&gt;Long Pond has fish!&lt;/a&gt;
+&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+</TEXTAREA> </FORM>
+<H4>CSS statements:</H4>
+<DIV class=details>table.alerts<BR>{ text-align: center;<BR>font-family: 
+Verdana;<BR>font-weight: normal;<BR>font-size: 11px;<BR>color: 
+#404040;<BR>width: 260px;<BR>background-color: #fafafa;<BR>border: 1px #d79900 
+solid;<BR>border-collapse: collapse;<BR>border-spacing: 
+0px;}<BR><BR><BR>.alertHd<BR>{ border-bottom: 2px solid 
+#d79900;<BR>background-color: #fff2ba;<BR>text-align: center;<BR>font-family: 
+Verdana;<BR>font-weight: bold;<BR>font-size: 11px;<BR>color: 
+#404040;}<BR><BR><BR>.alertBod p<BR>{ text-align: left;<BR>font-family: Verdana, 
+sans-serif, Arial;<BR>font-weight: normal;<BR>font-size: 11px;<BR>line-height: 
+12px;<BR>color: #404040;<BR>background-color: #fafafa;<BR>text-indent: 
+-8px;<BR>margin-left: 10px;<BR>margin-right: 10px;<BR>margin-top: 
+5px;<BR>margin-bottom: 5px;} </DIV></DIV>
+<DIV class=box>
+<H3>Services matrix or simply, choices</H3><!-- Services Table -->
+<TABLE class=servicesT cellSpacing=0 
+  summary="Services, or Links box template"><TBODY>
+  <TR>
+    <TD class=servHd colSpan=2>Services or Links box template</TD></TR>
+  <TR>
+    <TD><A 
+      href="http://robertdenton.org/reference/css-tables-tutorial.html#">Onesey</A></TD>
+    <TD class=servBodL><A 
+      href="http://robertdenton.org/reference/css-tables-tutorial.html#">Twosesy</A></TD></TR>
+  <TR>
+    <TD><A 
+      href="http://robertdenton.org/reference/css-tables-tutorial.html#">Scary 
+      FUD</A></TD>
+    <TD class=servBodL><A 
+      href="http://robertdenton.org/reference/css-tables-tutorial.html#">Navigate 
+      the Hierarchy of Fear</A></TD></TR>
+  <TR>
+    <TD><A 
+      href="http://robertdenton.org/reference/css-tables-tutorial.html#">About 
+      Us</A></TD>
+    <TD class=servBodL><A 
+      href="http://robertdenton.org/reference/css-tables-tutorial.html#">World 
+      Class Talent</A></TD></TR>
+  <TR>
+    <TD><A 
+      href="http://robertdenton.org/reference/css-tables-tutorial.html#">See it 
+      NOW!</A></TD>
+    <TD class=servBodL>Staff Attrition <A 
+      href="http://robertdenton.org/reference/css-tables-tutorial.html#">Statistics</A>/<A 
+      href="http://robertdenton.org/reference/css-tables-tutorial.html#">Status</A></TD></TR></TBODY></TABLE>
+<H4>Table Code:</H4><TEXTAREA rows=15 cols=65>&lt;table summary="Services, or Links box template" class="servicesT" cellspacing="0"&gt;
+&lt;tr&gt;&lt;td colspan="2" class="servHd"&gt;Services or Links box template&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;a href="#"&gt;Onesey&lt;/a&gt;&lt;/td&gt;
+	&lt;td class="servBodL"&gt;&lt;a href="#"&gt;Twosesy&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;a href="#"&gt;Scary FUD&lt;/a&gt;&lt;/td&gt;
+	&lt;td class="servBodL"&gt;&lt;a href="#"&gt;Navigate the Hierarchy of Fear&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;a href="#"&gt;About Us&lt;/a&gt;&lt;/td&gt;
+	&lt;td class="servBodL"&gt;&lt;a href="#"&gt;World Class Talent&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;a href="#"&gt;See it NOW!&lt;/a&gt;&lt;/td&gt;
+	&lt;td class="servBodL"&gt;Staff Attrition &lt;a href="#"&gt;Statistics&lt;/a&gt;/&lt;a href="#"&gt;Status&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;br /&gt;
+&lt;/table&gt;</TEXTAREA> 
+<H4>CSS Statements:</H4>
+<DIV class=details>table.servicesT<BR>{ font-family: Verdana;<BR>font-weight: 
+normal;<BR>font-size: 11px;<BR>color: #404040;<BR>width: 
+320px;<BR>background-color: #fafafa;<BR>border: 1px #6699CC 
+solid;<BR>border-collapse: collapse;<BR>border-spacing: 0px;<BR>margin-top: 
+0px;}<BR><BR><BR>table.servicesT td.servHd<BR>{ border-bottom: 2px solid 
+#6699CC;<BR>background-color: #BEC8D1;<BR>text-align: center;<BR>font-family: 
+Verdana;<BR>font-weight: bold;<BR>font-size: 11px;<BR>color: 
+#404040;}<BR><BR><BR>table.servicesT td<BR>{ border-bottom: 1px dotted 
+#6699CC;<BR>font-family: Verdana, sans-serif, Arial;<BR>font-weight: 
+normal;<BR>font-size: 11px;<BR>color: #404040;<BR>background-color: 
+white;<BR>text-align: left;<BR>padding-left: 3px;} <BR><BR>.servBodL { 
+border-left: 1px dotted #CEDCEA; } </DIV></DIV>
+<DIV class=box>
+<H3>Staff Contact </H3>
+<TABLE class=contacts cellSpacing=0 summary="Contacts template">
+  <TBODY>
+  <TR>
+    <TD class=contactDept colSpan=3>Our Staff</TD></TR>
+  <TR>
+    <TD class=contact width="25%"><A href="mailto:nobody@bowdoin.edu">Bob 
+      Smith</A></TD>
+    <TD class=contact width="60%">Director</TD>
+    <TD class=contact width="15%">725-1234</TD></TR>
+  <TR>
+    <TD class=contact><A href="mailto:nobody@bowdoin.edu">Jon Doe</A></TD>
+    <TD class=contact>Assistant Director of Assisting the Assistant Planner</TD>
+    <TD class=contact>725-1234</TD></TR>
+  <TR>
+    <TD class=contact><A href="mailto:nobody@bowdoin.edu">Becky Jones</A></TD>
+    <TD class=contact>Administrative Assistant</TD>
+    <TD class=contact>725-1234</TD></TR></TBODY></TABLE>
+<H4>Table code:</H4><TEXTAREA rows=15 cols=65>&lt;table class="contacts" cellspacing="0" summary="Contacts template"&gt;
+&lt;tr&gt;
+&lt;td class="contactDept" colspan="3"&gt;Our Staff&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="contact" width="25%"&gt;&lt;a href="mailto:nobody@bowdoin.edu"&gt;Bob Smith&lt;/a&gt;&lt;/td&gt;
+&lt;td class="contact" width="60%"&gt;Director&lt;/td&gt;
+&lt;td class="contact" width="15%"&gt;725-1234&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="contact"&gt;&lt;a href="mailto:nobody@bowdoin.edu"&gt;Jon Doe&lt;/a&gt;&lt;/td&gt;
+&lt;td class="contact"&gt;Assistant Director of Assisting the Assistant Planner&lt;/td&gt;
+&lt;td class="contact"&gt;725-1234&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="contact"&gt;&lt;a href="mailto:nobody@bowdoin.edu"&gt;Becky Jones&lt;/a&gt;&lt;/td&gt;
+&lt;td class="contact"&gt;Administrative Assistant&lt;/td&gt;
+&lt;td class="contact"&gt;725-1234&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</TEXTAREA> 
+<H4>CSS Statements:</H4>
+<DIV class=details>table.contacts<BR>{ width: 580px;<BR>background-color: 
+#fafafa;<BR>border: 1px #000000 solid;<BR>border-collapse: 
+collapse;<BR>border-spacing: 0px; }<BR><BR><BR>td.contactDept<BR>{ 
+background-color: #99CCCC;<BR>border: 1px #000000 solid;<BR>font-family: 
+Verdana;<BR>font-weight: bold;<BR>font-size: 12px;<BR>color: #404040; 
+}<BR><BR><BR>td.contact<BR>{ border-bottom: 1px #6699CC dotted;<BR>text-align: 
+left;<BR>font-family: Verdana, sans-serif, Arial;<BR>font-weight: 
+normal;<BR>font-size: .7em;<BR>color: #404040;<BR>background-color: 
+#fafafa;<BR>padding-top: 4px;<BR>padding-bottom: 4px;<BR>padding-left: 
+8px;<BR>padding-right: 0px; }<BR></DIV></DIV>
+<DIV class=box>
+<H3>Software table with hilites</H3>
+<TABLE class=sofT cellSpacing=0 summary="Software or other data table">
+  <TBODY>
+  <TR>
+    <TD class=helpHed colSpan=4>Data table template, e.g., software list</TD></TR>
+  <TR>
+    <TD class=helpHed>Program</TD>
+    <TD class=helpHed>Platform</TD>
+    <TD class=helpHed>Version</TD>
+    <TD class=helpHed>Support Level</TD></TR>
+  <TR>
+    <TD class=sup>Adobe Acrobat</TD>
+    <TD>Mac &amp; PC</TD>
+    <TD>5.0 or higher</TD>
+    <TD>2</TD></TR>
+  <TR>
+    <TD>Adobe Illustrator</TD>
+    <TD>Mac &amp; PC</TD>
+    <TD>8.0 or higher</TD>
+    <TD>3</TD></TR>
+  <TR>
+    <TD>Adobe Imageready</TD>
+    <TD>Mac &amp; PC</TD>
+    <TD>2 or higher</TD>
+    <TD>3</TD></TR>
+  <TR>
+    <TD>Adobe Pagemaker</TD>
+    <TD>Mac &amp; PC</TD>
+    <TD>6.5</TD>
+    <TD>3</TD></TR>
+  <TR>
+    <TD>Adobe Photoshop</TD>
+    <TD>Mac &amp; PC</TD>
+    <TD>5.5 or higher</TD>
+    <TD>1</TD></TR>
+  <TR>
+    <TD>Adobe Reader</TD>
+    <TD>Mac &amp; PC</TD>
+    <TD>5.0 or higher</TD>
+    <TD>2</TD></TR>
+  <TR>
+    <TD class=sup>Aladdin Stuffit Expander</TD>
+    <TD>Mac</TD>
+    <TD>6.5.1 or higher</TD>
+    <TD>2</TD></TR></TBODY></TABLE>
+<H4>Table Code:</H4><TEXTAREA rows=15 cols=65>&lt;table summary="Software or other data table" class="sofT" cellspacing="0"&gt;
+&lt;tr&gt;
+	&lt;td colspan="4" class="helpHed"&gt;Data table template, e.g., software list&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td class="helpHed"&gt;Program&lt;/td&gt;
+	&lt;td class="helpHed"&gt;Platform&lt;/td&gt;
+	&lt;td class="helpHed"&gt;Version&lt;/td&gt;
+	&lt;td class="helpHed"&gt;Support Level&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td class="sup"&gt;Adobe Acrobat&lt;/td&gt;
+	&lt;td&gt;Mac &amp; PC&lt;/td&gt;  
+	&lt;td&gt;5.0 or higher&lt;/td&gt; 
+	&lt;td&gt;2&lt;/td&gt; 
+&lt;/tr&gt; 
+&lt;tr&gt; 
+	&lt;td&gt;Adobe Illustrator&lt;/td&gt; 
+	&lt;td&gt;Mac &amp; PC&lt;/td&gt;  
+	&lt;td&gt;8.0 or higher&lt;/td&gt; 
+	&lt;td&gt;3&lt;/td&gt; 
+&lt;/tr&gt; 
+&lt;tr&gt; 
+	&lt;td&gt;Adobe Imageready&lt;/td&gt; 
+	&lt;td&gt;Mac &amp; PC&lt;/td&gt;  
+	&lt;td&gt;2 or higher&lt;/td&gt; 
+	&lt;td&gt;3&lt;/td&gt; 
+&lt;/tr&gt; 
+&lt;tr&gt;
+ 	&lt;td&gt;Adobe Pagemaker&lt;/td&gt; 
+ 	&lt;td&gt;Mac &amp; PC&lt;/td&gt;  
+ 	&lt;td&gt;6.5&lt;/td&gt; 
+ 	&lt;td&gt;3&lt;/td&gt;
+ 	&lt;/tr&gt; 
+&lt;tr&gt; 
+	&lt;td&gt;Adobe Photoshop&lt;/td&gt; 
+	&lt;td&gt;Mac &amp; PC&lt;/td&gt; 
+	&lt;td&gt;5.5 or higher&lt;/td&gt; 
+	&lt;td&gt;1&lt;/td&gt; 
+&lt;/tr&gt; 
+&lt;tr&gt; 
+	&lt;td&gt;Adobe Reader&lt;/td&gt; 
+	&lt;td&gt;Mac &amp; PC&lt;/td&gt; 
+	&lt;td&gt;5.0 or higher&lt;/td&gt; 
+	&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt; 
+&lt;tr&gt; 
+	&lt;td class="sup"&gt;Aladdin Stuffit Expander&lt;/td&gt;  
+	&lt;td&gt;Mac&lt;/td&gt; 
+	&lt;td&gt;6.5.1 or higher&lt;/td&gt;  
+	&lt;td&gt;2&lt;/td&gt; 
+&lt;/tr&gt; 
+&lt;/table&gt;
+</TEXTAREA> 
+<H4>CSS Statements:</H4>
+<DIV class=details>table.helpT<BR>{ text-align: center;<BR>font-family: 
+Verdana;<BR>font-weight: normal;<BR>font-size: 11px;<BR>color: 
+#404040;<BR>width: 500px;<BR>background-color: #fafafa;<BR>border: 1px #6699CC 
+solid;<BR>border-collapse: collapse;<BR>border-spacing: 0px; } 
+<BR><BR>td.helpHed<BR>{ border-bottom: 2px solid #6699CC;<BR>border-left: 1px 
+solid #6699CC;<BR>background-color: #BEC8D1;<BR>text-align: 
+left;<BR>text-indent: 5px;<BR>font-family: Verdana;<BR>font-weight: 
+bold;<BR>font-size: 11px;<BR>color: #404040; }<BR><BR>td.helpBod<BR>{ 
+border-bottom: 1px solid #9CF;<BR>border-top: 0px;<BR>border-left: 1px solid 
+#9CF;<BR>border-right: 0px;<BR>text-align: left;<BR>text-indent: 
+10px;<BR>font-family: Verdana, sans-serif, Arial;<BR>font-weight: 
+normal;<BR>font-size: 11px;<BR>color: #404040;<BR>background-color: #fafafa; 
+}<BR><BR>table.sofT<BR>{ text-align: center;<BR>font-family: 
+Verdana;<BR>font-weight: normal;<BR>font-size: 11px;<BR>color: 
+#404040;<BR>width: 580px;<BR>background-color: #fafafa;<BR>border: 1px #6699CC 
+solid;<BR>border-collapse: collapse;<BR>border-spacing: 0px; } </DIV></DIV>
+<DIV id=boxB>
+<H3>Statistics, scores, other data...</H3>
+<TABLE class=stats cellSpacing=0>
+  <TBODY>
+  <TR>
+    <TD class=hed colSpan=4>These stats here are good</TD></TR>
+  <TR>
+    <TD>The thing</TD>
+    <TD>10.0</TD>
+    <TD>9.8</TD>
+    <TD>6.7</TD></TR>
+  <TR>
+    <TD>Other thing</TD>
+    <TD>6.5</TD>
+    <TD>8.9</TD>
+    <TD>9.9</TD></TR></TBODY></TABLE>
+<H4>Table code:</H4><TEXTAREA rows=15 cols=65>&lt;table class="stats" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;td class="hed" colspan="4"&gt;These stats here are good&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The thing&lt;/td&gt;
+&lt;td&gt;10.0&lt;/td&gt;
+&lt;td&gt;9.8&lt;/td&gt;
+&lt;td&gt;6.7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Other thing&lt;/td&gt;
+&lt;td&gt;6.5&lt;/td&gt;
+&lt;td&gt;8.9&lt;/td&gt;
+&lt;td&gt;9.9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</TEXTAREA> 
+<H4>CSS Statement:</H4>
+<DIV class=details>table.stats <BR>{text-align: center;<BR>font-family: Verdana, 
+Geneva, Arial, Helvetica, sans-serif ;<BR>font-weight: normal;<BR>font-size: 
+11px;<BR>color: #fff;<BR>width: 280px;<BR>background-color: #666;<BR>border: 
+0px;<BR>border-collapse: collapse;<BR>border-spacing: 0px;}<BR><BR>table.stats 
+td <BR>{background-color: #CCC;<BR>color: #000;<BR>padding: 4px;<BR>text-align: 
+left;<BR>border: 1px #fff solid;}<BR><BR>table.stats 
+td.hed<BR>{background-color: #666;<BR>color: #fff;<BR>padding: 
+4px;<BR>text-align: left;<BR>border-bottom: 2px #fff solid;<BR>font-size: 
+12px;<BR>font-weight: bold;} </DIV></DIV></DIV></DIV>
+<DIV id=footer>
+<P class=caption>Robert Denton - 2007</P>
+<SCRIPT src="CSS Style Tables - Tutorial (Robert Denton)_files/urchin.js" 
+type=text/javascript>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+_uacct = "UA-901115-1";
+urchinTracker();
+</SCRIPT>
+</DIV></BODY></HTML>

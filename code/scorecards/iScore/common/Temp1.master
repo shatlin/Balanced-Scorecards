@@ -1,0 +1,121 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Temp1.master.cs" Inherits="common_iScore" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML>
+<head>
+
+<STYLE type=text/css>BODY {
+	BACKGROUND-ATTACHMENT: fixed; BACKGROUND-IMAGE: url(../images/bg1.jpg); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #ffffff
+}
+</STYLE>
+<link href="../styles/iScoreStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<BODY>
+    <form id="form1" runat="server">
+<table style="height:50px" cellSpacing=0 cellPadding=0 width=1200  align=center border=0>
+<tr >
+<td >
+
+</td>
+</tr>
+</table>
+<TABLE style="BORDER-RIGHT: #878787 1px solid; BORDER-TOP: #878787 1px solid; BORDER-LEFT: #878787 1px solid; BORDER-BOTTOM: #878787 1px solid" 
+cellSpacing=0 cellPadding=0 width=1200 align=center border=0>
+  <TBODY>
+  
+  <TR>
+    <TD style="HEIGHT: 100px" vAlign=top align=middle width="100%" 
+    bgColor=#ffffff>
+      <TABLE cellSpacing=0 cellPadding=0 width=1200 align=center bgColor=#ffffff 
+      background=../images/topindexbg.jpg border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=center align=middle width="99%" height=30></TD>
+          <TD vAlign=center align=middle width="1%"><A 
+            href="http://www.tamilmixer.com/settings.php"><IMG 
+            title="TamilMixer Settings" alt="TamilMixer Settings" 
+            src="../images/settings.jpg" border=0></A></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width=1200 align=center bgColor=#ffffff 
+      border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top align=middle width="27%" height=70><IMG alt=logo 
+            src="../images/tmx2.jpg" border=0></TD>
+          <TD vAlign=top width="73%">
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD class=menu_light style="PADDING-RIGHT: 20px" vAlign=bottom 
+                align=right width="95%" height=70>
+                  <TABLE height=36 cellSpacing=0 cellPadding=0 width=400 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=20 height=36><A 
+                        href="http://www.tamilmixer.com/"><IMG title=Home 
+                        height=36 alt=Home src="../images/icons_1x2.jpg" 
+                        width=31 border=0></A></TD>
+                      <TD><A href="http://www.tamilmixer.com/search.php"><IMG 
+                        title=Search alt=Search 
+                        src="../images/icons_1x3.jpg" border=0></A></TD>
+                      <TD><A href="http://www.tamilmixer.com/mp3.php"><IMG 
+                        title="MP3 Database" alt="MP3 Database" 
+                        src="../images/icons_1x4.jpg" border=0></A></TD>
+                      <TD><A href="http://www.tamilmixer.com/mixlist.php"><IMG 
+                        title="My MixList" alt="My MixList" 
+                        src="../images/icons_1x5.jpg" border=0></A></TD>
+                      <TD><A 
+                        href="http://www.tamilmixer.com/storyline.php"><IMG 
+                        title="Movie Story Database" alt="Movie Story Database" 
+                        src="../images/icons_1x6.jpg" border=0></A></TD>
+                      <TD><A href="http://www.tamilmixer.com/lyrics.php"><IMG 
+                        title="Lyrics Database" alt="Lyrics Database" 
+                        src="../images/icons_1x7.jpg" border=0></A></TD>
+                      <TD><A 
+                        href="http://www.tamilmixer.com/ringtones.php"><IMG 
+                        title="Ringtones Database" alt="Ringtones Database" 
+                        src="../images/icons_1x9.jpg" border=0></A></TD>
+                      <TD><A 
+                        href="http://www.tamilmixer.com/voiceclips.php"><IMG 
+                        title="Voice Clips" alt="Voice Clips" 
+                        src="../images/icons_1x16.jpg" border=0></A></TD>
+                      <TD><A href="http://www.tamilmixer.com/gallery.php"><IMG 
+                        title=Gallery alt=Gallery 
+                        src="../images/icons_1x10.jpg" border=0></A></TD>
+                      <TD><A 
+                        href="http://www.tamilmixer.com/wallpaper.php"><IMG 
+                        title=Wallpapers alt=Wallpapers 
+                        src="../images/icons_1x11.jpg" border=0></A></TD>
+                      <TD><A href="http://www.tamilmixer.com/jokes.php"><IMG 
+                        title=Jokes alt=Jokes 
+                        src="../images/icons_1x12.jpg" border=0></A></TD>
+                      <TD><A href="http://www.tamilmixer.com/epal.php"><IMG 
+                        title=e-Pals alt=e-Pals 
+                        src="../images/icons_1x13.jpg" border=0></A></TD>
+                      <TD><A href="http://www.tamilmixer.com/games.php"><IMG 
+                        title=Games height=36 alt=Games 
+                        src="../images/icons_1x14.jpg" width=38 
+                        border=0></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+        <TR vAlign=top align=middle>
+          <TD colSpan=2 height=260>
+          
+           <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+           
+           </asp:ContentPlaceHolder>
+                      
+
+             
+          
+          </TD></TR></TBODY></TABLE><BR>
+      <TABLE cellSpacing=0 cellPadding=0 width=1200 align=center bgColor=#ffffff 
+      border=0>
+        <TBODY>
+        <TR align=middle width="100%">
+          <TD class=style1 vAlign=top align=middle width="99%" 
+          background=../images/footerbg1.jpg>
+              &lt;footer content&gt;</TD></TR></TBODY></TABLE>
+  </TD></TR>
+  </TBODY></TABLE>
+    </form>
+</body>
+</html>

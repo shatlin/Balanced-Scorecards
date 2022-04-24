@@ -1,0 +1,138 @@
+.dxtcControl_Demo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; FONT: 13px Tahoma; COLOR: #333333; PADDING-TOP: 0px
+}
+.dxtcTab_Demo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.SourceCodeActiveTabTemplate {
+	PADDING-RIGHT: 18px; PADDING-LEFT: 18px; BACKGROUND-IMAGE: url(SelectedCenter.gif); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.SourceCodeTabTemplate {
+	PADDING-RIGHT: 18px; PADDING-LEFT: 18px; BACKGROUND-IMAGE: url(UnSelectedCenter.gif); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.SourceCodeRight {
+	BACKGROUND-IMAGE: url(Right.gif); BACKGROUND-REPEAT: repeat-y
+}
+.SourceCodeMiddleBottom {
+	BACKGROUND-IMAGE: url(MiddleBottom.gif); WIDTH: 100%; BACKGROUND-REPEAT: repeat-x
+}
+.cr-cs-comment {
+	COLOR: green
+}
+.cr-cs-keyword {
+	COLOR: blue
+}
+.cr-cs-preproc {
+	COLOR: #2b91af
+}
+.cr-cs-string {
+	COLOR: #a31515
+}
+.cr-region-head {
+	DISPLAY: inline; FONT-WEIGHT: normal; FONT-SIZE: small; MARGIN: 0px; COLOR: gray
+}
+.cr-region-div {
+	PADDING-LEFT: 10px; MARGIN-LEFT: 5px; BORDER-LEFT: darkgray 1px solid
+}
+.cr-region-span {
+	PADDING-LEFT: 3px; MARGIN-LEFT: 5px; BORDER-LEFT: lightgrey 1px solid; WIDTH: 1px
+}
+.cr-aspx-region-head {
+	DISPLAY: inline; FONT-WEIGHT: normal; FONT-SIZE: small; MARGIN: 0px; COLOR: green
+}
+.cr-js-comment {
+	COLOR: green
+}
+.cr-js-keyword {
+	COLOR: blue
+}
+.cr-js-preproc {
+	COLOR: #2b91af
+}
+.cr-js-string {
+	COLOR: #a31515
+}
+.cr-js-pre {
+	MARGIN-TOP: 0px! important; MARGIN-BOTTOM: 0px! important
+}
+.cr-vb-comment {
+	COLOR: green
+}
+.cr-vb-keyword {
+	COLOR: blue
+}
+.cr-vb-string {
+	COLOR: #a31515
+}
+.cr-vb-preproc {
+	COLOR: #2b91af
+}
+.cr-delphi-comment {
+	COLOR: green
+}
+.cr-delphi-keyword {
+	COLOR: blue
+}
+.cr-delphi-string {
+	COLOR: #a31515
+}
+.cr-delphi-preproc {
+	COLOR: #2b91af
+}
+.cr-xml-comment {
+	COLOR: green
+}
+.cr-xml-keyword {
+	COLOR: blue
+}
+.cr-xml-string {
+	COLOR: #a31515
+}
+.cr-xml-preproc {
+	COLOR: #2b91af
+}
+.cr-xml-tag {
+	COLOR: #a31515
+}
+.cr-xml-attribute {
+	COLOR: #ff0000
+}
+.cr-xml-bind {
+	BACKGROUND-COLOR: #ffee62
+}
+.cr-aspx-comment {
+	COLOR: green
+}
+.cr-aspx-preproc {
+	COLOR: black; BACKGROUND-COLOR: #ffee62
+}
+.cr-aspx-string {
+	COLOR: black
+}
+.cr-aspx-text {
+	COLOR: blue
+}
+.cr-aspx-keyword {
+	COLOR: #2b91af
+}
+.cr-aspx-tag {
+	COLOR: #a31515
+}
+.cr-aspx-attribute {
+	COLOR: #ff0000
+}
+.cr-aspx-bind {
+	BACKGROUND-COLOR: #ffee62
+}
+.cr-aspx-pre {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0px! important; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+DIV.cr-div PRE {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 9pt; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT-FAMILY: 'Courier New'
+}
+.cr-div {
+	PADDING-RIGHT: 18px; PADDING-LEFT: 18px; FONT-SIZE: 9pt; OVERFLOW: auto; WIDTH: 606px; PADDING-TOP: 14px; FONT-FAMILY: 'Courier New'; HEIGHT: 380px
+}
+.cr-div-description {
+	PADDING-RIGHT: 18px; PADDING-LEFT: 18px; FONT-SIZE: 9pt; OVERFLOW: auto; WIDTH: 606px; PADDING-TOP: 14px; HEIGHT: 380px
+}

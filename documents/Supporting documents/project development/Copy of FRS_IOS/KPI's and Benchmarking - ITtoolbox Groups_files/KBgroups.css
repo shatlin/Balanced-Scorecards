@@ -1,0 +1,435 @@
+.KBgroups_contentCell {
+	BORDER-TOP: #cc9f6d 2px solid; FONT: 10pt arial; PADDING-TOP: 10px
+}
+.KBgroups_altcontentCell {
+	BORDER-TOP: #cc9f6d 2px solid; PADDING-LEFT: 10px; FONT: 10pt arial; BORDER-LEFT: #cc9f6d 2px solid; PADDING-TOP: 10px
+}
+.KBgroups_activityBar {
+	MARGIN-TOP: 0px; MARGIN-LEFT: 10px
+}
+.KBgroups_ul {
+	MARGIN-TOP: 10px; LIST-STYLE-IMAGE: url(http://images.ittoolbox.com/ul_bullet.gif); MARGIN-LEFT: 20px
+}
+.KBgroups_title {
+	FONT: bold 14pt arial; COLOR: black
+}
+.KBgroups_settingstitle {
+	PADDING-BOTTOM: 10px; FONT: bold 14pt arial; COLOR: black; BORDER-BOTTOM: gray 1px dashed
+}
+.KBgroups_pageBlurb {
+	FONT: 9pt arial
+}
+.groups_topcontrib {
+	BORDER-RIGHT: #cc9f6d 1px solid; BORDER-TOP: #cc9f6d 1px solid; MARGIN-TOP: 10px; FONT: bold 10pt arial; BORDER-LEFT: #cc9f6d 1px solid; WIDTH: 336px; BORDER-BOTTOM: #cc9f6d 1px solid; BACKGROUND-COLOR: #f6f6f6
+}
+.groups_topcontribItem {
+	MARGIN-BOTTOM: 3px
+}
+A.groups_contrib:link {
+	BACKGROUND-POSITION: 0px 7px; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/groupsimg/icons/bullet.gif); FONT: 8pt verdana; COLOR: #4040ff; BACKGROUND-REPEAT: no-repeat
+}
+A.groups_contrib:visited {
+	BACKGROUND-POSITION: 0px 7px; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/groupsimg/icons/bullet.gif); FONT: 8pt verdana; COLOR: #4040ff; BACKGROUND-REPEAT: no-repeat
+}
+A.groups_contrib:active {
+	BACKGROUND-POSITION: 0px 7px; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/groupsimg/icons/bullet.gif); FONT: 8pt verdana; COLOR: #4040ff; BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_h1 {
+	MARGIN-TOP: -2px; MARGIN-BOTTOM: 0px; FONT: 16pt arial; COLOR: black
+}
+.KBgroups_h2 {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; FONT: 15pt arial; COLOR: black
+}
+.KBgroups_h3 {
+	MARGIN-TOP: 0px; PADDING-LEFT: 1px; MARGIN-BOTTOM: 0px; FONT: 10pt arial; COLOR: black
+}
+.KBgroups_h2margin {
+	MARGIN: 0px; FONT: bold 12pt arial; COLOR: black
+}
+.KBgroups_h1message {
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: 0px; FONT: italic 14pt arial; COLOR: black; PADDING-TOP: 2px
+}
+.KBgroups_reponse_h2 {
+	MARGIN-TOP: 15px; PADDING-BOTTOM: 0px; FONT: bold 12pt arial; PADDING-TOP: 5px
+}
+.KBgroups_fullThread_h2 {
+	MARGIN-TOP: 15px; PADDING-BOTTOM: 0px; FONT: bold 12pt arial; PADDING-TOP: 5px; BORDER-BOTTOM: #cc9f6d 1px solid
+}
+.KBgroups_DateRange {
+	MARGIN: 0px; FONT: bold 12pt arial; COLOR: #999999
+}
+.KBgroups_WeekActive {
+	FONT: 8pt arial; COLOR: #999999
+}
+.KBgroups_WeekInactive {
+	FONT: 8pt arial
+}
+.KBgroups_searchBox {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 5px; MARGIN-RIGHT: 0px
+}
+.KBgroups_searchBoxDefault {
+	MARGIN-TOP: 0px
+}
+.KBgroups_searchBoxNoborder {
+	MARGIN-TOP: 3px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 5px
+}
+.KBgroups_searchInput {
+	FONT: 9pt arial; HEIGHT: 20px; BACKGROUND-COLOR: #fefadd
+}
+.KBgroups_searchButton {
+	FONT: 8pt arial; MARGIN-LEFT: 0px; HEIGHT: 20px
+}
+.KBgroups_searchRadio {
+	MARGIN-BOTTOM: -3px; MARGIN-LEFT: 5px
+}
+.KBgroups_button {
+	FONT: 10pt arial; COLOR: white; BACKGROUND-COLOR: #cc9f6d
+}
+.KBgroups_submitButton {
+	LEFT: 0px; FONT: 9pt arial; COLOR: white; POSITION: relative; HEIGHT: 22px; BACKGROUND-COLOR: #cc9f6d
+}
+.KBgroups_replyBox_Off .KBgroups_submitButton {
+	LEFT: 0px; FONT: 9pt arial; COLOR: white; POSITION: relative; HEIGHT: 22px; BACKGROUND-COLOR: #cc9f6d
+}
+.KBgroups_selectbox {
+	FONT-SIZE: 9pt
+}
+.KBgroups_searchBorder {
+	BORDER-TOP: #cc9f6d 2px solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BACKGROUND-COLOR: white
+}
+.KBgroups_helpBox {
+	BORDER-RIGHT: #cc9f6d 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cc9f6d 1px solid; MARGIN-TOP: 8px; PADDING-LEFT: 5px; FLOAT: right; PADDING-BOTTOM: 10px; FONT: 10pt arial; BORDER-LEFT: #cc9f6d 1px solid; WIDTH: 220px; PADDING-TOP: 5px; BORDER-BOTTOM: #cc9f6d 1px solid; BACKGROUND-COLOR: #f6f6f6
+}
+.KBgroups_helpBoxHeader {
+	MARGIN-BOTTOM: 10px
+}
+.KBgroups_groupLeft {
+	BORDER-BOTTOM: #a7a7a4 1px solid
+}
+.KBgroups_groupRight {
+	BORDER-TOP: #a7a7a4 1px solid; BORDER-LEFT: #a7a7a4 1px solid; WIDTH: 340px
+}
+.KBgroups_groupTable {
+	MARGIN-TOP: -10px
+}
+.KBgroups_stats {
+	MARGIN-TOP: 15px; FONT: 9pt arial
+}
+.KBgroups_statsMessages {
+	MARGIN-TOP: 15px; PADDING-BOTTOM: 10px; FONT: 9pt arial
+}
+.KBgroups_questionsbox {
+	BORDER-RIGHT: #cc9f6d 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cc9f6d 1px solid; MARGIN-TOP: 10px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; FONT: 10pt arial; BORDER-LEFT: #cc9f6d 1px solid; MARGIN-RIGHT: 0px; PADDING-TOP: 5px; BORDER-BOTTOM: #cc9f6d 1px solid; BACKGROUND-COLOR: #f6f6f6; TEXT-ALIGN: left
+}
+.KBgroups_postInfo {
+	FONT: 10pt arial; COLOR: #7a7a79
+}
+.KBgroups_supportingDocs {
+	BORDER-RIGHT: #cc9f6d 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cc9f6d 1px solid; MARGIN-TOP: 10px; PADDING-LEFT: 5px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 10px; FONT: 10pt arial; BORDER-LEFT: #cc9f6d 1px solid; WIDTH: 340px; PADDING-TOP: 5px; BORDER-BOTTOM: #cc9f6d 1px solid; BACKGROUND-COLOR: #f6f6f6; TEXT-ALIGN: left
+}
+.KBgroups_poweredByWiki {
+	MARGIN-TOP: 3px; PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/wiki.gif); MARGIN-BOTTOM: -5px; BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_poweredByWiki2 {
+	MARGIN-TOP: 3px; PADDING-LEFT: 15px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/wiki.gif); MARGIN-BOTTOM: -5px; BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_supportingDocsHed {
+	MARGIN-TOP: 16px; FONT-WEIGHT: bold; MARGIN-BOTTOM: 5px; MARGIN-LEFT: 5px
+}
+A.KBgroups_supportingDocsItem:link {
+	BACKGROUND-POSITION: 20px 7px; PADDING-LEFT: 30px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/nav_bullet.gif); FONT: 9pt arial; BACKGROUND-REPEAT: no-repeat
+}
+A.KBgroups_supportingDocsItem:visited {
+	BACKGROUND-POSITION: 20px 7px; PADDING-LEFT: 30px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/nav_bullet.gif); FONT: 9pt arial; BACKGROUND-REPEAT: no-repeat
+}
+A.KBgroups_supportingDocsItemk:active {
+	BACKGROUND-POSITION: 20px 7px; PADDING-LEFT: 30px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/nav_bullet.gif); FONT: 9pt arial; BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_docsBoxBullet {
+	BACKGROUND-POSITION: 7px 7px; PADDING-LEFT: 17px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/nav_bullet.gif); FONT: 10pt arial; BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_calendar {
+	BORDER-RIGHT: #cc9f6d 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cc9f6d 1px solid; MARGIN-TOP: 10px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #cc9f6d 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #cc9f6d 1px solid; TEXT-ALIGN: left
+}
+.KBgroups_calendarLabels {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; FONT: 10pt arial; COLOR: #7a7a79; PADDING-TOP: 2px
+}
+.KBgroups_calendarCell {
+	FONT: 10pt arial; BACKGROUND-COLOR: #f1eae3; TEXT-ALIGN: center
+}
+A.KBgroups_calenderLink:link {
+	FONT: 10pt arial; TEXT-DECORATION: none
+}
+A.KBgroups_calenderLink:visited {
+	FONT: 10pt arial; TEXT-DECORATION: none
+}
+A.KBgroups_calenderLink:active {
+	FONT: 10pt arial; TEXT-DECORATION: none
+}
+A.KBgroups_listTitle:link {
+	BACKGROUND-POSITION: 15px 7px; PADDING-LEFT: 25px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/bulletLarge.gif); FONT: 9pt arial; BACKGROUND-REPEAT: no-repeat
+}
+A.KBgroups_listTitle:visited {
+	BACKGROUND-POSITION: 15px 7px; PADDING-LEFT: 25px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/bulletLarge.gif); FONT: 9pt arial; BACKGROUND-REPEAT: no-repeat
+}
+A.KBgroups_listTitle:active {
+	BACKGROUND-POSITION: 15px 7px; PADDING-LEFT: 25px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/bulletLarge.gif); FONT: 9pt arial; BACKGROUND-REPEAT: no-repeat
+}
+A.KBgroups_listResponse:link {
+	BACKGROUND-POSITION: 15px 7px; PADDING-LEFT: 25px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/global_bullet.gif); FONT: 9pt arial; MARGIN-LEFT: 10px; BACKGROUND-REPEAT: no-repeat
+}
+A.KBgroups_listResponse:visited {
+	BACKGROUND-POSITION: 15px 7px; PADDING-LEFT: 25px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/global_bullet.gif); FONT: 9pt arial; MARGIN-LEFT: 10px; BACKGROUND-REPEAT: no-repeat
+}
+A.KBgroups_listResponse:active {
+	BACKGROUND-POSITION: 15px 7px; PADDING-LEFT: 25px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/global_bullet.gif); FONT: 9pt arial; MARGIN-LEFT: 10px; BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_ResponsesUL {
+	MARGIN-LEFT: 20px
+}
+.KBgroups_ResponsesLI {
+	PADDING-BOTTOM: 5px
+}
+.KBgroups_joinButton {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/KB/groups/KBgroups_joinButton.gif); BORDER-LEFT: #ffffff 0px solid; WIDTH: 47px; BORDER-BOTTOM: #ffffff 0px solid; HEIGHT: 25px
+}
+.KBgroups_postButton {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/KB/groups/KBgroups_postButton.gif); BORDER-LEFT: #ffffff 0px solid; WIDTH: 83px; BORDER-BOTTOM: #ffffff 0px solid; HEIGHT: 25px
+}
+.KBgroups_faqButton {
+	MARGIN-BOTTOM: -8px
+}
+.KBgroups_joinSmallButton {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/KB/groups/KBgroups_joinSmallButton.gif); BORDER-LEFT: #ffffff 0px solid; WIDTH: 32px; BORDER-BOTTOM: #ffffff 0px solid; HEIGHT: 18px
+}
+.KBgroups_postNewButton {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/KB/groups/KBgroups_postNewButton.gif); BORDER-LEFT: #ffffff 0px solid; WIDTH: 60px; BORDER-BOTTOM: #ffffff 0px solid; HEIGHT: 18px
+}
+.KBgroups_postReplyButton {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/KB/groups/KBgroups_postReplyButton.gif); BORDER-LEFT: #ffffff 0px solid; WIDTH: 68px; BORDER-BOTTOM: #ffffff 0px solid; HEIGHT: 18px
+}
+.KBgroups_addEditFaqButton {
+	MARGIN-BOTTOM: -3px
+}
+.KBgroups_emailrintBox {
+	MARGIN-TOP: 20px; PADDING-LEFT: 140px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/interactBox-large.gif); MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 40px; BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_interactIcon {
+	MARGIN-BOTTOM: -8px
+}
+.KBgroups_regular {
+	BACKGROUND-POSITION: 6px 7px; PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/global_bullet.gif); MARGIN-BOTTOM: 10px; MARGIN-RIGHT: 20px; BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_messageToolbar {
+	BORDER-RIGHT: #cc9f6d 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cc9f6d 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #cc9f6d 1px solid; WIDTH: 280px; PADDING-TOP: 5px; BORDER-BOTTOM: #cc9f6d 1px solid; BACKGROUND-COLOR: #f6f6f6
+}
+.KBgroups_toolbar {
+	BORDER-RIGHT: #cc9f6d 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cc9f6d 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #cc9f6d 1px solid; WIDTH: 200px; PADDING-TOP: 5px; BORDER-BOTTOM: #cc9f6d 1px solid; BACKGROUND-COLOR: #f6f6f6
+}
+.KBgroups_postNewIcon {
+	PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/postNew.gif); BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_postReplyIcon {
+	PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/postReply.gif); BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_joinGroupsIcon {
+	PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/joinGroups.gif); BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_groupsFAQIcon {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: 0px -2px; PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/groupsFAQ.gif); BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_addeditIcon {
+	BACKGROUND-POSITION: 0px 1px; PADDING-LEFT: 15px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/addedit.gif); BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_emailIcon {
+	PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/email.gif); BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_printIcon {
+	PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/print.gif); BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_questionsboxbullet {
+	BACKGROUND-POSITION: 11px 7px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/nav_bullet.gif); BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_bullet {
+	BACKGROUND-POSITION: 15px 7px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/nav_bullet.gif); BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_leftpadBullet {
+	BACKGROUND-POSITION: 7px 7px; PADDING-LEFT: 17px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/nav_bullet.gif); MARGIN-BOTTOM: 2px; BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_subBullet {
+	BACKGROUND-POSITION: 2px 7px; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/nav_bullet.gif); BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_stats {
+	MARGIN-TOP: 1px; MARGIN-BOTTOM: 3px
+}
+.KBgroups_statsBorder {
+	BORDER-TOP: #aaaaaa 1px dashed; PADDING-LEFT: 2px; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 3px; BORDER-BOTTOM: #aaaaaa 1px dashed; BACKGROUND-COLOR: #f7f6f1
+}
+.KBgroups_outsideGroups {
+	PADDING-RIGHT: 5px; BORDER-TOP: #6a80a6 1px dashed; PADDING-LEFT: 5px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #6a80a6 1px dashed; BACKGROUND-COLOR: #ebeff7
+}
+.KBgroups_buttonContainer {
+	MARGIN-TOP: 10px
+}
+.KBgroups_statsP {
+	MARGIN-TOP: 5px
+}
+.KBgroups_defaultTitle {
+	
+}
+.KBgroups_rightFloatContainer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; FLOAT: right; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/whiteBG.gif); WIDTH: 340px; TEXT-ALIGN: center
+}
+.KBgropus_adboxNoFloat {
+	MARGIN-TOP: 10px; PADDING-TOP: 0px
+}
+.KBgroups_contextualBox {
+	
+}
+.KBgroups_contextualTitle {
+	BACKGROUND-POSITION: 0px 3px; BORDER-TOP: #eaeaea 2px solid; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/contextPlain.gif); MARGIN-BOTTOM: 10px; BORDER-BOTTOM: #eaeaea 2px solid; BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_yearNav {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; BACKGROUND-COLOR: #f1eae3
+}
+.KBgroups_yearNavSelected {
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px; BACKGROUND-COLOR: #c2dad1; TEXT-ALIGN: center
+}
+.KB_badgeMediumGroups {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 9px; BACKGROUND: url(/userBadge/userBadge-medGroups.gif) no-repeat; PADDING-BOTTOM: 0px; WIDTH: 83px; PADDING-TOP: 5px; HEIGHT: 94px
+}
+.KBgroups_metadivider {
+	BORDER-RIGHT: #aaaaaa 1px solid
+}
+.KBgroups_googleUser {
+	BORDER-RIGHT: #6dba9f 2px solid; PADDING-RIGHT: 5px; BACKGROUND-POSITION: 5px 5px; BORDER-TOP: #6dba9f 2px solid; PADDING-LEFT: 7px; FLOAT: right; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/groups/backgrounds/groups_titlegoogle.gif); PADDING-BOTTOM: 5px; BORDER-LEFT: #6dba9f 2px solid; WIDTH: 250px; MARGIN-RIGHT: 0px; PADDING-TOP: 32px; BORDER-BOTTOM: #6dba9f 2px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: #f6f6f6
+}
+.KBgroups_googleUserButton {
+	BORDER-RIGHT: black 0px solid; BORDER-TOP: black 0px solid; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/groups/backgrounds/groups_googlebuttont.gif); MARGIN-BOTTOM: -3px; MARGIN-LEFT: 10px; BORDER-LEFT: black 0px solid; WIDTH: 101px; BORDER-BOTTOM: black 0px solid; HEIGHT: 28px
+}
+.KBgroups_googleform {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 5px
+}
+.KBgroups_googleinput {
+	FONT: 9pt arial; BACKGROUND-COLOR: #fefadd
+}
+.KBgroups_button {
+	MARGIN-RIGHT: 5px
+}
+.KBgroups_textarea {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #adaaaa 1px solid; MARGIN-BOTTOM: 20px; BORDER-LEFT: #adaaaa 1px solid; WIDTH: 420px; BORDER-BOTTOM: #dddddd 1px solid; HEIGHT: 180px
+}
+.KBgroups_textarea_Off {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #adaaaa 1px solid; MARGIN-BOTTOM: 20px; BORDER-LEFT: #adaaaa 1px solid; WIDTH: 100%; BORDER-BOTTOM: #dddddd 1px solid; HEIGHT: 180px
+}
+.KBgroups_replyBox {
+	PADDING-RIGHT: 10px; BORDER-TOP: #cc9f6d 1px solid; MARGIN-TOP: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 15px; WIDTH: 420px; PADDING-TOP: 10px; BORDER-BOTTOM: #cc9f6d 1px solid; BACKGROUND-COLOR: #eaeaea
+}
+.KBgroups_replyBox_Off {
+	MARGIN-TOP: 20px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 15px; WIDTH: 100%
+}
+.KBgroups_replyBoxPlain {
+	MARGIN-TOP: 10px; WIDTH: 420px; PADDING-TOP: 10px
+}
+.KBgroups_graysmalltext {
+	COLOR: #7a7a79
+}
+.KBgroups_smallBadge {
+	BORDER-RIGHT: #d56531 1px solid; BORDER-TOP: #d56531 1px solid; MARGIN-BOTTOM: 2px; BORDER-LEFT: #d56531 1px solid; MARGIN-RIGHT: 0px; BORDER-BOTTOM: #d56531 1px solid
+}
+.KBgroups_buttonBar {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px
+}
+.KBgroups_replyCollapsed {
+	
+}
+.KBgroups_replyThreadStart {
+	
+}
+.KBgroups_currentItem {
+	PADDING-RIGHT: 5px; BORDER-TOP: #c09a74 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; FONT: 10pt arial; WIDTH: 445px; PADDING-TOP: 5px; BACKGROUND-COLOR: #faebc2
+}
+.KBgroups_currentItem TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px
+}
+.KBgroups_currentTitle {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; FONT: 10pt arial; COLOR: gray; PADDING-TOP: 5px
+}
+.KBgroups_postReplyforReply {
+	BACKGROUND-POSITION: 0px 3px; DISPLAY: none; PADDING-LEFT: 20px; FLOAT: right; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/postreply.gif); PADDING-BOTTOM: 3px; MARGIN: -17px 5px 20px 10px; BACKGROUND-REPEAT: no-repeat
+}
+.KBgroups_replyClass1 {
+	PADDING-RIGHT: 5px; BORDER-TOP: #c09a74 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; FONT: 10pt arial; WIDTH: 445px; PADDING-TOP: 5px; BACKGROUND-COLOR: #e0e0e0
+}
+.KBgroups_replyClass2 {
+	PADDING-RIGHT: 5px; BORDER-TOP: #c09a74 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; FONT: 10pt arial; WIDTH: 445px; PADDING-TOP: 5px; BACKGROUND-COLOR: #f0f0f0
+}
+.KBgroups_replyClass1 TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px
+}
+.KBgroups_replyClass2 TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px
+}
+.toggleTableClass {
+	DISPLAY: none
+}
+.replyCollapsed {
+	FONT-SIZE: 13px; FONT-FAMILY: arial; BACKGROUND-COLOR: #ffffff
+}
+.KBgroups_watchBox {
+	DISPLAY: block; Z-INDEX: 5000; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/KB/groups/KBgroups_watchBoxBG.png); FONT: 10pt arial; WIDTH: 490px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; HEIGHT: 264px
+}
+.KBgroups_watchInner {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; FONT: 10pt arial; PADDING-TOP: 20px
+}
+#KBgroups_postBadgeSpacer {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 10px
+}
+A.KBgroups_expandLinkOn:link {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/groupsPlus.gif); COLOR: black; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+A.KBgroups_expandLinkOn:visited {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/groupsPlus.gif); COLOR: black; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+A.KBgroups_expandLinkOn:hover {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/groupsPlus.gif); COLOR: black; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+A.KBgroups_expandLinkOff:link {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/groupsPlus.gif); COLOR: blue; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+A.KBgroups_expandLinkOff:visited {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/groupsPlus.gif); COLOR: blue; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+A.KBgroups_expandLinkOff:hover {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/groupsPlus.gif); BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: underline; bcolor: blue
+}
+A.KBgroups_collapseLinkOn:link {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/groupsMinus.gif); COLOR: black; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+A.KBgroups_collapseLinkOn:visited {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/groupsMinus.gif); COLOR: black; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+A.KBgroups_collapseLinkOn:hover {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/groupsMinus.gif); COLOR: black; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+A.KBgroups_collapseLinkOff:link {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/groupsMinus.gif); COLOR: blue; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+A.KBgroups_collapseLinkOff:visited {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/groupsMinus.gif); COLOR: blue; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+A.KBgroups_collapseLinkOff:hover {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(http://images.ittoolbox.com/icons/groupsMinus.gif); COLOR: blue; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: underline
+}
+.KBgroups_ad_boxNoFloat {
+	
+}
+.toTopLink {
+	MARGIN-TOP: 0px; FLOAT: left; PADDING-BOTTOM: 5px; FONT: bold 10pt arial
+}
+.replyLinkSection {
+	MARGIN-TOP: 0px; FLOAT: right; FONT: 9pt arial
+}
+.KBGroups_askQButton {
+	MARGIN-BOTTOM: -5px; MARGIN-LEFT: 15px; POSITION: relative
+}

@@ -1,0 +1,72 @@
+.concommon {
+	MARGIN-BOTTOM: 20px
+}
+.concommon .contitle {
+	BACKGROUND: url(line.gif) no-repeat 0px 100%; HEIGHT: 38px
+}
+.concommon .contitle {
+	HEIGHT: 38px
+}
+.concommon .contitle .head {
+	
+}
+.concommon .concontent {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.concommon .actionbuttons {
+	PADDING-RIGHT: 20px; FONT-SIZE: 1px; LINE-HEIGHT: 1px; HEIGHT: 1px; TEXT-ALIGN: right
+}
+.conmargin {
+	MARGIN-BOTTOM: 2px
+}
+.conmargin .contitle {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 38px
+}
+.conmargin .contitle .head {
+	
+}
+.conmargin .concontent {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.conmargin .actionbuttons {
+	PADDING-RIGHT: 20px; FONT-SIZE: 1px; LINE-HEIGHT: 1px; HEIGHT: 1px; TEXT-ALIGN: right
+}
+.conmargin A:link {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.conmargin A:visited {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.conmargin A:hover {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.conmargin A:active {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.bg336699 {
+	BACKGROUND: url(bg336699.jpg) #336699 no-repeat
+}
+.bg6699CC {
+	BACKGROUND: url(bg6699CC.jpg) #6699cc no-repeat
+}
+.bg99CCFF {
+	BACKGROUND: url(bg99CCFF.jpg) #99ccff no-repeat
+}
+.bgFF6600 {
+	BACKGROUND: url(bgFF6600.jpg) #ff6600 no-repeat
+}
+.bgFF9900 {
+	BACKGROUND: url(bgFF9900.jpg) #ff9900 no-repeat
+}
+.bgFFCC00 {
+	BACKGROUND: url(bgFFCC00.jpg) #ffcc00 no-repeat
+}
+.bg666666 {
+	BACKGROUND: url(bg666666.jpg) #666 no-repeat
+}
+.bgCCCCCC {
+	BACKGROUND: url(bgCCCCCC.jpg) #ccc no-repeat
+}
+.actionbuttons IMG {
+	MARGIN: 0px 0px 10px
+}

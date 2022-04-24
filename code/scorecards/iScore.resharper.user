@@ -1,0 +1,256 @@
+<Configuration>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <Providers />
+  </UnitTestRunner>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <ReFormatCode>
+    <ReorderMembers>True</ReorderMembers>
+    <OptimizeUsings>True</OptimizeUsings>
+    <RemoveRedundantThis>True</RemoveRedundantThis>
+    <ShortenReferences>True</ShortenReferences>
+  </ReFormatCode>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <EditorManager>
+    <RecentFiles>
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:CAS/f:AgreedRating.aspx.cs" caret="8660" scrollPosition="0|174" />
+      <File id="99217D17-A666-4F5A-8210-D3D2F795F379/d:Setup/f:GlobalParameterDB.cs" caret="2675" scrollPosition="0|27" />
+      <File id="7603342D-ADFC-4726-8DEF-DF943C2BF9F8/d:Setup/f:GlobalParameter.cs" caret="134" scrollPosition="0|27" />
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:Setup/f:CreateScorecard.aspx" caret="270" scrollPosition="0|3" />
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:Setup/f:ViewIS.aspx" caret="595" scrollPosition="0|0" />
+      <File id="7603342D-ADFC-4726-8DEF-DF943C2BF9F8/d:Setup/f:CreateScorecardBL.cs" caret="0" scrollPosition="0|0" />
+      <File id="7603342D-ADFC-4726-8DEF-DF943C2BF9F8/d:Setup/f:OrgRoleBL.cs" caret="0" scrollPosition="0|0" />
+      <File id="7603342D-ADFC-4726-8DEF-DF943C2BF9F8/d:CAS/f:CompetencyBL.cs" caret="0" scrollPosition="0|0" />
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:Setup/f:CreateScorecard.aspx.cs" caret="0" scrollPosition="0|0" />
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:Setup/f:Page Template.aspx" caret="0" scrollPosition="0|0" />
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:Setup/f:ViewIS.aspx.cs" caret="0" scrollPosition="0|0" />
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:common/f:iMaster.master.cs" caret="0" scrollPosition="0|0" />
+      <File id="99217D17-A666-4F5A-8210-D3D2F795F379/d:Setup/f:CreateScorecardDB.cs" caret="0" scrollPosition="0|0" />
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:App_Code/f:Web.config" caret="1830" scrollPosition="0|0" />
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:styles/f:iScoreStyle.css" caret="1055" scrollPosition="0|51" />
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:common/f:iMaster.master" caret="0" scrollPosition="0|0" />
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:App_Themes/d:ControlSkin/f:ControlSkin.skin" caret="132" scrollPosition="0|0" />
+      <File id="99217D17-A666-4F5A-8210-D3D2F795F379/d:Setup/f:SystemManagerDB.cs" caret="855" scrollPosition="0|0" />
+      <File id="7603342D-ADFC-4726-8DEF-DF943C2BF9F8/d:CAS/f:ScoreMasterBL.cs" caret="438" scrollPosition="0|0" />
+      <File id="7603342D-ADFC-4726-8DEF-DF943C2BF9F8/d:Setup/f:LoginManager.cs" caret="149" scrollPosition="0|0" />
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:Setup/f:Login.aspx" caret="520" scrollPosition="0|0" />
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:CAS/f:OrdinateRating.aspx" caret="0" scrollPosition="0|0" />
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:Setup/f:Login.aspx.cs" caret="2274" scrollPosition="0|12" />
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:Setup/f:OrganizationRole.aspx" caret="0" scrollPosition="0|0" />
+      <File id="99217D17-A666-4F5A-8210-D3D2F795F379/d:Setup/f:LoginManagerDB.cs" caret="118" scrollPosition="0|0" />
+      <File id="99217D17-A666-4F5A-8210-D3D2F795F379/d:Setup/f:ApplicationUser.Designer.cs" caret="67100" scrollPosition="0|0" />
+      <File id="99217D17-A666-4F5A-8210-D3D2F795F379/d:Setup/f:AppUser.Designer.cs" caret="458" scrollPosition="0|0" />
+      <File id="7603342D-ADFC-4726-8DEF-DF943C2BF9F8/d:Setup/f:AppUserBL.cs" caret="5357" scrollPosition="0|15" />
+      <File id="7603342D-ADFC-4726-8DEF-DF943C2BF9F8/d:Setup/f:LocationBL.cs" caret="1102" scrollPosition="0|0" />
+      <File id="EC0A287D-5176-4D2F-946E-A5962E32777D/d:Setup/f:ApplicationUser.aspx" caret="0" scrollPosition="0|0" />
+    </RecentFiles>
+  </EditorManager>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@System.Web.UI">
+      <Item value="MasterPage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MsgColl+Msg">
+      <Item value="PageInfoScorecardTypes" priority="0" />
+      <Item value="PageInfoPeriod" priority="0" />
+      <Item value="PageInfoOrgHierarchy" priority="0" />
+      <Item value="PageinfoRoleCompetency" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TreeView">
+      <Item value="SelectedNode" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TreeNode">
+      <Item value="Depth" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:int">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Data.CAS.RoleCompTableAdapters.RoleCompetencyTableAdapter">
+      <Item value="GetRoleCompetency" priority="0" />
+      <Item value="GetRoleCompetencyForRole" priority="0" />
+      <Item value="GetRoleCompetencybyId" priority="0" />
+      <Item value="Delete" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Data.CAS.RoleComp.RoleCompetencyRow">
+      <Item value="RoleCompetencyId" priority="0" />
+      <Item value="OrgRoleId" priority="0" />
+      <Item value="CompetencyId" priority="0" />
+      <Item value="RatingMasterId" priority="0" />
+      <Item value="DesiredRating" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Data.CAS.RoleComp.RoleCompetencyDataTable">
+      <Item value="AddRoleCompetencyRow" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Business">
+      <Item value="CAS" priority="1" />
+      <Item value="Setup" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="Sort" priority="0" />
+      <Item value="Rows" priority="0" />
+      <Item value="DataSource" priority="1" />
+      <Item value="DataBind" priority="1" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="SelectedItem" priority="3" />
+      <Item value="Items" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItem">
+      <Item value="Value" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MsgColl.MsgHash">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpServerUtility">
+      <Item value="Transfer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@UserAutherization+UserType">
+      <Item value="SuperUser" priority="0" />
+      <Item value="Administrator" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Business.Setup.LoginManager">
+      <Item value="GetSystemRole" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ObjectDataSource">
+      <Item value="Update" priority="0" />
+      <Item value="SelectMethod" priority="1" />
+      <Item value="SelectParameters" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Data.Setup.OrgRoleTableAdapters.OrgRoleTableAdapter">
+      <Item value="GetRoleByUserID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Business.Setup.OrgRoleBL">
+      <Item value="GetOrgRoleByUserId" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Rows" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRow">
+      <Item value="CancelEdit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:object">
+      <Item value="ToString" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRow">
+      <Item value="Cells" priority="0" />
+      <Item value="RowType" priority="0" />
+      <Item value="FindControl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableCell">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Data">
+      <Item value="CAS" priority="1" />
+      <Item value="Setup" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Data.CAS.ScoreMasterTableAdapters.ScoreMasterTableAdapter">
+      <Item value="GetScoreMaster" priority="0" />
+      <Item value="GetScoreMasterbyId" priority="0" />
+      <Item value="GetScoreMasterByAppUserId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable&lt;int&gt;">
+      <Item value="HasValue" priority="1" />
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Data.CAS.ScoreMaster.ScoreMasterRow">
+      <Item value="SetMasterPhaseIdNull" priority="0" />
+      <Item value="SetScoreStatusIdNull" priority="0" />
+      <Item value="ScoreStatusId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Business.CAS.ScoreMasterBL">
+      <Item value="AddScoreMaster" priority="0" />
+      <Item value="CheckifUserExistsinScoreMaster" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Data.CAS.ScoreDetailTableAdapters.ScoreDetailTableAdapter">
+      <Item value="GetScoreDetailsByScoreMasterId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Data.CAS.ScoreDetail.ScoreDetailRow">
+      <Item value="SelfRating" priority="0" />
+      <Item value="SetSelfRatingNull" priority="0" />
+      <Item value="OrdinateRating" priority="0" />
+      <Item value="SetOrdinateRatingNull" priority="0" />
+      <Item value="AgreedRating" priority="0" />
+      <Item value="SetAgreedRatingNull" priority="0" />
+      <Item value="CompetencyId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Business.CAS.ScoreDetailBL">
+      <Item value="AddScoreDetail" priority="0" />
+      <Item value="GetScoreDetailsByScoreMasterId" priority="0" />
+      <Item value="isUserRatedByOrdinate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Focus" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ParameterCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Enabled" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRowEventArgs">
+      <Item value="Row" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Data.Setup.AppUserTableAdapters.AppUserTableAdapter">
+      <Item value="GetSubordinates" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ComponentModel.DataObjectMethodType">
+      <Item value="Select" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="IsPostBack" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItemCollection">
+      <Item value="RemoveAt" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlDataAdapter">
+      <Item value="DeleteCommand" priority="0" />
+      <Item value="InsertCommand" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataSet">
+      <Item value="Tables" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Data.Setup.CreateScorecardDB">
+      <Item value="CreateIntegratedScorecard" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Business.Setup.CreateScorecardBL">
+      <Item value="createSccorecard" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Data.Setup">
+      <Item value="ScorecardTableAdapters" priority="0" />
+      <Item value="AppUserTableAdapters" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Data.Setup.Scorecard">
+      <Item value="ScorecardDetailDataTable" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Data.Setup.ScorecardTableAdapters.ScorecardDetailTableAdapter">
+      <Item value="GetBSScorecardForUser" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

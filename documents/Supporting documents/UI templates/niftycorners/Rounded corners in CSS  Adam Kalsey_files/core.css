@@ -1,0 +1,220 @@
+@import url( /styles/layout.css );
+@import url( /styles/menu.css );
+@import url( /styles/print.css );
+@import url( /styles/blog.css );
+BODY {
+	PADDING-RIGHT: 0px; BORDER-TOP: #ce0000 5px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 101% "Lucida Grande", Geneva, Arial, Helvetica, Verdana, sans-serif; COLOR: #333; PADDING-TOP: 0px; HEIGHT: 100%
+}
+#header {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; COLOR: #fff; PADDING-TOP: 0px; BACKGROUND-COLOR: #7d8587
+}
+#header P {
+	COLOR: #fff
+}
+P {
+	FONT-SIZE: 0.7em; LINE-HEIGHT: 145%
+}
+TD {
+	FONT-SIZE: 0.7em; LINE-HEIGHT: 145%
+}
+LI {
+	FONT-SIZE: 0.7em; LINE-HEIGHT: 145%
+}
+BLOCKQUOTE {
+	FONT-SIZE: 0.7em; LINE-HEIGHT: 145%
+}
+DL {
+	FONT-SIZE: 0.7em; LINE-HEIGHT: 145%
+}
+PRE {
+	FONT-SIZE: 0.7em; LINE-HEIGHT: 145%
+}
+LI P {
+	FONT-SIZE: 1em
+}
+BLOCKQUOTE P {
+	FONT-SIZE: 1em
+}
+H1.title {
+	FONT-SIZE: 1.1em; COLOR: #ff8f00
+}
+H1 {
+	MARGIN-TOP: 1.5em; FONT: 1.2em "Trebuchet MS", Trebuchet, Arial, Helvetica, sans-serif; COLOR: #2b77af
+}
+H2 {
+	MARGIN-TOP: 1.3em; FONT: 1.1em "Trebuchet MS", Trebuchet, Arial, Helvetica, sans-serif; COLOR: #000
+}
+H3 {
+	MARGIN: 1.5em 0px 0px; FONT: bold 1em "Trebuchet MS", Trebuchet, Arial, Helvetica, sans-serif; COLOR: #666
+}
+H3 A {
+	COLOR: #666; BORDER-TOP-STYLE: none! important; BORDER-RIGHT-STYLE: none! important; BORDER-LEFT-STYLE: none! important; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none! important
+}
+H3 A:hover {
+	COLOR: #000! important; TEXT-DECORATION: underline
+}
+H4 {
+	MARGIN: 1.5em 0px 0px; FONT: 1.2em "Trebuchet MS", Trebuchet, Arial, Helvetica, sans-serif
+}
+UL LI {
+	PADDING-LEFT: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: square
+}
+BLOCKQUOTE {
+	BORDER-LEFT: #a5aec5 2px solid; BORDER-BOTTOM: #fff 1px solid
+}
+BLOCKQUOTE P {
+	MARGIN-BOTTOM: 1em
+}
+CODE {
+	COLOR: #c33; FONT-FAMILY: "Courier New", Courier, monospace
+}
+PRE {
+	COLOR: #c33; FONT-FAMILY: "Courier New", Courier, monospace
+}
+PRE {
+	OVERFLOW: scroll; LINE-HEIGHT: 140%
+}
+ACRONYM {
+	CURSOR: help; BORDER-BOTTOM: #666 1px dotted
+}
+abbr {
+	CURSOR: help; BORDER-BOTTOM: #666 1px dotted
+}
+CITE {
+	DISPLAY: block; TEXT-ALIGN: right
+}
+.error {
+	FONT-WEIGHT: bold; COLOR: #cc0000
+}
+.print {
+	DISPLAY: none
+}
+.whitebox {
+	BORDER-RIGHT: silver 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: silver 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: silver 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: silver 1px solid
+}
+.graybox {
+	BORDER-RIGHT: silver 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: silver 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: silver 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: silver 1px solid
+}
+ HTML .whitebox {
+	PADDING-LEFT: 15px
+}
+.whitebox P {
+	MARGIN: 0.3em 0px
+}
+.graybox P {
+	MARGIN: 0.3em 0px
+}
+.graybox {
+	BACKGROUND-COLOR: #e9e9e9
+}
+.smaller {
+	FONT-SIZE: 0.65em
+}
+.photo {
+	BORDER-RIGHT: #000 1px solid; BORDER-TOP: #000 1px solid; BORDER-LEFT: #000 1px solid; BORDER-BOTTOM: #000 1px solid
+}
+#about {
+	COLOR: #666
+}
+.bread {
+	DISPLAY: none
+}
+.breadcrumb {
+	DISPLAY: none
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#body A:link {
+	BORDER-BOTTOM: #dfdfdf 1px solid; TEXT-DECORATION: none
+}
+#body A:visited {
+	BORDER-BOTTOM: #dfdfdf 1px solid; TEXT-DECORATION: none
+}
+#rtcol {
+	COLOR: #333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+#rtcol LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0.25em 0px 1em; FONT: 1.2em "Trebuchet MS", Trebuchet, Arial, Helvetica, sans-serif; COLOR: #3c7dc4; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#rtcol A {
+	COLOR: #2b77af; BORDER-TOP-STYLE: none! important; BORDER-RIGHT-STYLE: none! important; BORDER-LEFT-STYLE: none! important; BORDER-BOTTOM-STYLE: none! important
+}
+.hr {
+	DISPLAY: none
+}
+.ownercomment {
+	BORDER-TOP: #cccfc2 2px solid; BORDER-BOTTOM: #cccfc2 2px solid; BACKGROUND-COLOR: #ecefe0
+}
+.footnote H3 {
+	PADDING-RIGHT: 0px; BORDER-TOP: #9f9f9f 4px solid; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 1em; MARGIN-BOTTOM: 0.5em; PADDING-BOTTOM: 0.25em; COLOR: #000; PADDING-TOP: 0.25em; BORDER-BOTTOM: #9f9f9f 1px solid
+}
+.footnote P {
+	FONT-SIZE: 0.8em; MARGIN: 0.2em 0px; COLOR: #666
+}
+.footnote DL {
+	FONT-SIZE: 0.8em; MARGIN: 0.2em 0px; COLOR: #666
+}
+.footnote DT {
+	MARGIN-TOP: 0.5em
+}
+.footnote A {
+	COLOR: #333
+}
+.sueme {
+	FONT-SIZE: 0.8em; COLOR: #999
+}
+#secblog .linecomment {
+	COLOR: #690
+}
+#secblog .blockcomment {
+	COLOR: #690
+}
+#secblog .prepro {
+	COLOR: #0000bb
+}
+#secblog .quote {
+	COLOR: #dd0000
+}
+#secblog .category1 {
+	COLOR: #007700
+}
+#secblog .category2 {
+	COLOR: #0000bb
+}
+#secblog .category3 {
+	COLOR: #0000bb
+}
+#secblog PRE {
+	BORDER-RIGHT: silver 1px solid; BORDER-TOP: silver 1px solid; OVERFLOW: auto; BORDER-LEFT: silver 1px solid; BORDER-BOTTOM: silver 1px solid
+}
+.textbox {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT: x-small sans-serif; BORDER-LEFT: black 1px solid; COLOR: #000099; BORDER-BOTTOM: black 1px solid
+}
+.button {
+	BORDER-RIGHT: gray 1px solid; BORDER-TOP: white 1px solid; FONT: xx-small Verdana, Geneva, Arial, Helvetica, sans-serif; BORDER-LEFT: white 1px solid; BORDER-BOTTOM: gray 1px solid; BACKGROUND-COLOR: #d9d9d9
+}
+.buttonbold {
+	BORDER-RIGHT: gray 1px solid; BORDER-TOP: white 1px solid; FONT: xx-small Verdana, Geneva, Arial, Helvetica, sans-serif; BORDER-LEFT: white 1px solid; BORDER-BOTTOM: gray 1px solid; BACKGROUND-COLOR: #d9d9d9
+}
+.buttonbold {
+	FONT-WEIGHT: bold
+}
+.formlayout {
+	WIDTH: 100px
+}
+.inputform {
+	BORDER-RIGHT: gray 1px solid; BORDER-TOP: gray 1px solid; FONT: xx-small Verdana, Arial, Helvetica, sans-serif; BORDER-LEFT: gray 1px solid; BORDER-BOTTOM: gray 1px solid
+}
+.search {
+	BORDER-RIGHT: gray 1px solid; BORDER-TOP: gray 1px solid; FONT: xx-small Verdana, Arial, Helvetica, sans-serif; BORDER-LEFT: gray 1px solid; BORDER-BOTTOM: gray 1px solid
+}
+FORM.contact INPUT.text {
+	BORDER-RIGHT: gray 1px solid; BORDER-TOP: gray 1px solid; FONT: x-small Verdana, Geneva, Arial, Helvetica, sans-serif; BORDER-LEFT: gray 1px solid; WIDTH: 315px; BORDER-BOTTOM: gray 1px solid
+}
+FORM.contact TEXTAREA {
+	BORDER-RIGHT: gray 1px solid; BORDER-TOP: gray 1px solid; FONT: x-small Verdana, Geneva, Arial, Helvetica, sans-serif; BORDER-LEFT: gray 1px solid; WIDTH: 400px; BORDER-BOTTOM: gray 1px solid
+}
+.box {
+	BORDER-RIGHT: #314584 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #314584 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; BORDER-LEFT: #314584 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #314584 1px solid; BACKGROUND-COLOR: #dcdcdc
+}

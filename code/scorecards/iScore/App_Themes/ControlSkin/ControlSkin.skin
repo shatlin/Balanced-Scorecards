@@ -1,0 +1,6 @@
+<asp:GridView CssClass="gvHeaderRow" BorderWidth=0 runat="server" Width="950px" BackImageUrl="/images/la.jpg">
+  <HeaderStyle CssClass="gvHeaderRow" BorderWidth=0 ForeColor=white BackColor="#92bed7" Font-Names="Calibri" font-size= "10pt" Height="25px" />
+  <RowStyle BorderWidth=0 BackColor="#d3e6f5" HorizontalAlign="Center" font-size= "9pt" Font-Names="Calibri"/>
+  <EditRowStyle CssClass="gvHeaderRow" HorizontalAlign="Center" BorderWidth=0 BackColor="#d3e6f5"  font-size= "9pt" Font-Names="Calibri"/>
+  <FooterStyle HorizontalAlign="Center" BorderWidth=0 ForeColor=white BackColor="#d3e6f5"  font-size= "9pt" Font-Names="Calibri"/>
+</asp:GridView>

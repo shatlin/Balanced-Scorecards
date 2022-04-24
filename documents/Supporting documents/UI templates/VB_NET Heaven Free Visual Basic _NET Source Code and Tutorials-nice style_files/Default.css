@@ -1,0 +1,750 @@
+BODY {
+	MARGIN: 0px; VERTICAL-ALIGN: top
+}
+TD {
+	FONT-SIZE: 8pt; VERTICAL-ALIGN: top; FONT-FAMILY: verdana
+}
+.switchcontent {
+	DISPLAY: block
+}
+.DefaultTableStyle {
+	VERTICAL-ALIGN: top; WIDTH: 100%
+}
+.LeftBar {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; VERTICAL-ALIGN: top; WIDTH: 165px; BACKGROUND-COLOR: #ebebeb
+}
+.ControlFooterCustomLink {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 10px; TEXT-ALIGN: right
+}
+.PaddingFive {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.Separator {
+	HEIGHT: 6px
+}
+.RightBar {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; VERTICAL-ALIGN: top; WIDTH: 22%
+}
+.HomeCenter {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 6px; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+.PageRightHeading {
+	PADDING-RIGHT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 14pt; COLOR: #696969; FONT-FAMILY: Verdana; TEXT-ALIGN: right
+}
+.PageHeadingGreen {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; VERTICAL-ALIGN: middle; COLOR: #006600; FONT-FAMILY: Verdana; HEIGHT: 24px; TEXT-ALIGN: right
+}
+.PageMidTable {
+	BORDER-RIGHT: 1px outset; BORDER-TOP: 1px outset; BORDER-LEFT: 1px outset; WIDTH: 95%; BORDER-BOTTOM: 1px outset; BORDER-COLLAPSE: collapse; TEXT-ALIGN: left
+}
+.CommonTextBoxStyle {
+	BORDER-RIGHT: #11518f 1px solid; BORDER-TOP: #11518f 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: #11518f 1px solid; COLOR: #11518f; BORDER-BOTTOM: #11518f 1px solid; FONT-FAMILY: Verdana
+}
+.ControlMainStyle {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; WIDTH: 100%; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.ControlLeftHeaderBackground {
+	FONT-WEIGHT: bold; COLOR: white; PADDING-TOP: 4px; BORDER-BOTTOM: #336699 1px solid; HEIGHT: 24px; BACKGROUND-COLOR: #3971ac; TEXT-DECORATION: none
+}
+.ControlLeftBorderStyle {
+	BORDER-RIGHT: #336699 1px solid; BORDER-TOP: #336699 1px solid; MARGIN-BOTTOM: 6px; BORDER-LEFT: #336699 1px solid; BORDER-BOTTOM: #336699 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: white
+}
+A.ControlTitleLeftBar:active {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: middle; COLOR: white; TEXT-DECORATION: none
+}
+A.ControlTitleLeftBar:visited {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: middle; COLOR: white; TEXT-DECORATION: none
+}
+A.ControlTitleLeftBar:link {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: middle; COLOR: white; TEXT-DECORATION: none
+}
+A.ControlTitleLeftBar:hover {
+	PADDING-LEFT: 2px; VERTICAL-ALIGN: middle; COLOR: #000000
+}
+.BulletIconLeftBar {
+	BACKGROUND-IMAGE: url(/App_Themes/CSharp/images/BulletIcons/bullet_blue.gif); WIDTH: 10px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 10px
+}
+.ArrowIconRightBar {
+	BACKGROUND-IMAGE: url(/App_Themes/CSharp/images/Arrowgreen.gif); WIDTH: 10px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 10px
+}
+A.ControlTitleWidth {
+	VERTICAL-ALIGN: middle; WIDTH: 50%
+}
+.ControlArrowWidth {
+	WIDTH: 25pt
+}
+A.ControlTitleRightBar:active {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.ControlTitleRightBar:visited {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.ControlTitleRightBar:link {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.ControlTitleRightBar:hover {
+	PADDING-LEFT: 2px; VERTICAL-ALIGN: middle; COLOR: gray
+}
+A.ControlTitleMidBar:active {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.ControlTitleMidBar:visited {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.ControlTitleMidBar:link {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.ControlTitleMidBar:hover {
+	PADDING-LEFT: 2px; VERTICAL-ALIGN: middle; COLOR: gray
+}
+.ControlMidHeaderBackground {
+	FONT-WEIGHT: bold; COLOR: #ff6600; PADDING-TOP: 4px; BORDER-BOTTOM: #ff6600 1px solid; HEIGHT: 24px; BACKGROUND-COLOR: #ffc69f
+}
+.ControlMidBorderStyle {
+	BORDER-RIGHT: #ff6600 1px solid; BORDER-TOP: #ff6600 1px solid; MARGIN-BOTTOM: 6px; BORDER-LEFT: #ff6600 1px solid; BORDER-BOTTOM: #ff6600 1px solid; BORDER-COLLAPSE: collapse
+}
+.ControlRightHeaderBackground {
+	FONT-WEIGHT: bold; COLOR: #ff6600; PADDING-TOP: 4px; BORDER-BOTTOM: #ff6600 1px solid; HEIGHT: 24px; BACKGROUND-COLOR: #ffc69f
+}
+.ControlRightBorderStyle {
+	BORDER-RIGHT: #ff6600 1px solid; BORDER-TOP: #ff6600 1px solid; MARGIN-BOTTOM: 6px; BORDER-LEFT: #ff6600 1px solid; BORDER-BOTTOM: #ff6600 1px solid; BORDER-COLLAPSE: collapse
+}
+.ArticleIcon {
+	BACKGROUND-IMAGE: url(/App_Themes/CSharp/images/ArticleIcons/ArticleIcon_orange.gif); WIDTH: 16px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 16px
+}
+.BulletIcon {
+	BACKGROUND-IMAGE: url(/App_Themes/CSharp/images/BulletIcons/bullet_orange.gif); WIDTH: 10px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 10px
+}
+.pagingBackground {
+	BORDER-TOP: #ff6600 1px solid; WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+.CommonButtonStyle {
+	BORDER-RIGHT: #bbd9f0 1px outset; BORDER-TOP: #bbd9f0 1px outset; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BORDER-LEFT: #bbd9f0 1px outset; COLOR: black; BORDER-BOTTOM: #bbd9f0 1px outset; FONT-FAMILY: verdana; BACKGROUND-COLOR: #e6f0f9
+}
+.VideoIcon {
+	BACKGROUND-IMAGE: url(/App_Themes/CSharp/images/ArticleIcons/VideoIcon.gif); WIDTH: 16px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 16px
+}
+A.PagerLinkStyle {
+	BORDER-RIGHT: #e6e6e6 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #e6e6e6 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: normal; PADDING-BOTTOM: 1px; MARGIN: 0px 2px; VERTICAL-ALIGN: top; BORDER-LEFT: #e6e6e6 1px solid; COLOR: #0066a7; PADDING-TOP: 1px; BORDER-BOTTOM: #e6e6e6 1px solid; TEXT-DECORATION: none
+}
+A.PagerLinkStyle:hover {
+	BORDER-RIGHT: #b7d8ee 1px solid; BORDER-TOP: #b7d8ee 1px solid; BORDER-LEFT: #b7d8ee 1px solid; BORDER-BOTTOM: #b7d8ee 1px solid; BACKGROUND-COLOR: #d2eaf6
+}
+A.PagerLinkSelected {
+	BORDER-RIGHT: #e6e6e6 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #e6e6e6 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; MARGIN: 0px 2px; BORDER-LEFT: #e6e6e6 1px solid; COLOR: #0066a7; PADDING-TOP: 2px; BORDER-BOTTOM: #e6e6e6 1px solid; BACKGROUND-COLOR: #d2eaf6
+}
+A.LinkNormalStyle:active {
+	COLOR: #3366cc; TEXT-DECORATION: none
+}
+A.LinkNormalStyle:visited {
+	COLOR: #3366cc; TEXT-DECORATION: none
+}
+A.LinkNormalStyle:link {
+	COLOR: #3366cc; TEXT-DECORATION: none
+}
+A.LinkNormalStyle:hover {
+	COLOR: green
+}
+.TipLinkNormalStyle {
+	COLOR: #660066; TEXT-DECORATION: none
+}
+.TipLinkNormalStyle:visited {
+	COLOR: #660066; TEXT-DECORATION: none
+}
+.TipLinkNormalStyle:link {
+	COLOR: #660066; TEXT-DECORATION: none
+}
+.TipLinkNormalStyle:hover {
+	COLOR: green
+}
+A.LinkBoldStyle:active {
+	FONT-WEIGHT: bold; COLOR: #3366cc; TEXT-DECORATION: none
+}
+A.LinkBoldStyle:visited {
+	FONT-WEIGHT: bold; COLOR: #3366cc; TEXT-DECORATION: none
+}
+A.LinkBoldStyle:link {
+	FONT-WEIGHT: bold; COLOR: #3366cc; TEXT-DECORATION: none
+}
+A.LinkBoldStyle:hover {
+	COLOR: green
+}
+.LinkFooterStyle {
+	COLOR: black; TEXT-DECORATION: none
+}
+.LinkFooterStyle:hover {
+	TEXT-DECORATION: underline
+}
+.RightBarHomeImageStyle {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 75px; HEIGHT: 90px; BORDER-RIGHT-WIDTH: 0px
+}
+.SearchBackgroundColor {
+	BACKGROUND-IMAGE: url(/App_Themes/CSharp/Images/search.gif); MARGIN: 1px 0px 4px; BACKGROUND-REPEAT: repeat-x; HEIGHT: 34px
+}
+.HeaderLinkBackground {
+	FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(/App_Themes/CSharp/Images/header.gif); VERTICAL-ALIGN: middle; COLOR: white; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Tahoma; HEIGHT: 25px
+}
+A.HeaderLink:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.HeaderLink:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.HeaderLink:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.HeaderLink:hover {
+	COLOR: silver
+}
+A.HeaderLinkConsulting:active {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; COLOR: #fff499; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+A.HeaderLinkConsulting:visited {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; COLOR: #fff499; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+A.HeaderLinkConsulting:link {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; COLOR: #fff499; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+A.HeaderLinkConsulting:hover {
+	COLOR: #ffdf81
+}
+.CommonButtonStyle {
+	BORDER-RIGHT: #336699 1px outset; BORDER-TOP: #336699 1px outset; FONT-SIZE: 8pt; BORDER-LEFT: #336699 1px outset; COLOR: black; BORDER-BOTTOM: #336699 1px outset; FONT-FAMILY: verdana; BACKGROUND-COLOR: #9ebede
+}
+.CommonGridButtonStyle {
+	FONT-SIZE: 7pt; COLOR: black; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: verdana
+}
+.GraySeparator {
+	BACKGROUND-IMAGE: url(/App_Themes/CSharp/images/DottedLine.gif); BACKGROUND-REPEAT: repeat-x
+}
+.PollTitle {
+	PADDING-LEFT: 4pt; FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600
+}
+.PollQuestion {
+	PADDING-LEFT: 6pt; FONT-WEIGHT: bold; FONT-SIZE: 8pt
+}
+.LinkOrangeBold {
+	FONT-WEIGHT: bold; COLOR: orange; TEXT-DECORATION: none
+}
+.MonthlyAuthorHeader {
+	FONT-WEIGHT: bold; PADDING-TOP: 3px; BORDER-BOTTOM: #daa520 1px solid; HEIGHT: 24px; BACKGROUND-COLOR: #f0e68c
+}
+A.MonthlyAuthorLink:active {
+	FONT-WEIGHT: bold; COLOR: #8b5413; TEXT-DECORATION: none
+}
+A.MonthlyAuthorLink:visited {
+	FONT-WEIGHT: bold; COLOR: #8b5413; TEXT-DECORATION: none
+}
+A.MonthlyAuthorLink:link {
+	FONT-WEIGHT: bold; COLOR: #8b5413; TEXT-DECORATION: none
+}
+.MonthlyTopAuthorBorderStyle {
+	BORDER-RIGHT: #daa520 1px solid; BORDER-TOP: #daa520 1px solid; MARGIN-BOTTOM: 6px; BORDER-LEFT: #daa520 1px solid; BORDER-BOTTOM: #daa520 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: white
+}
+.FeaturedAuthorHeader {
+	FONT-WEIGHT: bold; PADDING-TOP: 3px; BORDER-BOTTOM: #ff3300 1px solid; HEIGHT: 24px; BACKGROUND-COLOR: #ffcaca
+}
+.FeaturedAuthorBorderStyle {
+	BORDER-RIGHT: #ff3300 1px solid; BORDER-TOP: #ff3300 1px solid; MARGIN-BOTTOM: 6px; BORDER-LEFT: #ff3300 1px solid; BORDER-BOTTOM: #ff3300 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: white
+}
+.AuthorDetailHeader {
+	BORDER-RIGHT: #ff3300 1px solid; BORDER-TOP: #ff3300 1px solid; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; BORDER-LEFT: #ff3300 1px solid; COLOR: #800000; BORDER-BOTTOM: #ff3300 1px solid; HEIGHT: 24px; BACKGROUND-COLOR: #ffb380
+}
+.AuthorDetailBorder {
+	BORDER-RIGHT: #ff3300 1px solid; BORDER-TOP: #ff3300 0px solid; BORDER-LEFT: #ff3300 1px solid; BORDER-BOTTOM: #ff3300 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: white
+}
+.pageSelected {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: black 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; BORDER-LEFT: black 1px solid; COLOR: black; PADDING-TOP: 0px; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: white; TEXT-DECORATION: none
+}
+.FeaturedArticleSeparator {
+	BACKGROUND-COLOR: #ffcaca
+}
+.FeaturedArticleContainerTableBorder {
+	BORDER-RIGHT: #ff3300 1px solid; BORDER-TOP: #ff3300 1px solid; BORDER-LEFT: #ff3300 1px solid; BORDER-BOTTOM: #ff3300 1px solid; BORDER-COLLAPSE: collapse
+}
+.FeaturedArticleHeader {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; COLOR: #800000; BORDER-BOTTOM: #ff3300 1px solid; HEIGHT: 19px; BACKGROUND-COLOR: #ffcaca
+}
+A.FeaturedArticleLink:active {
+	COLOR: #800000; TEXT-DECORATION: none
+}
+A.FeaturedArticleLink:visited {
+	COLOR: #800000; TEXT-DECORATION: none
+}
+A.FeaturedArticleLink:link {
+	COLOR: #800000; TEXT-DECORATION: none
+}
+.BreakingNewsSeparator {
+	BACKGROUND-COLOR: #bbffbb
+}
+.BreakingContainerTableBorder {
+	BORDER-RIGHT: #009900 1px solid; BORDER-TOP: #009900 1px solid; BORDER-LEFT: #009900 1px solid; BORDER-BOTTOM: #009900 1px solid; BORDER-COLLAPSE: collapse
+}
+.BreakingNewsHeader {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; COLOR: #006600; BORDER-BOTTOM: #009900 1px solid; HEIGHT: 19px; BACKGROUND-COLOR: #bbffbb
+}
+A.BreakingNewsLink:active {
+	COLOR: #006600; TEXT-DECORATION: none
+}
+A.BreakingNewsLink:visited {
+	COLOR: #006600; TEXT-DECORATION: none
+}
+A.BreakingNewsLink:link {
+	COLOR: #006600; TEXT-DECORATION: none
+}
+.TableMargin {
+	MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px; HEIGHT: 145px
+}
+.MyAccountNumbers {
+	FONT-SIZE: 8pt; COLOR: #3366cc; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.HeaderUpperTable {
+	BORDER-RIGHT: #3366cc 1px solid; BORDER-TOP: #3366cc 1px solid; BORDER-LEFT: #3366cc 1px solid; WIDTH: 100%; BORDER-BOTTOM: #3366cc 1px solid; HEIGHT: 16px
+}
+.HeaderUpperBackground {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px; BACKGROUND-COLOR: #cce6ff
+}
+.HeaderUpperLinks {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana
+}
+.FooterBackground {
+	BACKGROUND-IMAGE: url(/App_Themes/CSharp/Images/FooterBackground.gif); BACKGROUND-REPEAT: repeat-y
+}
+.FooterBottomTable {
+	BORDER-RIGHT: #ff6600 1px solid; BORDER-TOP: #ff6600 1px solid; BORDER-LEFT: #ff6600 1px solid; WIDTH: 100%; BORDER-BOTTOM: #ff6600 1px solid; HEIGHT: 30px
+}
+.FooterBottomBackground {
+	BACKGROUND-COLOR: #ffb482
+}
+.FooterBottomLinks {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana
+}
+.ArticlePublisherHeading {
+	PADDING-RIGHT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 14pt; COLOR: #666666
+}
+.ArticlePublisherBackgroundWhite {
+	BORDER-RIGHT: gray 1px solid; BORDER-TOP: gray 1px solid; BORDER-LEFT: gray 1px solid; WIDTH: 100%; BORDER-BOTTOM: gray 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: white
+}
+.ArticlePublisherSubHeading {
+	PADDING-LEFT: 3pt; FONT-WEIGHT: bold; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; COLOR: navy; FONT-FAMILY: verdana; BACKGROUND-COLOR: #e8edfa
+}
+.ArticlePublisherBottomLine {
+	BACKGROUND-COLOR: #a1a1a1
+}
+.ArticlePublisherControlHeading {
+	PADDING-LEFT: 5pt; FONT-WEIGHT: bold
+}
+.PaddingLeft5 {
+	PADDING-LEFT: 5px
+}
+.BackGroundSubHeading {
+	BORDER-RIGHT: #cdcdcd 1px solid; BORDER-TOP: #cdcdcd 1px solid; BORDER-LEFT: #cdcdcd 1px solid; WIDTH: 100%; BORDER-BOTTOM: #cdcdcd 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #e8edfa
+}
+.SideHeading {
+	PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 10px; TEXT-ALIGN: left
+}
+.SideHeadingAlignRight {
+	PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 10px; TEXT-ALIGN: right
+}
+.SubmissionGuidlineLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff6600; TEXT-DECORATION: none
+}
+.SubmissionGuidlineLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+.SubmissionGuidlineHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: verdana
+}
+.LeftHeader {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: #3971ac
+}
+.PageBorder {
+	BORDER-RIGHT: #4682b4 1px solid; BORDER-TOP: #4682b4 1px solid; BORDER-LEFT: #4682b4 1px solid; BORDER-BOTTOM: #4682b4 1px solid
+}
+.ArticleTopHeadingBG {
+	BORDER-RIGHT: #c3c3c2 1pt solid; BORDER-LEFT: #c3c3c2 1pt solid; BACKGROUND-COLOR: #e8edfa
+}
+.ArticleBG {
+	BACKGROUND-COLOR: #c3c3c2
+}
+.ArticleMainHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: 17px
+}
+.ArticleDate {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+.AuthorName {
+	COLOR: olive
+}
+.FontSize8pt {
+	FONT-SIZE: 8pt
+}
+.ArticleHeaderRBoxBG {
+	BORDER-RIGHT: #c3c3c2 1pt solid; WIDTH: 30%; BACKGROUND-COLOR: #e3e3e2
+}
+.VAlignTop {
+	VERTICAL-ALIGN: top
+}
+.VAlignBaseline {
+	VERTICAL-ALIGN: baseline
+}
+.VAlignMiddle {
+	VERTICAL-ALIGN: middle
+}
+.ArticleSideCutTop {
+	BACKGROUND-IMAGE: url(/Images/Articles/headerCorner.gif); WIDTH: 85px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px; BACKGROUND-COLOR: white
+}
+.ArticleSideCutBottom {
+	BACKGROUND-IMAGE: url(/Images/Articles/footerCorner.gif); WIDTH: 85px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px; BACKGROUND-COLOR: white
+}
+.ArticleIconControlLeftBorder {
+	VERTICAL-ALIGN: middle; BORDER-LEFT: #c3c3c2 1pt solid
+}
+.YellowBG {
+	BACKGROUND-COLOR: #f8b858
+}
+A.BlackBoldLink:active {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-DECORATION: none
+}
+A.BlackBoldLink:visited {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-DECORATION: none
+}
+A.BlackBoldLink:link {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-DECORATION: none
+}
+A.BlackBoldLink:hover {
+	TEXT-DECORATION: underline
+}
+.TableReadNPostContainer {
+	BORDER-RIGHT: #11518d 1px solid; BORDER-TOP: #11518d 1px solid; BORDER-LEFT: #11518d 1px solid; BORDER-BOTTOM: #11518d 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: white
+}
+A.BlackLink:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.BlackLink:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.BlackLink:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.BlackLink:hover {
+	TEXT-DECORATION: underline
+}
+.NewThreadBG {
+	PADDING-LEFT: 5px; VERTICAL-ALIGN: middle; HEIGHT: 20px; BACKGROUND-COLOR: #b0c4d6
+}
+.MsgHeading {
+	FONT-STYLE: italic; HEIGHT: 20px; BACKGROUND-COLOR: #dbdbdb
+}
+.HeaderAuthorImg1C {
+	BACKGROUND-IMAGE: url(/Images/Articles/headimg.gif); BACKGROUND-REPEAT: no-repeat; HEIGHT: 17px
+}
+.HeaderAuthorImg2C {
+	FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: white; BACKGROUND-COLOR: #11518d
+}
+.HeaderAuthorImg3C {
+	BACKGROUND-IMAGE: url(/Images/Articles/headimg_cut.gif); WIDTH: 24px; BACKGROUND-REPEAT: no-repeat
+}
+.ArticleContentMain {
+	BORDER-RIGHT: 1pt groove; PADDING-RIGHT: 0px; BORDER-TOP: 1pt groove; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 1pt groove; WIDTH: 100%; PADDING-TOP: 0px; BORDER-BOTTOM: 1pt groove; BORDER-COLLAPSE: collapse
+}
+.ArticlePage {
+	BORDER-RIGHT: 0pt groove; PADDING-RIGHT: 10pt; BORDER-TOP: 0pt groove; PADDING-LEFT: 10pt; PADDING-BOTTOM: 10pt; BORDER-LEFT: 0pt groove; PADDING-TOP: 10pt; BORDER-BOTTOM: 0pt groove; BORDER-COLLAPSE: collapse
+}
+.ArticleContent {
+	WIDTH: 100%
+}
+.HeaderbadsubmissionImg1C {
+	BACKGROUND-IMAGE: url(/Images/Articles/yellowlft.gif); BACKGROUND-REPEAT: no-repeat; HEIGHT: 17px
+}
+.HeaderbadsubmissionImg2C {
+	FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: white; BACKGROUND-COLOR: #edc229
+}
+.HeaderbadsubmissionImg3C {
+	BACKGROUND-IMAGE: url(/Images/Articles/yellow1rht.gif); WIDTH: 24px; BACKGROUND-REPEAT: no-repeat
+}
+.HeadersupportusImg1C {
+	BACKGROUND-IMAGE: url(/Images/Articles/greenlft.gif); BACKGROUND-REPEAT: no-repeat; HEIGHT: 17px
+}
+.HeadersupportusImg2C {
+	FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: white; BACKGROUND-COLOR: #339966
+}
+.HeadersupportusImg3C {
+	BACKGROUND-IMAGE: url(/Images/Articles/green1rht.gif); WIDTH: 24px; BACKGROUND-REPEAT: no-repeat
+}
+.NotificationMainTable {
+	BORDER-RIGHT: #999966 1px solid; BORDER-TOP: #999966 1px solid; BORDER-LEFT: #999966 1px solid; BORDER-BOTTOM: #999966 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #f5f5f5
+}
+.NotificationLeft {
+	WIDTH: 12%; BACKGROUND-COLOR: #a0c6e5
+}
+A.ReplyReadNPost:active {
+	PADDING-LEFT: 22px; BACKGROUND-IMAGE: url(/Images/Articles/reply.gif); COLOR: black; BACKGROUND-REPEAT: no-repeat; HEIGHT: 18px; TEXT-DECORATION: none
+}
+A.ReplyReadNPost:visited {
+	PADDING-LEFT: 22px; BACKGROUND-IMAGE: url(/Images/Articles/reply.gif); COLOR: black; BACKGROUND-REPEAT: no-repeat; HEIGHT: 18px; TEXT-DECORATION: none
+}
+A.ReplyReadNPost:link {
+	PADDING-LEFT: 22px; BACKGROUND-IMAGE: url(/Images/Articles/reply.gif); COLOR: black; BACKGROUND-REPEAT: no-repeat; HEIGHT: 18px; TEXT-DECORATION: none
+}
+A.ReplyReadNPost:hover {
+	TEXT-DECORATION: underline
+}
+A.PostReadNPost:active {
+	PADDING-LEFT: 22px; BACKGROUND-IMAGE: url(/Images/Articles/post.gif); COLOR: black; BACKGROUND-REPEAT: no-repeat; HEIGHT: 18px; TEXT-DECORATION: none
+}
+A.PostReadNPost:visited {
+	PADDING-LEFT: 22px; BACKGROUND-IMAGE: url(/Images/Articles/post.gif); COLOR: black; BACKGROUND-REPEAT: no-repeat; HEIGHT: 18px; TEXT-DECORATION: none
+}
+A.PostReadNPost:link {
+	PADDING-LEFT: 22px; BACKGROUND-IMAGE: url(/Images/Articles/post.gif); COLOR: black; BACKGROUND-REPEAT: no-repeat; HEIGHT: 18px; TEXT-DECORATION: none
+}
+A.PostReadNPost:hover {
+	TEXT-DECORATION: underline
+}
+.PostBG {
+	BACKGROUND-COLOR: #b0c4d6
+}
+.ReplyBG {
+	BACKGROUND-COLOR: #dbdbdb
+}
+.ReplyDetail {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BACKGROUND-COLOR: #d9edff
+}
+.PostDetail {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BACKGROUND-COLOR: #d9edff
+}
+.ArticleSponsorAdBlock {
+	BORDER-RIGHT: #aaccee 1px solid; BORDER-TOP: #aaccee 1px solid; BORDER-LEFT: #aaccee 1px solid; WIDTH: 336px; BORDER-BOTTOM: #aaccee 1px solid
+}
+.ArticleSponsorAdHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #aaccee; BORDER-BOTTOM: #aaccee 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #ebf3fb; TEXT-ALIGN: center
+}
+A.SponsorLink:active {
+	FONT-WEIGHT: bold; COLOR: #3366cc; TEXT-DECORATION: underline
+}
+A.SponsorLink:visited {
+	FONT-WEIGHT: bold; COLOR: #3366cc; TEXT-DECORATION: underline
+}
+A.SponsorLink:link {
+	FONT-WEIGHT: bold; COLOR: #3366cc; TEXT-DECORATION: underline
+}
+.BlackText {
+	COLOR: black
+}
+.AdLeftbarBorderStyle {
+	BORDER-RIGHT: #dcdcdc 1px solid; BORDER-TOP: #dcdcdc 1px solid; BORDER-LEFT: #dcdcdc 1px solid; BORDER-BOTTOM: #dcdcdc 1px solid; BORDER-COLLAPSE: collapse
+}
+.AdHereLink {
+	PADDING-TOP: 4px; HEIGHT: 15px; BACKGROUND-COLOR: white; TEXT-DECORATION: none
+}
+.groupLinkGreenTableBorder {
+	BORDER-RIGHT: #25b06d 1px solid; BORDER-TOP: #25b06d 0px solid; BORDER-LEFT: #25b06d 1px solid; BORDER-BOTTOM: #25b06d 1px solid; BORDER-COLLAPSE: collapse
+}
+.myAccountGreenBoxHeading {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; VERTICAL-ALIGN: middle; COLOR: black; FONT-FAMILY: Verdana; HEIGHT: 13px; BACKGROUND-COLOR: #25b06d
+}
+.groupLinkOrangeTableBorder {
+	BORDER-RIGHT: #f79235 1px solid; BORDER-TOP: #f79235 0px solid; BORDER-LEFT: #f79235 1px solid; BORDER-BOTTOM: #f79235 1px solid; BORDER-COLLAPSE: collapse
+}
+.myAccountOrangeBoxHeading {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; VERTICAL-ALIGN: middle; COLOR: black; FONT-FAMILY: Verdana; HEIGHT: 26px; BACKGROUND-COLOR: #f79235
+}
+.height18 {
+	HEIGHT: 18px
+}
+.height10 {
+	HEIGHT: 10px
+}
+.groupLinkYellowTableBorder {
+	BORDER-RIGHT: #daa520 1px solid; BORDER-TOP: #daa520 0px solid; BORDER-LEFT: #daa520 1px solid; BORDER-BOTTOM: #daa520 1px solid; BORDER-COLLAPSE: collapse
+}
+.myAccountYellowBoxHeading {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; VERTICAL-ALIGN: middle; COLOR: black; FONT-FAMILY: Verdana; HEIGHT: 26px; BACKGROUND-COLOR: #daa520
+}
+.groupLinkBlueTableBorder {
+	BORDER-RIGHT: #1f5ec3 1px solid; BORDER-TOP: #1f5ec3 0px solid; BORDER-LEFT: #1f5ec3 1px solid; BORDER-BOTTOM: #1f5ec3 1px solid; BORDER-COLLAPSE: collapse
+}
+.myAccountBlueBoxHeading {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; VERTICAL-ALIGN: middle; COLOR: black; FONT-FAMILY: Verdana; HEIGHT: 26px; BACKGROUND-COLOR: #1f5ec3
+}
+.SectionMenu {
+	WIDTH: 100%
+}
+.MenuTableDynamic {
+	BORDER-RIGHT: #8a867a 1px solid; BORDER-TOP: #8a867a 1px solid; BORDER-LEFT: #8a867a 1px solid; WIDTH: 175px; BORDER-BOTTOM: #8a867a 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.StaticMenuStyle {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 8px; PADDING-BOTTOM: 1px; COLOR: #3366cc; PADDING-TOP: 2px; BACKGROUND-COLOR: white
+}
+.StaticHoverStyle {
+	COLOR: blue; BACKGROUND-COLOR: #e2e2e2; TEXT-DECORATION: underline
+}
+.SubMenuStyle {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; WIDTH: 175px; COLOR: #3366cc; PADDING-TOP: 2px; BORDER-BOTTOM: #e2e2e2 1px solid; BACKGROUND-COLOR: white; TEXT-DECORATION: none
+}
+.SubMenuDynamicHoverStyle {
+	WIDTH: 175px; COLOR: blue; BACKGROUND-COLOR: #e2e2e2; TEXT-DECORATION: underline
+}
+.WhyRegisterBulletImg {
+	BACKGROUND-POSITION: center top; BACKGROUND-IMAGE: url(/Images/bullet.gif); BACKGROUND-REPEAT: no-repeat
+}
+.HelpBorder {
+	BORDER-LEFT-COLOR: #cdcdcd; BORDER-BOTTOM-COLOR: #cdcdcd; BORDER-TOP-COLOR: #cdcdcd; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: white; BORDER-RIGHT-COLOR: #cdcdcd
+}
+.CommanSudHeading {
+	PADDING-LEFT: 3pt; FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND: #e8edfa; VERTICAL-ALIGN: middle; COLOR: navy; BORDER-BOTTOM: gray 1px solid; FONT-FAMILY: verdana; HEIGHT: 25px
+}
+A.HeadingSponsorName:active {
+	COLOR: #e98030; TEXT-DECORATION: none
+}
+A.HeadingSponsorName:visited {
+	COLOR: #e98030; TEXT-DECORATION: none
+}
+A.HeadingSponsorName:link {
+	COLOR: #e98030; TEXT-DECORATION: none
+}
+A.HeadingSponsorName:hover {
+	COLOR: #e98030; TEXT-DECORATION: underline
+}
+.NameHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ff6600
+}
+.BackgroundHeading {
+	BORDER-RIGHT: #cdcdcd 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #cdcdcd 1px solid; PADDING-LEFT: 6px; BACKGROUND: #e8edfa; BORDER-LEFT: #cdcdcd 1px solid; PADDING-TOP: 6px; BORDER-BOTTOM: #cdcdcd 1px solid; HEIGHT: 40px
+}
+.ContactNo {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #5385aa
+}
+.DisplaySponsorHeader {
+	PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 13pt; BACKGROUND: #9ebede; VERTICAL-ALIGN: middle; COLOR: white; BORDER-BOTTOM: #336699 1px solid; HEIGHT: 24px
+}
+.DislpayBackground {
+	PADDING-LEFT: 4px; BACKGROUND: #ebebeb; PADDING-TOP: 4px
+}
+.GrayText {
+	COLOR: gray
+}
+.MediaTable {
+	BORDER-RIGHT: #999966 1px solid; BORDER-TOP: #999966 0px solid; BORDER-LEFT: #999966 1px solid; BORDER-BOTTOM: #999966 1px solid; BORDER-COLLAPSE: collapse
+}
+.UserStatsGridHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-BOTTOM-COLOR: dimgray; BORDER-LEFT: dimgray 1px solid; COLOR: white; LINE-HEIGHT: 22pt; FONT-FAMILY: Verdana, Arial; BACKGROUND-COLOR: #999966
+}
+.MediaPlayerWidth {
+	WIDTH: 800px; HEIGHT: 500px
+}
+.PollContainerTableBorder {
+	BORDER-RIGHT: #009900 1px solid; BORDER-TOP: #009900 1px solid; BORDER-LEFT: #009900 1px solid; BORDER-BOTTOM: #009900 1px solid; BORDER-COLLAPSE: collapse
+}
+.PollResultHeader {
+	BORDER-RIGHT: #009900 1px solid; BORDER-TOP: #009900 1px solid; PADDING-LEFT: 14px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; BORDER-LEFT: #009900 1px solid; BORDER-BOTTOM: #009900 1px solid; HEIGHT: 26px; BACKGROUND-COLOR: #bbffbb
+}
+A.PollLink:active {
+	COLOR: #006600; TEXT-DECORATION: none
+}
+A.PollLink:visited {
+	COLOR: #006600; TEXT-DECORATION: none
+}
+A.PollLink:link {
+	COLOR: #006600; TEXT-DECORATION: none
+}
+.PollTitle {
+	PADDING-LEFT: 4pt; FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ff6600
+}
+.PollHeading {
+	PADDING-RIGHT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 14pt; COLOR: #666666
+}
+.TablePollResult {
+	BORDER-RIGHT: silver 1pt solid; BORDER-TOP: silver 1pt solid; MARGIN: 0px 4px; BORDER-LEFT: silver 1pt solid; BORDER-BOTTOM: silver 1pt solid; BORDER-COLLAPSE: collapse; TEXT-ALIGN: left
+}
+.TablePollResultHead {
+	FONT-WEIGHT: bold; COLOR: white; BACKGROUND-COLOR: steelblue
+}
+.TablePollResultFoot {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: lightsteelblue
+}
+.PollCenterAllignmentWithWidth {
+	WIDTH: 6%; COLOR: white; TEXT-ALIGN: center
+}
+.PollLeftAllignment {
+	TEXT-ALIGN: left
+}
+.PollRightAllignment {
+	TEXT-ALIGN: right
+}
+.PollRightAllignmentWithFont {
+	FONT-WEIGHT: bold; TEXT-ALIGN: right
+}
+.forBar {
+	MARGIN: 3px; BACKGROUND-COLOR: #996633
+}
+.newsletterStatsHeaders {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; FONT-FAMILY: Verdana
+}
+.MessageGrayText {
+	COLOR: #a9a9a9; TEXT-DECORATION: none
+}
+.GrayBoldText {
+	FONT-WEIGHT: bold; COLOR: gray
+}
+.LatestMediaWidth {
+	BORDER-RIGHT: gray 2pt solid; BORDER-TOP: gray 2pt solid; BORDER-LEFT: gray 2pt solid; WIDTH: 250px; BORDER-BOTTOM: gray 2pt solid; BORDER-COLLAPSE: collapse; HEIGHT: 250px
+}
+.MediaLogo {
+	BORDER-RIGHT: gray 1pt solid; BORDER-TOP: gray 1pt solid; BORDER-LEFT: gray 1pt solid; BORDER-BOTTOM: gray 1pt solid; BORDER-COLLAPSE: collapse
+}
+.ResourceAuthor {
+	FONT-WEIGHT: bold; COLOR: #3366cc; TEXT-DECORATION: none
+}
+.ResourceHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; VERTICAL-ALIGN: middle; COLOR: #000066; FONT-FAMILY: Verdana; HEIGHT: 24px; TEXT-ALIGN: right
+}
+.EbookBackgroundHeading {
+	BORDER-RIGHT: #dcdcdc 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #dcdcdc 1px solid; PADDING-LEFT: 4px; BACKGROUND: #f5f5f5; BORDER-LEFT: #dcdcdc 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #dcdcdc 1px solid
+}
+A.LinkEbookStyle:active {
+	FONT-WEIGHT: bold; COLOR: #009900; TEXT-DECORATION: none
+}
+A.LinkEbookStyle:visited {
+	FONT-WEIGHT: bold; COLOR: #009900; TEXT-DECORATION: none
+}
+A.LinkEbookStyle:link {
+	FONT-WEIGHT: bold; COLOR: #009900; TEXT-DECORATION: none
+}
+A.LinkEbookStyle:hover {
+	COLOR: #ff0000
+}
+.EbookHeading {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #009900; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.EbookImageStyle {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 90px; HEIGHT: 105px; BORDER-RIGHT-WIDTH: 0px
+}
+.EbookHeaderRBoxBG {
+	BORDER-RIGHT: #c3c3c2 1pt solid; BACKGROUND-COLOR: #e3e3e2
+}
+.EbookOrangeText {
+	COLOR: #ff6600
+}
+.EbookHeaderBackground {
+	FONT-WEIGHT: bold; COLOR: white; PADDING-TOP: 4px; BORDER-BOTTOM: #ff9900 1px solid; HEIGHT: 24px; BACKGROUND-COLOR: #ff9900
+}
+.EbookBorderStyle {
+	BORDER-RIGHT: #ff9900 1px solid; BORDER-TOP: #ff9900 1px solid; MARGIN-BOTTOM: 6px; BORDER-LEFT: #ff9900 1px solid; BORDER-BOTTOM: #ff9900 1px solid; BORDER-COLLAPSE: collapse
+}
+.HeadingFaq {
+	FONT-SIZE: 10pt; FONT-FAMILY: verdana
+}
+.TrainingBorderStyle {
+	BORDER-RIGHT: #009900 1px solid; BORDER-TOP: #009900 1px solid; MARGIN-BOTTOM: 6px; BORDER-LEFT: #009900 1px solid; BORDER-BOTTOM: #009900 1px solid; BORDER-COLLAPSE: collapse
+}
+.TrainingBackgroundHeading {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 4px; BACKGROUND: #f5f5f5; PADDING-TOP: 5px
+}
+.TrainingHeaderBackground {
+	FONT-WEIGHT: bold; COLOR: #009900; PADDING-TOP: 4px; BORDER-BOTTOM: #009900 1px solid; HEIGHT: 24px; BACKGROUND-COLOR: #bbffbb
+}
+.MediaKitMediaWidth {
+	BORDER-RIGHT: gray 2pt solid; BORDER-TOP: gray 2pt solid; BORDER-LEFT: gray 2pt solid; WIDTH: 170px; BORDER-BOTTOM: gray 2pt solid; BORDER-COLLAPSE: collapse; HEIGHT: 180px
+}

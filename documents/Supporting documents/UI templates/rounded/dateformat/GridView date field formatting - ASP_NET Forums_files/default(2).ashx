@@ -1,0 +1,1 @@
+document.getElementById('joteke-rs-avatar-1126872').innerHTML = '<div class="reputation-user-level"><img src="http://static.asp.net/asp.net/images/rs/level-All-Star.gif" alt="All-Star" /></div><div class="reputation-user-points">34,580 point <b>All-Star</b></div>';

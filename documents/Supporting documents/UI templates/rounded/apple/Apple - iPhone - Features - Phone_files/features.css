@@ -1,0 +1,195 @@
+#main .grid2col .column {
+	DISPLAY: inline; MIN-HEIGHT: 53.3em; HEIGHT: 53.3em
+}
+#main .grid2col .first {
+	BORDER-RIGHT: #e1e1e1 1px solid; PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; WIDTH: 188px; PADDING-TOP: 0px
+}
+#main .grid2col .last {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 698px; PADDING-TOP: 0px
+}
+#main .features {
+	BORDER-RIGHT: #c3c3c3 1px solid; BORDER-TOP: #c3c3c3 0px solid; BACKGROUND: url(http://images.apple.com/iphone/features/images/bg20070905.gif) #f4f3f3 repeat-x 0px 100%; MARGIN-LEFT: -1px; BORDER-LEFT: #c3c3c3 1px solid; COLOR: #333; MARGIN-RIGHT: -1px; BORDER-BOTTOM: #c3c3c3 0px solid; POSITION: relative
+}
+#main .features .cap {
+	FONT-SIZE: 0px; Z-INDEX: 20; MARGIN-LEFT: -1px; WIDTH: 902px; MARGIN-RIGHT: -1px; POSITION: absolute; HEIGHT: 4px; webkit-text-size-adjust: none
+}
+#main .features .top {
+	BACKGROUND: url(http://images.apple.com/iphone/features/images/captop20070920.gif) no-repeat 0px 0px; LEFT: 0px; BEHAVIOR: url(/global/scripts/lib/iepngfix.htc); TOP: 0px
+}
+#main .features .bottom {
+	BACKGROUND: url(http://images.apple.com/iphone/features/images/capbottom20070920.gif) no-repeat 0px 0px; LEFT: 0px; BOTTOM: 0px
+}
+#main .features H2 {
+	MARGIN: 0px 0px 9px
+}
+#main .features .landing H2 {
+	MARGIN-BOTTOM: 25px
+}
+#main .features A {
+	COLOR: #2971a7
+}
+#main .features .sosumi {
+	MARGIN-TOP: 0.3em; RIGHT: 30px; BOTTOM: 1em; LINE-HEIGHT: 1.5em; POSITION: absolute
+}
+#main .relative {
+	POSITION: relative
+}
+#main UL#sidenav {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1px; MARGIN: 15px 0px 0px; PADDING-TOP: 0px
+}
+#main UL#sidenav LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#main UL#sidenav LI A {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 178px; TEXT-INDENT: -9999px; PADDING-TOP: 0px; HEIGHT: 36px; TEXT-DECORATION: none; outline: none
+}
+#main UL#sidenav LI A#sn-phone {
+	BACKGROUND: url(http://images.apple.com/iphone/features/images/nav_phone_title20071019.gif) no-repeat 0px 0px
+}
+#main UL#sidenav LI A#sn-ipod {
+	BACKGROUND: url(http://images.apple.com/iphone/features/images/nav_ipod_title20071019.gif) no-repeat 0px 0px
+}
+#main UL#sidenav LI A#sn-internet {
+	BACKGROUND: url(http://images.apple.com/iphone/features/images/nav_internet_title20071019.gif) no-repeat 0px 0px
+}
+#main UL#sidenav LI A#sn-technology {
+	BACKGROUND: url(http://images.apple.com/iphone/features/images/nav_technology_title20071019.gif) no-repeat 0px 0px
+}
+#main UL#sidenav LI.active A {
+	CURSOR: default; TEXT-DECORATION: none
+}
+#main UL#sidenav LI.active A#sn-phone {
+	BACKGROUND-POSITION: 0px 100%
+}
+#main UL#sidenav LI.active A#sn-ipod {
+	BACKGROUND-POSITION: 0px 100%
+}
+#main UL#sidenav LI.active A#sn-internet {
+	BACKGROUND-POSITION: 0px 100%
+}
+#main UL#sidenav LI.active A#sn-technology {
+	BACKGROUND-POSITION: 0px 100%
+}
+#main UL#sidenav LI UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; MARGIN: 5px 0px 1.6em; LINE-HEIGHT: 16px; PADDING-TOP: 0px
+}
+#main UL#sidenav LI UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 50px; Z-INDEX: 100; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; POSITION: relative
+}
+#main UL#sidenav LI UL LI A {
+	DISPLAY: inline; BACKGROUND: url(http://images.apple.com/iphone/features/images/nav_arrow20070905.gif) no-repeat 100% 4px; COLOR: #5c5c5c; TEXT-INDENT: 0px
+}
+#main UL#sidenav LI UL LI A:hover {
+	CURSOR: pointer; COLOR: #2970a6; TEXT-DECORATION: underline
+}
+#main UL#sidenav LI UL LI.active {
+	BACKGROUND: url(http://images.apple.com/iphone/features/images/nav_subitem20070905.gif) no-repeat 0px 50%
+}
+#main UL#sidenav LI UL LI.active A {
+	BACKGROUND-IMAGE: url(http://images.apple.com/iphone/features/images/nav_arrow_active20070905.gif); COLOR: #fff
+}
+#main .swapcontent {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 30px; PADDING-BOTTOM: 0.1em; LINE-HEIGHT: 1.6em; PADDING-TOP: 2.6em
+}
+#main .swapcontent .movie {
+	BACKGROUND: url(http://images.apple.com/iphone/images/videos_ctp640x360_20070928.jpg) no-repeat 0px 0px; MARGIN: 0px -20px 1.6em 0px; WIDTH: 640px; POSITION: relative; HEIGHT: 384px
+}
+#main .swapcontent .movie A.movielink {
+	DISPLAY: block; LEFT: 220px; WIDTH: 202px; TEXT-INDENT: -9999px; POSITION: absolute; TOP: 187px; HEIGHT: 43px; outline: none
+}
+#main .swapcontent .loading {
+	BACKGROUND: url(http://images.apple.com/iphone/features/images/tour_loading20070927.gif) no-repeat 0px 0px
+}
+#main .swapcontent .loading A.movielink {
+	DISPLAY: none
+}
+#main .swapcontent .movie .endstate {
+	DISPLAY: block; BACKGROUND: url(http://images.apple.com/iphone/images/endstate_20071018.jpg) no-repeat 0px 0px; WIDTH: 640px; POSITION: relative; HEIGHT: 384px
+}
+#main .swapcontent .tall {
+	BACKGROUND-IMAGE: url(http://images.apple.com/iphone/images/videos_ctp_tall20070928.jpg); HEIGHT: 440px
+}
+#main .swapcontent .tall A.movielink {
+	TOP: 187px
+}
+#main .swapcontent .tall {
+	BACKGROUND-IMAGE: url(http://images.apple.com/iphone/features/images/tour_loading_tall20070927.gif)
+}
+#main .swapcontent .tall .endstate {
+	BACKGROUND-IMAGE: url(http://images.apple.com/iphone/images/endstate_tall_20071018.jpg); HEIGHT: 440px
+}
+#main #quicktimewrap {
+	Z-INDEX: 100; WIDTH: 1px; POSITION: absolute; HEIGHT: 1px
+}
+#main #quicktimewrap .qtbox {
+	WIDTH: 1px; HEIGHT: 1px
+}
+#main #quicktimewrap .qtbox #quicktime {
+	WIDTH: 1px; HEIGHT: 1px
+}
+#main #quicktimewrap .qtbox #quicktime OBJECT {
+	BACKGROUND: #fff; WIDTH: 1px; HEIGHT: 1px
+}
+#main .active#quicktimewrap {
+	LEFT: 30px; WIDTH: 640px; TOP: 65px; HEIGHT: 384px
+}
+#main .active#quicktimewrap .qtbox {
+	BACKGROUND: #000; MARGIN-BOTTOM: 12px; WIDTH: 640px; HEIGHT: 360px
+}
+#main .active#quicktimewrap .qtbox #quicktime {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 640px; HEIGHT: 360px
+}
+#main .active#quicktimewrap .qtbox #quicktime OBJECT {
+	BACKGROUND: #000; WIDTH: 640px; HEIGHT: 360px
+}
+#main .tall#quicktimewrap {
+	HEIGHT: 440px
+}
+#main .tall#quicktimewrap .qtbox {
+	HEIGHT: 416px
+}
+#main .tall#quicktimewrap .qtbox #quicktime {
+	HEIGHT: 416px
+}
+#main .tall#quicktimewrap .qtbox #quicktime OBJECT {
+	HEIGHT: 416px
+}
+#main #quicktimewrap .qtbox #quicktime .noqt {
+	DISPLAY: none; BACKGROUND: url(http://images.apple.com/iphone/images/noqt20070621.gif) no-repeat 50% 50%; WIDTH: 640px; TEXT-INDENT: -999px; HEIGHT: 360px
+}
+#main .noqt#quicktimewrap .qtbox #quicktime .noqt {
+	DISPLAY: block
+}
+#main #quicktimewrap #qtcontroller {
+	DISPLAY: none; Z-INDEX: 1; WIDTH: 640px; POSITION: relative; HEIGHT: 12px
+}
+#main .active#quicktimewrap #qtcontroller {
+	DISPLAY: block
+}
+#main #quicktimewrap #qtcontroller .ACQuicktimeController {
+	HEIGHT: 12px
+}
+#main #quicktimewrap #qtcontroller DIV.control {
+	BACKGROUND: url(http://images.apple.com/iphone/features/images/qtcontroller_playpause20070807.gif) no-repeat left top; OVERFLOW: hidden; WIDTH: 10px; CURSOR: pointer; TEXT-INDENT: -999px; POSITION: absolute; TOP: 1px; HEIGHT: 10px
+}
+#main #quicktimewrap #qtcontroller DIV.pause {
+	BACKGROUND-POSITION: left -10px
+}
+#main #quicktimewrap #qtcontroller DIV.sliderPanel {
+	LEFT: 16px; WIDTH: 624px; POSITION: absolute; TOP: 0px; HEIGHT: 12px
+}
+#main #quicktimewrap #qtcontroller DIV.sliderPanel DIV.track {
+	BACKGROUND: url(http://images.apple.com/iphone/features/images/qtcontroller_bgtrack_load20070807.gif) no-repeat; LEFT: 0px; WIDTH: 624px; POSITION: absolute; HEIGHT: 12px; TEXT-ALIGN: left
+}
+#main #quicktimewrap #qtcontroller DIV.sliderPanel DIV.track DIV.loadedProgress {
+	BACKGROUND: url(http://images.apple.com/iphone/features/images/qtcontroller_bgtrack20070807.gif) no-repeat; POSITION: absolute; TOP: 0px; HEIGHT: 12px
+}
+#main #quicktimewrap #qtcontroller DIV.sliderPanel DIV.track DIV.trackProgress {
+	POSITION: absolute; HEIGHT: 12px
+}
+#main #quicktimewrap #qtcontroller DIV.sliderPanel DIV.track DIV.playHead {
+	BACKGROUND: url(http://images.apple.com/iphone/features/images/qtcontroller_pointer20070807.png) no-repeat; MARGIN: 0px 1px; BEHAVIOR: url(/global/scripts/lib/iepngfix.htc); WIDTH: 13px; CURSOR: pointer; POSITION: absolute; TOP: 0px; HEIGHT: 12px
+}
+#main #contentfooter IMG.right {
+	POSITION: relative
+}

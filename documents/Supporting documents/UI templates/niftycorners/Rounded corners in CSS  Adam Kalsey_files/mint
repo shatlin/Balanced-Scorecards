@@ -1,0 +1,256 @@
+var Mint = new Object();
+Mint.save = function() 
+{
+	var now		= new Date();
+	var debug	= false; // this is set by php 
+	if (window.location.hash == '#Mint:Debug') { debug = true; };
+	var path	= 'http://kalsey.com/mint/?record&key=33537a433039646632323534393171524167466655736d7a31';
+	path 		= path.replace(/^https?:/, window.location.protocol);
+	
+	// Loop through the different plug-ins to assemble the query string
+	for (var developer in this) 
+	{
+		for (var plugin in this[developer]) 
+		{
+			if (this[developer][plugin] && this[developer][plugin].onsave) 
+			{
+				path += this[developer][plugin].onsave();
+			};
+		};
+	};
+	// Slap the current time on there to prevent caching on subsequent page views in a few browsers
+	path += '&'+now.getTime();
+	
+	// Redirect to the debug page
+	if (debug) { window.open(path+'&debug&errors', 'MintLiveDebug'+now.getTime()); return; };
+	
+	var ie = /*@cc_on!@*/0;
+	if (!ie && document.getElementsByTagName && (document.createElementNS || document.createElement))
+	{
+		var tag = (document.createElementNS) ? document.createElementNS('http://www.w3.org/1999/xhtml', 'script') : document.createElement('script');
+		tag.type = 'text/javascript';
+		tag.src = path + '&serve_js';
+		document.getElementsByTagName('head')[0].appendChild(tag);
+	}
+	else if (document.write)
+	{
+		document.write('<' + 'script type="text/javascript" src="' + path + '&amp;serve_js"><' + '/script>');
+	};
+};
+if (!Mint.SI) { Mint.SI = new Object(); }
+Mint.SI.Referrer = 
+{
+	onsave	: function() 
+	{
+		var encoded = 0;
+		if (typeof Mint_SI_DocumentTitle == 'undefined') { Mint_SI_DocumentTitle = document.title; }
+		else { encoded = 1; };
+		var referer		= (window.decodeURI)?window.decodeURI(document.referrer):document.referrer;
+		var resource	= (window.decodeURI)?window.decodeURI(document.URL):document.URL;
+		return '&referer=' + escape(referer) + '&resource=' + escape(resource) + '&resource_title=' + escape(Mint_SI_DocumentTitle) + '&resource_title_encoded=' + encoded;
+	}
+};
+// incredibly funky onload add-event scripting, for all browsers
+
+if(typeof window.addEventListener != 'undefined')
+    window.addEventListener('load', adsense_init, false);
+else if(typeof document.addEventListener != 'undefined')
+    document.addEventListener('load', adsense_init, false);
+else if(typeof window.attachEvent != 'undefined')
+    window.attachEvent('onload', adsense_init);
+else
+{
+    if(typeof window.onload == 'function')
+    {
+	var existing = onload;
+
+	window.onload = function()
+	{
+	    existing();
+	    adsense_init();
+	};
+    }
+    else
+    {
+         window.onload = adsense_init;
+    }
+}
+
+//for firefox
+var px;
+var py;
+var adUnit = "";
+var browser = "";
+var adunitsize = "";
+
+function getMouse(e) {
+        px=e.pageX;
+        py=e.clientY;
+}
+
+function findY(obj) {
+        var y = 0;
+        while (obj) {
+                y += obj.offsetTop;
+                obj = obj.offsetParent;
+        }
+        return(y);
+}
+function findX(obj) {
+        var x = 0;
+        while (obj) {
+                x += obj.offsetLeft;
+                obj = obj.offsetParent;
+        }
+        return(x);
+}
+
+
+function doPageExit(e) {
+    if (document.getElementsByTagName) 
+    { 
+        ad = document.getElementsByTagName("iframe");
+    } 
+    else if (document.body.all)
+    { 
+        ad = document.body.all.tags("IFRAME"); 
+    } 
+    else 
+    {
+        ad = Array(); 
+    } 
+
+    for (i=0; i < ad.length; i++) {
+            var adLeft = findX(ad[i]);
+            var adTop = findY(ad[i]);
+            var inFrameX = (px > (adLeft - 10) && px < (parseInt(adLeft)+parseInt(ad[i].width)+10));
+            //var inFrameY = (py > (adTop - 10) && py < (parseInt(adTop)+parseInt(ad[i].height)+10));
+            var inFrameY = (py > 0 && py < (ad[i].height + 10));
+                  
+            //if (inFrameX) {
+            if (inFrameX && inFrameY) {
+                adUnit = i+1;
+                browser = navigator.appName;
+                adunitsize = ad[i].width + "x" + ad[i].height;
+                trackAdsense();
+            }
+    }
+
+/*
+        for (i=0; i < ad.length; i++) {
+                var adLeft = findX(ad[i]);
+                var adTop = findY(ad[i]);
+                var inFrameX = (px > (adLeft - 10) && px < (parseInt(adLeft) + parseInt(ad[i].width) + 15));
+                var inFrameY = (py > (adTop - 10) && py < (parseInt(adTop) + parseInt(ad[i].height) + 10));
+
+                if (inFrameY && inFrameX) {
+                        adUnit = i+1;
+                        browser = "Firefox";
+                        adunitsize = ad[i].width + "x" + ad[i].height;
+                        trackAdsense();
+
+                }
+        }
+*/
+}
+//end for firefox
+
+function as_addEvent(elm, evType, fn, useCapture) {
+    if (elm.addEventListener) {
+        elm.addEventListener(evType, fn, useCapture);
+        return true;
+    }
+    else if (elm.attachEvent) {
+        var r = elm.attachEvent('on' + evType, fn);
+        return r;
+    }
+    else {
+        elm['on' + evType] = fn;
+    }
+}
+
+
+function as_get_domain(str) {
+        if (str.substr(0,7) == 'http://') str = str.substr(7);
+        if (str.substr(0,8) == 'https://') str = str.substr(8);
+        str = str.substr(0,str.indexOf('/'));
+        str = str.replace('www.','');
+        return str;
+}
+
+
+function adsense_init () {
+    var browserName = navigator.appName;
+    if (document.all){ //ie
+        if (document.getElementsByTagName) 
+        { 
+            el = document.getElementsByTagName("iframe");
+        } 
+        else if (document.body.all)
+        { 
+            el = document.body.all.tags("IFRAME"); 
+        } 
+        else 
+        {
+            el = Array(); 
+        } 
+	  
+        for(var i = 0; i < el.length; i++) 
+        {
+            if (as_get_domain(el[i].src).indexOf('googlesyndication.com') > -1)
+            {
+                adUnit = i+1;
+                browser = browserName;
+                adunitsize = el[i].width + "x" + el[i].height;
+                as_addEvent(el[i],"focus",trackAdsense);
+            }
+        }
+    } else { //firefox and mozilla
+            window.addEventListener('beforeunload', doPageExit, false);
+            window.addEventListener('mousemove', getMouse, true);
+    }
+}
+
+function esc_ads (str) {
+    if (typeof encodeURIComponent == 'undefined')
+        return escape(str);
+    else
+        return encodeURIComponent(str);
+}
+
+
+function trackAdsense() {
+    var path = '/mint/pepper/jimrutherford/adsense/data.php';
+
+    if (document.all) { //ie
+        if (window.status.indexOf('go to') == 0) 
+        { 
+	    path += "?from_title=adsense_ads_"+esc_ads(document.title);
+        } 
+        else if (window.status.indexOf('View ads about') == 0) 
+        { 
+	    path += "?from_title=adsense_links_"+esc_ads(document.title);
+        } 
+    }
+    else // firefox and mozilla
+    {
+         path += "?from_title=adsense_"+esc_ads(document.title);
+    }
+    path += "&from="+esc_ads(self.location);
+    path += "&unit="+esc_ads(adUnit);
+    path += "&browser="+esc_ads(browser);
+    path += "&adunitsize="+esc_ads(adunitsize);
+
+    //window.open(path,'path','width=1024,height=68')
+    var data = false;
+    /*@cc_on @*/
+    /*@if (@_jscript_version >= 5)
+    try { data = new ActiveXObject("Msxml2.XMLHTTP"); }
+    catch (e) { try { data = new ActiveXObject("Microsoft.XMLHTTP"); } catch (E) { data = false; } }
+    @end @*/
+    if (!data && typeof XMLHttpRequest!='undefined') data = new XMLHttpRequest();
+    if (data) data.open("GET", path, false); 
+    data.send(null);
+    //alert(path);
+}
+Mint.save();

@@ -1,0 +1,1326 @@
+.dxcpLoadingPanel_Glass {
+	FONT: 9pt Tahoma; COLOR: #303030
+}
+.dxcpLoadingPanel_Glass TD.dx {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.dxccControl_Glass A:hover {
+	TEXT-DECORATION: underline! important
+}
+.dxccControl_Glass A {
+	COLOR: #b4cfec; TEXT-DECORATION: none! important
+}
+.dxccControl_Glass {
+	FONT-SIZE: 25px; COLOR: #b4cfec; FONT-FAMILY: Tahoma, Verdana, Arial; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.dxdvControl_Glass {
+	BORDER-RIGHT: #98bfc2 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #98bfc2 1px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; FONT: 9pt Tahoma; BORDER-LEFT: #98bfc2 1px solid; COLOR: black; PADDING-TOP: 1px; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-COLOR: #edf3f4
+}
+.dxdvLoadingPanel_Glass {
+	FONT: 9pt Tahoma; COLOR: #303030
+}
+.dxdvLoadingPanel_Glass TD.dx {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.dxdvContent_Glass {
+	
+}
+.dxdvItem_Glass {
+	PADDING-RIGHT: 50px; PADDING-LEFT: 50px; PADDING-BOTTOM: 12px; FONT: 9pt Tahoma; COLOR: #333434; PADDING-TOP: 12px; HEIGHT: 180px; ; HEIGHT: expression("154px"); BACKGROUND-COLOR: #edf3f4
+}
+.dxdvEmptyItem_Glass {
+	PADDING-RIGHT: 50px; PADDING-LEFT: 50px; PADDING-BOTTOM: 12px; FONT: 9pt Tahoma; VERTICAL-ALIGN: top; COLOR: #333434; PADDING-TOP: 12px; HEIGHT: 180px; ; HEIGHT: expression("154px"); TEXT-ALIGN: left
+}
+.dxhlControl_Glass {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 3px; PADDING-BOTTOM: 12px; FONT: 10px Tahoma; COLOR: black; PADDING-TOP: 12px; BACKGROUND-COLOR: white
+}
+.dxhlContent_Glass {
+	FONT: 9pt Tahoma; COLOR: #575757
+}
+.dxhlDate_Glass {
+	COLOR: #9b9b9b; WHITE-SPACE: nowrap
+}
+.dxhlHeader_Glass {
+	FONT: 12pt/110% Tahoma; COLOR: #387fa4
+}
+.dxhlLeftPanel_Glass {
+	FONT: 10px Verdana; COLOR: black
+}
+.dxhlRightPanel_Glass {
+	FONT: 10px Verdana; COLOR: black
+}
+.dxhlTailDiv_Glass A {
+	COLOR: #2a769d; TEXT-DECORATION: underline
+}
+.dxhlTailDiv_Glass A:hover {
+	
+}
+.dxhlTailDiv_Glass A:visited {
+	COLOR: #996085
+}
+.dxhlContent_Glass A.dxhl {
+	COLOR: #2a769d; TEXT-DECORATION: underline
+}
+.dxhlContent_Glass A.dxhl:hover {
+	
+}
+.dxhlContent_Glass A.dxhl:visited {
+	COLOR: #996085
+}
+.dxmControl_Glass {
+	FONT: 9pt Tahoma; COLOR: black
+}
+.dxmControl_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxmMenu_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxmVerticalMenu_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxmSubMenu_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxmControl_Glass A:hover {
+	TEXT-DECORATION: none
+}
+.dxmMenu_Glass {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 50% top; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(mItemBack.gif); PADDING-BOTTOM: 0px; FONT: 9pt Tahoma; COLOR: black; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #f0f0f0; BORDER-BOTTOM-STYLE: none
+}
+.dxmVerticalMenu_Glass {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 50% top; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(mItemBack.gif); PADDING-BOTTOM: 0px; FONT: 9pt Tahoma; COLOR: black; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #f0f0f0; BORDER-BOTTOM-STYLE: none
+}
+.dxmVerticalMenu_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; PADDING-RIGHT: 1px; BACKGROUND-POSITION: 50% top; BORDER-TOP: #7eacb1 1px solid; PADDING-LEFT: 1px; BACKGROUND-IMAGE: url(mVItemBack.gif); PADDING-BOTTOM: 1px; BORDER-LEFT: #7eacb1 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #7eacb1 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #edf3f4
+}
+.dxmMenuGutter_Glass {
+	
+}
+.dxmMenuSeparator_Glass {
+	BACKGROUND-COLOR: #ffffff
+}
+.dxmVerticalMenu_Glass .dxmMenuSeparator_Glass {
+	WIDTH: 0px! important
+}
+.dxmMenuItem_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmMenuItemWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmMenuItemWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmMenuItemWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmVerticalMenuItem_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmVerticalMenuItemWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmVerticalMenuItemWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmVerticalMenuItemWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmMenuLargeItem_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmMenuLargeItemWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmMenuLargeItemWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmMenuLargeItemWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmVerticalMenuLargeItem_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmVerticalMenuLargeItemWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmVerticalMenuLargeItemWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmVerticalMenuLargeItemWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemBack.gif); FONT: 9pt Tahoma; COLOR: black; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxmVerticalMenuItem_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mVItemBack.gif); BORDER-TOP-STYLE: none; BORDER-BOTTOM: #d5d5d5 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmVerticalMenuItemWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mVItemBack.gif); BORDER-TOP-STYLE: none; BORDER-BOTTOM: #d5d5d5 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmVerticalMenuItemWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mVItemBack.gif); BORDER-TOP-STYLE: none; BORDER-BOTTOM: #d5d5d5 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmVerticalMenuItemWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mVItemBack.gif); BORDER-TOP-STYLE: none; BORDER-BOTTOM: #d5d5d5 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmVerticalMenuLargeItem_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemBack.gif); BORDER-TOP-STYLE: none; BORDER-BOTTOM: #d5d5d5 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmVerticalMenuLargeItemWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemBack.gif); BORDER-TOP-STYLE: none; BORDER-BOTTOM: #d5d5d5 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmVerticalMenuLargeItemWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemBack.gif); BORDER-TOP-STYLE: none; BORDER-BOTTOM: #d5d5d5 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmVerticalMenuLargeItemWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemBack.gif); BORDER-TOP-STYLE: none; BORDER-BOTTOM: #d5d5d5 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmMenuLargeItem_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmMenuLargeItemWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmMenuLargeItemWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmMenuLargeItemWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmVerticalMenuLargeItem_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmVerticalMenuLargeItemWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmVerticalMenuLargeItemWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmVerticalMenuLargeItemWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmMenuItem_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 9px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmMenuItemWithImage_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 9px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmMenuItem_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px
+}
+.dxmMenuItemWithPopOutImage_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 9px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmMenuItemWithImageWithPopOutImage_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 9px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmMenuItemWithPopOutImage_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px
+}
+.dxmVerticalMenuItem_Glass {
+	PADDING-RIGHT: 19px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmVerticalMenuItemWithImage_Glass {
+	PADDING-RIGHT: 19px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmVerticalMenuItemWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmVerticalMenuItemWithImageWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmMenuLargeItem_Glass {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 11px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.dxmMenuLargeItemWithImage_Glass {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 11px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.dxmMenuLargeItemWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 11px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmMenuLargeItemWithImageWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 11px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmVerticalMenuLargeItem_Glass {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.dxmVerticalMenuLargeItemWithImage_Glass {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.dxmVerticalMenuLargeItemWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.dxmVerticalMenuLargeItemWithImageWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.dxmMenuItemSelected_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmMenuItemSelectedWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmMenuItemSelectedWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmMenuItemSelectedWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuItemSelected_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuItemSelectedWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuItemSelectedWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuItemSelectedWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmMenuLargeItemSelected_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmMenuLargeItemSelectedWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmMenuLargeItemSelectedWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmMenuLargeItemSelectedWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuLargeItemSelected_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuLargeItemWithImageSelected_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuLargeItemSelectedWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuLargeItemSelectedWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemSBack.gif); COLOR: white; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuItemSelected_Glass {
+	BACKGROUND-POSITION: 50% top; BORDER-TOP: #98bfc2 1px; BACKGROUND-IMAGE: url(mVItemSBack.gif); COLOR: white; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuItemSelectedWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BORDER-TOP: #98bfc2 1px; BACKGROUND-IMAGE: url(mVItemSBack.gif); COLOR: white; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuItemSelectedWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BORDER-TOP: #98bfc2 1px; BACKGROUND-IMAGE: url(mVItemSBack.gif); COLOR: white; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuItemSelectedWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BORDER-TOP: #98bfc2 1px; BACKGROUND-IMAGE: url(mVItemSBack.gif); COLOR: white; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuLargeItemSelected_Glass {
+	BACKGROUND-POSITION: 50% top; BORDER-TOP: #98bfc2 1px; BACKGROUND-IMAGE: url(mVItemSBack.gif); COLOR: white; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuLargeItemWithImageSelected_Glass {
+	BACKGROUND-POSITION: 50% top; BORDER-TOP: #98bfc2 1px; BACKGROUND-IMAGE: url(mVItemSBack.gif); COLOR: white; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuLargeItemSelectedWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BORDER-TOP: #98bfc2 1px; BACKGROUND-IMAGE: url(mVItemSBack.gif); COLOR: white; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: white
+}
+.dxmVerticalMenuLargeItemSelectedWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BORDER-TOP: #98bfc2 1px; BACKGROUND-IMAGE: url(mVItemSBack.gif); COLOR: white; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: white
+}
+.dxmMenuLargeItemSelected_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemSBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmMenuLargeItemSelectedWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemSBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmMenuLargeItemSelectedWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemSBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmMenuLargeItemSelectedWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemSBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmVerticalMenuLargeItemSelected_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemSBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmVerticalMenuLargeItemWithImageSelected_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemSBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmVerticalMenuLargeItemSelectedWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemSBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmVerticalMenuLargeItemSelectedWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemSBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmMenuItemSelected_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 9px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmMenuItemSelectedWithImage_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 9px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmMenuItemSelected_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px
+}
+.dxmMenuItemSelectedWithPopOutImage_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 9px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmMenuItemSelectedWithImageWithPopOutImage_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 9px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmMenuItemSelectedWithPopOutImage_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px
+}
+.dxmVerticalMenuItemSelected_Glass {
+	PADDING-RIGHT: 19px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmVerticalMenuItemSelectedWithImage_Glass {
+	PADDING-RIGHT: 19px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmVerticalMenuItemSelectedWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmVerticalMenuItemSelectedWithImageWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmMenuLargeItemSelected_Glass {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 11px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.dxmMenuLargeItemSelectedWithImage_Glass {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 11px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.dxmMenuLargeItemSelectedWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 11px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmMenuLargeItemSelectedWithImageWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 11px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmVerticalMenuLargeItemSelected_Glass {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.dxmVerticalMenuLargeItemSelectedWithImage_Glass {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.dxmVerticalMenuLargeItemSelectedWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.dxmVerticalMenuLargeItemSelectedWithImageWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.dxmMenuItemHover_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmMenuItemHoverWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmMenuItemHoverWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmMenuItemHoverWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmVerticalMenuItemHover_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmVerticalMenuItemHoverWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmVerticalMenuItemHoverWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmVerticalMenuItemHoverWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmMenuLargeItemHover_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmMenuLargeItemHoverWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmMenuLargeItemHoverWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmMenuLargeItemHoverWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmVerticalMenuLargeItemHover_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmVerticalMenuLargeItemHoverWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmVerticalMenuLargeItemHoverWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mItemHBack.gif); COLOR: black; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cbcbcb
+}
+.dxmVerticalMenuItemHover_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mVItemHBack.gif); COLOR: black; BORDER-TOP-STYLE: none; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmVerticalMenuItemHoverWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mVItemHBack.gif); COLOR: black; BORDER-TOP-STYLE: none; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmVerticalMenuItemHoverWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mVItemHBack.gif); COLOR: black; BORDER-TOP-STYLE: none; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmVerticalMenuItemHoverWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mVItemHBack.gif); COLOR: black; BORDER-TOP-STYLE: none; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmVerticalMenuLargeItemHover_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mVItemHBack.gif); COLOR: black; BORDER-TOP-STYLE: none; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmVerticalMenuLargeItemHoverWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mVItemHBack.gif); COLOR: black; BORDER-TOP-STYLE: none; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmVerticalMenuLargeItemHoverWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mVItemHBack.gif); COLOR: black; BORDER-TOP-STYLE: none; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mVItemHBack.gif); COLOR: black; BORDER-TOP-STYLE: none; BORDER-BOTTOM: #98bfc2 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxmMenuLargeItemHover_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemHBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmMenuLargeItemHoverWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemHBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmMenuLargeItemHoverWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemHBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmMenuLargeItemHoverWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemHBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmVerticalMenuLargeItemHover_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemHBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmVerticalMenuLargeItemHoverWithImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemHBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmVerticalMenuLargeItemHoverWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemHBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(mLargeItemHBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxmMenuItemHover_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 9px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmMenuItemHoverWithImage_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 9px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmMenuItemHover_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px
+}
+.dxmMenuItemHoverWithPopOutImage_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 9px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmMenuItemHoverWithImageWithPopOutImage_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 9px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmMenuItemHoverWithPopOutImage_Glass {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px
+}
+.dxmVerticalMenuItemHover_Glass {
+	PADDING-RIGHT: 19px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmVerticalMenuItemHoverWithImage_Glass {
+	PADDING-RIGHT: 19px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmVerticalMenuItemHoverWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmVerticalMenuItemHoverWithImageWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmMenuLargeItemHover_Glass {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 11px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.dxmMenuLargeItemHoverWithImage_Glass {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 11px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.dxmMenuLargeItemHoverWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 11px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmMenuLargeItemHoverWithImageWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 11px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmVerticalMenuLargeItemHover_Glass {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.dxmVerticalMenuLargeItemHoverWithImage_Glass {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.dxmVerticalMenuLargeItemHoverWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.dxmSubMenu_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #7eacb1 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; FONT: 9pt Tahoma; BORDER-LEFT: #7eacb1 1px solid; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #7eacb1 1px solid; BACKGROUND-COLOR: #edf3f4
+}
+.dxmSubMenuGutter_Glass {
+	BACKGROUND-COLOR: #edf3f4
+}
+.dxmSubMenuSeparator_Glass {
+	BACKGROUND-COLOR: #a8a8a8
+}
+.dxmSubMenuItem_Glass {
+	FONT: 9pt Tahoma; COLOR: black; WHITE-SPACE: nowrap
+}
+.dxmSubMenuItemWithImage_Glass {
+	FONT: 9pt Tahoma; COLOR: black; WHITE-SPACE: nowrap
+}
+.dxmSubMenuItemWithPopOutImage_Glass {
+	FONT: 9pt Tahoma; COLOR: black; WHITE-SPACE: nowrap
+}
+.dxmSubMenuItemWithImageWithPopOutImage_Glass {
+	FONT: 9pt Tahoma; COLOR: black; WHITE-SPACE: nowrap
+}
+.dxmSubMenuItem_Glass {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 11px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmSubMenuItemWithImage_Glass {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 11px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmSubMenuItemWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 11px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmSubMenuItemWithImageWithPopOutImage_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxmSubMenuItemSelected_Glass {
+	BORDER-RIGHT: #87b8c7 1px solid; BORDER-TOP: #87b8c7 1px solid; BORDER-LEFT: #87b8c7 1px solid; BORDER-BOTTOM: #87b8c7 1px solid; BACKGROUND-COLOR: #9eced6
+}
+.dxmSubMenuItemSelectedWithImage_Glass {
+	BORDER-RIGHT: #87b8c7 1px solid; BORDER-TOP: #87b8c7 1px solid; BORDER-LEFT: #87b8c7 1px solid; BORDER-BOTTOM: #87b8c7 1px solid; BACKGROUND-COLOR: #9eced6
+}
+.dxmSubMenuItemSelectedWithPopOutImage_Glass {
+	BORDER-RIGHT: #87b8c7 1px solid; BORDER-TOP: #87b8c7 1px solid; BORDER-LEFT: #87b8c7 1px solid; BORDER-BOTTOM: #87b8c7 1px solid; BACKGROUND-COLOR: #9eced6
+}
+.dxmSubMenuItemSelectedWithImageWithPopOutImage_Glass {
+	BORDER-RIGHT: #87b8c7 1px solid; BORDER-TOP: #87b8c7 1px solid; BORDER-LEFT: #87b8c7 1px solid; BORDER-BOTTOM: #87b8c7 1px solid; BACKGROUND-COLOR: #9eced6
+}
+.dxmSubMenuItemSelected_Glass {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 10px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmSubMenuItemSelectedWithImage_Glass {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 10px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmSubMenuItemSelectedWithPopOutImage_Glass {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 10px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmSubMenuItemSelectedWithImageWithPopOutImage_Glass {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmSubMenuItemHover_Glass {
+	BORDER-RIGHT: #c0dde0 1px solid; BORDER-TOP: #c0dde0 1px solid; BORDER-LEFT: #c0dde0 1px solid; BORDER-BOTTOM: #c0dde0 1px solid; BACKGROUND-COLOR: #d9eced
+}
+.dxmSubMenuItemHoverWithImage_Glass {
+	BORDER-RIGHT: #c0dde0 1px solid; BORDER-TOP: #c0dde0 1px solid; BORDER-LEFT: #c0dde0 1px solid; BORDER-BOTTOM: #c0dde0 1px solid; BACKGROUND-COLOR: #d9eced
+}
+.dxmSubMenuItemHoverWithPopOutImage_Glass {
+	BORDER-RIGHT: #c0dde0 1px solid; BORDER-TOP: #c0dde0 1px solid; BORDER-LEFT: #c0dde0 1px solid; BORDER-BOTTOM: #c0dde0 1px solid; BACKGROUND-COLOR: #d9eced
+}
+.dxmSubMenuItemHoverWithImageWithPopOutImage_Glass {
+	BORDER-RIGHT: #c0dde0 1px solid; BORDER-TOP: #c0dde0 1px solid; BORDER-LEFT: #c0dde0 1px solid; BORDER-BOTTOM: #c0dde0 1px solid; BACKGROUND-COLOR: #d9eced
+}
+.dxmSubMenuItemHover_Glass {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 10px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmSubMenuItemHoverWithImage_Glass {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 10px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmSubMenuItemHoverWithPopOutImage_Glass {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 10px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmSubMenuItemHoverWithImageWithPopOutImage_Glass {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxmSubMenuBorderCorrector_Glass {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: absolute; BORDER-RIGHT-WIDTH: 0px
+}
+.dxnbControl_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #7eacb1 1px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; FONT: 9pt Tahoma; BORDER-LEFT: #7eacb1 1px solid; COLOR: black; PADDING-TOP: 1px; BORDER-BOTTOM: #7eacb1 1px solid; BACKGROUND-COLOR: #edf3f4
+}
+.dxnbControl_Glass A {
+	COLOR: #1e3695
+}
+.dxnbLoadingPanel_Glass {
+	FONT: 9pt Tahoma; COLOR: #303030
+}
+.dxnbLoadingPanel_Glass TD.dx {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.dxnbGroupHeader_Glass TABLE.dxnb {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: 50% top; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(nbHeaderBack.gif); PADDING-BOTTOM: 3px; FONT: 9pt Tahoma; COLOR: #333333; BORDER-TOP-STYLE: none; PADDING-TOP: 3px; BORDER-BOTTOM: #d5d5d5 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxnbGroupHeader_Glass TABLE.dxnb {
+	FONT: 9pt Tahoma; COLOR: #333333
+}
+.dxnbGroupHeader_Glass TD.dxnb {
+	WHITE-SPACE: nowrap
+}
+.dxnbGroupHeaderCollapsed_Glass {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: 50% top; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(nbHeaderBack.gif); PADDING-BOTTOM: 3px; FONT: 9pt Tahoma; COLOR: #333333; BORDER-TOP-STYLE: none; PADDING-TOP: 3px; BORDER-BOTTOM: #d5d5d5 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.dxnbGroupHeaderCollapsed_Glass TABLE.dxnb {
+	FONT: 9pt Tahoma; COLOR: #333333
+}
+.dxnbGroupHeaderCollapsed_Glass TD.dxnb {
+	WHITE-SPACE: nowrap
+}
+.dxnbGroupContent_Glass {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 4px; FONT: 9pt Tahoma; COLOR: #828282; PADDING-TOP: 4px
+}
+.dxnbItem_Glass {
+	FONT: 9pt Tahoma; COLOR: #494949; TEXT-ALIGN: left
+}
+.dxnbLargeItem_Glass {
+	FONT: 9pt Tahoma; COLOR: #494949; TEXT-ALIGN: left
+}
+.dxnbBulletItem_Glass {
+	FONT: 9pt Tahoma; COLOR: #494949; TEXT-ALIGN: left
+}
+.dxnbItem_Glass {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 18px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px
+}
+.dxnbLargeItem_Glass {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 7px; FONT: 12px Tahoma; PADDING-TOP: 6px
+}
+.dxnbItemSelected_Glass {
+	BORDER-RIGHT: #87b8c7 1px solid; BORDER-TOP: #87b8c7 1px solid; BORDER-LEFT: #87b8c7 1px solid; BORDER-BOTTOM: #87b8c7 1px solid; BACKGROUND-COLOR: #9eced6
+}
+.dxnbLargeItemSelected_Glass {
+	BORDER-RIGHT: #87b8c7 1px solid; BORDER-TOP: #87b8c7 1px solid; BORDER-LEFT: #87b8c7 1px solid; BORDER-BOTTOM: #87b8c7 1px solid; BACKGROUND-COLOR: #9eced6
+}
+.dxnbBulletItemSelected_Glass {
+	BORDER-RIGHT: #87b8c7 1px solid; BORDER-TOP: #87b8c7 1px solid; BORDER-LEFT: #87b8c7 1px solid; BORDER-BOTTOM: #87b8c7 1px solid; BACKGROUND-COLOR: #9eced6
+}
+.dxnbItemSelected_Glass {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 17px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxnbLargeItemSelected_Glass {
+	PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 5px
+}
+.dxnbItemHover_Glass {
+	BORDER-RIGHT: #c0dde0 1px solid; BORDER-TOP: #c0dde0 1px solid; BORDER-LEFT: #c0dde0 1px solid; BORDER-BOTTOM: #c0dde0 1px solid; BACKGROUND-COLOR: #d9eced
+}
+.dxnbLargeItemHover_Glass {
+	BORDER-RIGHT: #c0dde0 1px solid; BORDER-TOP: #c0dde0 1px solid; BORDER-LEFT: #c0dde0 1px solid; BORDER-BOTTOM: #c0dde0 1px solid; BACKGROUND-COLOR: #d9eced
+}
+.dxnbBulletItemHover_Glass {
+	BORDER-RIGHT: #c0dde0 1px solid; BORDER-TOP: #c0dde0 1px solid; BORDER-LEFT: #c0dde0 1px solid; BORDER-BOTTOM: #c0dde0 1px solid; BACKGROUND-COLOR: #d9eced
+}
+.dxnbItemHover_Glass {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 17px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.dxnbLargeItemHover_Glass {
+	PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 5px
+}
+.dxnbGroupHeaderHover_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(nbHeaderHBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxnbGroupHeaderCollapsedHover_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(nbHeaderHBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxnbGroupHeader_Glass {
+	TEXT-ALIGN: left
+}
+.dxnbGroupHeaderCollapsed_Glass {
+	TEXT-ALIGN: left
+}
+.dxnbItem_Glass {
+	TEXT-ALIGN: left
+}
+.dxnbItemHover_Glass {
+	TEXT-ALIGN: left
+}
+.dxnbItemSelected_Glass {
+	TEXT-ALIGN: left
+}
+.dxnbBulletItem_Glass {
+	TEXT-ALIGN: left
+}
+.dxnbBulletItemHover_Glass {
+	TEXT-ALIGN: left
+}
+.dxnbBulletItemSelected_Glass {
+	TEXT-ALIGN: left
+}
+.dxnbLargeItem_Glass {
+	TEXT-ALIGN: center
+}
+.dxnbLargeItemHover_Glass {
+	TEXT-ALIGN: center
+}
+.dxnbLargeItemSelected_Glass {
+	TEXT-ALIGN: center
+}
+.dxncControl_Glass {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; FONT: 10px Tahoma; COLOR: black; PADDING-TOP: 15px
+}
+.dxncLoadingPanel_Glass {
+	FONT: 9pt Tahoma; COLOR: #303030
+}
+.dxncLoadingPanel_Glass TD.dx {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.dxncContent_Glass {
+	
+}
+.dxncPagerPanel_Glass {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.dxncItem_Glass {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 3px; PADDING-BOTTOM: 12px; FONT: 9pt Tahoma; VERTICAL-ALIGN: top; PADDING-TOP: 12px
+}
+.dxncEmptyItem_Glass {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 14px; PADDING-BOTTOM: 12px; FONT: 9pt Tahoma; VERTICAL-ALIGN: top; PADDING-TOP: 12px
+}
+.dxncBackToTop_Glass A {
+	FONT: 10px Tahoma; COLOR: #337898; WHITE-SPACE: nowrap; TEXT-DECORATION: underline
+}
+.dxncItemContent_Glass {
+	FONT: 9pt Tahoma; COLOR: #575757
+}
+.dxncItemDate_Glass {
+	COLOR: #9b9b9b; WHITE-SPACE: nowrap
+}
+.dxncItemHeader_Glass {
+	FONT: 12pt/110% Tahoma; COLOR: #387fa4
+}
+.dxncItemLeftPanel_Glass {
+	FONT: 10px Verdana; COLOR: black
+}
+.dxncItemRightPanel_Glass {
+	FONT: 10px Verdana; COLOR: black
+}
+.dxncItemTailDiv_Glass A {
+	COLOR: #2a769d; TEXT-DECORATION: underline
+}
+.dxncItemTailDiv_Glass A:hover {
+	
+}
+.dxncItemTailDiv_Glass A:visited {
+	COLOR: #996085
+}
+.dxncItemContent_Glass A.dxhl {
+	COLOR: #2a769d; TEXT-DECORATION: underline
+}
+.dxncItemContent_Glass A.dxhl:hover {
+	
+}
+.dxncItemContent_Glass A.dxhl:visited {
+	COLOR: #996085
+}
+.dxpControl_Glass {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 5px; FONT: 9pt Arial; COLOR: black; PADDING-TOP: 5px
+}
+.dxpButton_Glass {
+	FONT: 9pt Arial; VERTICAL-ALIGN: middle; COLOR: #656566; WHITE-SPACE: nowrap; TEXT-ALIGN: center; TEXT-DECORATION: underline
+}
+.dxpDisabledButton_Glass {
+	FONT: 9pt Arial; COLOR: black; TEXT-DECORATION: none
+}
+.dxpPageNumber_Glass {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; FONT: 9pt Arial; VERTICAL-ALIGN: middle; COLOR: #2a769d; PADDING-TOP: 1px; TEXT-ALIGN: center; TEXT-DECORATION: underline
+}
+.dxpCurrentPageNumber_Glass {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; FONT: 9pt Arial; COLOR: #2a769d; PADDING-TOP: 1px; BACKGROUND-COLOR: #dedede; TEXT-DECORATION: none
+}
+.dxpSummary_Glass {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; FONT: 9pt Arial; VERTICAL-ALIGN: middle; COLOR: #656566; PADDING-TOP: 1px; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.dxpSeparator_Glass {
+	BACKGROUND-COLOR: #cccccc
+}
+.dxpcControl_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #7eacb1 1px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; FONT: 9pt Tahoma; BORDER-LEFT: #7eacb1 1px solid; COLOR: black; PADDING-TOP: 1px; BORDER-BOTTOM: #7eacb1 1px solid; BACKGROUND-COLOR: #edf3f4! important
+}
+.dxpcControl_Glass A {
+	COLOR: #1e3695
+}
+.dxpcCloseButton_Glass {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; FONT: 9pt Tahoma; COLOR: black; PADDING-TOP: 1px
+}
+.dxpcCloseButtonHover_Glass {
+	FONT: 9pt Tahoma; COLOR: black
+}
+.dxpcContent_Glass {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 13px; FONT: 9pt Tahoma; VERTICAL-ALIGN: top; COLOR: #010000; PADDING-TOP: 9px; WHITE-SPACE: normal; BACKGROUND-COLOR: #edf3f4
+}
+.dxpcFooter_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(pcFooterBack.gif); FONT: 9pt Tahoma; COLOR: #175b89; BORDER-TOP-STYLE: none; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #d3e6f3
+}
+.dxpcFooter_Glass TD.dxpc {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; FONT: 9pt Tahoma; COLOR: #175b89; PADDING-TOP: 12px; WHITE-SPACE: nowrap
+}
+.dxpcHeader_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(pcHeaderBack.gif); FONT: 9pt Tahoma; COLOR: #5a5a5a; BORDER-BOTTOM: #d5d5d5 1px solid; BACKGROUND-REPEAT: repeat-x
+}
+.dxpcHeader_Glass TD.dxpc {
+	FONT: 9pt Tahoma; COLOR: #5a5a5a; WHITE-SPACE: nowrap
+}
+.dxpcModalBackground_Glass {
+	FILTER: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70); BACKGROUND-COLOR: #777777; opacity: 0.7
+}
+.dxrpControl_Glass TD.dxrp {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-ALIGN: left
+}
+.dxrpHeader_Glass TD.dxrp {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #313131; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-ALIGN: left
+}
+.dxsmControl_Glass A:hover {
+	TEXT-DECORATION: underline
+}
+.dxsmControl_Glass A:visited {
+	COLOR: #996085
+}
+.dxsmControl_Glass {
+	BORDER-RIGHT: #a8a8a8 1px solid; BORDER-TOP: #a8a8a8 1px solid; FONT: 11px Verdana, Tahoma, Arial; BORDER-LEFT: #a8a8a8 1px solid; COLOR: #1e3695; BORDER-BOTTOM: #a8a8a8 1px solid; BACKGROUND-COLOR: white
+}
+.dxsmCategoryLevel_Glass {
+	FONT: bold 13.5pt Verdana; COLOR: #1e3695; TEXT-DECORATION: none
+}
+.dxsmCategoryLevel_Glass A {
+	FONT: bold 13.5pt Verdana; COLOR: #1e3695; TEXT-DECORATION: none
+}
+.dxsmCategoryLevel_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+.dxsmCategoryLevel_Glass {
+	BORDER-BOTTOM: #b8b8b8 1px solid
+}
+.dxsmLevelCategoryFlow_Glass {
+	FONT: bold 13.5pt Tahoma, Verdana, Arial; COLOR: #1e3695; TEXT-DECORATION: underline
+}
+.dxsmLevelCategoryFlow_Glass A {
+	FONT: bold 13.5pt Tahoma, Verdana, Arial; COLOR: #1e3695; TEXT-DECORATION: underline
+}
+.dxsmLevel0_Glass {
+	FONT: 13px Tahoma; COLOR: black; TEXT-DECORATION: none
+}
+.dxsmLevel0_Glass A {
+	FONT: 13px Tahoma; COLOR: black; TEXT-DECORATION: none
+}
+.dxsmLevel0Categorized_Glass A {
+	FONT: 13px Tahoma; COLOR: black; TEXT-DECORATION: none
+}
+.dxsmLevel0Categorized_Glass {
+	FONT: 13px Tahoma; COLOR: black; TEXT-DECORATION: none
+}
+.dxsmLevel0_Glass {
+	BORDER-RIGHT: #d5d5d5 1px solid; PADDING-RIGHT: 7px; BACKGROUND-POSITION: 50% top; BORDER-TOP: #d5d5d5 1px solid; PADDING-LEFT: 7px; BACKGROUND-IMAGE: url(smLevel0Back.gif); PADDING-BOTTOM: 4px; BORDER-LEFT: #d5d5d5 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #d5d5d5 1px solid; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxsmLevel0Categorized_Glass {
+	BORDER-RIGHT: #d5d5d5 1px solid; PADDING-RIGHT: 7px; BACKGROUND-POSITION: 50% top; BORDER-TOP: #d5d5d5 1px solid; PADDING-LEFT: 7px; BACKGROUND-IMAGE: url(smLevel0Back.gif); PADDING-BOTTOM: 4px; BORDER-LEFT: #d5d5d5 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #d5d5d5 1px solid; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.dxsmLevel0Flow_Glass {
+	FONT: 13px Tahoma, Verdana, Arial; COLOR: black; TEXT-DECORATION: underline
+}
+.dxsmLevel0Flow_Glass A {
+	FONT: 13px Tahoma, Verdana, Arial; COLOR: black; TEXT-DECORATION: underline
+}
+.dxsmLevel0CategorizedFlow_Glass {
+	FONT: 13px Tahoma, Verdana, Arial; COLOR: black; TEXT-DECORATION: underline
+}
+.dxsmLevel0CategorizedFlow_Glass A {
+	FONT: 13px Tahoma, Verdana, Arial; COLOR: black; TEXT-DECORATION: underline
+}
+.dxsmLevel0Flow_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+.dxsmLevel1_Glass {
+	FONT: 13px Tahoma; COLOR: #2a769d
+}
+.dxsmLevel1_Glass A {
+	FONT: 13px Tahoma; COLOR: #2a769d
+}
+.dxsmLevel1Categorized_Glass A {
+	FONT: 13px Tahoma; COLOR: #2a769d
+}
+.dxsmLevel1Categorized_Glass {
+	FONT: 13px Tahoma; COLOR: #2a769d
+}
+.dxsmLevel1_Glass A {
+	TEXT-DECORATION: underline
+}
+.dxsmLevel1Categorized_Glass A {
+	TEXT-DECORATION: underline
+}
+.dxsmLevel1_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+.dxsmLevel1Categorized_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+.dxsmLevel1Flow_Glass {
+	FONT: 13px Tahoma, Verdana, Arial; COLOR: #2a769d; TEXT-DECORATION: underline
+}
+.dxsmLevel1Flow_Glass A {
+	FONT: 13px Tahoma, Verdana, Arial; COLOR: #2a769d; TEXT-DECORATION: underline
+}
+.dxsmLevel1Flow_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.dxsmLevel2_Glass {
+	FONT: 11px Tahoma; COLOR: #2a769d; TEXT-DECORATION: underline
+}
+.dxsmLevel2_Glass A {
+	FONT: 11px Tahoma; COLOR: #2a769d; TEXT-DECORATION: underline
+}
+.dxsmLevel2_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+.dxsmLevel2Flow_Glass {
+	FONT: 11px Tahoma, Verdana, Arial; COLOR: #2a769d; TEXT-DECORATION: underline
+}
+.dxsmLevel2Flow_Glass A {
+	FONT: 11px Tahoma, Verdana, Arial; COLOR: #2a769d; TEXT-DECORATION: underline
+}
+.dxsmLevel3_Glass {
+	FONT: 8pt Tahoma; COLOR: #2a769d; TEXT-DECORATION: none
+}
+.dxsmLevel3_Glass A {
+	FONT: 8pt Tahoma; COLOR: #2a769d; TEXT-DECORATION: none
+}
+.dxsmLevel3_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+.dxsmLevel3Flow_Glass {
+	FONT: 8pt Tahoma, Verdana, Arial; COLOR: #a8a8a8; TEXT-DECORATION: underline
+}
+.dxsmLevel3Flow_Glass A {
+	FONT: 8pt Tahoma, Verdana, Arial; COLOR: #a8a8a8; TEXT-DECORATION: underline
+}
+.dxsmLevel3Flow_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.dxsmLevel4_Glass {
+	FONT: 7pt Tahoma; COLOR: #a8a8a8; TEXT-DECORATION: none
+}
+.dxsmLevel4_Glass A {
+	FONT: 7pt Tahoma; COLOR: #a8a8a8; TEXT-DECORATION: none
+}
+.dxsmLevel4_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+.dxsmLevel4Flow_Glass {
+	FONT: 7pt Tahoma, Verdana, Arial; COLOR: #a8a8a8; TEXT-DECORATION: underline
+}
+.dxsmLevel4Flow_Glass A {
+	FONT: 7pt Tahoma, Verdana, Arial; COLOR: #a8a8a8; TEXT-DECORATION: underline
+}
+.dxsmLevel4Flow_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.dxsmLevelOther_Glass {
+	FONT: 6pt Tahoma; COLOR: #a8a8a8; TEXT-DECORATION: none
+}
+.dxsmLevelOther_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+.dxsmLevelOtherFlow_Glass {
+	FONT: 6pt Tahoma, Verdana, Arial; COLOR: #a8a8a8; TEXT-DECORATION: underline
+}
+.dxsmLevelOtherFlow_Glass A {
+	FONT: 6pt Tahoma, Verdana, Arial; COLOR: #a8a8a8; TEXT-DECORATION: underline
+}
+.dxtcControl_Glass {
+	FONT: 9pt Tahoma; COLOR: black
+}
+.dxtcLoadingPanel_Glass {
+	FONT: 9pt Tahoma; COLOR: #303030
+}
+.dxtcLoadingPanel_Glass TD.dx {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.dxtcTab_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxtcTabWithTabPositionLeft_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxtcTabWithTabPositionBottom_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxtcTabWithTabPositionRight_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxtcActiveTab_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxtcActiveTabWithTabPositionBottom_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxtcActiveTabWithTabPositionLeft_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxtcActiveTabWithTabPositionRight_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxtcTabHover_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxtcTabHoverWithTabPositionBottom_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxtcTabHoverWithTabPositionLeft_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxtcTabHoverWithTabPositionRight_Glass A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.dxtcActiveTab_Glass {
+	BORDER-RIGHT: #4986a2 1px solid; PADDING-RIGHT: 27px; BORDER-TOP: #4986a2 1px solid; PADDING-LEFT: 27px; PADDING-BOTTOM: 3px; FONT: 9pt Tahoma; BORDER-LEFT: #4986a2 1px solid; COLOR: #ffffff; PADDING-TOP: 3px; BORDER-BOTTOM: #4986a2 1px solid; BACKGROUND-COLOR: #4986a2
+}
+.dxtcActiveTabWithTabPositionBottom_Glass {
+	BORDER-RIGHT: #4986a2 1px solid; PADDING-RIGHT: 27px; BORDER-TOP: #4986a2 1px solid; PADDING-LEFT: 27px; PADDING-BOTTOM: 3px; FONT: 9pt Tahoma; BORDER-LEFT: #4986a2 1px solid; COLOR: #ffffff; PADDING-TOP: 3px; BORDER-BOTTOM: #4986a2 1px solid; BACKGROUND-COLOR: #4986a2
+}
+.dxtcActiveTabWithTabPositionLeft_Glass {
+	BORDER-RIGHT: #4986a2 1px solid; PADDING-RIGHT: 27px; BORDER-TOP: #4986a2 1px solid; PADDING-LEFT: 27px; PADDING-BOTTOM: 3px; FONT: 9pt Tahoma; BORDER-LEFT: #4986a2 1px solid; COLOR: #ffffff; PADDING-TOP: 3px; BORDER-BOTTOM: #4986a2 1px solid; BACKGROUND-COLOR: #4986a2
+}
+.dxtcActiveTabWithTabPositionRight_Glass {
+	BORDER-RIGHT: #4986a2 1px solid; PADDING-RIGHT: 27px; BORDER-TOP: #4986a2 1px solid; PADDING-LEFT: 27px; PADDING-BOTTOM: 3px; FONT: 9pt Tahoma; BORDER-LEFT: #4986a2 1px solid; COLOR: #ffffff; PADDING-TOP: 3px; BORDER-BOTTOM: #4986a2 1px solid; BACKGROUND-COLOR: #4986a2
+}
+.dxtcActiveTab_Glass TABLE.dxtc {
+	FONT: 9pt Tahoma; COLOR: #ffffff
+}
+.dxtcActiveTabWithTabPositionBottom_Glass TABLE.dxtc .dxtcActiveTabWithTabPositionLeft_Glass TABLE.dxtc {
+	FONT: 9pt Tahoma; COLOR: #ffffff
+}
+.dxtcActiveTabWithTabPositionRight_Glass TABLE.dxtc {
+	FONT: 9pt Tahoma; COLOR: #ffffff
+}
+.dxtcActiveTab_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(tcATabBack.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #4986a2
+}
+.dxtcActiveTabWithTabPositionBottom_Glass {
+	BACKGROUND-POSITION: 50% bottom; BACKGROUND-IMAGE: url(tcATabBottomBack.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #94b8cc
+}
+.dxtcActiveTabWithTabPositionLeft_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(tcATabBack.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #4986a2
+}
+.dxtcActiveTabWithTabPositionRight_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(tcATabBack.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #4986a2
+}
+.dxtcActiveTab_Glass TD.dxtc {
+	WHITE-SPACE: nowrap
+}
+.dxtcActiveTabWithTabPositionBottom_Glass TD.dxtc {
+	WHITE-SPACE: nowrap
+}
+.dxtcActiveTabHover_Glass {
+	BACKGROUND-COLOR: #92b6cb
+}
+.dxtcTab_Glass {
+	BORDER-RIGHT: #c4c5c6 1px solid; PADDING-RIGHT: 27px; BORDER-TOP: #c4c5c6 1px solid; PADDING-LEFT: 27px; PADDING-BOTTOM: 3px; FONT: 9pt Tahoma; BORDER-LEFT: #c4c5c6 1px solid; COLOR: black; PADDING-TOP: 3px; BORDER-BOTTOM: #c4c5c6 1px solid
+}
+.dxtcTabWithTabPositionBottom_Glass {
+	BORDER-RIGHT: #c4c5c6 1px solid; PADDING-RIGHT: 27px; BORDER-TOP: #c4c5c6 1px solid; PADDING-LEFT: 27px; PADDING-BOTTOM: 3px; FONT: 9pt Tahoma; BORDER-LEFT: #c4c5c6 1px solid; COLOR: black; PADDING-TOP: 3px; BORDER-BOTTOM: #c4c5c6 1px solid
+}
+.dxtcTabWithTabPositionLeft_Glass {
+	BORDER-RIGHT: #c4c5c6 1px solid; PADDING-RIGHT: 27px; BORDER-TOP: #c4c5c6 1px solid; PADDING-LEFT: 27px; PADDING-BOTTOM: 3px; FONT: 9pt Tahoma; BORDER-LEFT: #c4c5c6 1px solid; COLOR: black; PADDING-TOP: 3px; BORDER-BOTTOM: #c4c5c6 1px solid
+}
+.dxtcTabWithTabPositionRight_Glass {
+	BORDER-RIGHT: #c4c5c6 1px solid; PADDING-RIGHT: 27px; BORDER-TOP: #c4c5c6 1px solid; PADDING-LEFT: 27px; PADDING-BOTTOM: 3px; FONT: 9pt Tahoma; BORDER-LEFT: #c4c5c6 1px solid; COLOR: black; PADDING-TOP: 3px; BORDER-BOTTOM: #c4c5c6 1px solid
+}
+.dxtcTabWithTabPositionBottom_Glass {
+	BORDER-TOP-COLOR: #4986a2
+}
+.dxtcTab_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(tcTabBack.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #e0e0e0; BORDER-BOTTOM-STYLE: none
+}
+.dxtcTabWithTabPositionBottom_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(tcTabBottomBack.gif); BORDER-TOP-STYLE: none; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #ffffff
+}
+.dxtcTabWithTabPositionLeft_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(tcTabLeftBack.gif); BORDER-TOP-STYLE: none; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #ffffff
+}
+.dxtcTabWithTabPositionRight_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(tcTabLeftBack.gif); BORDER-TOP-STYLE: none; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #ffffff
+}
+.dxtcTab_Glass TABLE.dxtc {
+	FONT: 9pt Tahoma; COLOR: black
+}
+.dxtcTabWithTabPositionBottom_Glass TABLE.dxtc {
+	FONT: 9pt Tahoma; COLOR: black
+}
+.dxtcTabWithTabPositionLeft_Glass TABLE.dxtc {
+	FONT: 9pt Tahoma; COLOR: black
+}
+.dxtcTabWithTabPositionRight_Glass TABLE.dxtc {
+	FONT: 9pt Tahoma; COLOR: black
+}
+.dxtcTab_Glass TD.dxtc {
+	WHITE-SPACE: nowrap
+}
+.dxtcTabWithTabPositionBottom_Glass TD.dxtc {
+	WHITE-SPACE: nowrap
+}
+.dxtcTabWithTabPositionLeft_Glass TD.dxtc {
+	WHITE-SPACE: nowrap
+}
+.dxtcTabWithTabPositionRight_Glass TD.dxtc {
+	WHITE-SPACE: nowrap
+}
+.dxtcTab_Glass A {
+	FONT: 9pt Tahoma; COLOR: black; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+.dxtcTabWithTabPositionBottom_Glass A {
+	FONT: 9pt Tahoma; COLOR: black; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+.dxtcTabWithTabPositionLeft_Glass A {
+	FONT: 9pt Tahoma; COLOR: black; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+.dxtcTabWithTabPositionRight_Glass A {
+	FONT: 9pt Tahoma; COLOR: black; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+.dxtcTabWithTabPositionLeft_Glass {
+	BORDER-TOP: #c4c5c6 1px solid
+}
+.dxtcTabWithTabPositionRight_Glass {
+	BORDER-TOP: #c4c5c6 1px solid
+}
+.dxtcTabHover_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(tcHTabBack.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #f2f2f2
+}
+.dxtcTabHoverWithTabPositionBottom_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(tcHTabBack.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #f2f2f2
+}
+.dxtcTabHoverWithTabPositionLeft_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(tcHTabBack.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #f2f2f2
+}
+.dxtcTabHoverWithTabPositionRight_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(tcHTabBack.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #f2f2f2
+}
+.dxtcTabHoverWithTabPositionBottom_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(tcHTabBottomBack.gif); BACKGROUND-REPEAT: repeat-x
+}
+.dxtcPageContent_Glass {
+	FONT: 10pt Tahoma; COLOR: black; BACKGROUND-COLOR: #edf3f4
+}
+.dxtcPageContentWithTabPositionBottom_Glass {
+	FONT: 10pt Tahoma; COLOR: black; BACKGROUND-COLOR: #edf3f4
+}
+.dxtcPageContentWithTabPositionLeft_Glass {
+	FONT: 10pt Tahoma; COLOR: black; BACKGROUND-COLOR: #edf3f4
+}
+.dxtcPageContentWithTabPositionRight_Glass {
+	FONT: 10pt Tahoma; COLOR: black; BACKGROUND-COLOR: #edf3f4
+}
+.dxtcPageContent_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(pcContentBack.gif); VERTICAL-ALIGN: top; BACKGROUND-REPEAT: repeat-x
+}
+.dxtcPageContentWithTabPositionBottom_Glass {
+	BACKGROUND-POSITION: 50% bottom; BACKGROUND-IMAGE: url(pcContentWithTabBottomBack.gif); VERTICAL-ALIGN: top; BACKGROUND-REPEAT: repeat-x
+}
+.dxtcContent_Glass {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(tcContentBack.gif); FONT: 9pt Tahoma; VERTICAL-ALIGN: top; COLOR: black; BACKGROUND-REPEAT: repeat-x; HEIGHT: 5px
+}
+.dxtiControl_Glass A:hover {
+	
+}
+.dxtiControl_Glass A:visited {
+	COLOR: #996085! important
+}
+.dxtiControl_Glass {
+	FONT: 11px Verdana, Tahoma, Arial; COLOR: #1e3695; BACKGROUND-COLOR: white
+}
+.dxtiLoadingPanel_Glass TD.dx {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; FONT: 9pt Tahoma; COLOR: #303030; PADDING-TOP: 12px; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.dxtiItem_Glass {
+	FONT: 9pt Arial; COLOR: #2a769d; TEXT-DECORATION: underline
+}
+.dxtiItem_Glass A {
+	FONT: 9pt Arial; COLOR: #2a769d; TEXT-DECORATION: underline
+}
+.dxtiItem_Glass A:hover {
+	COLOR: #f15e34
+}
+.dxtiItem_Glass A:visited {
+	COLOR: #a1a1a1
+}
+.dxtiItem_Glass {
+	WHITE-SPACE: nowrap
+}
+.dxtiGroupHeader_Glass {
+	FONT: 15pt Tahoma; TEXT-DECORATION: none
+}
+.dxtiGroupHeaderCategorized_Glass {
+	FONT: 15pt Tahoma; TEXT-DECORATION: none
+}
+.dxtiGroupHeader_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+.dxtiGroupHeaderCategorized_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+.dxtiGroupHeaderCategorized_Glass {
+	PADDING-BOTTOM: 2px; BORDER-BOTTOM: #c0c0c0 1px solid
+}
+.dxtiGroupHeaderText_Glass {
+	COLOR: #ffffff; BACKGROUND-COLOR: #b4b4b4
+}
+.dxtiGroupHeaderText_Glass {
+	BORDER-RIGHT: #7895a2 1px solid; PADDING-RIGHT: 6px; BACKGROUND-POSITION: 50% top; BORDER-TOP: #7895a2 1px solid; PADDING-LEFT: 6px; BACKGROUND-IMAGE: url(tiHeaderBack.gif); PADDING-BOTTOM: 2px; BORDER-LEFT: #7895a2 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #7895a2 1px solid; BACKGROUND-REPEAT: repeat-x
+}
+.dxtiGroupHeaderTextCategorized_Glass {
+	FONT-SIZE: 18pt; COLOR: #666666
+}
+.dxtiGroupHeaderTextCategorized_Glass {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-TOP: 2px
+}
+.dxtiFilterBoxInfoText_Glass {
+	PADDING-BOTTOM: 4px; FONT: 8pt Verdana; COLOR: #8b8c8d; PADDING-TOP: 10px
+}
+.dxtiFilterBoxEdit_Glass {
+	BORDER-RIGHT: #90abc4 1px solid; BORDER-TOP: #90abc4 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 9pt; BORDER-LEFT: #90abc4 1px solid; WIDTH: 158px; BORDER-BOTTOM: #90abc4 1px solid
+}
+.dxtiFilterBox_Glass {
+	FONT: 9pt Tahoma; COLOR: #59595a
+}
+.dxtiFilterBox_Glass TABLE {
+	FONT: 9pt Tahoma; COLOR: #59595a
+}
+.dxtiFilterBox_Glass {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; PADDING-TOP: 10px; BACKGROUND-COLOR: #ecf8fc
+}
+.dxtiIndexPanel_Glass {
+	PADDING-BOTTOM: 8px; TEXT-DECORATION: none
+}
+.dxtiIndexPanelItem_Glass {
+	FONT-SIZE: 12px; COLOR: #2a769d; FONT-FAMILY: Verdana; TEXT-DECORATION: underline
+}
+.dxtiIndexPanelItem_Glass A {
+	FONT-SIZE: 12px; COLOR: #2a769d; FONT-FAMILY: Verdana; TEXT-DECORATION: underline
+}
+.dxtiCurrentIndexPanelItem_Glass {
+	FONT-SIZE: 12px; COLOR: #2a769d; FONT-FAMILY: Verdana; TEXT-DECORATION: underline
+}
+.dxtiIndexPanelItem_Glass {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 0px
+}
+.dxtiCurrentIndexPanelItem_Glass {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 0px
+}
+.dxtiCurrentIndexPanelItem_Glass {
+	COLOR: #000000; BACKGROUND-COLOR: #e0e0e0
+}
+.dxtiBackToTop_Glass A {
+	FONT: 10px Tahoma; COLOR: #337898; WHITE-SPACE: nowrap; TEXT-DECORATION: underline
+}
+.dxtiBackToTop_Glass A {
+	COLOR: #337898
+}
+.dxtiBackToTop_Glass A:hover {
+	COLOR: #f15e34
+}
+.dxtiBackToTop_Glass A:visited {
+	COLOR: #a1a1a1
+}
+.dxtiBackToTop_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 12px; PADDING-TOP: 0px
+}
+.dxDisabled_Glass {
+	CURSOR: default! important; COLOR: #808080! important
+}

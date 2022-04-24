@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0044)http://www.schillmania.com/projects/dialog2/ -->
+<HTML lang=en xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>Even More Rounded Corners (Fluid, Alpha-transparent, Single Image Approach) Using CSS</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META 
+content="Another attempt at doing fluid, rounded corners using CSS, this time with a single image and alpha opacity." 
+name=description>
+<META 
+content="rounded css corners, css rounded corners, round boxes, inline dialogs, round css borders, css drop shadows" 
+name=keywords>
+<META content="Scott Schiller" name=author>
+<META content="Copyright (C) 1997 onwards Scott Schiller" name=copyright>
+<META content=en-us name=language><LINK media=screen 
+href="Even More Rounded Corners (Fluid, Alpha-transparent, Single Image Approach) Using CSS_files/dialog.css" 
+rel=stylesheet><LINK media=screen 
+href="Even More Rounded Corners (Fluid, Alpha-transparent, Single Image Approach) Using CSS_files/dialog-variants.css" 
+rel=stylesheet><LINK media=screen 
+href="Even More Rounded Corners (Fluid, Alpha-transparent, Single Image Approach) Using CSS_files/demo.css" 
+rel=stylesheet>
+<SCRIPT 
+src="Even More Rounded Corners (Fluid, Alpha-transparent, Single Image Approach) Using CSS_files/demo.js" 
+type=text/javascript></SCRIPT>
+
+<META content="MSHTML 6.00.2900.2995" name=GENERATOR></HEAD>
+<BODY>
+<DIV id=demo>
+<DIV class=col><!-- drip-style dialog -->
+<DIV class="dialog type4 drip" style="Z-INDEX: 2"><!-- inline style: sit on top of dialog below --><!-- top right PNG -->
+<DIV class=content><!-- optional: prevent vertical overflow -->
+<DIV class=wrapper><!-- top/left corner -->
+<DIV class=t></DIV><!-- optional: standard module format-based content (not required for layout -->
+<DIV class=hd>
+<H1>Even <EM>More</EM> Rounded Corners With CSS</H1>
+<H2 class=compact>(Another technique for the pile.)</H2></DIV>
+<DIV class=bd>
+<P>There's an increasing desire (at time of writing, February 2007) to provide 
+rounded corner dialogs with various visual effects. Based on the original <A 
+title="Original Rounded Corners article on schillmania.com" 
+href="http://www.schillmania.com/content/entries/2006/04/more-rounded-corners/">More 
+Rounded Corners With CSS</A>, this update reduces the background to a single 
+"sprite", retaining the alpha transparency benefits of PNG without bloating the 
+markup required to produce the same effect. The end result is something which 
+should allow for further customization.</P>
+<H2 class=tight>Features:</H2>
+<UL>
+  <LI>CSS-only, no Javascript 
+  <LI>Fluid layout, width/height (up to full image dimensions) 
+  <LI>Single PNG image 
+  <LI>PNG alpha transparency - corners, borders, drop shadows, inner gradients 
+  etc. 
+  <LI>Standard Module Format-based content markup (SMF approach thanks to <A 
+  title="Nate Koechley's Blog" href="http://nate.koechley.com/">Nate 
+  Koechley</A>) - see also, "<A title="Jonathan Snook's blog" 
+  href="http://snook.ca/archives/html_and_css/its_not_divitis/">It's Not 
+  Divitis</A>" (<A title="Divitis and Correct DIV Usage on Nate's blog" 
+  href="http://nate.koechley.com/blog/2006/12/15/divitis_and_correct_div_usage/">2</A>) 
+
+  <LI>Degradation to GIF (or 8-bit PNG) for IE 6 </LI></UL></DIV>
+<DIV class=ft>
+<H2 class=tight>Basic Exampless</H2>
+<P class=compact>See this <A title="Basic Rounded Corner CSS" 
+href="http://www.schillmania.com/projects/dialog2/basic.html">Basic Rounded 
+Corner CSS</A> example.</P>
+<H2 class=tight>Download</H2>
+<P class=compact><A title="Download Rounded Corners with CSS examples" 
+href="http://www.schillmania.com/projects/dialog2/download/20070214-even-more-rounded-corners.zip">Download 
+examples</A> - Includes this demo page, basic examples, images and PSD dialog 
+templates (use layer effects + color fill to customize)</P>
+<H2 class=tight>Credits</H2>
+<UL>
+  <LI><A title="Nate Koechley's blog" href="http://nate.koechley.com/">Nate 
+  Koechley</A> - Standard Module Format 
+  <LI><A title=squidfingers 
+  href="http://www.squidfingers.com/">squidfingers.com</A> - tiny tiled 
+  background design </LI></UL>
+<H2 class=tight>About</H2>
+<P><A title="Scott Schiller's experimental design site" 
+href="http://www.schillmania.com/">Scott Schiller</A> (<A 
+title="Contact information for Scott Schiller" 
+href="http://www.schillmania.com/content/react/contact/">contact</A>) is a 
+Front-end Engineer (previously "Web Developer") who builds fun creative and 
+technical stuff on the web - or failing that, tries - when he has free time. He 
+likes building cool things which contribute to, yet enjoys mocking, the <A 
+title="Web 2.0: Don't Believe The Hype!" 
+href="http://www.schillmania.com/content/opinion/2005/10/dont-believe-the-web-20-hype/">Web 
+2.0 meme</A>. (See <A title="Take the Web 2.0 Awareness Test!" 
+href="http://www.schillmania.com/content/entries/2006/08/how-web20-aware-are-you/">How 
+Web 2.0-Aware Are You?</A>)</P></DIV></DIV></DIV><!-- bottom PNG -->
+<DIV class=b>
+<DIV></DIV></DIV></DIV><!-- dialog -->
+<DIV class="dialog type2 drip" style="MARGIN-TOP: 0px"><!-- inline style: slide under above dialog -->
+<DIV class=content>
+<DIV class=wrapper>
+<DIV class=t></DIV>
+<DIV class=hd>
+<H1>Notes + Observations</H1>
+<H2 class=compact>Performance, efficiency, limitations and so on</H2></DIV>
+<DIV class=bd>
+<P>This rounded corner technique may not be appropriate for some uses.</P>
+<H2 class=tight>PNG file size trade-off</H2>
+<P>Because this single-image technique uses PNGs which employ a deflate 
+(ZIP)-style compression method, they can compress better than GIF, but generally 
+not as well as JPEG (it is non-lossy unlike JPEG, however.) Nonetheless, file 
+size will generally grow with the relative "complexity" of the image and its 
+dimensions (gradients and patterns for example will likely not compress as well 
+as flat colours.)</P>
+<P>Images nearing 800x600 can be 6 KB, whereas 1600x1200 can be 16 KB. The blue 
+background on this element (excluding IE 6), is 800x1600 and is 10.7 KB. It 
+appears compression is far more efficient on the vertical axis, but it may be 
+worthwhile to experiment with different dimensions and patterns to optimize file 
+size.</P>
+<P>It is also worthwhile to note that <EM>the demo images may not be 
+well-optimized</EM>, and are also relatively complex as they use drop shadows, 
+unique ("drip style") elements and gradients. I have not fully investigated this 
+area yet.</P>
+<P>Some PNG "crunching" utilies are available which can help to get the file 
+size down as well, post-export from an editor like the GIMP or Photoshop. These 
+work by removing excess gamma data and other channel information, as far as I 
+understand. PNGCrunch is one such example.</P>
+<H2>Alpha transparency vs. render performance</H2>
+<P>It is assumed that alpha transparency affects rendering performance within 
+the browser relating to rendering, scrolling, resizing and animation (dynamic 
+updating) of content. Swapping GIFs for PNGs for example may provide improved 
+performance, though lack certain features such as alpha transparency. Large 
+areas of opacity may render more slowly than smaller ones (alpha corners vs. 
+entire PNG being partially translucent, for example), but this has not been 
+tested.</P>
+<P>To test animation performance (excluding IE 6), double-click inside a 
+dialog's content area. Speed may vary widely depending on browser window size 
+and other variables. The native OS browsers (IE on Windows, Safari on Mac OS X) 
+appear to handle this far better than others.</P></DIV>
+<DIV class=ft>
+<H2>Single Image?</H2>
+<P class=compact>After some tinkering, I stuck to a single <CODE 
+title="BAI: 'Big-Ass Image'">BAI</CODE> because it seems to offer a fairly 
+flexible way to accommodate various design styles such as gradients without 
+excessive image weight. The potential downside is the limitation on height due 
+to file size, and since there is no tiling, the desire to avoid scrolling. 
+Changing the BAI to a tiling sprite format would also require a markup structure 
+different from this approach. In short, "use what works."</P></DIV></DIV></DIV>
+<DIV class=b>
+<DIV></DIV></DIV></DIV><!-- /column --></DIV>
+<DIV class="col last"><!-- dialog -->
+<DIV class="dialog type5 drip">
+<DIV class=content>
+<DIV class=wrapper>
+<DIV class=t></DIV>
+<DIV class=hd>
+<H1>Technique</H1>
+<H2 class=compact>The nitty gritty.</H2></DIV>
+<DIV class=bd>
+<P>Given the use of alpha transparency throughout, elements with background 
+images may not overlap. Therefore, a few hook elements and positioning are used 
+to provide the required "slices" which make a complete, fluid image.</P>
+<H2 class=tight>Markup Structure</H2>
+<P>Here is the base markup required for this format:</P><PRE>&lt;div class="dialog"&gt;
+ &lt;div class="content"&gt;
+  &lt;div class="t"&gt;&lt;/div&gt;
+  &lt;!-- Your content goes here --&gt;
+ &lt;/div&gt;
+ &lt;div class="b"&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+</PRE>
+<P>Here is a more-complete variant using Standard Module Format, 
+nicely-formatted and with comments:</P><PRE>&lt;div class="dialog"&gt;
+
+ &lt;!-- top/right PNG --&gt;
+ &lt;div class="content"&gt;
+
+  &lt;!-- optional: vertical scroll wrapper --&gt;
+  &lt;div class="wrapper"&gt;
+
+   &lt;!-- top/left PNG --&gt;
+   &lt;div class="t"&gt;&lt;/div&gt;
+
+<SPAN>   &lt;!-- Your content goes here --&gt;
+
+   &lt;!-- Optional: Standard Module Format (hd/bd/ft)
+   for providing semantic, meaningful content.
+   Not required for visual effect. --&gt;
+
+   &lt;div class="hd"&gt;
+    &lt;h1&gt;Technique&lt;/h1&gt;
+    &lt;h2&gt;The nitty gritty.&lt;/h2&gt;
+   &lt;/div&gt;
+
+   &lt;div class="bd"&gt;
+    &lt;p&gt;Given the use of alpha transparency...&lt;/p&gt;
+   &lt;/div&gt;
+
+   &lt;div class="ft"&gt;
+    &lt;p&gt;This is where the footer goes.&lt;/p&gt;
+   &lt;/div&gt;
+</SPAN>
+  &lt;!-- end content --&gt;
+  &lt;/div&gt;
+
+ &lt;!-- end scroll wrapper --&gt;
+ &lt;/div&gt;
+
+ &lt;!-- bottom PNG --&gt;
+ &lt;div class="b"&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;!-- end dialog --&gt;
+&lt;/div&gt;
+</PRE></DIV>
+<DIV class=ft>
+<P class=compact>The use of SMF here is optional, but recommended. The dialog 
+CSS does not require it. If minimizing the code is a must, it can be omitted and 
+the fluid dialog layout should still apply. However, left margins may need to be 
+applied to bump the content on the content container used (eg. a single 
+DIV.)</P></DIV></DIV></DIV>
+<DIV class=b>
+<DIV></DIV></DIV></DIV><!--/column --></DIV><!--/demo --></DIV>
+<DIV style="CLEAR: both">&nbsp;</DIV></BODY></HTML>

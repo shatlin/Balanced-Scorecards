@@ -1,0 +1,45 @@
+A.ControlTitleRightBar:active {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.ControlTitleRightBar:visited {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.ControlTitleRightBar:link {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.ControlTitleRightBar:hover {
+	PADDING-LEFT: 2px; VERTICAL-ALIGN: middle; COLOR: gray
+}
+A.ControlTitleMidBar:active {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.ControlTitleMidBar:visited {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.ControlTitleMidBar:link {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.ControlTitleMidBar:hover {
+	PADDING-LEFT: 2px; VERTICAL-ALIGN: middle; COLOR: gray
+}
+.ControlMidHeaderBackground {
+	COLOR: #ff6600; BORDER-BOTTOM: #ff6600 1px solid; BACKGROUND-COLOR: #ffc69f
+}
+.ControlMidBorderStyle {
+	BORDER-RIGHT: #ff6600 1px solid; BORDER-TOP: #ff6600 1px solid; BORDER-LEFT: #ff6600 1px solid; BORDER-BOTTOM: #ff6600 1px solid; BORDER-COLLAPSE: collapse
+}
+.ControlRightHeaderBackground {
+	COLOR: #ff6600; BORDER-BOTTOM: #ff6600 1px solid; BACKGROUND-COLOR: #ffc69f
+}
+.ControlRightBorderStyle {
+	BORDER-RIGHT: #ff6600 1px solid; BORDER-TOP: #ff6600 1px solid; BORDER-LEFT: #ff6600 1px solid; BORDER-BOTTOM: #ff6600 1px solid; BORDER-COLLAPSE: collapse
+}
+.ArticleIcon {
+	BACKGROUND-IMAGE: url(/App_Themes/CSharp/images/ArticleIcons/ArticleIcon_orange.gif); BACKGROUND-REPEAT: no-repeat
+}
+.BulletIcon {
+	BACKGROUND-IMAGE: url(/App_Themes/CSharp/images/BulletIcons/bullet_orange.gif); BACKGROUND-REPEAT: no-repeat
+}
+.pagingBackground {
+	BORDER-TOP: #ff6600 1px solid; WIDTH: 100%; BORDER-COLLAPSE: collapse
+}

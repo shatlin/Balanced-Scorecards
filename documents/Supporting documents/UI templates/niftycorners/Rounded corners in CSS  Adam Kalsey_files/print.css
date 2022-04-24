@@ -1,0 +1,35 @@
+
+@media Print    
+{
+A {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+A:unknown {
+	content: " [" attr(href) "]"
+}
+BODY {
+	FONT-SIZE: 10pt; MARGIN: 0px; FONT-FAMILY: "Times New Roman", Times, serif; BACKGROUND-COLOR: #ffffff
+}
+.menu {
+	DISPLAY: none
+}
+#rtcol {
+	DISPLAY: none
+}
+.ahem {
+	DISPLAY: none
+}
+#searchbox {
+	DISPLAY: none
+}
+.box {
+	DISPLAY: none
+}
+#tools {
+	DISPLAY: none
+}
+.print {
+	DISPLAY: block
+}
+
+}

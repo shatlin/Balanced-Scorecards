@@ -1,0 +1,45 @@
+A.ControlTitleRightBar:active {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #006600; TEXT-DECORATION: none
+}
+A.ControlTitleRightBar:visited {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #006600; TEXT-DECORATION: none
+}
+A.ControlTitleRightBar:link {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #006600; TEXT-DECORATION: none
+}
+A.ControlTitleRightBar:hover {
+	PADDING-LEFT: 2px; VERTICAL-ALIGN: middle; COLOR: gray
+}
+A.ControlTitleMidBar:active {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #006600; TEXT-DECORATION: none
+}
+A.ControlTitleMidBar:visited {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #006600; TEXT-DECORATION: none
+}
+A.ControlTitleMidBar:link {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; COLOR: #006600; TEXT-DECORATION: none
+}
+A.ControlTitleMidBar:hover {
+	PADDING-LEFT: 2px; VERTICAL-ALIGN: middle; COLOR: gray
+}
+.ControlMidHeaderBackground {
+	FONT-WEIGHT: bold; COLOR: #006600; PADDING-TOP: 4px; BORDER-BOTTOM: #009900 1px solid; HEIGHT: 24px; BACKGROUND-COLOR: #bbffbb
+}
+.ControlMidBorderStyle {
+	BORDER-RIGHT: #009900 1px solid; BORDER-TOP: #009900 1px solid; MARGIN-BOTTOM: 6px; BORDER-LEFT: #009900 1px solid; BORDER-BOTTOM: #009900 1px solid; BORDER-COLLAPSE: collapse
+}
+.ControlRightHeaderBackground {
+	FONT-WEIGHT: bold; COLOR: #006600; PADDING-TOP: 4px; BORDER-BOTTOM: #009900 1px solid; HEIGHT: 24px; BACKGROUND-COLOR: #bbffbb
+}
+.ControlRightBorderStyle {
+	BORDER-RIGHT: #009900 1px solid; BORDER-TOP: #009900 1px solid; MARGIN-BOTTOM: 6px; BORDER-LEFT: #009900 1px solid; BORDER-BOTTOM: #009900 1px solid; BORDER-COLLAPSE: collapse
+}
+.ArticleIcon {
+	BACKGROUND-IMAGE: url(/App_Themes/CSharp/images/ArticleIcons/ArticleIcon_green.gif); BACKGROUND-REPEAT: no-repeat
+}
+.BulletIcon {
+	BACKGROUND-IMAGE: url(/App_Themes/CSharp/images/BulletIcons/bullet_green.gif); BACKGROUND-REPEAT: no-repeat
+}
+.pagingBackground {
+	BORDER-TOP: #009900 1px solid; WIDTH: 100%; BORDER-COLLAPSE: collapse
+}

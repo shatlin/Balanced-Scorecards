@@ -1,0 +1,108 @@
+H2.blogHeader {
+	WIDTH: 100%
+}
+A.imageLink IMG {
+	BORDER-TOP-WIDTH: 0px! important; PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; BORDER-LEFT-WIDTH: 0px! important; BORDER-BOTTOM-WIDTH: 0px! important; PADDING-BOTTOM: 0px! important; MARGIN: 3px 0px 0px; PADDING-TOP: 0px! important; BORDER-RIGHT-WIDTH: 0px! important
+}
+A.imageLink {
+	BORDER-TOP-WIDTH: 0px! important; PADDING-RIGHT: 0px! important; DISPLAY: block; PADDING-LEFT: 0px! important; BORDER-LEFT-WIDTH: 0px! important; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: right; BORDER-BOTTOM-WIDTH: 0px! important; PADDING-BOTTOM: 0px! important; MARGIN: 0px; PADDING-TOP: 0px! important; BORDER-RIGHT-WIDTH: 0px! important; TEXT-DECORATION: none
+}
+A.imageLink:active {
+	BORDER-TOP-WIDTH: 0px! important; PADDING-RIGHT: 0px! important; DISPLAY: block; PADDING-LEFT: 0px! important; BORDER-LEFT-WIDTH: 0px! important; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: right; BORDER-BOTTOM-WIDTH: 0px! important; PADDING-BOTTOM: 0px! important; MARGIN: 0px; PADDING-TOP: 0px! important; BORDER-RIGHT-WIDTH: 0px! important; TEXT-DECORATION: none
+}
+A.imageLink:hover {
+	BORDER-TOP-WIDTH: 0px! important; PADDING-RIGHT: 0px! important; DISPLAY: block; PADDING-LEFT: 0px! important; BORDER-LEFT-WIDTH: 0px! important; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: right; BORDER-BOTTOM-WIDTH: 0px! important; PADDING-BOTTOM: 0px! important; MARGIN: 0px; PADDING-TOP: 0px! important; BORDER-RIGHT-WIDTH: 0px! important; TEXT-DECORATION: none
+}
+P.authorbio {
+	BORDER-RIGHT: #9c0 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #9c0 0px solid; PADDING-LEFT: 10px; FONT-SIZE: 86%; BACKGROUND: url(assets/images/blog_bg.gif) #fff repeat-x left bottom; PADDING-BOTTOM: 10px; MARGIN: -11px 0px 1em; BORDER-LEFT: #9c0 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #9c0 1px solid
+}
+.comment {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; OVERFLOW: hidden! important; PADDING-TOP: 10px; BORDER-BOTTOM: #ddd 1px solid; POSITION: relative; BACKGROUND-COLOR: #fff
+}
+.commentAlt {
+	BACKGROUND-COLOR: #f4f4f4
+}
+.commentAuthor {
+	BACKGROUND-COLOR: #ffc
+}
+.commentMe {
+	PADDING-TOP: 5px; BACKGROUND-COLOR: #ccf! important
+}
+.comment .newavatar A IMG {
+	DISPLAY: block; Z-INDEX: 999; FLOAT: left; MARGIN: 3px 5px 3px 0px; WIDTH: 80px; POSITION: relative; HEIGHT: 80px
+}
+.comment .avatar A IMG {
+	DISPLAY: none
+}
+.comment .content {
+	HEIGHT: 86px
+}
+.commentNum {
+	FONT-WEIGHT: bold; FONT-SIZE: 50px; Z-INDEX: 1; RIGHT: 24px; COLOR: #f2f2f2; LINE-HEIGHT: 30px; FONT-FAMILY: Arial, sans-serif; LETTER-SPACING: -4px; POSITION: absolute; TOP: 0px
+}
+.commentAlt .commentNum {
+	COLOR: #eaeaea
+}
+.commentMe .commentNum {
+	COLOR: #b0b0ff
+}
+.commentAuthor .commentNum {
+	COLOR: #f3f3bb
+}
+.commentTitle {
+	Z-INDEX: 10; COLOR: #693; POSITION: relative
+}
+.commentTitle SPAN {
+	FONT-SIZE: 86%
+}
+.commentTitle STRONG {
+	FONT-WEIGHT: normal; FONT-SIZE: 86%; TEXT-TRANSFORM: none; COLOR: #999; MARGIN-RIGHT: 6px
+}
+.comment .content {
+	Z-INDEX: 10; POSITION: relative
+}
+.author {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 86%; PADDING-BOTTOM: 5px; PADDING-TOP: 0px
+}
+P.BlogMeta {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1em 0px 0px; LINE-HEIGHT: 20px; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+P.BlogMeta A {
+	BORDER-TOP-WIDTH: 0px! important; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px! important; BORDER-BOTTOM-WIDTH: 0px! important; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #fff! important; BORDER-RIGHT-WIDTH: 0px! important; TEXT-DECORATION: none
+}
+pBlogMeta A:active {
+	BORDER-TOP-WIDTH: 0px! important; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px! important; BORDER-BOTTOM-WIDTH: 0px! important; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #fff! important; BORDER-RIGHT-WIDTH: 0px! important; TEXT-DECORATION: none
+}
+pBlogMeta A:hover {
+	BORDER-TOP-WIDTH: 0px! important; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px! important; BORDER-BOTTOM-WIDTH: 0px! important; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #fff! important; BORDER-RIGHT-WIDTH: 0px! important; TEXT-DECORATION: none
+}
+P.BlogMeta A IMG {
+	BORDER-TOP-WIDTH: 0px! important; BORDER-LEFT-WIDTH: 0px! important; BORDER-BOTTOM-WIDTH: 0px! important; VERTICAL-ALIGN: middle; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px! important
+}
+INPUT {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 1em; BACKGROUND: #fafafa; PADDING-BOTTOM: 1px; BORDER-LEFT: #999 1px solid; COLOR: #666; PADDING-TOP: 2px; BORDER-BOTTOM: #999 1px solid; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif
+}
+INPUT:hover {
+	BORDER-RIGHT: #9c0 1px solid; BORDER-TOP: #9c0 1px solid; FONT-SIZE: 1em; BACKGROUND: #fafafa; BORDER-LEFT: #9c0 1px solid; COLOR: #111; BORDER-BOTTOM: #9c0 1px solid
+}
+INPUT:unknown {
+	BORDER-RIGHT: #333 1px solid; BORDER-TOP: #333 1px solid; FONT-SIZE: 1em; BACKGROUND: #fff; BORDER-LEFT: #333 1px solid; COLOR: #111; BORDER-BOTTOM: #333 1px solid
+}
+TEXTAREA {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 1.1em; BACKGROUND: #fafafa; PADDING-BOTTOM: 1px; BORDER-LEFT: #999 1px solid; WIDTH: 450px; COLOR: #666; PADDING-TOP: 2px; BORDER-BOTTOM: #999 1px solid; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif
+}
+TEXTAREA:hover {
+	BORDER-RIGHT: #9c0 1px solid; BORDER-TOP: #9c0 1px solid; BACKGROUND: #fafafa; BORDER-LEFT: #9c0 1px solid; COLOR: #111; BORDER-BOTTOM: #9c0 1px solid
+}
+TEXTAREA:unknown {
+	BORDER-RIGHT: #666 1px solid; BORDER-TOP: #666 1px solid; BACKGROUND: #fff; BORDER-LEFT: #666 1px solid; COLOR: #111; BORDER-BOTTOM: #666 1px solid
+}
+.message {
+	PADDING-RIGHT: 9px; MARGIN-TOP: 7px; PADDING-LEFT: 9px; BACKGROUND: url(../images/messages.png) repeat-x 0px 0px; PADDING-BOTTOM: 5px; COLOR: #111; PADDING-TOP: 12px; BORDER-BOTTOM: #222 1px solid
+}
+.error {
+	PADDING-RIGHT: 9px; MARGIN-TOP: 7px; PADDING-LEFT: 9px; BACKGROUND: url(../images/messages.png) repeat-x 0px 0px; PADDING-BOTTOM: 5px; COLOR: #111; PADDING-TOP: 12px; BORDER-BOTTOM: #222 1px solid
+}
+.error {
+	BACKGROUND-POSITION: 0px 67px
+}

@@ -1,0 +1,142 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="iMaster.master.cs" Inherits="common_iMaster" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<link href="../styles/iScoreStyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body leftmargin="0" topmargin="0" rightmargin="0" marginwidth="0" marginheight="0" >
+    <form id="form1" runat="server" >
+        <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" >
+            <tr>
+                <td background="../images/basebg2.jpg" colspan="2" style="height: 9px; text-align: right"
+                    valign="middle">
+                    <asp:LinkButton ID="LinkButton1" runat="server" BackColor="Desktop" ForeColor="White"
+                        OnClick="LinkButton1_Click" Visible="False">Log Off</asp:LinkButton></td>
+            </tr>
+  
+        <tr>
+            <td colspan="2" background="../images/basebg2.jpg" style="height: 9px" valign="middle">
+                
+                           <asp:Menu ID="SuperUserMenu"  Visible=false runat="server" Orientation="Horizontal" BackColor="#2172A1" BorderColor="#92BED7" DisappearAfter="2000" Font-Names="Calibri" Font-Size="X-Small" ForeColor="#92BED7" Font-Bold="False">
+                                    <Items>
+                                    <asp:MenuItem  Text="System SetUp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" Value="Options">
+                                        <asp:MenuItem Text="Manage Global parameters" Value="Global" NavigateUrl="~/Setup/GlobalParameters.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Manage Exercise Periods" Value="Period" NavigateUrl="~/Setup/Period.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Manage Application users" Value="users" NavigateUrl="~/Setup/ApplicationUser.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Manage Location" Value="users" NavigateUrl="~/Setup/Location.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Manage Organization Roles" Value="orgRole" NavigateUrl="~/Setup/OrganizationRole.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Manage Organization Hierarchy" Value="OrgHierarchy" NavigateUrl="~/Setup/OrgHierarchy.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Create Integrated scorecard" Value="RoleCompetency" NavigateUrl="~/Setup/CreateScorecard.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="View my Integrated scorecard" Value="RoleCompetency" NavigateUrl="~/Setup/ViewIS.aspx"></asp:MenuItem>
+                                    </asp:MenuItem>
+                                    
+                                    <asp:MenuItem Text="Competency Scorecard Setup " Value="Options">
+                                        <asp:MenuItem Text="Manage Competencies" Value="Competency" NavigateUrl="~/CAS/competency.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Manage Competency Type" Value="CompetencyType" NavigateUrl="~/CAS/CompetencyType.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Assign Competency To Role" Value="RoleCompetency" NavigateUrl="~/CAS/RoleComp.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Perform Self Rating" Value="RoleCompetency" NavigateUrl="~/CAS/SelfRating.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Perform Ordinate Rating" Value="RoleCompetency" NavigateUrl="~/CAS/OrdinateRating.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Perform Agreed Rating" Value="RoleCompetency" NavigateUrl="~/CAS/AgreedRating.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Start a new CAS Exercise" Value="RoleCompetency" NavigateUrl="~/CAS/NewCASExercise.aspx"></asp:MenuItem>
+                                                                              
+                                    </asp:MenuItem>
+                                    
+                                                                   
+                                    <asp:MenuItem Text="Configure Balanced Scorecard " Value="Options" >
+                                        <asp:MenuItem ></asp:MenuItem>
+                                    </asp:MenuItem>
+                        
+                                </Items>
+                        <DynamicMenuItemStyle BackColor="#2172A1" BorderColor="#92BED7" Font-Names="Calibri"
+                        Font-Size="X-Small" ForeColor="#92BED7" Font-Bold="False" ItemSpacing="3px" VerticalPadding="1px" />
+                    <DynamicMenuStyle BackColor="#2172A1" BorderColor="#92BED7" />
+                 </asp:Menu>
+                 
+                         <asp:Menu ID="AdminMenu"  Visible=false runat="server" Orientation="Horizontal" BackColor="#2172A1" BorderColor="#92BED7" DisappearAfter="2000" Font-Names="Calibri" Font-Size="X-Small" ForeColor="#92BED7" Font-Bold="False">
+                                    <Items>
+                                    <asp:MenuItem  Text="System SetUp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" Value="Options">
+                                        
+                                        <asp:MenuItem Text="Manage Application users" Value="users" NavigateUrl="~/Setup/ApplicationUser.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Manage Location" Value="users" NavigateUrl="~/Setup/Location.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Manage Organization Roles" Value="orgRole" NavigateUrl="~/Setup/OrganizationRole.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Manage Organization Hierarchy" Value="OrgHierarchy" NavigateUrl="~/Setup/OrgHierarchy.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Create Integrated scorecard" Value="RoleCompetency" NavigateUrl="~/Setup/CreateScorecard.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="View my Integrated scorecard" Value="RoleCompetency" NavigateUrl="~/Setup/ViewIS.aspx"></asp:MenuItem>
+                                    </asp:MenuItem>
+                                    
+                                    <asp:MenuItem Text="Competency Scorecard Setup " Value="Options">
+                                        <asp:MenuItem Text="Manage Competencies" Value="Competency" NavigateUrl="~/CAS/competency.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Manage Competency Type" Value="CompetencyType" NavigateUrl="~/CAS/CompetencyType.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Assign Competency To Role" Value="RoleCompetency" NavigateUrl="~/CAS/RoleComp.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Perform Self Rating" Value="RoleCompetency" NavigateUrl="~/CAS/SelfRating.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Perform Ordinate Rating" Value="RoleCompetency" NavigateUrl="~/CAS/OrdinateRating.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Perform Agreed Rating" Value="RoleCompetency" NavigateUrl="~/CAS/AgreedRating.aspx"></asp:MenuItem>
+                                        
+                                                                              
+                                    </asp:MenuItem>
+                                    
+                                                                   
+                                    <asp:MenuItem Text="Configure Balanced Scorecard " Value="Options" >
+                                        <asp:MenuItem ></asp:MenuItem>
+                                    </asp:MenuItem>
+                        
+                                </Items>
+                        <DynamicMenuItemStyle BackColor="#2172A1" BorderColor="#92BED7" Font-Names="Calibri"
+                        Font-Size="X-Small" ForeColor="#92BED7" Font-Bold="False" ItemSpacing="3px" VerticalPadding="1px" />
+                    <DynamicMenuStyle BackColor="#2172A1" BorderColor="#92BED7" />
+                 </asp:Menu>
+               
+                 
+                                          <asp:Menu ID="Appusermenu"  Visible=false runat="server" Orientation="Horizontal" BackColor="#2172A1" BorderColor="#92BED7" DisappearAfter="2000" Font-Names="Calibri" Font-Size="X-Small" ForeColor="#92BED7" Font-Bold="False">
+                                    <Items>
+                                    <asp:MenuItem  Text="Integrated Scorecard" Value="Options">
+                                            <asp:MenuItem Text="View my Integrated scorecard" Value="RoleCompetency" NavigateUrl="~/Setup/ViewIS.aspx"></asp:MenuItem>
+                                    </asp:MenuItem>
+                                    
+                                    <asp:MenuItem Text="Competency Scorecard Setup " Value="Options">
+                                        <asp:MenuItem Text="Perform Self Rating" Value="RoleCompetency" NavigateUrl="~/CAS/SelfRating.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Perform Ordinate Rating" Value="RoleCompetency" NavigateUrl="~/CAS/OrdinateRating.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Perform Agreed Rating" Value="RoleCompetency" NavigateUrl="~/CAS/AgreedRating.aspx"></asp:MenuItem>
+                                        
+                                                                              
+                                    </asp:MenuItem>
+                                    
+                                                                   
+                                    <asp:MenuItem Text="Configure Balanced Scorecard " Value="Options" >
+                                        <asp:MenuItem ></asp:MenuItem>
+                                    </asp:MenuItem>
+                        
+                                </Items>
+                        <DynamicMenuItemStyle BackColor="#2172A1" BorderColor="#92BED7" Font-Names="Calibri"
+                        Font-Size="X-Small" ForeColor="#92BED7" Font-Bold="False" ItemSpacing="3px" VerticalPadding="1px" />
+                    <DynamicMenuStyle BackColor="#2172A1" BorderColor="#92BED7" />
+                 </asp:Menu>
+                </td>
+        </tr>
+  <tr > 
+  
+    <td >
+    
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder></td>
+  </tr>
+  <tr> 
+  
+    <td height="24" background="../images/basebg1.jpg"><img src="../images/basebg1.jpg" width="1" height="24"></td>
+
+  </tr>
+  <tr>
+    <td height="44" valign="top" background="../images/basebg2.jpg">    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="26" class="baseline">&nbsp;&nbsp;&copy; Integerated Office Scorecard</td>
+        <td align="right" class="baseline">Business through Measures&nbsp;&nbsp;</td>
+      </tr>
+
+    </table></td>
+  </tr>
+</table>
+    </form>
+</body>
+</html>

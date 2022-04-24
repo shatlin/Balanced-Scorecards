@@ -1,0 +1,51 @@
+#searchbox {
+	DISPLAY: none; LEFT: 15px; OVERFLOW: hidden; WIDTH: 275px; POSITION: absolute; TOP: 95px; HEIGHT: 80px
+}
+#searchbox INPUT {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; FLOAT: left; MARGIN: 0px; BORDER-LEFT: #ccc 1px solid; WIDTH: 100px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 18px
+}
+#searchbox .button {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 0.4em; BORDER-LEFT: #ccc 1px solid; WIDTH: auto; PADDING-TOP: 0px; BORDER-BOTTOM: #ccc 1px solid
+}
+#searchbox H1 {
+	DISPLAY: none
+}
+#menu {
+	CLEAR: both; FLOAT: left; MARGIN: 0px; FONT: bold 1.1em Helvetica, Arial, sans-serif; WIDTH: 100%; BORDER-BOTTOM: #eaeaea 8px solid; BACKGROUND-COLOR: #333
+}
+#menu UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 45em; PADDING-TOP: 0px
+}
+#menu LI {
+	BORDER-TOP: #333 4px solid; FLOAT: left; LIST-STYLE-TYPE: none
+}
+#menu A {
+	PADDING-RIGHT: 1em; DISPLAY: block; PADDING-LEFT: 2em; PADDING-BOTTOM: 0px; COLOR: #fff; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+#menu UL#primary A:hover {
+	COLOR: #c33
+}
+BODY#secblog #menu LI#itemblog {
+	COLOR: black
+}
+BODY#secport #menu LI#itemport {
+	COLOR: black
+}
+BODY#secabout #menu LI#itemabout {
+	COLOR: black
+}
+BODY#seccontact #menu LI#itemcontact {
+	COLOR: black
+}
+BODY#secblog #menu LI#itemblog A {
+	CURSOR: default; COLOR: black
+}
+BODY#secport #menu LI#itemport A {
+	CURSOR: default; COLOR: black
+}
+BODY#secabout #menu LI#itemabout A {
+	CURSOR: default; COLOR: black
+}
+BODY#seccontact #menu LI#itemcontact A {
+	CURSOR: default; COLOR: black
+}

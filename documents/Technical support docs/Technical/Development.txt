@@ -1,0 +1,12 @@
+Discipline one level up will avoid a lot more issues:
+* Think about the solution
+* Think about the solution
+* Think about the solution
+* Think about the solution
+* Write code for the solution
+
+No mistakes in repeating to Think! If more time goes into thinking than writing code, there will be very clean code.
+
+In this world, most of the developers start writing code and then think, then break, become possessive of already written code, try to 'fix' the code, circumvent solutions, patch it and repeat this process many times. In the end the code written is not fully functional, too bulky to throw away and rewrite, less possibility of re-factoring and due to time pressure moves to production/relese. Then starts the maintenance part of it, repeating the same story!
+
+If every developer starts to think about the solution first (not code), things can improve to a great extent.

@@ -1,0 +1,251 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0041)http://www.vertexwerks.com/tests/sidebox/ -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>The ThrashBox™</TITLE>
+<META http-equiv=Content-type content="text/html; charset=iso-8859-1">
+<META http-equiv=Content-Language content=en-us>
+<STYLE type=text/css>BODY {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: white; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 20px 0px 0px; FONT: 100%/1.4em 'Lucida Grande', LucidaGrande, Lucida, Helvetica, Arial, sans-serif; COLOR: #222; PADDING-TOP: 0px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+DIV {
+	TEXT-ALIGN: left
+}
+P {
+	TEXT-ALIGN: left
+}
+PRE {
+	TEXT-ALIGN: left
+}
+P {
+	MARGIN-TOP: 0px; FONT-SIZE: 76%; LINE-HEIGHT: 1.8em
+}
+PRE {
+	MARGIN-TOP: 0px; FONT-SIZE: 85%; LINE-HEIGHT: 1.2em
+}
+.boxbody P {
+	FONT-SIZE: 76%
+}
+.boxbody A {
+	COLOR: gray
+}
+.boxbody A:hover {
+	COLOR: blue
+}
+H1 {
+	FONT-SIZE: 1.8em; COLOR: #777
+}
+H2 {
+	FONT-SIZE: 1.4em; COLOR: #888
+}
+.exp {
+	MARGIN: 10px auto; WIDTH: 30em
+}
+HR {
+	MARGIN: 10px auto; WIDTH: 35em
+}
+ HTML .boxhead H2 {
+	HEIGHT: 1%
+}
+.sidebox {
+	FONT-SIZE: 100%; BACKGROUND: url(sbbody-r.gif) no-repeat right bottom; MARGIN: 0px auto; WIDTH: 17em
+}
+.boxhead {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(sbhead-r.gif) no-repeat right top; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.boxhead H2 {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 30px; FONT-WEIGHT: bold; FONT-SIZE: 1.2em; BACKGROUND: url(sbhead-l.gif) no-repeat left top; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: white; LINE-HEIGHT: 1em; PADDING-TOP: 20px; text-shadow: rgba(0,0,0,.4) 0px 2px 5px
+}
+.boxbody {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 30px; BACKGROUND: url(sbbody-l.gif) no-repeat left bottom; PADDING-BOTTOM: 31px; MARGIN: 0px; PADDING-TOP: 5px
+}
+.widthlessbox {
+	FONT-SIZE: 100%; BACKGROUND: url(sbbody-r.gif) no-repeat right bottom; MARGIN: 0px 25%
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2900.2995" name=GENERATOR></HEAD>
+<BODY>
+<H1>"Sliding Doors" Box– Rounded Corners for All</H1>
+<H2>&nbsp;A Simple, Semantically Correct CSS Box with Clean Code</H2>
+<P class=exp><STRONG>final update (Jan 23, 2006):</STRONG> The revised, 
+one-image technique is finally complete!</P>
+<H3>View the long-promised and finally updated<BR><A 
+href="http://www.modxcms.com/simple-rounded-corner-css-boxes.html">Simple 
+Rounded Corner CSS Boxes</A> blog entry<BR>at the MODx <A 
+href="http://modxcms.com/">Content Management System</A> and <BR><A 
+href="http://modxcms.com/">PHP Application Framework</A> site.</H3>
+<P class=exp>The information below will remain for historical perspective...</P>
+<P class=exp><STRONG>update 2:</STRONG> The code update is now complete and will 
+be posted in the coming weeks at its new permanent home at <A 
+href="http://vertexworks.com/" target=_new>Vertexworks</A>, my new employment 
+adventure. I'll email everyone that has inquired or sent feedback in the year(!) 
+since I first came out with this. In the meantime, if anyone wants the PSD file 
+that I used to create the graphics for this, feel free to <A 
+href="http://www.vertexwerks.com/tests/sidebox/drop-box.psd">download it</A> and 
+use as you see fit. A link back to my new website would be appreciated (<A 
+href="http://vertexworks.com/" target=_new>http://vertexworks.com/</A>) although 
+certainly not required.</P>
+<P class=exp><STRONG>update:</STRONG> I'll be working on an update to this 
+technique soon using fewer images, better instructions based on all the feedback 
+I've received and downloadable PhotoShop templates for the graphics.</P>
+<P class=exp>While working on an <A href="http://www.omegacart.com/">e-commerce 
+system</A>, I wanted to use some neat CSS tricks for its sample XHTML/CSS 
+template. This new cart will support styling the entire cart in a way similar to 
+the <A href="http://www.csszengarden.com/">CSS Zen Garden</A>: strictly by 
+altering the CSS. This technique will be used for the CSS template to replace 
+the common osC-clone sideboxes found on virtually every other cart out 
+there.</P>
+<P class=exp>The goal of the exercise was to create rounded-corner boxes with 
+visual flare and the absolute minimal amount of semantically correct markup. Oh 
+yeah, and to make sure they could resize while keeping their backgrounds intact. 
+The important relevant XHTML and CSS for the first box on this page is directly 
+below the box.</P>
+<P class=exp>Questions/Comments:
+<SCRIPT type=text/javascript>
+<!-- 
+var d=new Array(
+   181,115,103,123,136,183,168,157,199,166,117,
+   191,146,196,174,225,201,104,115,104,140,165,
+   164,205,187,113,209,225,118,133,138,176,157,
+   108,175,218,192,197,208,184,111,196,125,211,
+   138,126,150,117,161,113,171,204,180,162,188,
+   210,195,108,201,215,206,178,210,171,101,153,
+   103,139,104,144,104,203,103,194,101,192,210,
+   170,206,105,201,142,195,219,188,166,180,110,
+   171,167,161,102,150,148,138,196,125,137,111,
+   122,208,216,192,167,175,211,157,130,138,139,
+   118,126,209,152,187,129,164,165,140,158,115,
+   139,201,137,174,127,146,125,117,109,199,163,
+   168,129,136,200,103,148,181,114,146,178,110,
+   138,185,193,147,187,108,197,180,187,139,159,
+   209,224,166,175,122,201,189,129,143,158,208,
+   159,160,177,111,110,173,139,122,223,182,175,
+   129,218,187,117,132,125,188,105,131,181,185,
+   105,126,156,178,180,117,107,167,118,104,172,
+   152,209,199,164,133,153,178,138,110,203,153,
+   107,195,182,124,138,164,138,203,149,129,105,
+   166,114,202,161
+);
+var t = new Array(); 
+var i=0,ii=0, v=0,vv=0, c=0,cc=0; 
+while (c<224) { 
+for (f0=117; f0<=315; f0++) { i+=f0; v+=i; cc+=1; if (c>=224) break; 
+if (f0==136 || v==i) continue; if (f0==291) v=cc; 
+for (f1=144; f1<=244; f1++) { i+=f1; v+=i; cc+=1; if (c>=224) break; 
+if (f1==237 || v==i) continue; if (f1==236) v=cc; 
+for (f2=189; f2<=307; f2++) { i+=f2; v+=i; cc+=1; if (c>=224) break; 
+if (f2==255 || v==i) continue; if (f2==201) i=cc; 
+for (f3=152; f3<=254; f3++) { i+=f3; v+=i; cc+=1; if (c>=224) break; 
+if (f3==250 || v==i) continue; if (f3==180) v=cc; 
+for (f4=141; f4<=277; f4++) { i+=f4; v+=i; cc+=1; if (c>=224) break; 
+if (cc<f4 && v<i) break; if (f4==154) i=cc; 
+for (f5=190; f5<=319; f5++) { i+=f5; v+=i; cc+=1; if (c>=224) break; 
+if (cc<f5 && v<i) break; if (f5==300) v=cc; 
+ii=i+d[c++]; vv=v+d[c++]; ii%=112; vv%=127; t[ii]=vv; i%=112; v%=127; 
+}}}}}}}
+i=0; document.write("\<a href=\""); 
+while( t[i] ) document.write("\&\#"+t[i++]+";"); 
+i++; document.write("\" title=\""); 
+while( t[i] ) document.write("\&\#"+t[i++]+";"); 
+i++; document.write("\"\>"); 
+while( t[i] ) document.write("\&\#"+t[i++]+";"); 
+i++; document.write("\<\/a\>");
+// -->
+</SCRIPT>
+ <NOSCRIPT>
+<P>JavaScript must be enabled to display this email address. </P></NOSCRIPT>
+<P></P>
+<HR>
+
+<DIV class=sidebox>
+<DIV class=boxhead>
+<H2>Test Headline</H2></DIV>
+<DIV class=boxbody>
+<P>This is a short sample paragraph.</P>
+<P>And another one.</P></DIV></DIV>
+<P class=exp>The XHTML: </P><PRE style="MARGIN: 10px auto; WIDTH: 30em; TEXT-ALIGN: left">&lt;div class="sidebox"&gt;
+	&lt;div class="boxhead"&gt;&lt;h2&gt;Test Headline&lt;/h2&gt;&lt;/div&gt;
+	&lt;div class="boxbody"&gt;
+		&lt;p&gt;This is a short sample paragraph.&lt;/p&gt;
+		&lt;p&gt;And another one.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</PRE>
+<P class=exp>The CSS: </P><PRE style="MARGIN: 10px auto; WIDTH: 30em; TEXT-ALIGN: left">/* Show only to IE PC \*/
+* html .boxhead h2 {height: 1%;} /* For IE 5 PC */
+
+.sidebox {
+	margin: 0 auto; /* center for now */
+	width: 17em; /* ems so it will grow */
+	background: url(sbbody-r.gif) no-repeat bottom right;
+	font-size: 100%;
+}
+.boxhead {
+	background: url(sbhead-r.gif) no-repeat top right;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.boxhead h2 {
+	background: url(sbhead-l.gif) no-repeat top left;
+	margin: 0;
+	padding: 22px 30px 5px;
+	color: white; 
+	font-weight: bold; 
+	font-size: 1.2em; 
+	line-height: 1em;
+	text-shadow: rgba(0,0,0,.4) 0px 2px 5px; /* Safari-only, but cool */
+}
+.boxbody {
+	background: url(sbbody-l.gif) no-repeat bottom left;
+	margin: 0;
+	padding: 5px 30px 31px;
+}
+</PRE>
+<HR>
+
+<P class=exp>For success, make sure your background images are large enough to 
+grow however big you need them. The ones used in this demo are 600px tall for 
+the lower div, for example.</P>
+<P class=exp>Also note, any top margin on the top element (the upper &lt;p&gt; 
+in this case) inside the lower div (.boxbody) will leak out in IE5/Win (and 
+probably others) and seperate the two divs, breaking the box. To prevent this 
+just remove that margin through adding a class to the element (or any other 
+preferred method), and replace the margins with a top padding on the lower div 
+(.boxbody).</P>
+<P class=exp>IE5/Win also has a glitch in the upper left corner that can be 
+fixed by applying a dimension to the &lt;h2&gt; element. In this demo it's done 
+using the "Holly Hack", feeding a {height: 1%;} only to IE/win browsers. 
+<EM>(see the code)</EM></P>
+<H2>Known Issues</H2>
+<P class=exp>Issue #1: At certain font-scaling sizes in Gecko browsers, there is 
+a 1px jog at the bottom-left. YMMV. This can be avoided by setting the font-size 
+on the body to 100%, and sizing your text elsewhere...</P>
+<P class=exp>Issue #2: The CSS won't validate because of the text-shadow used 
+for Safari with transparency color. So much for "progressive enhancement".</P>
+<P class=exp>Issue #3: The KHTML engine in Safari pre-Panther does not render 
+this technique correctly. The backgrounds flow out of their containing boxes. 
+Yet another reason to upgrade. ;) But considering there's now a cookie hijacking 
+exploit with the browser, maybe they'll release an upgrade across the board.</P>
+<HR>
+
+<P class=exp>The credit box below is unique in that it has no width specified. 
+Its width is controlled only by the margins on its containing div (.sidebox). 
+Resize the browser window to see it dynamically grow. This opens up a lot of 
+interesting possibilities!</P>
+<HR>
+
+<DIV class=widthlessbox>
+<DIV class=boxhead>
+<H2>Special Thanks &amp; Credits</H2></DIV>
+<DIV class=boxbody>
+<P style="COLOR: gray">This demo was inspired by the <A 
+href="http://alistapart.com/articles/slidingdoors/">Sliding Doors</A> technique 
+found at A List Apart (Douglas Bowman rocks!). Tested to work in IE 5+ PC, IE 
+5.2.x Mac, Mozilla, Firebird, Opera and even with enhanced text headers in 
+Safari!</P>
+<P style="COLOR: gray">A huge special thanks to Big John who artfully squashed a 
+glitch in IE 5 PC, and helped me write this demo. You should never, ever 
+hesitate to use <A 
+href="http://www.positioniseverything.net/design/index.html">Holly 'n John's CSS 
+Repair Service</A>. They make CSS layouts easy and fun again ... even the tough 
+ones!</P></DIV></DIV></BODY></HTML>

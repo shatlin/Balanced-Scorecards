@@ -1,0 +1,12 @@
+.dxmMenu_Demo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; FONT: 11px Tahoma; COLOR: white; PADDING-TOP: 35px
+}
+.dxmMenuSeparator_Demo {
+	WIDTH: 1px; HEIGHT: 15px; BACKGROUND-COLOR: white
+}
+.dxmMenu_Demo A {
+	FONT: 11px Tahoma; COLOR: white; TEXT-DECORATION: underline
+}
+.dxmMenuItem_Demo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; FONT: 11px Tahoma; COLOR: white; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}

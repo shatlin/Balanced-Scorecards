@@ -1,0 +1,1260 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+A:link {
+	COLOR: #034efa
+}
+A:visited {
+	COLOR: #5403fa
+}
+A:hover {
+	TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #0060ff
+}
+#CommonContent {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; PADDING-TOP: 0px; HEIGHT: 1%
+}
+#CommonContentInner {
+	OVERFLOW: hidden; WIDTH: 100%; POSITION: relative
+}
+#CommonSidebarLeft {
+	
+}
+#CommonSidebarLeft .CommonSidebar {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 20px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 300px; PADDING-TOP: 16px; POSITION: relative
+}
+#CommonSidebarRight {
+	
+}
+#CommonSidebarRight .CommonSidebar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FLOAT: right; PADDING-BOTTOM: 20px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 300px; PADDING-TOP: 16px; POSITION: relative
+}
+.CommonFeedArea {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 90%; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.CommonPagingArea {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 90%; PADDING-BOTTOM: 4px; MARGIN: 0px 3px; COLOR: #000; PADDING-TOP: 4px
+}
+.CommonPagingArea A:link {
+	COLOR: #000
+}
+.CommonPagingArea A:visited {
+	COLOR: #000
+}
+.CommonBreadCrumbArea {
+	DISPLAY: inline
+}
+.CommonBreadCrumbArea .Common {
+	DISPLAY: inline
+}
+.CommonFilterArea {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 90%; PADDING-BOTTOM: 4px; MARGIN: 0px 40px 0px 3px; PADDING-TOP: 4px
+}
+.CommonSearchResults {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 8px; PADDING-TOP: 8px
+}
+.CommonSearchResultsArea {
+	MARGIN: 16px 0px
+}
+.CommonTreeFormArea {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 4px 4px 2px; OVERFLOW: auto; BORDER-LEFT: #999 1px solid; WIDTH: 350px; PADDING-TOP: 2px; BORDER-BOTTOM: #999 1px solid; HEIGHT: 175px
+}
+.CommonTreeFormTree {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.CommonTreeFormNode {
+	FONT-SIZE: 90%; CURSOR: pointer
+}
+.CommonTreeFormNodeSelected {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 90%; PADDING-BOTTOM: 1px; BORDER-LEFT: #ccc 1px solid; CURSOR: pointer; PADDING-TOP: 1px; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #ddd
+}
+.CommonTreeFormNodeHover {
+	FONT-SIZE: 90%; CURSOR: pointer
+}
+.CommonFormArea {
+	MARGIN: 16px 0px
+}
+.CommonFormTitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 180%; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 16px; COLOR: #aaa; PADDING-TOP: 0px; LETTER-SPACING: -1px
+}
+.CommonFormDescription {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 0px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px
+}
+TD.CommonFormFieldName {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; COLOR: #000; PADDING-TOP: 2px
+}
+DIV.CommonFormFieldName {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; COLOR: #000; PADDING-TOP: 8px
+}
+TD.CommonFormFieldDescription {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: normal; FONT-SIZE: 90%; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+DIV.CommonFormFieldDescription {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: normal; FONT-SIZE: 90%; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+TD.CommonFormField {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; COLOR: #000; PADDING-TOP: 2px
+}
+DIV.CommonFormField {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; COLOR: #000; PADDING-TOP: 2px
+}
+.CommonInlineMessageTitle {
+	CLEAR: both; PADDING-RIGHT: 0px; MARGIN-TOP: 6px; PADDING-LEFT: 0px; BACKGROUND: url(./i/bg_heading.png) #7aa4dd no-repeat; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative
+}
+.CommonMessageTitle {
+	CLEAR: both; PADDING-RIGHT: 0px; MARGIN-TOP: 6px; PADDING-LEFT: 0px; BACKGROUND: url(./i/bg_heading.png) #7aa4dd no-repeat; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative
+}
+.CommonInlineMessageTitle H2 {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 0.95em; PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-TOP: 5px; POSITION: relative
+}
+.CommonMessageTitle H2 {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 0.95em; PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-TOP: 5px; POSITION: relative
+}
+.CommonInlineMessageTitleRight {
+	BACKGROUND: url(./i/bg_heading.png) no-repeat 0px -70px; FLOAT: right; OVERFLOW: hidden; WIDTH: 5px; POSITION: relative; HEIGHT: 5px
+}
+.CommonMessageTitleRight {
+	BACKGROUND: url(./i/bg_heading.png) no-repeat 0px -70px; FLOAT: right; OVERFLOW: hidden; WIDTH: 5px; POSITION: relative; HEIGHT: 5px
+}
+.CommonInlineMessageArea {
+	MIN-HEIGHT: 1px; BACKGROUND: url(./i/bg_bucket.png) repeat-x 0px -44px; POSITION: relative; HEIGHT: 1px
+}
+.CommonMessageArea {
+	MIN-HEIGHT: 1px; BACKGROUND: url(./i/bg_bucket.png) repeat-x 0px -44px; POSITION: relative; HEIGHT: 1px
+}
+.CommonInlineMessageTop {
+	BORDER-RIGHT: #9fbde5 2px solid; BACKGROUND: url(./i/bg_bucket.png) no-repeat; BORDER-LEFT: #9fbde5 2px solid; HEIGHT: 10px
+}
+.CommonMessageTop {
+	BORDER-RIGHT: #9fbde5 2px solid; BACKGROUND: url(./i/bg_bucket.png) no-repeat; BORDER-LEFT: #9fbde5 2px solid; HEIGHT: 10px
+}
+.CommonInlineMessageTop SPAN {
+	BACKGROUND: url(./i/bg_bucket.png) no-repeat right -10px; FLOAT: right; OVERFLOW: hidden; WIDTH: 10px; HEIGHT: 10px
+}
+.CommonMessageTop SPAN {
+	BACKGROUND: url(./i/bg_bucket.png) no-repeat right -10px; FLOAT: right; OVERFLOW: hidden; WIDTH: 10px; HEIGHT: 10px
+}
+.CommonInlineMessageContent {
+	BORDER-RIGHT: #9fbde5 2px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; MIN-HEIGHT: 1px; PADDING-BOTTOM: 0px; BORDER-LEFT: #9fbde5 2px solid; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 1px
+}
+.CommonMessageContent {
+	BORDER-RIGHT: #9fbde5 2px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; MIN-HEIGHT: 1px; PADDING-BOTTOM: 0px; BORDER-LEFT: #9fbde5 2px solid; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 1px
+}
+.CommonInlineMessageContent P {
+	PADDING-BOTTOM: 10px; MARGIN: 0px
+}
+.CommonMessageContent P {
+	PADDING-BOTTOM: 10px; MARGIN: 0px
+}
+.CommonInlineMessageContent .CommonFormArea {
+	PADDING-BOTTOM: 10px; MARGIN: 0px
+}
+.CommonMessageContent .CommonFormArea {
+	PADDING-BOTTOM: 10px; MARGIN: 0px
+}
+.CommonInlineMessageContent .CommonPane {
+	HEIGHT: 600px
+}
+.CommonInlineMessageBottom {
+	BACKGROUND: url(./i/bg_bucket.png) no-repeat 0px -22px; MARGIN-BOTTOM: 4px; HEIGHT: 10px
+}
+.CommonMessageBottom {
+	BACKGROUND: url(./i/bg_bucket.png) no-repeat 0px -22px; MARGIN-BOTTOM: 4px; HEIGHT: 10px
+}
+.CommonInlineMessageBottom SPAN {
+	BACKGROUND: url(./i/bg_bucket.png) no-repeat right -34px; FLOAT: right; OVERFLOW: hidden; WIDTH: 12px; HEIGHT: 10px
+}
+.CommonMessageBottom SPAN {
+	BACKGROUND: url(./i/bg_bucket.png) no-repeat right -34px; FLOAT: right; OVERFLOW: hidden; WIDTH: 12px; HEIGHT: 10px
+}
+.CommonMessageArea {
+	MARGIN-BOTTOM: 64px; WIDTH: 50%
+}
+.CommonMessageTitle {
+	MARGIN-TOP: 64px; WIDTH: 50%
+}
+OL.CommonInlineMessageList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL.CommonInlineMessageList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.CommonInlineMessageList LI {
+	MARGIN-LEFT: 30px
+}
+.CommonMessageSuccess {
+	BORDER-RIGHT: #030 2px solid; PADDING-RIGHT: 8px; BORDER-TOP: #030 2px solid; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 75%; PADDING-BOTTOM: 8px; MARGIN: 8px 0px; BORDER-LEFT: #030 2px solid; COLOR: #fff; PADDING-TOP: 8px; BORDER-BOTTOM: #030 2px solid; BACKGROUND-COLOR: #6a5
+}
+.CommonMessageError {
+	BORDER-RIGHT: #300 2px solid; PADDING-RIGHT: 8px; BORDER-TOP: #300 2px solid; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 75%; PADDING-BOTTOM: 8px; MARGIN: 8px 0px 12px; BORDER-LEFT: #300 2px solid; COLOR: #fff; PADDING-TOP: 8px; BORDER-BOTTOM: #300 2px solid; BACKGROUND-COLOR: #a00
+}
+.CommonTextBig {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 120%; PADDING-BOTTOM: 5px; MARGIN: 1px; PADDING-TOP: 5px
+}
+.CommonInputBig {
+	FONT-SIZE: 130%; WIDTH: 90%
+}
+.CommonContentArea {
+	MARGIN: 16px 0px 0px
+}
+.CommonTitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 280%; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 16px; COLOR: #aaa; PADDING-TOP: 0px; LETTER-SPACING: -1px
+}
+.CommonProfileTitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 280%; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 16px; COLOR: #aaa; PADDING-TOP: 0px; LETTER-SPACING: -1px
+}
+.CommonTitle A:link {
+	COLOR: #aaa; TEXT-DECORATION: none
+}
+.CommonTitle A:active {
+	COLOR: #aaa; TEXT-DECORATION: none
+}
+.CommonTitle A:visited {
+	COLOR: #aaa; TEXT-DECORATION: none
+}
+.CommonTitle A:hover {
+	TEXT-DECORATION: underline
+}
+.CommonSubTitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 180%; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 16px; COLOR: #aaa; PADDING-TOP: 0px; LETTER-SPACING: -1px
+}
+.CommonHeader {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 130%; PADDING-BOTTOM: 0px; MARGIN: 8px 0px 0px; COLOR: #aaa; PADDING-TOP: 0px
+}
+.CommonContent {
+	
+}
+.CommonGroupedContentArea {
+	BORDER-RIGHT: #eee 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #eee 0px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 8px; MARGIN: 0px 0px 16px; BORDER-LEFT: #eee 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #eee 1px solid
+}
+.CommonSidebarArea {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 100%; PADDING-TOP: 0px
+}
+.CommonSidebarRoundBottom {
+	HEIGHT: 5px
+}
+.CommonSidebarRoundTop {
+	DISPLAY: none
+}
+.CommonSidebarRoundTop .r1 {
+	DISPLAY: none
+}
+.CommonSidebarRoundTop .r2 {
+	DISPLAY: none
+}
+.CommonSidebarRoundTop .r3 {
+	DISPLAY: none
+}
+.CommonSidebarRoundTop .r4 {
+	DISPLAY: none
+}
+.CommonSidebarRoundBottom .r1 {
+	BORDER-RIGHT: 1px solid; OVERFLOW: hidden; BORDER-LEFT: 1px solid; HEIGHT: 1px
+}
+.CommonSidebarRoundBottom .r2 {
+	BORDER-RIGHT: 1px solid; OVERFLOW: hidden; BORDER-LEFT: 1px solid; HEIGHT: 1px
+}
+.CommonSidebarRoundBottom .r3 {
+	BORDER-RIGHT: 1px solid; OVERFLOW: hidden; BORDER-LEFT: 1px solid; HEIGHT: 1px
+}
+.CommonSidebarRoundBottom .r4 {
+	BORDER-RIGHT: 1px solid; OVERFLOW: hidden; BORDER-LEFT: 1px solid; HEIGHT: 1px
+}
+.CommonSidebarRoundBottom .r1 {
+	BACKGROUND-POSITION: left top; BACKGROUND-REPEAT: repeat
+}
+.CommonSidebarRoundBottom .r2 {
+	BACKGROUND-POSITION: left top; BACKGROUND-REPEAT: repeat
+}
+.CommonSidebarRoundBottom .r3 {
+	BACKGROUND-POSITION: left top; BACKGROUND-REPEAT: repeat
+}
+.CommonSidebarRoundBottom .r4 {
+	BACKGROUND-POSITION: left top; BACKGROUND-REPEAT: repeat
+}
+.CommonSidebarRoundBottom .r4 {
+	BORDER-TOP: 1px solid; BORDER-LEFT-WIDTH: 0px; MARGIN: 0px 5px; HEIGHT: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.CommonSidebarRoundBottom .r3 {
+	BORDER-LEFT-WIDTH: 2px; MARGIN: 0px 3px; BORDER-RIGHT-WIDTH: 2px
+}
+.CommonSidebarRoundBottom .r2 {
+	MARGIN: 0px 2px
+}
+.CommonSidebarRoundBottom .r1 {
+	MARGIN: 0px 1px; HEIGHT: 2px
+}
+.CommonSidebarHeader {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; BACKGROUND-IMAGE: url(../images/fan/sidebar-header-background.png); PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 284px; COLOR: #000; PADDING-TOP: 4px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 25px
+}
+.CommonSidebarHeader A:link {
+	TEXT-DECORATION: none
+}
+.CommonSidebarHeader A:visited {
+	TEXT-DECORATION: none
+}
+.CommonSidebarHeader A:active {
+	TEXT-DECORATION: none
+}
+.CommonSidebarInnerArea {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.CommonSidebarContent {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 90%; PADDING-BOTTOM: 8px; OVERFLOW: hidden; WIDTH: 284px; PADDING-TOP: 0px
+}
+.CommonSidebarInnerArea {
+	BORDER-LEFT-COLOR: #e4eafa; BORDER-BOTTOM-COLOR: #e4eafa; BORDER-TOP-COLOR: #e4eafa; BACKGROUND-COLOR: #e4eafa; BORDER-RIGHT-COLOR: #e4eafa
+}
+.CommonSidebarRoundBottom .r1 {
+	BORDER-LEFT-COLOR: #e4eafa; BORDER-BOTTOM-COLOR: #e4eafa; BORDER-TOP-COLOR: #e4eafa; BACKGROUND-COLOR: #e4eafa; BORDER-RIGHT-COLOR: #e4eafa
+}
+.CommonSidebarRoundBottom .r2 {
+	BORDER-LEFT-COLOR: #e4eafa; BORDER-BOTTOM-COLOR: #e4eafa; BORDER-TOP-COLOR: #e4eafa; BACKGROUND-COLOR: #e4eafa; BORDER-RIGHT-COLOR: #e4eafa
+}
+.CommonSidebarRoundBottom .r3 {
+	BORDER-LEFT-COLOR: #e4eafa; BORDER-BOTTOM-COLOR: #e4eafa; BORDER-TOP-COLOR: #e4eafa; BACKGROUND-COLOR: #e4eafa; BORDER-RIGHT-COLOR: #e4eafa
+}
+.CommonSidebarRoundBottom .r4 {
+	BORDER-LEFT-COLOR: #e4eafa; BORDER-BOTTOM-COLOR: #e4eafa; BORDER-TOP-COLOR: #e4eafa; BACKGROUND-COLOR: #e4eafa; BORDER-RIGHT-COLOR: #e4eafa
+}
+.CommonSidebarFooter {
+	PADDING-RIGHT: 8px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 8px; FONT-SIZE: x-small; PADDING-BOTTOM: 4px; OVERFLOW: hidden; WIDTH: 284px; PADDING-TOP: 4px
+}
+UL.CommonSidebarList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL.CommonSidebarList LI {
+	MARGIN-BOTTOM: 5px; MARGIN-LEFT: 20px
+}
+OL.CommonSidebarList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+OL.CommonSidebarList LI {
+	MARGIN: 0px 0px 5px 20px
+}
+LI.CommonSidebarRssListItem {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LIST-STYLE-IMAGE: url(../images/common/feed-icon-12x12.png); PADDING-BOTTOM: 1px; MARGIN: 0px 0px 5px 16px; PADDING-TOP: 0px
+}
+.CommonDescription {
+	FONT-SIZE: 90%; MARGIN: 0px 0px 16px
+}
+.CommonSidebarImage {
+	BORDER-RIGHT: #fff 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 4px 0px; BORDER-LEFT: #fff 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #fff 1px solid; BACKGROUND-COLOR: #eee; TEXT-ALIGN: center
+}
+UL.CommonSidebarImageList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.CommonTextButton {
+	BORDER-RIGHT: #a7bad5 2px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dce4f9 2px solid; DISPLAY: inline-block; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 0.9em; BACKGROUND: url(./i/bg_nav_main_current.png) #103285 repeat-x 0px -118px; PADDING-BOTTOM: 3px; MARGIN: 1px; BORDER-LEFT: #dce4f9 2px solid; COLOR: #fff; PADDING-TOP: 3px; BORDER-BOTTOM: #a7bad5 2px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; WHITE-SPACE: nowrap
+}
+.CommonImageTextButton {
+	BORDER-RIGHT: #a7bad5 2px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dce4f9 2px solid; DISPLAY: inline-block; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 0.9em; BACKGROUND: url(./i/bg_nav_main_current.png) #103285 repeat-x 0px -118px; PADDING-BOTTOM: 3px; MARGIN: 1px; BORDER-LEFT: #dce4f9 2px solid; COLOR: #fff; PADDING-TOP: 3px; BORDER-BOTTOM: #a7bad5 2px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; WHITE-SPACE: nowrap
+}
+.CommonImageTextButtonDropDown {
+	BORDER-RIGHT: #a7bad5 2px solid; BORDER-TOP: #dce4f9 2px solid; FONT-SIZE: 14px; BACKGROUND: #20479d; BORDER-LEFT: #dce4f9 2px solid; COLOR: #fff; BORDER-BOTTOM: #a7bad5 2px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; WHITE-SPACE: nowrap
+}
+.CommonTextButton:link {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.CommonTextButton:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.CommonImageTextButton:link {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.CommonImageTextButton:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.CommonTextButton:active {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.CommonImageTextButton:active {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.CommonTextButton:hover {
+	BACKGROUND-POSITION: 0px -124px; BORDER-LEFT-COLOR: #193e95; BORDER-BOTTOM-COLOR: #193e95; COLOR: #fff; BORDER-TOP-COLOR: #193e95; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #193e95
+}
+.CommonImageTextButton:hover {
+	BACKGROUND-POSITION: 0px -124px; BORDER-LEFT-COLOR: #193e95; BORDER-BOTTOM-COLOR: #193e95; COLOR: #fff; BORDER-TOP-COLOR: #193e95; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #193e95
+}
+.Big {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 120%; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.CommonTextButtonHighlight {
+	BORDER-RIGHT: #193e95 2px solid; PADDING-RIGHT: 4px; BORDER-TOP: #193e95 2px solid; DISPLAY: inline-block; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 0.9em; BACKGROUND: url(./i/bg_nav_main_current.png) #103285 repeat-x 0px -124px; PADDING-BOTTOM: 3px; MARGIN: 1px; BORDER-LEFT: #193e95 2px solid; COLOR: #fff; PADDING-TOP: 3px; BORDER-BOTTOM: #193e95 2px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; WHITE-SPACE: nowrap
+}
+.CommonImageTextButtonHighlight {
+	BORDER-RIGHT: #193e95 2px solid; PADDING-RIGHT: 4px; BORDER-TOP: #193e95 2px solid; DISPLAY: inline-block; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 0.9em; BACKGROUND: url(./i/bg_nav_main_current.png) #103285 repeat-x 0px -124px; PADDING-BOTTOM: 3px; MARGIN: 1px; BORDER-LEFT: #193e95 2px solid; COLOR: #fff; PADDING-TOP: 3px; BORDER-BOTTOM: #193e95 2px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; WHITE-SPACE: nowrap
+}
+.CommonTextButtonHighlight:link {
+	BORDER-LEFT-COLOR: #193e95; BORDER-BOTTOM-COLOR: #193e95; COLOR: #fff; BORDER-TOP-COLOR: #193e95; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #193e95
+}
+.CommonTextButtonHighlight:visited {
+	BORDER-LEFT-COLOR: #193e95; BORDER-BOTTOM-COLOR: #193e95; COLOR: #fff; BORDER-TOP-COLOR: #193e95; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #193e95
+}
+.CommonTextButtonHighlight:active {
+	BORDER-LEFT-COLOR: #193e95; BORDER-BOTTOM-COLOR: #193e95; COLOR: #fff; BORDER-TOP-COLOR: #193e95; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #193e95
+}
+.CommonTextButtonHighlight:hover {
+	BORDER-LEFT-COLOR: #193e95; BORDER-BOTTOM-COLOR: #193e95; COLOR: #fff; BORDER-TOP-COLOR: #193e95; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #193e95
+}
+.CommonImageTextButtonHighlight:link {
+	BORDER-LEFT-COLOR: #193e95; BORDER-BOTTOM-COLOR: #193e95; COLOR: #fff; BORDER-TOP-COLOR: #193e95; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #193e95
+}
+.CommonImageTextButtonHighlight:visited {
+	BORDER-LEFT-COLOR: #193e95; BORDER-BOTTOM-COLOR: #193e95; COLOR: #fff; BORDER-TOP-COLOR: #193e95; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #193e95
+}
+.CommonImageTextButtonHighlight:active {
+	BORDER-LEFT-COLOR: #193e95; BORDER-BOTTOM-COLOR: #193e95; COLOR: #fff; BORDER-TOP-COLOR: #193e95; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #193e95
+}
+.CommonImageTextButtonHighlight:hover {
+	BORDER-LEFT-COLOR: #193e95; BORDER-BOTTOM-COLOR: #193e95; COLOR: #fff; BORDER-TOP-COLOR: #193e95; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #193e95
+}
+.CommonPrivateMessageButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonEmailButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonEmailSubscriptionButtonEnabled {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonEmailSubscriptionButtonDisabled {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonEmailSubscriptionButtonProcessing {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonFavoriteButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonContactButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonEditButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonDeleteButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonUploadButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonDownloadButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonPostButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonReplyButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonPreviousButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonNextButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonViewButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonLockedButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonHomepageButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonWeblogButton {
+	DISPLAY: block; PADDING-LEFT: 22px; BACKGROUND: url(./i/bg_button_sprite.png) no-repeat
+}
+.CommonQuoteButton {
+	BACKGROUND-POSITION: 5px -160px
+}
+.CommonSearchButton {
+	BACKGROUND-POSITION: 5px -280px
+}
+.CommonPrivateMessageButton {
+	BACKGROUND-POSITION: 5px -400px; PADDING-LEFT: 28px
+}
+.CommonEmailButton {
+	BACKGROUND-POSITION: 5px -1160px; PADDING-LEFT: 19px
+}
+.CommonEmailSubscriptionButtonDisabled {
+	BACKGROUND-POSITION: 5px -360px; PADDING-LEFT: 26px
+}
+.CommonEmailSubscriptionButtonEnabled {
+	BACKGROUND-POSITION: 5px -320px; PADDING-LEFT: 29px
+}
+.CommonEmailSubscriptionButtonProcessing {
+	BACKGROUND-POSITION: 5px -360px; PADDING-LEFT: 26px
+}
+.CommonFavoriteButton {
+	BACKGROUND-POSITION: 5px -120px
+}
+.CommonContactButton {
+	BACKGROUND-POSITION: 5px -240px
+}
+.CommonEditButton {
+	BACKGROUND-POSITION: 5px -1160px; PADDING-LEFT: 19px
+}
+.CommonDeleteButton {
+	BACKGROUND-POSITION: 5px -1160px; PADDING-LEFT: 19px
+}
+.CommonUploadButton {
+	BACKGROUND-POSITION: 5px -1160px; PADDING-LEFT: 19px
+}
+.CommonDownloadButton {
+	BACKGROUND-POSITION: 5px -1000px
+}
+.CommonPostButton {
+	PADDING-RIGHT: 6px; BACKGROUND-POSITION: 5px 0px; PADDING-LEFT: 29px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.CommonReplyButton {
+	BACKGROUND-POSITION: 5px -200px
+}
+.CommonPreviousButton {
+	BACKGROUND-POSITION: 5px -80px
+}
+.CommonNextButton {
+	BACKGROUND-POSITION: 5px -40px
+}
+.CommonViewButton {
+	BACKGROUND-POSITION: 5px -640px
+}
+.CommonLockedButton {
+	BACKGROUND-POSITION: 5px -1160px; PADDING-LEFT: 19px
+}
+.CommonHomepageButton {
+	BACKGROUND-POSITION: 5px -440px
+}
+.CommonWeblogButton {
+	BACKGROUND-POSITION: 5px -480px
+}
+.CommonAnsweredButton {
+	BORDER-RIGHT: #fff 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #fff 1px solid; DISPLAY: inline-block; PADDING-LEFT: 24px; BACKGROUND: url(./i/bg_icon_sprite.png) #3d942e no-repeat 0px -2400px; PADDING-BOTTOM: 3px; MARGIN: 1px; BORDER-LEFT: #fff 1px solid; COLOR: #fff; PADDING-TOP: 3px; BORDER-BOTTOM: #fff 1px solid; WHITE-SPACE: nowrap
+}
+.CommonStandardTopAdArea {
+	BORDER-RIGHT: #999 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 0px 0px 4px; BORDER-LEFT: #999 0px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #999 0px solid; TEXT-ALIGN: center
+}
+.CommonStandardTopAdArea IFRAME {
+	MARGIN: 0px auto
+}
+.CommonStandardBottomAdArea {
+	BORDER-RIGHT: #999 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 4px 0px 0px; BORDER-LEFT: #999 0px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #999 0px solid; TEXT-ALIGN: center
+}
+.CommonStandardBottomAdArea IFRAME {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; MARGIN: 0px auto; BORDER-LEFT: #999 1px solid; BORDER-BOTTOM: #999 1px solid
+}
+.CommonListArea {
+	
+}
+.CommonListArea TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 2px 0px 0px; PADDING-TOP: 0px
+}
+.CommonListTitle {
+	CLEAR: both; PADDING-RIGHT: 0px; MARGIN-TOP: 6px; PADDING-LEFT: 0px; BACKGROUND: url(./i/bg_heading.png) #7aa4dd no-repeat; PADDING-BOTTOM: 0px; MARGIN-RIGHT: 2px; PADDING-TOP: 0px; POSITION: relative
+}
+.CommonListTitle H2 {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 0.95em; PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-TOP: 5px; POSITION: relative
+}
+.Collapsed .CommonListTitleBottom {
+	MARGIN-TOP: -5px; FONT-SIZE: 1px; BACKGROUND: url(./i/bg_heading.png) no-repeat 0px -80px; MARGIN-BOTTOM: 10px; MARGIN-RIGHT: 2px; POSITION: relative; HEIGHT: 5px
+}
+.Processing .CommonListTitleBottom {
+	MARGIN-TOP: -5px; FONT-SIZE: 1px; BACKGROUND: url(./i/bg_heading.png) no-repeat 0px -80px; MARGIN-BOTTOM: 10px; MARGIN-RIGHT: 2px; POSITION: relative; HEIGHT: 5px
+}
+.Collapsed .CommonListTitleBottom SPAN {
+	DISPLAY: block; BACKGROUND: url(./i/bg_heading.png) no-repeat 0px -75px; FLOAT: right; OVERFLOW: hidden; WIDTH: 5px; POSITION: relative; HEIGHT: 5px
+}
+.Processing .CommonListTitleBottom SPAN {
+	DISPLAY: block; BACKGROUND: url(./i/bg_heading.png) no-repeat 0px -75px; FLOAT: right; OVERFLOW: hidden; WIDTH: 5px; POSITION: relative; HEIGHT: 5px
+}
+.CommonListTitleRight {
+	BACKGROUND: url(./i/bg_heading.png) no-repeat 0px -70px; FLOAT: right; OVERFLOW: hidden; WIDTH: 5px; POSITION: relative; HEIGHT: 5px
+}
+.CommonListHeaderLeftMost {
+	BORDER-RIGHT: #fff 2px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 0.9em; BACKGROUND: url(./i/bg_heading.png) #dce4f9 900px -7px; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; PADDING-TOP: 4px; BORDER-BOTTOM: #fff 2px solid; TEXT-ALIGN: left
+}
+.CommonListHeader {
+	BORDER-RIGHT: #fff 2px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 0.9em; BACKGROUND: url(./i/bg_heading.png) #dce4f9 900px -7px; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; PADDING-TOP: 4px; BORDER-BOTTOM: #fff 2px solid; TEXT-ALIGN: left
+}
+.CommonListCellLeftMost {
+	BORDER-RIGHT: #fff 2px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: #dce4f9; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: middle; PADDING-TOP: 3px; BORDER-BOTTOM: #fff 2px solid
+}
+.CommonListCell {
+	BORDER-RIGHT: #fff 2px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: #dce4f9; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: middle; PADDING-TOP: 3px; BORDER-BOTTOM: #fff 2px solid
+}
+.CommonListRow {
+	
+}
+.CommonSearchResultArea {
+	BORDER-RIGHT: #eee 0px solid; PADDING-RIGHT: 0px; BACKGROUND-POSITION: left top; BORDER-TOP: #eee 0px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px 0px 20px; BORDER-LEFT: #eee 0px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #eee 1px solid; BACKGROUND-REPEAT: no-repeat
+}
+.Weblog {
+	
+}
+.Forum {
+	
+}
+.FileGallery {
+	
+}
+.Gallery {
+	
+}
+.CommonSearchResult {
+	FONT-SIZE: 100%
+}
+.CommonSearchResultName {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 150%; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 4px; PADDING-TOP: 0px
+}
+.CommonSearchResultDetails {
+	FONT-SIZE: 80%; MARGIN: 4px 0px 0px; COLOR: #000
+}
+.CommonSearchStatistics {
+	FONT-SIZE: 80%; MARGIN: 4px 0px 0px; COLOR: #000
+}
+UL.CommonSearchResultList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.CommonValidationWarning {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 100%; PADDING-BOTTOM: 2px; COLOR: #f00; PADDING-TOP: 2px
+}
+.CommonContentPartBorderOff {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.CommonContentPartBorderOn {
+	BORDER-RIGHT: #999 1px dashed; BORDER-TOP: #999 1px dashed; BORDER-LEFT: #999 1px dashed; BORDER-BOTTOM: #999 1px dashed; BACKGROUND-COLOR: #efefef
+}
+.CommonContextMenuGroup {
+	BORDER-RIGHT: #a7bad5 2px solid; BORDER-TOP: #dce4f9 2px solid; FONT-SIZE: 13px; BACKGROUND: #3b67b4; BORDER-LEFT: #dce4f9 2px solid; BORDER-BOTTOM: #a7bad5 2px solid
+}
+.CommonContextMenuItem {
+	PADDING-RIGHT: 5px; BORDER-TOP: #4f76bc 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 4px; MARGIN: 0px; CURSOR: pointer; COLOR: #fff; PADDING-TOP: 3px; LIST-STYLE-TYPE: none! important
+}
+.CommonContextMenuItemHover {
+	PADDING-RIGHT: 5px; BORDER-TOP: #4f76bc 1px solid; PADDING-LEFT: 2px; BACKGROUND: url(./i/bg_nav_main_current.png) #103285 repeat-x 0px -118px; PADDING-BOTTOM: 4px; MARGIN: 0px; CURSOR: pointer; COLOR: #fff; PADDING-TOP: 3px; LIST-STYLE-TYPE: none! important
+}
+.CommonContextMenuItemExpanded {
+	PADDING-RIGHT: 5px; BORDER-TOP: #4f76bc 1px solid; PADDING-LEFT: 2px; BACKGROUND: url(./i/bg_nav_main_current.png) #103285 repeat-x 0px -118px; PADDING-BOTTOM: 4px; MARGIN: 0px; CURSOR: pointer; COLOR: #fff; PADDING-TOP: 3px; LIST-STYLE-TYPE: none! important
+}
+.CommonModalMask {
+	FILTER: alpha(opacity=40); BACKGROUND-COLOR: #333; opacity: .4
+}
+.CommonModal {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.CommonModal1 {
+	BORDER-RIGHT: #666 1px solid; BACKGROUND-POSITION: left -20px; BACKGROUND-IMAGE: url(../images/common/navigation-gradient.png); BORDER-LEFT: #666 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #ccc
+}
+.CommonModal2 {
+	BORDER-RIGHT: #666 1px solid; BACKGROUND-POSITION: left -20px; BACKGROUND-IMAGE: url(../images/common/navigation-gradient.png); BORDER-LEFT: #666 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #ccc
+}
+.CommonModal3 {
+	BORDER-RIGHT: #666 1px solid; BACKGROUND-POSITION: left -20px; BACKGROUND-IMAGE: url(../images/common/navigation-gradient.png); BORDER-LEFT: #666 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #ccc
+}
+.CommonModal4 {
+	BORDER-RIGHT: #666 1px solid; BACKGROUND-POSITION: left -20px; BACKGROUND-IMAGE: url(../images/common/navigation-gradient.png); BORDER-LEFT: #666 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #ccc
+}
+.CommonModal5 {
+	BORDER-RIGHT: #666 1px solid; BACKGROUND-POSITION: left -20px; BACKGROUND-IMAGE: url(../images/common/navigation-gradient.png); BORDER-LEFT: #666 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #ccc
+}
+.CommonModal1 {
+	PADDING-RIGHT: 0px; BORDER-TOP: #666 1px solid; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px -2px; PADDING-TOP: 0px; BORDER-BOTTOM: #666 1px solid; BORDER-RIGHT-WIDTH: 0px
+}
+.CommonModal2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 2px; PADDING-BOTTOM: 1px; MARGIN: 0px -2px; PADDING-TOP: 1px; BORDER-RIGHT-WIDTH: 2px
+}
+.CommonModal3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1px; MARGIN: 0px -3px; PADDING-TOP: 1px
+}
+.CommonModal4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; MARGIN: 0px -2px; PADDING-TOP: 2px
+}
+.CommonModal5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1px; MARGIN: 0px -2px; PADDING-TOP: 1px
+}
+.CommonModalTitle {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; FONT-SIZE: 110%; MIN-HEIGHT: 16px; PADDING-BOTTOM: 6px; CURSOR: move; COLOR: #000; PADDING-TOP: 3px; BORDER-BOTTOM: #666 1px solid
+}
+.CommonModalContent {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #fff
+}
+.CommonModalFooter {
+	BORDER-TOP: #666 1px solid; WIDTH: 100%; HEIGHT: 20px
+}
+.CommonModalClose {
+	RIGHT: 6px; BACKGROUND-IMAGE: url(../images/common/close.gif); OVERFLOW: hidden; WIDTH: 33px; CURSOR: pointer; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; HEIGHT: 12px
+}
+.CommonModalResize {
+	MARGIN-TOP: 4px; RIGHT: 6px; BACKGROUND-IMAGE: url(../images/common/resize.gif); OVERFLOW: hidden; WIDTH: 14px; CURSOR: se-resize; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; HEIGHT: 14px
+}
+.CommonRateControlReadOnly {
+	PADDING-RIGHT: 1px; DISPLAY: inline-block; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; WHITE-SPACE: nowrap
+}
+.CommonRateControl {
+	PADDING-RIGHT: 1px; DISPLAY: inline-block; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; CURSOR: pointer; PADDING-TOP: 1px; WHITE-SPACE: nowrap
+}
+.CommonRateControlActive {
+	PADDING-RIGHT: 1px; DISPLAY: inline-block; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; CURSOR: pointer; PADDING-TOP: 1px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #ddf
+}
+.CommonRateControlReadOnly IMG {
+	MARGIN: auto 0px; WIDTH: 7px; HEIGHT: 14px
+}
+.CommonRateControl IMG {
+	MARGIN: auto 0px; WIDTH: 7px; HEIGHT: 14px
+}
+.CommonRateControlActive IMG {
+	MARGIN: auto 0px; WIDTH: 7px; HEIGHT: 14px
+}
+.CommonContentSelectorTreeArea {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; MARGIN: 5px 5px 5px 0px; OVERFLOW: auto; BORDER-LEFT: #999 1px solid; BORDER-BOTTOM: #999 1px solid; HEIGHT: 330px; BACKGROUND-COLOR: #fff
+}
+.CommonContentSelectorItemsArea {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 5px 0px; OVERFLOW: auto; BORDER-LEFT: #999 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #999 1px solid; HEIGHT: 322px; BACKGROUND-COLOR: #fff
+}
+.CommonContentSelectorOptionsArea {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 0px; BORDER-LEFT: #999 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #999 1px solid; BACKGROUND-COLOR: #fff
+}
+.CommonContentSelectorTree {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; OVERFLOW: visible; WIDTH: 215px; PADDING-TOP: 0px; HEIGHT: 330px
+}
+.CommonContentSelectorTreeNode {
+	CURSOR: pointer
+}
+.CommonContentSelectorTreeNodeSelected {
+	FONT-WEIGHT: bold; CURSOR: pointer
+}
+.CommonContentSelectorTreeNodeHover {
+	CURSOR: pointer
+}
+.CommonContentSelectorItemArea {
+	FLOAT: left
+}
+.CommonContentSelectorItem {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 90%; PADDING-BOTTOM: 3px; MARGIN: 6px 6px 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; BORDER-LEFT: #ccc 1px solid; WIDTH: 79px; CURSOR: pointer; PADDING-TOP: 3px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 79px; TEXT-ALIGN: center
+}
+.CommonContentSelectorItemSelected {
+	BORDER-RIGHT: #999 3px solid; PADDING-RIGHT: 1px; BORDER-TOP: #999 3px solid; PADDING-LEFT: 1px; FONT-SIZE: 90%; PADDING-BOTTOM: 1px; MARGIN: 6px 6px 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; BORDER-LEFT: #999 3px solid; WIDTH: 79px; CURSOR: pointer; PADDING-TOP: 1px; BORDER-BOTTOM: #999 3px solid; HEIGHT: 79px; TEXT-ALIGN: center
+}
+.CommonContentSelectorItem IMG {
+	MARGIN-TOP: auto; MARGIN-BOTTOM: auto
+}
+.CommonContentSelectorItemSelected IMG {
+	MARGIN-TOP: auto; MARGIN-BOTTOM: auto
+}
+.CommonContentSelectorItemName {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: normal; FONT-SIZE: 90%; PADDING-BOTTOM: 2px; MARGIN: 1px 6px 16px; OVERFLOW: hidden; WIDTH: 83px; CURSOR: pointer; PADDING-TOP: 2px; HEIGHT: 12px; TEXT-ALIGN: center
+}
+.CommonContentSelectorItemNameSelected {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: normal; FONT-SIZE: 90%; PADDING-BOTTOM: 2px; MARGIN: 1px 6px 16px; OVERFLOW: hidden; WIDTH: 83px; CURSOR: pointer; PADDING-TOP: 2px; HEIGHT: 12px; BACKGROUND-COLOR: #999; TEXT-ALIGN: center
+}
+.CommonContentSelectorButtonArea {
+	MARGIN: 5px; TEXT-ALIGN: left
+}
+P.MsoNormal {
+	MARGIN: 0px 0px 0pt
+}
+LI.MsoNormal {
+	MARGIN: 0px 0px 0pt
+}
+DIV.MsoNormal {
+	MARGIN: 0px 0px 0pt
+}
+#CommonCommentForm {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0.95em; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#CommonContactForm {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0.95em; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#CommonCommentForm H2 {
+	MARGIN-BOTTOM: 0px
+}
+#CommonContactForm H2 {
+	MARGIN-BOTTOM: 0px
+}
+#CommonCommentForm H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: 600; FONT-SIZE: 1.3em; PADDING-BOTTOM: 5px; MARGIN: 0px 10px 0px 0px; PADDING-TOP: 10px; LETTER-SPACING: 0px
+}
+#CommonContactForm H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: 600; FONT-SIZE: 1.3em; PADDING-BOTTOM: 5px; MARGIN: 0px 10px 0px 0px; PADDING-TOP: 10px; LETTER-SPACING: 0px
+}
+#CommonCommentForm P {
+	PADDING-RIGHT: 0em; PADDING-LEFT: 0em; FONT-SIZE: 0.95em; PADDING-BOTTOM: 0em; PADDING-TOP: 0em
+}
+#CommonContactForm P {
+	PADDING-RIGHT: 0em; PADDING-LEFT: 0em; FONT-SIZE: 0.95em; PADDING-BOTTOM: 0em; PADDING-TOP: 0em
+}
+#CommonCommentForm DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#CommonContactForm DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#CommonCommentForm DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 1em; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 5px
+}
+#CommonContactForm DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 1em; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 5px
+}
+#CommonCommentForm DD {
+	MARGIN-LEFT: 0px; COLOR: #777
+}
+#CommonContactForm DD {
+	MARGIN-LEFT: 0px; COLOR: #777
+}
+#CommonCommentForm DT EM {
+	FONT-SIZE: 0.95em
+}
+#CommonContactForm DT EM {
+	FONT-SIZE: 0.95em
+}
+#CommonCommentForm .smallbox {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 350px; PADDING-TOP: 2px
+}
+#CommonContactForm .smallbox {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 350px; PADDING-TOP: 2px
+}
+#CommonCommentForm TEXTAREA {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 1em; PADDING-BOTTOM: 2px; WIDTH: 500px; PADDING-TOP: 2px; HEIGHT: 150px
+}
+#CommonContactForm TEXTAREA {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 1em; PADDING-BOTTOM: 2px; WIDTH: 500px; PADDING-TOP: 2px; HEIGHT: 150px
+}
+.Comment {
+	BORDER-RIGHT: #eee 0px solid; PADDING-RIGHT: 8px; BORDER-TOP: #eee 0px solid; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; BORDER-LEFT: #eee 0px solid; PADDING-TOP: 12px; BORDER-BOTTOM: #eee 1px solid
+}
+.CommentOwner {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; BORDER-BOTTOM: #fff 12px solid; BACKGROUND-COLOR: #f4f4f4
+}
+.CommentAvatar {
+	WHITE-SPACE: nowrap
+}
+.CommentAvatar IMG {
+	MARGIN-RIGHT: 8px; WHITE-SPACE: nowrap
+}
+.CommentContent {
+	
+}
+.CommentTitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 110%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.CommentText {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.CommentFooter {
+	FONT-SIZE: 80%; COLOR: #999
+}
+.CommonHelpIcon {
+	BACKGROUND-POSITION: left top; DISPLAY: inline-block; BACKGROUND-IMAGE: url(../images/common/help_out.gif); WIDTH: 20px; CURSOR: help; BORDER-TOP-STYLE: none; BACKGROUND-REPEAT: no-repeat; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 20px; BORDER-BOTTOM-STYLE: none
+}
+.CommonHelpIconHover {
+	BACKGROUND-POSITION: left top; DISPLAY: inline-block; BACKGROUND-IMAGE: url(../images/common/help_hover.gif); WIDTH: 20px; CURSOR: help; BORDER-TOP-STYLE: none; BACKGROUND-REPEAT: no-repeat; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 20px; BORDER-BOTTOM-STYLE: none
+}
+.CommonHelpToolTip {
+	BORDER-RIGHT: #000 2px solid; PADDING-RIGHT: 8px; BORDER-TOP: #000 2px solid; PADDING-LEFT: 8px; FONT-SIZE: 8pt; PADDING-BOTTOM: 8px; BORDER-LEFT: #000 2px solid; WIDTH: 250px; COLOR: #000; PADDING-TOP: 8px; BORDER-BOTTOM: #000 2px solid; BACKGROUND-COLOR: #ffc
+}
+.CommonPollMoveUpButton {
+	BORDER-RIGHT: #999 1px solid; BACKGROUND-POSITION: left top; BORDER-TOP: #ccc 1px solid; DISPLAY: inline-block; FONT-WEIGHT: bold; FONT-SIZE: 80%; BACKGROUND-IMAGE: url(../images/common/up.gif); MARGIN: 1px; BORDER-LEFT: #ccc 1px solid; WIDTH: 20px; COLOR: #333; LINE-HEIGHT: normal; BORDER-BOTTOM: #999 1px solid; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px; BACKGROUND-COLOR: #eee
+}
+.CommonPollMoveUpButton:link {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.CommonPollMoveUpButton:unknown {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.CommonPollMoveUpButton:active {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.CommonPollMoveUpButton:hover {
+	COLOR: #333; BACKGROUND-COLOR: #ddd; TEXT-DECORATION: none
+}
+.CommonPollMoveDownButton {
+	BORDER-RIGHT: #999 1px solid; BACKGROUND-POSITION: left top; BORDER-TOP: #ccc 1px solid; DISPLAY: inline-block; FONT-WEIGHT: bold; FONT-SIZE: 80%; BACKGROUND-IMAGE: url(../images/common/down.gif); MARGIN: 1px; BORDER-LEFT: #ccc 1px solid; WIDTH: 20px; COLOR: #333; LINE-HEIGHT: normal; BORDER-BOTTOM: #999 1px solid; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px; BACKGROUND-COLOR: #eee
+}
+.CommonPollMoveDownButton:link {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.CommonPollMoveDownButton:unknown {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.CommonPollMoveDownButton:active {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.CommonPollMoveDownButton:hover {
+	COLOR: #333; BACKGROUND-COLOR: #ddd; TEXT-DECORATION: none
+}
+.CommonPollDeleteButton {
+	BORDER-RIGHT: #999 1px solid; BACKGROUND-POSITION: left top; BORDER-TOP: #ccc 1px solid; DISPLAY: inline-block; FONT-WEIGHT: bold; FONT-SIZE: 80%; BACKGROUND-IMAGE: url(../images/common/delete.gif); MARGIN: 1px; BORDER-LEFT: #ccc 1px solid; WIDTH: 20px; COLOR: #333; LINE-HEIGHT: normal; BORDER-BOTTOM: #999 1px solid; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px; BACKGROUND-COLOR: #eee
+}
+.CommonPollDeleteButton:link {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.CommonPollDeleteButton:unknown {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.CommonPollDeleteButton:active {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.CommonPollDeleteButton:hover {
+	COLOR: #333; BACKGROUND-COLOR: #ddd; TEXT-DECORATION: none
+}
+OL.CommonPollAnswerList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+OL.CommonPollAnswerList LI {
+	MARGIN-LEFT: 24px
+}
+.CommonPollArea {
+	BORDER-RIGHT: #bbb 1px solid; BORDER-TOP: #bbb 1px solid; MARGIN: 0px auto; BORDER-LEFT: #bbb 1px solid; WIDTH: 375px; BORDER-BOTTOM: #bbb 1px solid; BACKGROUND-COLOR: #f4f4f4
+}
+.CommonPollQuestion {
+	BORDER-RIGHT: #bbb 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #bbb 0px solid; PADDING-LEFT: 4px; FONT-SIZE: 105%; PADDING-BOTTOM: 4px; MARGIN: 0px; BORDER-LEFT: #bbb 0px solid; COLOR: #698d73; PADDING-TOP: 4px; BORDER-BOTTOM: #bbb 1px solid; BACKGROUND-COLOR: #e2eecd
+}
+.CommonPollContent {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.CommonPollDescription {
+	
+}
+.CommonPollSwitchedContent {
+	MARGIN: 6px auto; WIDTH: 275px
+}
+UL.CommonPollAnswerList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL.CommonPollAnswerList LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 6px 0px 0px; PADDING-TOP: 0px
+}
+.CommonPollAnswer {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.CommonPollUserVote {
+	COLOR: #777
+}
+.CommonPollFooter {
+	BORDER-RIGHT: #999 0px solid; PADDING-RIGHT: 2px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 80%; PADDING-BOTTOM: 2px; BORDER-LEFT: #999 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #999 0px solid; BACKGROUND-COLOR: #ccc
+}
+UL.CommonPollFooterList {
+	MARGIN: 0px; LIST-STYLE-TYPE: none; TEXT-ALIGN: center
+}
+UL.CommonPollFooterList LI {
+	DISPLAY: inline; MARGIN: 0px 6px
+}
+.CommonTagCloud {
+	COLOR: #999; LINE-HEIGHT: 250%; LIST-STYLE-TYPE: none
+}
+UL.CommonSidebarTagCloud {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; PADDING-BOTTOM: 0px! important; MARGIN: 0px; LINE-HEIGHT: 120%; PADDING-TOP: 10px! important; LIST-STYLE-TYPE: none
+}
+UL.CommonSidebarTagCloud LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.CommonTag1 {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.CommonTag2 {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.CommonTag3 {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.CommonTag3 {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.CommonTag4 {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.CommonTag5 {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.CommonTag6 {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.CommonTag1 A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.2em; COLOR: #0060ff
+}
+.CommonTag1 A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.2em; COLOR: #0060ff
+}
+.CommonTag1 A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.2em; COLOR: #0060ff
+}
+.CommonTag2 A:link {
+	FONT-SIZE: 1.2em; COLOR: #0060ff
+}
+.CommonTag2 A:visited {
+	FONT-SIZE: 1.2em; COLOR: #0060ff
+}
+.CommonTag2 A:active {
+	FONT-SIZE: 1.2em; COLOR: #0060ff
+}
+.CommonTag3 A:link {
+	FONT-SIZE: 1.1em; COLOR: #034efa
+}
+.CommonTag3 A:visited {
+	FONT-SIZE: 1.1em; COLOR: #034efa
+}
+.CommonTag3 A:active {
+	FONT-SIZE: 1.1em; COLOR: #034efa
+}
+.CommonTag4 A:link {
+	FONT-SIZE: 1em; COLOR: #034efa
+}
+.CommonTag4 A:visited {
+	FONT-SIZE: 1em; COLOR: #034efa
+}
+.CommonTag4 A:active {
+	FONT-SIZE: 1em; COLOR: #034efa
+}
+.CommonTag5 A:link {
+	FONT-SIZE: 0.9em; COLOR: #6e9aff
+}
+.CommonTag5 A:visited {
+	FONT-SIZE: 0.9em; COLOR: #6e9aff
+}
+.CommonTag5 A:active {
+	FONT-SIZE: 0.9em; COLOR: #6e9aff
+}
+.CommonTag6 A:link {
+	FONT-SIZE: 0.9em; COLOR: #94b3fb
+}
+.CommonTag6 A:visited {
+	FONT-SIZE: 0.9em; COLOR: #94b3fb
+}
+.CommonTag6 A:active {
+	FONT-SIZE: 0.9em; COLOR: #94b3fb
+}
+.CommonPane {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #999 0px solid; PADDING-LEFT: 8px; FONT-SIZE: 10pt; PADDING-BOTTOM: 8px; OVERFLOW: visible; BORDER-LEFT: #999 1px solid; PADDING-TOP: 8px; BORDER-BOTTOM: #999 1px solid; BACKGROUND-COLOR: #fff
+}
+.CommonPaneTabSet {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left bottom; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(../images/common/tabset.gif); PADDING-BOTTOM: 0px; COLOR: #000; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap
+}
+.CommonPaneTab {
+	PADDING-RIGHT: 4px; BACKGROUND-POSITION: right top; MARGIN-TOP: 1px; BACKGROUND-IMAGE: url(../images/common/tab-right.gif); BACKGROUND-REPEAT: no-repeat; HEIGHT: 21px
+}
+.CommonPaneTab1 {
+	BACKGROUND-POSITION: left top; PADDING-LEFT: 3px; BACKGROUND-IMAGE: url(../images/common/tab-left.gif); BACKGROUND-REPEAT: no-repeat
+}
+.CommonPaneTab2 {
+	PADDING-RIGHT: 4px; BACKGROUND-POSITION: left top; PADDING-LEFT: 4px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../images/common/tab.gif); PADDING-BOTTOM: 4px; OVERFLOW: hidden; CURSOR: pointer; PADDING-TOP: 4px; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap; HEIGHT: 13px; TEXT-ALIGN: center
+}
+.CommonPaneTabSelected {
+	PADDING-RIGHT: 4px; BACKGROUND-POSITION: right top; MARGIN-TOP: 1px; BACKGROUND-IMAGE: url(../images/common/tab-selected-right.gif); BACKGROUND-REPEAT: no-repeat; HEIGHT: 21px
+}
+.CommonPaneTabSelected1 {
+	BACKGROUND-POSITION: left top; PADDING-LEFT: 3px; BACKGROUND-IMAGE: url(../images/common/tab-selected-left.gif); BACKGROUND-REPEAT: no-repeat
+}
+.CommonPaneTabSelected2 {
+	PADDING-RIGHT: 4px; BACKGROUND-POSITION: left top; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../images/common/tab-selected.gif); PADDING-BOTTOM: 5px; OVERFLOW: hidden; CURSOR: pointer; PADDING-TOP: 3px; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap; HEIGHT: 13px; TEXT-ALIGN: center
+}
+.CommonPaneTabHover {
+	PADDING-RIGHT: 4px; BACKGROUND-POSITION: right top; MARGIN-TOP: 1px; BACKGROUND-IMAGE: url(../images/common/tab-hover-right.gif); BACKGROUND-REPEAT: no-repeat; HEIGHT: 21px
+}
+.CommonPaneTabHover1 {
+	BACKGROUND-POSITION: left top; PADDING-LEFT: 3px; BACKGROUND-IMAGE: url(../images/common/tab-hover-left.gif); BACKGROUND-REPEAT: no-repeat
+}
+.CommonPaneTabHover2 {
+	PADDING-RIGHT: 4px; BACKGROUND-POSITION: left top; PADDING-LEFT: 4px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../images/common/tab-hover.gif); PADDING-BOTTOM: 4px; OVERFLOW: hidden; CURSOR: pointer; PADDING-TOP: 4px; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap; HEIGHT: 13px; TEXT-ALIGN: center
+}
+.CommonInlineTagEditor {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #999 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #999 1px solid; BACKGROUND-COLOR: #f3f3f3
+}
+UL.CommonTreeList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL.CommonTreeList LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 18px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 5px; LIST-STYLE-TYPE: none
+}
+.CommonTreeListItemSelected {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left 3px; PADDING-LEFT: 18px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(../images/common/folder_open.gif); PADDING-BOTTOM: 0px; PADDING-TOP: 5px; BACKGROUND-REPEAT: no-repeat
+}
+.CommonTreeListItem {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left 3px; PADDING-LEFT: 18px; FONT-WEIGHT: normal; BACKGROUND-IMAGE: url(../images/common/folder.gif); PADDING-BOTTOM: 0px; PADDING-TOP: 5px; BACKGROUND-REPEAT: no-repeat
+}
+.CommonTreeListItemSelected A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.CommonTreeListItemSelected A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.CommonTreeListItemSelected A:active {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.CommonTreeListItem A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.CommonTreeListItem A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.CommonTreeListItem A:active {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.CommonTreeListItemSelected A:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.CommonTreeListItem A:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.CommonHalfWidthArea {
+	FLOAT: left; WIDTH: 50%
+}
+.CommonHalfWidthContent {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; FONT-SIZE: 75%; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.CommonHalfWidthBreak {
+	CLEAR: both
+}
+.CommonInlineListArea {
+	
+}
+.CommonInlineListHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 115%; MARGIN: 0px 0px 0px 0.4em
+}
+.CommonInlineList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.CommonInlineList LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.5em 25px; PADDING-TOP: 0px; LIST-STYLE-TYPE: square
+}
+.CommonAvatarListArea {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 0px; FONT-SIZE: 75%; FLOAT: left; PADDING-BOTTOM: 3px; MARGIN: 12px 12px 0px 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; WIDTH: 80px; PADDING-TOP: 3px; HEIGHT: 100px; TEXT-ALIGN: center
+}
+.CommonAvatarAreaHighlight {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; DISPLAY: block; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #eee
+}
+.CommonAvatarArea {
+	PADDING-RIGHT: 1px; DISPLAY: block; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.CommonAvatar IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; VERTICAL-ALIGN: bottom; BORDER-RIGHT-WIDTH: 0px
+}
+.CommonSmallAvatar IMG {
+	BORDER-RIGHT: #034efa 1px solid; BORDER-TOP: #034efa 1px solid; BORDER-LEFT: #034efa 1px solid; WIDTH: 17px; BORDER-BOTTOM: #034efa 1px solid; HEIGHT: 17px
+}
+.bumptop {
+	MARGIN-TOP: 6px
+}
+.ad_container_white {
+	MIN-HEIGHT: 1px; POSITION: relative; HEIGHT: 1px
+}
+.ad_top_white {
+	BACKGROUND: url(./i/bg_bucket_ad.png) no-repeat right -80px; HEIGHT: 5px
+}
+.ad_top_white SPAN {
+	BACKGROUND: url(./i/bg_bucket_ad.png) no-repeat left -68px; FLOAT: left; OVERFLOW: hidden; WIDTH: 10px; HEIGHT: 5px
+}
+.ad_bucket_content {
+	BORDER-RIGHT: #b2caea 2px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MIN-HEIGHT: 1px; PADDING-BOTTOM: 3px; BORDER-LEFT: #b2caea 2px solid; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 1px
+}
+.ad_bucket_content .ad_bucket_contentarea {
+	MARGIN-LEFT: 7px; MARGIN-RIGHT: 3px
+}
+.ad_bucket_content .heading {
+	MARGIN-TOP: 0px; FONT-WEIGHT: bold; PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+.ad_bucket_content .end {
+	MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 10px
+}
+.ad_bucket_bottom {
+	BACKGROUND: url(./i/bg_bucket_ad.png) no-repeat 0px -27px; MARGIN-BOTTOM: 10px; HEIGHT: 5px
+}
+.ad_bucket_bottom SPAN {
+	BACKGROUND: url(./i/bg_bucket_ad.png) no-repeat right -39px; FLOAT: right; OVERFLOW: hidden; WIDTH: 12px; HEIGHT: 5px
+}
+.ad_bucket_content .advertise_here {
+	CLEAR: both; PADDING-RIGHT: 8px; PADDING-LEFT: 6px; FONT-SIZE: x-small; BACKGROUND: #dce4f9; PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+.ad_bucket_content SPAN.advertise_here {
+	HEIGHT: 10px
+}
+.ad_bucket_content .heading {
+	FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+.previous_next_community {
+	BACKGROUND: url(./i/bg_heading-community-alt.png) #fff repeat-x right 0px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; COLOR: #fff
+}
+.previous_next_container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MIN-HEIGHT: 1px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; POSITION: relative; HEIGHT: 1px; min-width: 486px
+}
+.previous_next_community_narrow {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 10px; min-width: 100%
+}
+.previous_next_community_blank {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 10px; min-width: 100%
+}
+.previous_next_community H2 {
+	PADDING-RIGHT: 10px; MARGIN-TOP: 0px; PADDING-LEFT: 10px; FONT-SIZE: 0.95em; BACKGROUND: url(./i/bg_heading-community-alt.png) repeat-x 0px -70px; PADDING-BOTTOM: 4px; PADDING-TOP: 7px
+}
+.previous_next_community_blank .previous_next_content_left {
+	PADDING-RIGHT: 0px; MARGIN-TOP: -10px; PADDING-LEFT: 0px; BACKGROUND: url(./i/bg_content_border.png) #fff repeat-y left top; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.previous_next_community_narrow .previous_next_content_left {
+	PADDING-RIGHT: 0px; MARGIN-TOP: -10px; PADDING-LEFT: 0px; BACKGROUND: url(./i/bg_content_border.png) #fff repeat-y left top; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.previous_next_community_blank .previous_next_content_right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(./i/bg_content_border.png) #fff repeat-y right top; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; COLOR: #fff; PADDING-TOP: 9px; POSITION: relative
+}
+.previous_next_community_narrow .previous_next_content_right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(./i/bg_content_border.png) #fff repeat-y right top; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; COLOR: #fff; PADDING-TOP: 9px; POSITION: relative
+}
+.previous_next_content_middle_left {
+	BACKGROUND: url(./i/bg_content_border.png) #fff repeat-y left top; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; POSITION: relative
+}
+.previous_next_content_middle_right {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 4px; BACKGROUND: url(./i/bg_content_border.png) repeat-y right top; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.previous_next_community .previous_next_content_middle_right {
+	COLOR: #000
+}
+.previous_next_community_blank .previous_next_content_right P.noinset {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px
+}
+.previous_next_community_blank .previous_next_content_middle_right UL {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px
+}
+.previous_next_community_blank .previous_next_content_middle_right OL {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; MARGIN: 0px 20px; PADDING-TOP: 0px
+}
+.previous_next_community_blank .previous_next_content_middle_right OL LI {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0.4em; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.previous_next_content_middle_right P.top_period {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0.6em; PADDING-BOTTOM: 0px; MARGIN: -5px 0px 0px; COLOR: #348827; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+.previous_next_bottom SPAN {
+	DISPLAY: block; FONT-SIZE: 1px; BACKGROUND: url(./i/bg_community_narrow-alt.png) no-repeat right -650px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; HEIGHT: 10px
+}
+.previous_next_content_middle_right {
+	MARGIN-LEFT: 10px
+}
+.previous_next_bottom {
+	FONT-SIZE: 1px; BACKGROUND: url(./i/bg_community_narrow-alt.png) red no-repeat 0px -640px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; HEIGHT: 10px
+}
+.previous_next_community_blank .previous_next_top {
+	FONT-SIZE: 1px; BACKGROUND: url(./i/bg_community_wide_blank-alt.png) #fff no-repeat left top; HEIGHT: 13px
+}
+.previous_next_community_blank .previous_next_top SPAN {
+	DISPLAY: block; BACKGROUND: url(./i/bg_community_wide_blank-alt.png) no-repeat -2493px -10px; FLOAT: right; WIDTH: 7px; HEIGHT: 13px
+}
+.more {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(./i/bg_more_line.png) no-repeat; PADDING-BOTTOM: 2px; MARGIN: 16px 0px 0px; PADDING-TOP: 4px
+}
+.ad_bucket_content .advertise_here {
+	CLEAR: both; PADDING-RIGHT: 8px; PADDING-LEFT: 6px; FONT-SIZE: x-small; BACKGROUND: #dce4f9; PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+.ad_bucket_content .advertise_here A:link {
+	COLOR: #5889cf; TEXT-DECORATION: none
+}
+.ad_bucket_content .advertise_here A:visited {
+	COLOR: #5889cf; TEXT-DECORATION: none
+}
+.ad_bucket_content .advertise_here A:hover {
+	COLOR: #034efa; TEXT-DECORATION: underline
+}
+.ad_bucket_content .advertise_here A:active {
+	COLOR: #5889cf; TEXT-DECORATION: none
+}

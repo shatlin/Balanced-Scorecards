@@ -1,0 +1,204 @@
+.dxgvControl_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; BORDER-TOP: #7eacb1 1px solid; FONT: 9pt Tahoma; BORDER-LEFT: #7eacb1 1px solid; CURSOR: default; COLOR: black; BORDER-BOTTOM: #7eacb1 1px solid; BACKGROUND-COLOR: #f4fafb
+}
+.dxgvDisabled_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; BORDER-TOP: #7eacb1 1px solid; FONT: 9pt Tahoma; BORDER-LEFT: #7eacb1 1px solid; CURSOR: default; COLOR: black; BORDER-BOTTOM: #7eacb1 1px solid; BACKGROUND-COLOR: #f4fafb
+}
+.dxgvDisabled_Glass {
+	COLOR: gray
+}
+.dxgvControl_Glass A {
+	COLOR: #5555ff
+}
+.dxgvDisabled_Glass A {
+	COLOR: gray
+}
+.dxgvLoadingPanel_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; BORDER-TOP: #7eacb1 1px solid; FONT: 9pt Tahoma; BORDER-LEFT: #7eacb1 1px solid; COLOR: #303030; BORDER-BOTTOM: #7eacb1 1px solid; BACKGROUND-COLOR: #d4e3e5
+}
+.dxgvLoadingPanel_Glass TD {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.dxgvLoadingPanelStatusBar_Glass {
+	FONT: 8pt Tahoma; BACKGROUND-COLOR: transparent
+}
+.dxgvLoadingPanelStatusBar_Glass TD {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.dxgvTable_Glass {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; FONT: 9pt Tahoma; OVERFLOW: hidden; COLOR: black; BORDER-COLLAPSE: separate! important; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px
+}
+.dxgvInlineEditRow_Glass {
+	BACKGROUND-COLOR: white
+}
+.dxgvDataRow_Glass {
+	BACKGROUND-COLOR: white
+}
+.dxgvInlineEditRow_Glass TD.dxgv {
+	BORDER-RIGHT: #c2d4da 1px solid; BORDER-BOTTOM: #c2d4da 1px solid
+}
+.dxgvDataRowAlt_Glass {
+	BACKGROUND-COLOR: #f3f8f7
+}
+.dxgvFilterRow_Glass {
+	BACKGROUND-COLOR: #d4e3e5
+}
+.dxgvEditFormDisplayRow_Glass {
+	BACKGROUND-COLOR: #edf3f4
+}
+.dxgvEditForm_Glass {
+	BACKGROUND-COLOR: #edf3f4
+}
+.dxgvEditForm_Glass TD.dxgv {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 6px; BORDER-BOTTOM: #c2d4da 1px solid
+}
+.dxgvSelectedRow_Glass {
+	BACKGROUND-COLOR: #d8ecf0
+}
+.dxgvFocusedRow_Glass {
+	BACKGROUND-COLOR: #c0e0e7
+}
+.dxgvPreviewRow_Glass {
+	BACKGROUND-COLOR: #ecf2f3
+}
+.dxgvDetailRow_Glass TD.dxgv {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 2px; PADDING-LEFT: 4px; BORDER-LEFT-WIDTH: 0px; PADDING-BOTTOM: 8px; PADDING-TOP: 6px; BORDER-BOTTOM: #c2d4da 1px solid; BORDER-RIGHT-WIDTH: 0px
+}
+.dxgvPreviewRow_Glass TD.dxgv {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 2px; PADDING-LEFT: 4px; BORDER-LEFT-WIDTH: 0px; PADDING-BOTTOM: 8px; PADDING-TOP: 6px; BORDER-BOTTOM: #c2d4da 1px solid; BORDER-RIGHT-WIDTH: 0px
+}
+.dxgvEmptyDataRow_Glass TD.dxgv {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 2px; PADDING-LEFT: 4px; BORDER-LEFT-WIDTH: 0px; PADDING-BOTTOM: 8px; PADDING-TOP: 6px; BORDER-BOTTOM: #c2d4da 1px solid; BORDER-RIGHT-WIDTH: 0px
+}
+.dxgvEmptyDataRow_Glass {
+	COLOR: gray
+}
+.dxgvEmptyDataRow_Glass TD.dxgv {
+	TEXT-ALIGN: center
+}
+.dxgvEditFormDisplayRow_Glass TD.dxgv {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #c2d4da 1px solid; PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BORDER-LEFT-WIDTH: 0px; PADDING-BOTTOM: 4px; OVERFLOW: hidden; PADDING-TOP: 2px; BORDER-BOTTOM: #c2d4da 1px solid
+}
+.dxgvDataRow_Glass TD.dxgv {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #c2d4da 1px solid; PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BORDER-LEFT-WIDTH: 0px; PADDING-BOTTOM: 4px; OVERFLOW: hidden; PADDING-TOP: 2px; BORDER-BOTTOM: #c2d4da 1px solid
+}
+.dxgvDataRowAlt_Glass TD.dxgv {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #c2d4da 1px solid; PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BORDER-LEFT-WIDTH: 0px; PADDING-BOTTOM: 4px; OVERFLOW: hidden; PADDING-TOP: 2px; BORDER-BOTTOM: #c2d4da 1px solid
+}
+.dxgvSelectedRow_Glass TD.dxgv {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #c2d4da 1px solid; PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BORDER-LEFT-WIDTH: 0px; PADDING-BOTTOM: 4px; OVERFLOW: hidden; PADDING-TOP: 2px; BORDER-BOTTOM: #c2d4da 1px solid
+}
+.dxgvFocusedRow_Glass TD.dxgv {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #c2d4da 1px solid; PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BORDER-LEFT-WIDTH: 0px; PADDING-BOTTOM: 4px; OVERFLOW: hidden; PADDING-TOP: 2px; BORDER-BOTTOM: #c2d4da 1px solid
+}
+.dxgvDataRow_Glass TD.dxgvIndentCell {
+	BACKGROUND-COLOR: #d5dfe6! important
+}
+.dxgvFocusedRow_Glass TD.dxgvIndentCell {
+	BACKGROUND-COLOR: #d5dfe6! important
+}
+.dxgvEditingErrorRow_Glass {
+	COLOR: red; BACKGROUND-COLOR: #ffc8c8
+}
+.dxgvEditingErrorRow_Glass TD.dxgv {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BORDER-LEFT-WIDTH: 0px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px; BORDER-BOTTOM: #c2d4da 1px solid; BORDER-RIGHT-WIDTH: 0px
+}
+.dxgvFilterRow_Glass TD.dxgv {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #c2d4da 1px solid; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; BORDER-LEFT-WIDTH: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #c2d4da 1px solid
+}
+.dxgvGroupRow_Glass {
+	BACKGROUND-COLOR: #d5dfe6
+}
+.dxgvFocusedGroupRow_Glass {
+	BACKGROUND-COLOR: #c0e0e7
+}
+.dxgvGroupRow_Glass TD.dxgv {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 4px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: middle; BORDER-LEFT: 0px; PADDING-TOP: 2px; BORDER-BOTTOM: #c2d4da 1px solid; WHITE-SPACE: nowrap
+}
+.dxgvFocusedGroupRow_Glass TD.dxgv {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 4px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: middle; BORDER-LEFT: 0px; PADDING-TOP: 2px; BORDER-BOTTOM: #c2d4da 1px solid; WHITE-SPACE: nowrap
+}
+.dxgvHeaderPanel_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; BORDER-BOTTOM: #c2d4da 1px solid; BACKGROUND-COLOR: #d4e3e5
+}
+.dxgvHeader_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; PADDING-RIGHT: 6px; BACKGROUND-POSITION: 50% top; BORDER-TOP: #7eacb1 1px solid; PADDING-LEFT: 6px; BACKGROUND-IMAGE: url(gvHeaderBackground.gif); PADDING-BOTTOM: 5px; OVERFLOW: hidden; BORDER-LEFT: #7eacb1 1px solid; CURSOR: pointer; PADDING-TOP: 4px; BORDER-BOTTOM: #7eacb1 1px solid; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #c0dde0; moz-user-select: none
+}
+.dxgvHeader_Glass {
+	FONT: 9pt Tahoma; COLOR: black
+}
+.dxgvHeader_Glass TABLE {
+	FONT: 9pt Tahoma; COLOR: black
+}
+.dxgvHeader_Glass TD {
+	WHITE-SPACE: nowrap
+}
+.dxgvCustomization_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px
+}
+.dxgvPopupEditForm_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 0px
+}
+.dxgvGroupPanel_Glass {
+	PADDING-RIGHT: 4px; BACKGROUND-POSITION: 50% top; PADDING-LEFT: 6px; FONT-SIZE: 9pt; BACKGROUND-IMAGE: url(gvGroupPanelBackground.gif); PADDING-BOTTOM: 8px; PADDING-TOP: 7px; BORDER-BOTTOM: #7eacb1 1px solid; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #f8fbfd
+}
+.dxgvFooter_Glass {
+	WHITE-SPACE: nowrap; BACKGROUND-COLOR: #e9f8fa
+}
+.dxgvFooter_Glass TD.dxgv {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px; BORDER-BOTTOM: #7eacb1 1px solid; BORDER-RIGHT-STYLE: none
+}
+.dxgvGroupFooter_Glass {
+	WHITE-SPACE: nowrap; BACKGROUND-COLOR: #daedf0
+}
+.dxgvGroupFooter_Glass TD.dxgv {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; PADDING-TOP: 4px; BORDER-BOTTOM: #c2d4da 1px solid; BORDER-RIGHT-STYLE: none
+}
+.dxgvDataRow_Glass TD.dxgvIndentCell {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #c2d4da 1px solid; BACKGROUND-COLOR: #d5dfe6
+}
+.dxgvGroupRow_Glass TD.dxgvIndentCell {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #c2d4da 1px solid; BACKGROUND-COLOR: #d5dfe6
+}
+.dxgvGroupFooter_Glass TD.dxgvIndentCell {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #c2d4da 1px solid; BACKGROUND-COLOR: #d5dfe6
+}
+.dxgvTitlePanel_Glass {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BORDER-BOTTOM: #7eacb1 1px solid; BACKGROUND-COLOR: white; TEXT-ALIGN: center
+}
+.dxgvLoadingDiv_Glass {
+	FILTER: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1); BACKGROUND-COLOR: gray; opacity: 0.01
+}
+.dxgvStatusBar_Glass {
+	BORDER-TOP: #7eacb1 1px solid
+}
+.dxgvStatusBar_Glass TR {
+	HEIGHT: 20px
+}
+.dxgvCommandColumn_Glass {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.dxgvCommandColumn_Glass A {
+	FONT-SIZE: 9pt; MARGIN: 0px 3px 0px 0px; COLOR: #2a769d
+}
+.dxgvCommandColumn_Glass A:hover {
+	COLOR: #f15e34
+}
+.dxgvCommandColumnItem_Glass {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.dxgvEditFormTable_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 4px; PADDING-BOTTOM: 6px; FONT: 9pt Tahoma; COLOR: black; PADDING-TOP: 2px
+}
+.dxgvEditFormCaption_Glass {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 10px; PADDING-BOTTOM: 4px; FONT: 9pt Tahoma; PADDING-TOP: 4px; WHITE-SPACE: nowrap
+}
+.dxgvInlineEditCell_Glass {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.dxgvEditFormCell_Glass {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; BORDER-RIGHT-WIDTH: 0px
+}
+.dxgvControl_Glass .dxpControl_Glass {
+	PADDING-BOTTOM: 8px; PADDING-TOP: 8px; BACKGROUND-COLOR: #f4fafb
+}

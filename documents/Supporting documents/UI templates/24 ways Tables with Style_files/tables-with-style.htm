@@ -1,0 +1,497 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>24 ways: Tables with Style</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/inc/24ways06.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/inc/promos.css" />
+    <link rel="alternate" type="application/rss+xml" title="rss" href="http://feeds.feedburner.com/24ways" />   
+</head> 
+
+<body class="y2005">
+
+    <div id="masthead">
+    	<div class="wrapper">
+        	<h1><a rel="home" href="http://24ways.org/">24 ways</a></h1>
+        		<p class="strapline">to impress your friends</p>
+    	</div>
+	</div>
+    <div id="content">
+        		<div class="wrapper">
+		<h2>Tables with&#160;Style <span class="credit">by Jonathan Snook</span></h2>
+
+			<p>It might not seem like it but styling tabular data can be a lot of fun. From a semantic point of view, there are plenty of elements to tie some style into. You have cells, rows, row groups and, of course, the table element itself. Adding <span class="caps">CSS</span> to a paragraph just isn&rsquo;t as exciting.</p>
+
+	<h3>Where do I start?</h3>
+
+	<p>First, if you have some tabular data (you know, like a spreadsheet with rows and columns) that you&rsquo;d like to spiffy up, pop it into a table &mdash; it&rsquo;s rightful place!</p>
+
+	<p>To add more semantics to your table &mdash; and coincidentally to add more hooks for <span class="caps">CSS</span> &mdash; break up your table into row groups. There are three types of row groups: the header (<code>thead</code>), the body (<code>tbody</code>) and the footer (<code>tfoot</code>). You can only have one header and one footer but you can have as many table bodies as is appropriate.</p>
+
+	<p><a href="/examples/tables-with-style/table_default.html">Sample table example</a></p>
+
+	<h3>Inspiration</h3>
+
+	<h4>Table Striping</h4>
+
+	<p>To improve scanning information within a table, a common technique is to style alternating rows. Also known as <a href="http://www.alistapart.com/articles/zebratables/">zebra tables</a>. Whether you apply it using a class on every other row or <a href="/advent/splintered-striper">turn to JavaScript</a> to accomplish the task, a handy-dandy trick is to use a semi-transparent <span class="caps">PNG</span> as your background image. This is especially useful over patterned backgrounds. </p>
+
+	<p><pre><code>tbody tr.odd td
+ {
+     background:transparent url(background.png) repeat top left;
+ }</p>
+
+ * html tbody tr.odd td
+ {
+     background:#C00;
+     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+          src=&#8216;background.png&#8217;, sizingMethod=&#8216;scale&#8217;);
+ }</code></pre>
+
+	<p>We turn off the default background and apply our <span class="caps">PNG</span> hack to have this work in Internet Explorer. </p>
+
+	<h4>Styling Columns</h4>
+
+	<p>Did you know you could style a column? That&rsquo;s right. You can add special column (<code>col</code>) or column group (<code>colgroup</code>) elements. With that you can add border or background styles to the column.</p>
+
+<pre><code>&#60;table&#62;
+     &#60;col id=&#34;ingredients&#34;&#62;
+     &#60;col id=&#34;serve12&#34;&#62;
+     &#60;col id=&#34;serve24&#34;&#62;
+ ...</code></pre>
+
+	<p><a href="/examples/tables-with-style/table_columns.html">Check out the example</a>.</p>
+
+	<h4>Fun with Backgrounds</h4>
+
+	<p>Pop in a tiled background to <a href="/examples/tables-with-style/table_fixed.html">give your table some character</a>! Internet Explorer&#8217;s <span class="caps">PNG</span> hack unfortunately only works well when applied to a cell.</p>
+
+	<p>To figure out which background will appear over another, just remember the hierarchy:</p>
+
+ <div class="textual-figure">(bottom) Table &#x2192; Column &#x2192; Row Group &#x2192; Row &#x2192; Cell (top)</div>
+
+	<h3>The Future is Bright</h3>
+
+	<p>Once browser-makers start implementing CSS3, we&rsquo;ll have more power at our disposal. Just with <code>:first-child</code> and <code>:last-child</code>, you can pull off a <a href="/examples/tables-with-style/table_child.html">scalable version of our previous table</a> with rounded corners and all &mdash; unfortunately, only Firefox manages to pull this one off successfully. And the selector the masses are clamouring for, nth-child, will make zebra tables easy as eggnog.</p>
+
+ <div class="bio vcard">
+
+	<h3>About the author</h3>
+
+	<p><span class="fn">Jonathan Snook</span> is a web developer by trade and tirelessly puts his many skills to work on <a href="http://www.snook.ca/jonathan/" class="url org">snook.ca</a> and other projects.</p>
+
+ </div>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			<div class="gas">
+			<script type="text/javascript"><!--
+			google_ad_client = "pub-1815355830579562";
+			google_ad_width = 728;
+			google_ad_height = 90;
+			google_ad_format = "728x90_as";
+			google_ad_type = "text";
+			google_ad_channel = "";
+			google_color_border = "FFFFFF";
+			google_color_bg = "FFFFFF";
+			google_color_link = "3300cc";
+			google_color_text = "333333";
+			google_color_url = "000000";
+			//--></script>
+			<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+		<div class="comments">
+		<div class="wrapper">
+			<h2>Your comments</h2>
+			<ol class="comments">
+	<li><div class="even">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000431" id="c000431">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=3e101126b514c65ee531e47bd6281ba3&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://sonspring.com" rel="nofollow">Nathan Smith</a>:</span>
+		<p>Great write-up. It&#8217;s good to see more attention being given to semantics, and implictly increased style-ability, for tables. I admit that back in the dark days of table design, I often found little use for Tbody or Tfoot, or the like, since all we were using tables for was presentation (tisk tisk). And, now that most layouts are done in CSS, entire months will go by without having to deal with tables at all. Thanks for reminding us about proper usage, and helping to merge the old-school with new methods. Also, gotta love the candy-cane holiday zebra-striped theme!</p>
+	</div>
+</div>
+</li>
+	<li><div class="odd">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000432" id="c000432">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=db6653c2357621748f91144a83c17739&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://www.grantpalin.com" rel="nofollow">Grant Palin</a>:</span>
+		<p>Some good examples.  I agree with your point at the beginning about how tables can be an interesting (if not sometimes frustating!) element to style.  What with the different sub-elements you can style, there&#8217;s many different things that can be done to style tables.</p>
+
+	<p>One thing that can make things difficult is the html attributes for padding and spacing &#8211; if you don&#8217;t take those into account when styling tables, your work would be a lot more difficult.  I know when I was learning CSS, this plagued me to no end until I realized that I should zero the table&#8217;s cellpadding and cellspacing attributes to make things easier.</p>
+	</div>
+</div>
+</li>
+	<li><div class="even">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000433" id="c000433">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=5cfb21b3827fc0c9801a1cb1be3049f3&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://timburgan.com" rel="nofollow">Tim Burgan</a>:</span>
+		<p>Mmm.. eggnog. I love Eggnog!</p>
+	</div>
+</div>
+</li>
+	<li><div class="odd">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000434" id="c000434">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=70b0c37bbe5f78432615dbeeb8eaf9b3&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://glench.com" rel="nofollow">Glen C.</a>:</span>
+		<p>Don&#8217;t forget <a href="http://icant.co.uk/csstablegallery/">the css zen garden of tables</a></p>
+	</div>
+</div>
+</li>
+	<li><div class="even">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000435" id="c000435">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=ce0f8df84e1e4edb3d9999740472261a&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://www.snook.ca/jonathan/" rel="nofollow">Jonathan Snook</a>:</span>
+		<p>Thanks Glen! I had it in a previous revision of this article and then it got lost in the rewrite. Definitely a good link to have for some inspiration.</p>
+	</div>
+</div>
+</li>
+	<li><div class="odd">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000436" id="c000436">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=cfac4fc60b4e72258138903daab65b44&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://www.dustindiaz.com" rel="nofollow">Dustin Diaz</a>:</span>
+		<p>Gosh Jonathan, you made tables look so pretty! Well done.</p>
+	</div>
+</div>
+</li>
+	<li><div class="even">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000437" id="c000437">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=a489725ad8451b6e87fcb9ed4f189cf9&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://www.trovster.com" rel="nofollow">trovster</a>:</span>
+		<p>Pretty funky table. I had my doubts that they could look nice, but you&#8217;ve certainly quashed them&#8230;</p>
+
+	<p>Jonathan: I think you missed the html part of your star-hack in the article, but not on the page.</p>
+	</div>
+</div>
+</li>
+	<li><div class="odd">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000438" id="c000438">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=f41397d5aceb0ca947bf3999bf89c50b&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author">JérÔÔme:</span>
+		<p>Ô thank you. I&#8217;m looking for this way of assigning an id to a col for a long time now. But CSS gurus talk about evreything <strong>but</strong> tables (except to get rid of them, mostly rightly though).</p>
+	</div>
+</div>
+</li>
+	<li><div class="even">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000439" id="c000439">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=ded79fc64bd5f1f51a13d842d79f4a85&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://cafefort.com" rel="nofollow">karim</a>:</span>
+		<p>Hi all,</p>
+
+	<p>First of all thanks a lot for these articles! It&#8217;s very interesting!</p>
+
+	<p>Well about :first-child and :last-child<br /><br />I used to use them with tables, like you <br /><br />did. And for IE and others</p>
+
+	<p>I suggest using classes named</p>
+
+	<p>.firstchild and lastchild which will be<br /><br />styled like the elements with the selectors :first-child and :last-child <br /><br />respectively.</p>
+
+	<p>and of course aply to the first TR (or TD) the class .firstchild and to the last ones .lastchild.</p>
+
+	<p>Well, I hope you enjoy my modest idea,<br /><br />I&#8217;m personally using it :)</p>
+
+	<p>Thanks again</p>
+	</div>
+</div>
+</li>
+	<li><div class="odd">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000440" id="c000440">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=131e0ca6a15ce1d7798a11affd2da55c&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://www.digitalpills.it" rel="nofollow">mirko</a>:</span>
+		<p>Thanks! Definitely a link that&#8217;s worth having, alongside the other 24ways articles. Well done!</p>
+	</div>
+</div>
+</li>
+	<li><div class="even">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000443" id="c000443">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=509a1651aa69233889051580cd9664f3&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://www.fewagainstmany.com" rel="nofollow">Tim</a>:</span>
+		<p>Nice write-up&#8230;<br /><br />But what about the col tags, shouldn&#8217;t we close them ??</p>
+	</div>
+</div>
+</li>
+	<li><div class="odd">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000446" id="c000446">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=ce0f8df84e1e4edb3d9999740472261a&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://www.snook.ca/jonathan/" rel="nofollow">Jonathan Snook</a>:</span>
+		<p>trovster: ha, not much of a star-html hack if I forget the -html part now is it? :) Fixed.</p>
+
+	<p>Tim: If you&#8217;re using XHTML, you absolutely should. All my examples use HTML, in which case, you shouldn&#8217;t.</p>
+	</div>
+</div>
+</li>
+	<li><div class="even">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000447" id="c000447">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=509a1651aa69233889051580cd9664f3&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://www.fewagainstmany.com" rel="nofollow">Tim</a>:</span>
+		<p>thx for the feedback Jonathan&#8230; and yes XHTML is the way to go ;-)</p>
+	</div>
+</div>
+</li>
+	<li><div class="odd">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000448" id="c000448">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=8d3e385f6ac45b18d6bc3888e50fe421&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://www.autoscoop.com" rel="nofollow">Bob Sawyer</a>:</span>
+		<p><strong>JS: <em>All my examples use HTML, in which case, you shouldn’t.</em></strong></p>
+
+	<p>Really? <em>Shouldn&#8217;t</em>, or <em>don&#8217;t have to</em>? I don&#8217;t want to start an ideological war of words here, but I&#8217;ve never known HTML to be restrictive with closing tags. Isn&#8217;t it just good practice to close them regardless of whether you&#8217;re using XHTML or HTML?</p>
+
+	<p>Lovely examples, by the way. Don&#8217;t want to take away from the point of the article, which is excellent&#8230;</p>
+	</div>
+</div>
+</li>
+	<li><div class="even">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000450" id="c000450">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=ce0f8df84e1e4edb3d9999740472261a&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://www.snook.ca/jonathan/" rel="nofollow">Jonathan Snook</a>:</span>
+		<p>While it probably doesn&#8217;t hurt, the HTML 4.01 spec actually says:</p>
+
+	<p>&#8220;Some HTML element types have no content. For example, the line break element BR has no content; its only role is to terminate a line of text. Such empty elements never have end tags.&#8221; COL is an empty element. So, no, you <em>shouldn&#8217;t</em>. :)</p>
+	</div>
+</div>
+</li>
+	<li><div class="odd">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000452" id="c000452">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=f57af39d098e35038182c7e4c51f86b8&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author">Milo van der Leij:</span>
+		<p>Don&#8217;t forget, <a href="http://www.w3.org/TR/CSS21/tables.html#q4">you can only style COL and COLGROUP tags in a very limited way</a> (also see: <a href="http://ln.hixie.ch/?start=1070385285&#38;count=1">this explanation of why that is</a>)</p>
+
+	<p>Also: &#8220;TFOOT must appear before TBODY within a TABLE definition so that user agents can render the foot before receiving all of the (potentially numerous) rows of data.&#8221; (according to the <a href="http://www.w3.org/TR/html4/struct/tables.html#h-11.2.3">HTML 4.01 specification</a>)</p>
+	</div>
+</div>
+</li>
+	<li><div class="even">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000454" id="c000454">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=f57af39d098e35038182c7e4c51f86b8&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author">Milo van der Leij:</span>
+		<p>Closing COL tags is <a href="http://www.w3.org/TR/html4/struct/tables.html#edef-COL">forbidden</a>.</p>
+	</div>
+</div>
+</li>
+	<li><div class="odd">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000456" id="c000456">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=fcf67db4beebad9341e6870077b88ffc&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://dkbg.f2o.org/" rel="nofollow">Dylan</a>:</span>
+		<p>That really is a <strong>beautiful</strong> table, so red and shiny&#8230; In a time when I&#8217;ve been getting a bit tired of CSS, you&#8217;ve sparked my interest again with that well designed table.</p>
+
+	<p>The COL element doesn&#8217;t have a closing tag, it just self closes like an IMG or BR (br /), so you wouldn&#8217;t close it in HTML in just the same fashion you wouldn&#8217;t close a BR in HTML but would in XHTML.</p>
+	</div>
+</div>
+</li>
+	<li><div class="even">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000458" id="c000458">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=c4cb21bb448e68a14715360d8f95460e&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author">Gerben:</span>
+		<p>Nice one. Day 17 said to avoid using &#8217;* html&#8217; and two days later it&#8217;s back again. <br /><br />:-)</p>
+	</div>
+</div>
+</li>
+	<li><div class="odd">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000459" id="c000459">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=93fc84c261cdce2e2f1d64c8e531ecb7&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author">Charles Roper:</span>
+		<p>Gerben, you beat me to the punch. In light of <a href="http://tantek.com/log/2005/11.html#d26t1820">Tantek&#8217;s excellent article</a> and day 17, I&#8217;m trying to do away with hacks where possible and the * html hack it a prime candidate. So I modified the CSS a bit and used </p>
+
+<code>tbody tr.odd td { ... }</code>
+
+	<p>for the non-compliant browsers and then used</p>
+
+<code>tbody tr.odd &gt; td { ... }</code>
+
+	<p>to feed the correct declarations to the good browsers.</p>
+
+	<p>Seems to work a treat.</p>
+	</div>
+</div>
+</li>
+	<li><div class="even">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000462" id="c000462">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=cdfaac99926a151a7bbd49d08e78b7cb&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://www.dextrose.be" rel="nofollow">Dextro</a>:</span>
+		<p>Apparently there is (even with the png hack) some problem in Internet Explorer. See the picture to see the difference.<br /><br /><a href="http://www.flickr.com/photos/dextro/75350660/">Example picture on flickr</a></p>
+
+	<p>Sorry, I don&#8217;t have time this week to check out what causes the problem.</p>
+	</div>
+</div>
+</li>
+	<li><div class="odd">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000464" id="c000464">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=ce0f8df84e1e4edb3d9999740472261a&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://www.snook.ca/jonathan/" rel="nofollow">Jonathan Snook</a>:</span>
+		<p>Dextro: pretty observant! :) The problem is that IE won&#8217;t apply the png hack filter to a cell that doesn&#8217;t have a background set. You&#8217;ll notice that in the PNG hack example on this page, I actually set the background color to #C00. Let&#8217;s hope IE7 gets it right. :)</p>
+	</div>
+</div>
+</li>
+	<li><div class="even">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000499" id="c000499">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=24a4ca32a0e8c98efe0a3b2362657dcb&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://www.richarddavies.us" rel="nofollow">Richard Davies</a>:</span>
+		<p>What? You can style columns?!! Where have I been? This article was worth reading just for learning that cool trick! Thanks!</p>
+	</div>
+</div>
+</li>
+	<li><div class="odd">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000534" id="c000534">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=987225a1c4f2d890d31675a3060763a1&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://richardmedek.com" rel="nofollow">Richard Medek</a>:</span>
+		<p>No freakin&#8217; kidding&#8230; a week after I skin a mess of calendars this tip pops up. Thanks for some great advice and a beautiful example.</p>
+	</div>
+</div>
+</li>
+	<li><div class="even">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000535" id="c000535">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=e86a40d4d4d3ab91923e47da489a6907&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://www.crm20.com" rel="nofollow">ark</a>:</span>
+		<p>OK, this is a bit not on the subject, I hope you guys can find a moment to help me out with my little problem&#8230;</p>
+
+	<p>My strong part is the server-side scripting, so I have a server-side script that generates images for rounded corners.</p>
+
+	<p>I have a library of my functions, so I can use this script on all of sites I develop, from a single file.</p>
+
+	<p>Point is it&#8217;s a single piece of code that generates rounded corners on both these sites: http://www.haroldauto.com/edit:1:43t243r and http://www.bmw-speedometer-repair.com/Safety.html</p>
+
+	<p>If someone could have a look and tell me why does the second site shows a bit of the wrong image in the top right corner, I would appreciate it very much.</p>
+
+	<p>It&#8217;s a single script on the server, and CSS/XHTML is not my strong side, I tried to make the css(at least the relevant css(I thought)), the same on both sites, but something must be off.</p>
+
+	<p>thanks,<br /><br />ark</p>
+	</div>
+</div>
+</li>
+	<li><div class="odd">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000555" id="c000555">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=5bb4f13f6c39807b18d08338aefad44e&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://my.opera.com/fatal" rel="nofollow">FataL</a>:</span>
+		<p>Opera for now is the one browser that can style TBODY (tbodies) &#8211; in the example only Opera has border after TBODY.<br /><br />Opera 9 TP1 has pretty good rendering for last example.<br /><br />Too bad that all browsers have so little support for styling COLs and COLGROUPs.</p>
+	</div>
+</div>
+</li>
+	<li><div class="even">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000557" id="c000557">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=f39aa2595efc90981ccf70b779d4bb9a&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author">David Singleton:</span>
+		<p>Another nice article. </p>
+
+	<p>Good to see more people being made aware of <code>thead, tbody, tfoot</code> and the usefulness of <code>cols</code> and <code>colgroups</code>, although a shame that there&#8217;s no mention of very useful <code>caption</code> tag or the acessability enhancing <code>summary</code> attribute. </p>
+
+	<p>@ <strong>FataL</strong>: There&#8217;s a <a href="http://ln.hixie.ch/?start=1070385285&#38;count=1">good reason</a>   and explanation why browsers are limited in col styling, with the exception of IE, oddly.</p>
+	</div>
+</div>
+</li>
+	<li><div class="odd">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000599" id="c000599">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=8c03ad6fdd228967cd2c5ef4a2099501&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://doctype.cx" rel="nofollow">andrwe</a>:</span>
+		<p>wow.  what a nice table.  ... it would be nice to see more links here of excellent table/data styling.</p>
+	</div>
+</div>
+</li>
+	<li><div class="even">
+	
+	<div class="commenter">
+<span class="permalink"><a href="http://24ways.org/2005/tables-with-style#c000700" id="c000700">§</a></span>
+		<img src="/img/avatar.php?gravatar_id=f551eda292f51e280b7e38b45b077cad&amp;size=40&amp;default=http%3A%2F%2F24ways.org%2Fimg%2Fgravatar.png" class="gravatar" alt="" height="40" width="40" />
+		<span class="author"><a href="http://julianschrader.de" rel="nofollow">Julian Schrader</a>:</span>
+		<p>Why didn&#8217;t I know we can style columns<img src="?" alt="" /> That&#8217;s great!</p>
+	</div>
+</div>
+</li>
+</ol>
+			
+			<p class="note">Commenting on this article is now closed.</p>
+			
+		</div>
+	</div>
+    </div>
+
+
+		<div id="topbar">
+		<p><a href="/" rel="home">24 ways</a>: day 19</p>
+		<ul>
+			<li><a href="/2005/" class="y2005">2005</a> | </li>
+			<li><a href="/2006/" class="y2006">2006</a></li>
+		</ul>
+	</div>
+</body>
+</html>

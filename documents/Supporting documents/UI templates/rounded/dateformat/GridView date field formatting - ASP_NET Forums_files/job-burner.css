@@ -1,0 +1,135 @@
+#horizontal-jb {
+	TEXT-ALIGN: center
+}
+#horizontal-jb .jb-box {
+	BORDER-RIGHT: #286371 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #286371 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #286371 1px solid; WIDTH: 468px; PADDING-TOP: 0px; BORDER-BOTTOM: #286371 1px solid; HEIGHT: 60px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center
+}
+#horizontal-jb .jb-box A:hover {
+	COLOR: #000
+}
+#horizontal-jb .jb-job {
+	BORDER-RIGHT: #cdcdcd 1px solid; PADDING-LEFT: 2px; FLOAT: left; VERTICAL-ALIGN: top; WIDTH: 231px; PADDING-TOP: 3px; HEIGHT: 43px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+#horizontal-jb .jb-job-last {
+	PADDING-LEFT: 2px; FLOAT: left; WIDTH: 230px; PADDING-TOP: 3px; HEIGHT: 43px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+#horizontal-jb .jb-job-title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; FONT: 12px arial; COLOR: #2885a9; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#horizontal-jb .jb-job-description {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; LINE-HEIGHT: 2px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#horizontal-jb .jb-job-description A {
+	FONT: 11px/12px arial; VERTICAL-ALIGN: top; COLOR: #333; TEXT-DECORATION: none
+}
+#horizontal-jb .jb-job-company {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; VISIBILITY: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#horizontal-jb .jb-job-company A {
+	FONT: 12px arial; COLOR: #093
+}
+#horizontal-jb .jb-footer-top {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; VISIBILITY: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 0px
+}
+#horizontal-jb .jb-footer-top A {
+	FONT: bold 11px arial; COLOR: #b7b7b7; TEXT-DECORATION: none
+}
+#horizontal-jb .jb-footer-logo {
+	VISIBILITY: hidden; HEIGHT: 0px
+}
+#horizontal-jb .jb-footer-text {
+	PADDING-RIGHT: 4px; FLOAT: left; VISIBILITY: visible; FONT: bold 8px arial; WIDTH: 464px; COLOR: #b7b7b7; HEIGHT: 14px; BACKGROUND-COLOR: #333; TEXT-ALIGN: right
+}
+#horizontal-jb .jb-footer-text A {
+	FONT-SIZE: 8pt; COLOR: #b7b7b7; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+#vertical-jb .jb-box {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 6px; TEXT-ALIGN: center
+}
+#vertical-jb .jb-box A:hover {
+	COLOR: #000
+}
+#vertical-jb .jb-job {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #cdcdcd 1px solid; TEXT-ALIGN: left
+}
+#vertical-jb .jb-job-last {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+#vertical-jb .jb-job-title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; FONT: 12px arial; COLOR: #2885a9; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#vertical-jb .jb-job-description {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#vertical-jb .jb-job-description A {
+	FONT: 11px arial; COLOR: #333; TEXT-DECORATION: none
+}
+#vertical-jb .jb-job-company {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#vertical-jb .jb-job-company A {
+	FONT: 12px arial; COLOR: #093
+}
+#vertical-jb .jb-footer-top {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; VISIBILITY: visible; PADDING-BOTTOM: 6px; FONT: bold 11px arial; VERTICAL-ALIGN: middle; COLOR: #b7b7b7; PADDING-TOP: 6px; BACKGROUND-COLOR: #333; TEXT-ALIGN: center
+}
+#vertical-jb .jb-footer-top A {
+	FONT: bold 11px arial; COLOR: #b7b7b7; TEXT-DECORATION: none
+}
+#vertical-jb .jb-footer-logo {
+	VISIBILITY: hidden; HEIGHT: 0px
+}
+#vertical-jb .jb-footer-logo A {
+	VISIBILITY: hidden
+}
+#vertical-jb .jb-footer-text {
+	VISIBILITY: hidden
+}
+#vertical-jb .jb-footer-text A {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffbf00; FONT-FAMILY: arial
+}
+#vertical-jb-logo .jb-box {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 6px; TEXT-ALIGN: center
+}
+#vertical-jb-logo .jb-box A:hover {
+	COLOR: #000
+}
+#vertical-jb-logo .jb-job {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #cdcdcd 1px solid; TEXT-ALIGN: left
+}
+#vertical-jb-logo .jb-job-last {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+#vertical-jb-logo .jb-job-title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; FONT: 12px arial; COLOR: #2885a9; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#vertical-jb-logo .jb-job-description {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#vertical-jb-logo .jb-job-description A {
+	FONT: 11px arial; COLOR: #333; TEXT-DECORATION: none
+}
+#vertical-jb-logo .jb-job-company {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#vertical-jb-logo .jb-job-company A {
+	FONT: 12px arial; COLOR: #093
+}
+#vertical-jb-logo .jb-footer-top {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; VISIBILITY: visible; PADDING-BOTTOM: 6px; FONT: bold 11px arial; VERTICAL-ALIGN: middle; COLOR: #b7b7b7; PADDING-TOP: 6px; BACKGROUND-COLOR: #333; TEXT-ALIGN: center
+}
+#vertical-jb-logo .jb-footer-top A {
+	FONT: bold 11px arial; COLOR: #b7b7b7; TEXT-DECORATION: none
+}
+#vertical-jb-logo .jb-footer-logo {
+	BACKGROUND: url(../i/bg-jobburner-logo.gif) repeat-x; VISIBILITY: visible; TEXT-ALIGN: center
+}
+#vertical-jb-logo .jb-footer-logo A {
+	VISIBILITY: visible
+}
+#vertical-jb-logo .jb-footer-text {
+	VISIBILITY: hidden
+}
+#vertical-jb-logo .jb-footer-text A {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffbf00; FONT-FAMILY: arial
+}

@@ -1,0 +1,14 @@
+C:\Shatlin\IOS\deliverables\development\Business\bin\Debug\Business.dll
+C:\Shatlin\IOS\deliverables\development\Business\bin\Debug\Business.pdb
+C:\Shatlin\IOS\deliverables\development\Business\bin\Debug\Data.dll
+C:\Shatlin\IOS\deliverables\development\Business\bin\Debug\Data.pdb
+C:\Shatlin\IOS\deliverables\development\Business\obj\Debug\ResolveAssemblyReference.cache
+C:\Shatlin\IOS\deliverables\development\Business\obj\Debug\Business.dll
+C:\Shatlin\IOS\deliverables\development\Business\obj\Debug\Business.pdb
+C:\Scorecards\Business\bin\Debug\Business.dll
+C:\Scorecards\Business\bin\Debug\Business.pdb
+C:\Scorecards\Business\bin\Debug\Data.dll
+C:\Scorecards\Business\bin\Debug\Data.pdb
+C:\Scorecards\Business\obj\Debug\ResolveAssemblyReference.cache
+C:\Scorecards\Business\obj\Debug\Business.dll
+C:\Scorecards\Business\obj\Debug\Business.pdb

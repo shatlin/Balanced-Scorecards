@@ -1,0 +1,39 @@
+.dxnbControl_Demo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; FONT: 11px Tahoma; COLOR: white; PADDING-TOP: 3px; BACKGROUND-COLOR: #0d3d70
+}
+.dxnbControl_Demo A {
+	COLOR: white; TEXT-DECORATION: none
+}
+.dxnbGroupHeaderCollapsed_Demo {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 7px; PADDING-LEFT: 7px; BORDER-LEFT-WIDTH: 0px; BACKGROUND-IMAGE: url(GroupHeaderBackgroundCollap.gif); BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 5px; FONT: 11px Tahoma; COLOR: #bde0fc; PADDING-TOP: 4px; BACKGROUND-REPEAT: repeat-x; BORDER-RIGHT-WIDTH: 0px
+}
+.dxnbGroupHeaderCollapsed_Demo TABLE {
+	FONT: 11px Tahoma; COLOR: #bde0fc
+}
+.dxnbGroupHeaderCollapsed_Demo TABLE TD {
+	WHITE-SPACE: nowrap
+}
+.dxnbGroupHeaderCollapsedHover_Demo {
+	BORDER-RIGHT: #19577b 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #19577b 1px solid; PADDING-LEFT: 6px; BACKGROUND-IMAGE: url(GroupHeaderBackground.gif); PADDING-BOTTOM: 4px; BORDER-LEFT: #19577b 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #19577b 1px solid; BACKGROUND-REPEAT: repeat-x
+}
+.dxnbGroupHeader_Demo {
+	BORDER-RIGHT: #19577b 1px solid; PADDING-RIGHT: 11px; BORDER-TOP: #19577b 1px solid; PADDING-LEFT: 6px; BACKGROUND-IMAGE: url(GroupHeaderBackground.gif); PADDING-BOTTOM: 3px; FONT: bold 11px Tahoma; BORDER-LEFT: #19577b 1px solid; COLOR: #bde0fc; PADDING-TOP: 1px; BORDER-BOTTOM: #19577b 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #0d3d70
+}
+.dxnbGroupHeader_Demo TABLE {
+	FONT: bold 11px Tahoma; COLOR: #bde0fc
+}
+.dxnbGroupHeader_Demo TABLE TD {
+	FONT-WEIGHT: bold; WHITE-SPACE: nowrap
+}
+.dxnbGroupContent_Demo {
+	PADDING-RIGHT: 0px; BORDER-TOP: #03305b 1px solid; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND-IMAGE: url(GroupContentBackground.gif); PADDING-BOTTOM: 7px; FONT: 11px Tahoma; PADDING-TOP: 7px; BORDER-BOTTOM: #0a2d44 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #1a4a84; BORDER-RIGHT-WIDTH: 0px
+}
+.dxnbItem_Demo {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 30px; PADDING-LEFT: 30px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 3px; FONT: 11px Tahoma; PADDING-TOP: 1px; BORDER-RIGHT-WIDTH: 0px
+}
+.dxnbItemSelected_Demo {
+	PADDING-RIGHT: 30px; BACKGROUND-POSITION: 15px 4px; PADDING-LEFT: 29px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(Bullet.gif); PADDING-BOTTOM: 3px; COLOR: white; PADDING-TOP: 1px; BACKGROUND-REPEAT: no-repeat
+}
+.dxnbItemHover_Demo {
+	BACKGROUND-COLOR: #1e518f
+}

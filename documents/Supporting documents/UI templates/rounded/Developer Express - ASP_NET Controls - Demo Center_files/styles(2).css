@@ -1,0 +1,378 @@
+.dxeLoadingDiv_Glass {
+	BACKGROUND: white; FILTER: alpha(opacity=85); CURSOR: wait; opacity: 0.85
+}
+.dxeLoadingPanel_Glass {
+	FONT: 9pt Tahoma; COLOR: #303030
+}
+.dxeLoadingPanel_Glass TD.dx {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.dxeBase_Glass {
+	FONT-SIZE: 9pt; FONT-FAMILY: Tahoma
+}
+.dxeErrorCell_Glass {
+	FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: Tahoma
+}
+.dxeErrorCell_Glass TD {
+	FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: Tahoma
+}
+.dxeErrorCell_Glass {
+	PADDING-LEFT: 4px; COLOR: #a91123
+}
+.dxeErrorFrame_Glass {
+	
+}
+.dxeEditArea_Glass {
+	BORDER-RIGHT: #a0a0a0 1px solid; BORDER-TOP: #a0a0a0 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #a0a0a0 1px solid; BORDER-BOTTOM: #a0a0a0 1px solid; FONT-FAMILY: Tahoma
+}
+.dxbButton_Glass {
+	BORDER-RIGHT: #b2bcbe 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #b2bcbe 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 9pt; BACKGROUND: url(edtButtonBack.gif) #dadfe0 repeat-x 50% top; PADDING-BOTTOM: 1px; VERTICAL-ALIGN: middle; BORDER-LEFT: #b2bcbe 1px solid; CURSOR: hand; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #b2bcbe 1px solid; FONT-FAMILY: Tahoma
+}
+.dxbButtonHover_Glass {
+	BORDER-RIGHT: #71acb4 1px solid; BORDER-TOP: #71acb4 1px solid; BACKGROUND: url(edtButtonHoverBack.gif) #b5d7db repeat-x 50% top; BORDER-LEFT: #71acb4 1px solid; BORDER-BOTTOM: #71acb4 1px solid
+}
+.dxbButtonChecked_Glass {
+	BORDER-RIGHT: #929292 1px solid; BORDER-TOP: #929292 1px solid; BACKGROUND: url(edtButtonCheckedBack.gif) #d3d3d3 repeat-x 50% top; BORDER-LEFT: #929292 1px solid; BORDER-BOTTOM: #929292 1px solid
+}
+.dxbButtonPressed_Glass {
+	BORDER-RIGHT: #71acb4 1px solid; BORDER-TOP: #71acb4 1px solid; BACKGROUND: url(edtButtonPressedBack.gif) #9abdc1 repeat-x 50% top; BORDER-LEFT: #71acb4 1px solid; BORDER-BOTTOM: #71acb4 1px solid
+}
+.dxbButton_Glass DIV.dxb {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 13px; PADDING-LEFT: 13px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px; BORDER-RIGHT-WIDTH: 0px
+}
+.dxbButton_Glass DIV.dxbf {
+	BORDER-RIGHT: #9c99ca 1px dotted; PADDING-RIGHT: 12px; BORDER-TOP: #9c99ca 1px dotted; PADDING-LEFT: 12px; PADDING-BOTTOM: 3px; BORDER-LEFT: #9c99ca 1px dotted; PADDING-TOP: 2px; BORDER-BOTTOM: #9c99ca 1px dotted
+}
+.dxeButtonEdit_Glass {
+	WIDTH: 170px; BACKGROUND-COLOR: white
+}
+.dxeButtonEdit_Glass .dxeEditArea_Glass {
+	WIDTH: 100%
+}
+.dxeButtonEdit_Glass TD.dxic {
+	WIDTH: 100%
+}
+.dxeButtonEditButton_Glass {
+	VERTICAL-ALIGN: middle; CURSOR: hand; BACKGROUND-COLOR: #f0f0f0
+}
+.dxeCalendarButton_Glass {
+	VERTICAL-ALIGN: middle; CURSOR: hand; BACKGROUND-COLOR: #f0f0f0
+}
+.dxeSpinIncButton_Glass {
+	VERTICAL-ALIGN: middle; CURSOR: hand; BACKGROUND-COLOR: #f0f0f0
+}
+.dxeSpinDecButton_Glass {
+	VERTICAL-ALIGN: middle; CURSOR: hand; BACKGROUND-COLOR: #f0f0f0
+}
+.dxeSpinLargeIncButton_Glass {
+	VERTICAL-ALIGN: middle; CURSOR: hand; BACKGROUND-COLOR: #f0f0f0
+}
+.dxeSpinLargeDecButton_Glass {
+	VERTICAL-ALIGN: middle; CURSOR: hand; BACKGROUND-COLOR: #f0f0f0
+}
+.dxeButtonEditButton_Glass {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-ALIGN: center
+}
+.dxeCalendarButton_Glass {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-ALIGN: center
+}
+.dxeButtonEditButton_Glass TD.dx {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-ALIGN: center
+}
+.dxeCalendarButton_Glass TD.dx {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-ALIGN: center
+}
+.dxeSpinIncButton_Glass TD.dx {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-ALIGN: center
+}
+.dxeSpinDecButton_Glass TD.dx {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-ALIGN: center
+}
+.dxeSpinLargeIncButton_Glass TD.dx {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-ALIGN: center
+}
+.dxeSpinLargeDecButton_Glass TD.dx {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-ALIGN: center
+}
+.dxeSpinIncButton_Glass {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-ALIGN: center
+}
+.dxeSpinDecButton_Glass {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-ALIGN: center
+}
+.dxeSpinLargeIncButton_Glass {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-ALIGN: center
+}
+.dxeSpinLargeDecButton_Glass {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-ALIGN: center
+}
+.dxeButtonEditButton_Glass {
+	BORDER-RIGHT: #4986a2 1px solid; PADDING-RIGHT: 1px; BACKGROUND-POSITION: 50% top; BORDER-TOP: #4986a2 1px solid; PADDING-LEFT: 1px; BACKGROUND-IMAGE: url(edtButtonEditButtonBack.gif); PADDING-BOTTOM: 4px; BORDER-LEFT: #4986a2 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #4986a2 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #45829f
+}
+.dxeSpinIncButton_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.dxeSpinDecButton_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.dxeSpinLargeIncButton_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.dxeSpinLargeDecButton_Glass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.dxeButtonEditButton_Glass TABLE.dxbebt {
+	WIDTH: 12px
+}
+.dxeSpinLargeIncButton_Glass {
+	PADDING-LEFT: 1px
+}
+.dxeSpinIncButton_Glass {
+	BACKGROUND: url(edtSpinIncBtnBack.gif) #363636 no-repeat left top; BORDER-BOTTOM: #ffffff 1px solid
+}
+.dxeSpinDecButton_Glass {
+	BACKGROUND: url(edtSpinDecBtnBack.gif) #ddf2f9 no-repeat left top; BORDER-BOTTOM-STYLE: none
+}
+.dxeSpinLargeIncButton_Glass {
+	BACKGROUND: url(edtSpinLargeIncBtnBack.gif) #959595 no-repeat left top
+}
+.dxeSpinLargeDecButton_Glass {
+	BACKGROUND: url(edtSpinLargeIncBtnBack.gif) #959595 no-repeat left top
+}
+.dxeSpinLargeDecButton_Glass {
+	BORDER-RIGHT-STYLE: none
+}
+.dxeSpinLargeIncButton_Glass {
+	BORDER-LEFT-STYLE: none
+}
+.dxeCalendarButton_Glass {
+	BORDER-RIGHT: #b2bcbe 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #b2bcbe 1px solid; PADDING-LEFT: 10px; BACKGROUND: url(edtButtonBack.gif) #dadfe0 repeat-x 50% top; PADDING-BOTTOM: 5px; BORDER-LEFT: #b2bcbe 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #b2bcbe 1px solid
+}
+.dxeCalendarButton_Glass TABLE.dxbebt {
+	WIDTH: 30px
+}
+.dxeSpinIncButton_Glass TABLE.dxbebt {
+	WIDTH: 15px
+}
+.dxeSpinDecButton_Glass TABLE.dxbebt {
+	WIDTH: 15px
+}
+.dxeSpinLargeDecButton_Glass TABLE.dxbebt {
+	WIDTH: 16px
+}
+.dxeSpinLargeIncButton_Glass TABLE.dxbebt {
+	WIDTH: 15px
+}
+.dxeCalendarButton_Glass TD.dx {
+	WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.dxeButtonHover_Glass {
+	BACKGROUND-COLOR: #e6e3d6
+}
+.dxeCalendarButtonHover_Glass {
+	BORDER-RIGHT: #71acb4 1px solid; BORDER-TOP: #71acb4 1px solid; BACKGROUND: url(edtButtonHoverBack.gif) #b5d7db repeat-x 50% top; BORDER-LEFT: #71acb4 1px solid; BORDER-BOTTOM: #71acb4 1px solid
+}
+.dxeButtonEditButtonHover_Glass {
+	BORDER-RIGHT: #4986a2 1px solid; BACKGROUND-POSITION: 50% top; BORDER-TOP: #4986a2 1px solid; BACKGROUND-IMAGE: url(edtDropDownButtonHoverBack.gif); BORDER-LEFT: #4986a2 1px solid; BORDER-BOTTOM: #4986a2 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #35acd2
+}
+.dxeSpinIncButtonHover_Glass {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.dxeSpinDecButtonHover_Glass {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.dxeSpinLargeIncButtonHover_Glass {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.dxeSpinLargeDecButtonHover_Glass {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.dxeSpinIncButtonHover_Glass {
+	BACKGROUND: url(edtSpinIncBtnHBack.gif) #536b78 no-repeat left top; BORDER-BOTTOM: #ffffff 1px solid
+}
+.dxeSpinDecButtonHover_Glass {
+	BACKGROUND: url(edtSpinDecBtnHBack.gif) #56abd1 no-repeat left top; BORDER-BOTTOM-STYLE: none
+}
+.dxeSpinLargeIncButtonHover_Glass {
+	BACKGROUND: url(edtSpinLargeIncBtnHBack.gif) #86bad6 no-repeat left top; BORDER-LEFT-STYLE: none
+}
+.dxeSpinLargeDecButtonHover_Glass {
+	BACKGROUND: url(edtSpinLargeIncBtnHBack.gif) #86bad6 no-repeat left top; BORDER-RIGHT-STYLE: none
+}
+.dxeButtonPressed_Glass {
+	BACKGROUND-COLOR: #d4d1c3
+}
+.dxeCalendarButtonPressed_Glass {
+	BORDER-RIGHT: #71acb4 1px solid; BORDER-TOP: #71acb4 1px solid; BACKGROUND: url(edtButtonPressedBack.gif) #9abdc1 repeat-x 50% top; BORDER-LEFT: #71acb4 1px solid; BORDER-BOTTOM: #71acb4 1px solid
+}
+.dxeButtonEditButtonPressed_Glass {
+	BORDER-RIGHT: #3b6d84 1px solid; BACKGROUND-POSITION: 50% top; BORDER-TOP: #3b6d84 1px solid; BACKGROUND-IMAGE: url(edtDropDownButtonPressedBack.gif); BORDER-LEFT: #3b6d84 1px solid; BORDER-BOTTOM: #3b6d84 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #35657b
+}
+.dxeSpinIncButtonPressed_Glass {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.dxeSpinDecButtonPressed_Glass {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.dxeSpinLargeIncButtonPressed_Glass {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.dxeSpinLargeDecButtonPressed_Glass {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.dxeSpinIncButtonPressed_Glass {
+	BACKGROUND: url(edtSpinIncBtnPBack.gif) #363636 no-repeat left top; BORDER-BOTTOM: #ffffff 1px solid
+}
+.dxeSpinDecButtonPressed_Glass {
+	BACKGROUND: url(edtSpinDecBtnPBack.gif) #3b6d84 no-repeat left top; BORDER-BOTTOM-STYLE: none
+}
+.dxeSpinLargeIncButtonPressed_Glass {
+	BACKGROUND: url(edtSpinLargeIncBtnPBack.gif) #b7b7b7 no-repeat left top; BORDER-LEFT-STYLE: none
+}
+.dxeSpinLargeDecButtonPressed_Glass {
+	BACKGROUND: url(edtSpinLargeIncBtnPBack.gif) #b7b7b7 no-repeat left top; BORDER-RIGHT-STYLE: none
+}
+.dxeButtonEdit_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; BORDER-TOP: #7eacb1 1px solid; BORDER-LEFT: #7eacb1 1px solid; BORDER-BOTTOM: #7eacb1 1px solid
+}
+.dxeButtonEdit_Glass TD.dxic {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.dxeTextBox_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; BORDER-TOP: #7eacb1 1px solid; BORDER-LEFT: #7eacb1 1px solid; BORDER-BOTTOM: #7eacb1 1px solid; BACKGROUND-COLOR: white
+}
+.dxeMemo_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; BORDER-TOP: #7eacb1 1px solid; BORDER-LEFT: #7eacb1 1px solid; BORDER-BOTTOM: #7eacb1 1px solid; BACKGROUND-COLOR: white
+}
+.dxeTextBox_Glass TD.dxic {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.dxeTextBox_Glass TD.dxic {
+	WIDTH: 100%
+}
+.dxeRadioButtonList_Glass {
+	FONT-SIZE: 9pt; FONT-FAMILY: Tahoma
+}
+.dxeRadioButtonList_Glass TABLE {
+	FONT-SIZE: 9pt; FONT-FAMILY: Tahoma
+}
+.dxeRadioButtonList_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; BORDER-TOP: #7eacb1 1px solid; BORDER-LEFT: #7eacb1 1px solid; BORDER-BOTTOM: #7eacb1 1px solid
+}
+.dxeRadioButtonList_Glass TD.dxe {
+	PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.dxeMemo_Glass {
+	PADDING-LEFT: 3px
+}
+.dxeMemoEditArea_Glass {
+	FONT-SIZE: 9pt; FONT-FAMILY: Tahoma
+}
+.dxeMemo_Glass TD {
+	WIDTH: 100%
+}
+.dxeHyperlink_Glass {
+	FONT-SIZE: 9pt; COLOR: #2a769d; FONT-FAMILY: Tahoma
+}
+A.dxeHyperlink_Glass {
+	COLOR: #2a769d
+}
+A.dxeHyperlink_Glass:hover {
+	COLOR: #f15e34
+}
+A.dxeHyperlink_Glass:visited {
+	COLOR: #a1a1a1
+}
+.dxeListBox_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; BORDER-TOP: #7eacb1 1px solid; BORDER-LEFT: #7eacb1 1px solid; WIDTH: 70px; BORDER-BOTTOM: #7eacb1 1px solid
+}
+.dxeListBox_Glass DIV.dxlbd {
+	FONT-SIZE: 9pt; FONT-FAMILY: Tahoma; HEIGHT: 102px; BACKGROUND-COLOR: white
+}
+.dxeListBoxItem_Glass {
+	BORDER-RIGHT: white 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: white 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 9pt; PADDING-BOTTOM: 2px; BORDER-LEFT: white 1px solid; CURSOR: default; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: white 1px solid; FONT-FAMILY: Tahoma; WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+.dxeListBoxItemHover_Glass {
+	BACKGROUND-COLOR: #d9eced
+}
+.dxeListBoxItemSelected_Glass {
+	BACKGROUND-COLOR: #9eced6
+}
+.dxeListBox_Glass .dxeI {
+	PADDING-RIGHT: 0px! important; BORDER-RIGHT-WIDTH: 0px! important
+}
+.dxeListBox_Glass .dxeT {
+	BORDER-LEFT-WIDTH: 0px! important; WIDTH: 100%
+}
+.dxeCalendar_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; BORDER-TOP: #7eacb1 1px solid; BORDER-LEFT: #7eacb1 1px solid; COLOR: black; BORDER-BOTTOM: #7eacb1 1px solid; BACKGROUND-COLOR: white
+}
+.dxeCalendar_Glass TD.dxMonthGrid {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; CURSOR: default; PADDING-TOP: 8px
+}
+.dxeCalendar_Glass TD.dxMonthGridWithWeekNumbers {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; CURSOR: default; PADDING-TOP: 8px
+}
+.dxeCalendar_Glass TD.dxMonthGrid {
+	PADDING-LEFT: 20px
+}
+.dxeCalendarDayHeader_Glass {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 9pt; PADDING-BOTTOM: 4px; COLOR: black; PADDING-TOP: 4px; BORDER-BOTTOM: #bcbcff 1px solid; FONT-FAMILY: Tahoma
+}
+.dxeCalendarWeekNumber_Glass {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 4px; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; COLOR: #a0a0ff; PADDING-TOP: 6px; FONT-FAMILY: Tahoma; TEXT-ALIGN: right
+}
+.dxeCalendarDay_Glass {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 9pt; PADDING-BOTTOM: 3px; COLOR: black; PADDING-TOP: 3px; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: white; TEXT-ALIGN: center
+}
+.dxeCalendarWeekend_Glass {
+	COLOR: #fe3c00
+}
+.dxeCalendarOtherMonth_Glass {
+	COLOR: #acacac
+}
+.dxeCalendarOutOfRange_Glass {
+	COLOR: #d0d0d0
+}
+.dxeCalendarSelected_Glass {
+	COLOR: #ffffff; BACKGROUND-COLOR: #9eced6
+}
+.dxeCalendarToday_Glass {
+	BORDER-RIGHT: #ff5c20 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ff5c20 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ff5c20 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #ff5c20 1px solid
+}
+.dxeCalendarHeader_Glass {
+	BORDER-RIGHT: #7eacb1 0px solid; PADDING-RIGHT: 1px; BORDER-TOP: #7eacb1 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 9pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #7eacb1 0px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #7eacb1 1px solid; FONT-FAMILY: Tahoma; HEIGHT: 18px; BACKGROUND-COLOR: #bcdbeb; TEXT-ALIGN: center
+}
+.dxeCalendarHeader_Glass TD.dxe {
+	FONT-SIZE: 9pt; CURSOR: hand; FONT-FAMILY: Tahoma; TEXT-ALIGN: center
+}
+.dxeCalendarFooter_Glass {
+	PADDING-RIGHT: 0px; BORDER-TOP: #7eacb1 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px; BACKGROUND-COLOR: #e3f0f7
+}
+.dxeCalendarFastNav_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #7eacb1 1px solid; PADDING-LEFT: 8px; BACKGROUND: white; PADDING-BOTTOM: 8px; BORDER-LEFT: #7eacb1 1px solid; PADDING-TOP: 8px; BORDER-BOTTOM: #7eacb1 0px solid
+}
+.dxeCalendarFastNavFooter_Glass {
+	BORDER-RIGHT: #7eacb1 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #7eacb1 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; BORDER-LEFT: #7eacb1 1px solid; PADDING-TOP: 6px; BORDER-BOTTOM: #7eacb1 1px solid; BACKGROUND-COLOR: #e3f0f7
+}
+.dxeCalendarFastNavMonth_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 4px; FONT: 9pt Tahoma; CURSOR: hand; COLOR: black; PADDING-TOP: 4px; TEXT-ALIGN: center
+}
+.dxeCalendarFastNavYear_Glass {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 4px; FONT: 9pt Tahoma; CURSOR: hand; COLOR: black; PADDING-TOP: 4px; TEXT-ALIGN: center
+}
+.dxeCalendarFastNavMonthSelected_Glass {
+	BACKGROUND: #9eced6
+}
+.dxeCalendarFastNavYearSelected_Glass {
+	BACKGROUND: #9eced6
+}
+.dxeCalendarFastNavMonthHover_Glass {
+	BACKGROUND: #e4edef
+}
+.dxeCalendarFastNavYearHover_Glass {
+	BACKGROUND: #e4edef
+}
+.dxDisabled_Glass {
+	CURSOR: default! important; COLOR: #808080! important
+}

@@ -1,0 +1,57 @@
+#sitepoint-ad {
+	MARGIN-BOTTOM: 4px; WIDTH: 100%; TEXT-ALIGN: center
+}
+#sitepoint-ad .inner {
+	BORDER-RIGHT: #ababab 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #ababab 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; MARGIN: auto; BORDER-LEFT: #ababab 1px solid; WIDTH: 720px; PADDING-TOP: 4px; BORDER-BOTTOM: #ababab 1px solid; TEXT-ALIGN: left
+}
+#sitepoint-ad .inner A.jacket {
+	DISPLAY: block; FLOAT: left; MARGIN: 0px 30px 0px 0px
+}
+#sitepoint-ad .inner A:link IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#sitepoint-ad .inner A:visited IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#sitepoint-ad .inner A:hover IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#sitepoint-ad .inner A:active IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#sitepoint-ad H3 {
+	FONT-SIZE: 160%; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 2px 0px 4px; COLOR: #065086; FONT-FAMILY: 'Trebuchet MS', arial, helvetica, sans-serif
+}
+#sitepoint-ad H3 A:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #065086; TEXT-DECORATION: none
+}
+#sitepoint-ad H3 A:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #065086; TEXT-DECORATION: none
+}
+#sitepoint-ad H3 A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #f78209; TEXT-DECORATION: underline
+}
+#sitepoint-ad H3 A:active {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #f78209; TEXT-DECORATION: underline
+}
+#sitepoint-ad P {
+	FONT-SIZE: 90%; MARGIN: 0px 0px 8px; FONT-FAMILY: arial, helvetica, sans-serif
+}
+.short#sitepoint-ad P {
+	FONT-SIZE: 100%; MARGIN: 0px 0px 8px; FONT-FAMILY: arial, helvetica, sans-serif
+}
+#sitepoint-ad P A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 120%; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #f78209
+}
+#sitepoint-ad P A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 120%; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #f78209
+}
+#sitepoint-ad P A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000
+}
+#sitepoint-ad P A:active {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000
+}
+#sitepoint-ad DIV.clear {
+	CLEAR: both
+}
